@@ -1,0 +1,213 @@
+	tag	label	sentence	text
+1	figure	Figure 1	1	Genetic tools to access cell types in the Drosophila visual system.
+2	figure	Figure 1	2	(A) Major brain regions profiled in this study (brain image from Jenett et al., 2012).
+3	figure	Figure 1	3	The optic lobes have a repetitive structure of ~750 retinotopically arranged visual columns of similar cellular composition.
+4	figure	Figure 1	4	(B,C) Examples of single cells in the optic lobe.
+5	figure	Figure 1	5	(B) Left, subregions of the fly visual system.
+6	figure	Figure 1	6	Right, examples of layers and neuropil patterns of various classes of visual system neurons.
+7	figure	Figure 1	7	(C) We profiled cell types arborizing in the lamina (blue), medulla (purple) and lobula complex (green) of the visual system.
+8	figure	Figure 1	8	Many cells contribute to multiple neuropiles so other groupings are possible.
+9	figure	Figure 1	9	Note, some cell types are present at one cell per column, while others are less numerous with cells that each contribute to several columns.
+10	figure	Figure 1	10	For example, the main synaptic region of the first optic lobe layer, the lamina, contains processes of some 13,000 cells but these belong to only 17 main cell types: 14 neuronal and three glial (Figure 1C, top row).
+11	figure	Figure 1	11	A small number of additional neurons (lamina tangential cells, Lat) project to a region just distal to the main lamina neuropile.
+12	figure	Figure 1	12	(D) Representative expression patterns of driver lines that target specific cell types.
+13	figure	Figure 1	13	Each image is a maximum intensity projection of a whole brain confocal stack (only one optic lobe is shown).
+14	figure	Figure 1	14	In each image the brain is counter-stained (magenta) with a neuropil marker and both the targeted cell type and the driver are indicated in the lower left and right corner, respectively.
+15	figure	Figure 1	15	Additional images (focusing on drivers first described in this study) are shown in Figure 1—figure supplements 1 and 2.
+16	figure	Figure 1	16	Imaging parameters and brightness and contrast were adjusted individually for each image.
+17	figure	Figure 1	17	For genotypes and image details see Supplementary file 1E.
+18	figure	Figure 1—figure supplement 1	1	Whole brain expression patterns of new driver lines generated in this study.
+19	figure	Figure 1—figure supplement 1	2	(A) Maximum intensity projection of confocal stacks taken from whole fly brains (only one optic lobe is shown).
+20	figure	Figure 1—figure supplement 1	3	Expression patterns of the driver lines (myristoylated-GFP) are in green and a neuropil marker is in magneta.
+21	figure	Figure 1—figure supplement 1	4	Imaging parameters and brightness and contrast were individually adjusted for each sample.
+22	figure	Figure 1—figure supplement 1	5	(B, B’) T4 and T5 cells comprise four subtypes (a,b,c,d) each of which project to specific layers of the lobula plate (B’).
+23	figure	Figure 1—figure supplement 1	6	(C, C’).
+24	figure	Figure 1—figure supplement 1	7	Individual T4 and T5 driver lines label combinations of subtypes but show preferential expression in some subtypes.
+25	figure	Figure 1—figure supplement 1	8	Subtypes were identified by their projections to specific layers in the lobula plate (C,C’).
+26	figure	Figure 1—figure supplement 1	9	For example, T5_d2 mainly labels lobula plate layers one and two, indicating expression in T5a and T5b.
+27	figure	Figure 1—figure supplement 1	10	Each of the lower panels is a higher magnification view of the lobula plate region (C’).
+28	figure	Figure 1—figure supplement 1	11	In (C) both the driver and the split identifier are indicated in the lower left and right corner respectively.
+29	figure	Figure 1—figure supplement 2	1	Optic lobe patterns of driver lines.
+30	figure	Figure 1—figure supplement 2	2	(A) Optic lobe expression patterns of new driver lines used in this study.
+31	figure	Figure 1—figure supplement 2	3	All images orient the mediolateral axis of the brain along the lower left to upper right diagonal and are resampled substack projections generated from high resolution (63x) confocal stacks.
+32	figure	Figure 1—figure supplement 2	4	(B) Examples of segmented single cells illustrating cell morphology (left), the complete optic lobe expression pattern (middle) or individual cells labeled by MultiColor FlpOut (MCFO, right).
+33	figure	Figure 1—figure supplement 2	5	In all images the neuropil marker is in gray and both the targeted cell type and driver are indicated in the lower left and right corner respectively.
+34	figure	Figure 2	1	Tandem-affinity purification of INTACT nuclei (TAPIN) enables neuronal genomics.
+35	figure	Figure 2	2	(A) Cell type-specific drivers enable expression of the UNC84-2XGFP nuclear tag (green) in specific populations of cells.
+36	figure	Figure 2	3	Both the targeted cell type and driver are indicated in the lower left and right corner, respectively.
+37	figure	Figure 2	4	(B) Following nuclei harvest, two rounds of magnetic bead capture serially purify target nuclei.
+38	figure	Figure 2	5	After the first round of protein A bead capture, bacterial protease IdeZ cleaves the anti-GFP antibody in the flexible hinge region, allowing a second round of bead capture with protein G, which recognizes the F(ab’)2 region.
+39	figure	Figure 2	6	Protein G, unlike Protein A, can bind both the Fc and F(ab’)2 regions of an immunoglobulin.
+40	figure	Figure 2	7	(C) Two capture rounds reduce the level of non-specific background (gray bars, mock IgG control) while maintaining the cDNA yield from the captured target nuclei (green bars).
+41	figure	Figure 2	8	Bars represent the mean of two replicates (shown as points).
+42	figure	Figure 2	9	(D) RNA-seq libraries created with more nuclei yield more cDNA (circles).
+43	figure	Figure 2	10	TAPIN libraries had lower non-specific background than INTACT (blue vs orange triangles).
+44	figure	Figure 2	11	(E) Libraries with more cDNA detect more genes.
+45	figure	Figure 2	12	(F) Libraries with more cDNA have more reproducible transcript abundances.
+46	figure	Figure 2	13	(G) Previously identified markers of lamina monopolar and inner photoreceptor neurons (Tan et al., 2015) are enriched in the expected cells.
+47	figure	Figure 2—figure supplement 1	1	Two variants of nuclei capture, INTACT and TAPIN.
+48	figure	Figure 2—figure supplement 1	2	(A) We used an INTACT-seq variant, that we originally developed for mouse (Mo et al., 2015), that purifies nuclei by differential centrifugation.
+49	figure	Figure 2—figure supplement 1	3	(B) TAPIN-seq replaces the space- and time-intensive centrifugation with a two-step capture enabled by antibody hinge cleavage with the bacterial protease IdeZ.
+50	figure	Figure 2—figure supplement 1	4	Both protein A and protein G bind the Fc region, while only protein G is able to bind F(ab’)2.
+51	figure	Figure 2—figure supplement 1	5	(C) Libraries built from more nuclei have more transcript molecules (estimated using synthetic spike-ins).
+52	figure	Figure 2—figure supplement 1	6	(D) Nearly all libraries showed relatively unbiased positional coverage across gene bodies.
+53	figure	Figure 2—figure supplement 1	7	(E) The maximum bias in positional coverage observed in each library was inversely correlated with cDNA yield, although with large variance in bias for lower yield libraries.
+54	figure	Figure 2—figure supplement 1	8	(F) T4.
+55	figure	Figure 2—figure supplement 1	9	T5 transcriptomes of female (y-axis) and male (x-axis) flies are well correlated, but also recover known sex-specific genes including RNA on X 1 (roX1) and roX2 (Amrein and Axel, 1997) and yolk protein 1 (Yp1) and Yp3 (Belote et al., 1985).
+56	figure	Figure 2—figure supplement 1	10	(G) Estimated transcript abundances were reproducible as evaluated by Pearson correlation (of log-transformed transcript abundance) between biological replicates (black), alternative drivers for the same cell type (orange), or comparing TAPIN to INTACT profiles (blue).
+57	figure	Figure 2—figure supplement 2	1	TAPIN-seq vs FACS-seq comparison.
+58	figure	Figure 2—figure supplement 2	2	(A) TAPIN-seq expression of marker genes identified from an independent FACS-seq dataset covering 12 cell types we also profiled (Konstantinides et al., 2018).
+59	figure	Figure 2—figure supplement 2	3	We defined marker genes for each cell type as the top-10 most highly expressed genes relative to the mean of all cell types, requiring at least 4x higher abundance than the mean and a relative abundance of at least 50 TPM.
+60	figure	Figure 2—figure supplement 2	4	(B) We more broadly compared the TAPIN-seq and FACS-seq datasets by first identifying cell type-enriched genes within each dataset (at least two-fold higher than mean expression; at least 50 TPM in one sample) and then quantifying the degree of overlap between datasets using the overlap coefficient: 100 * (# genes enriched in both TAPIN-seq AND FACS-seq)/minimum(# genes enriched in TAPIN-seq, # genes enriched in FACS-seq)).
+61	figure	Figure 3	1	Mixture modeling accurately interprets TAPIN-seq measurements.
+62	figure	Figure 3	2	(A) The distribution of Vesicular acetylcholine transporter (VAChT) abundance fit with a mixture of two log-normal components.
+63	figure	Figure 3	3	(B) Interpreting these components as ‘off’ and ‘on’ states unambiguously infers expression state in essentially all drivers.
+64	figure	Figure 3	4	(C) Mixture modeling transforms our catalog of relative transcript abundances (top) to discretized expression states (bottom).
+65	figure	Figure 3	5	(D) Histogram of expression breadth per gene.
+66	figure	Figure 3	6	(E) Cumulative distributions of expression breadth for all genes (gray), transcription factors (black), homeobox TFs (orange; InterPro domain IPR001356), neuropeptides (red), and genes involved in synaptic vesicle endocytosis (blue).
+67	figure	Figure 3	7	(F,G) The fkh modeling results were compared to its protein expression pattern as evaluated with a BAC transgenic (See Figure 3—figure supplement 2A).
+68	figure	Figure 3	8	(F) Histogram bars represent raw abundance of all cells in our catalog.
+69	figure	Figure 3	9	Blue and orange curves represent the inferred off and on components, respectively.
+70	figure	Figure 3	10	Points represent the cells tested for transgene expression showing either detectable GFP (Green) or no signal (Black).
+71	figure	Figure 3	11	The points’ vertical position reflect the estimated probability of gene expression.
+72	figure	Figure 3	12	(G) Forkhead-GFP expression in selected cell types.
+73	figure	Figure 3	13	Fkh-GFP (mainly nuclear, in green) and cell type-specific expression of a membrane marker (in magenta) are shown.
+74	figure	Figure 3	14	Because of the wide range of fkh expression levels, imaging parameters and brightness and contrast adjustments are not identical for different panels.
+75	figure	Figure 3	15	Cells with detectable nuclear GFP signal above the background in the same image were scored as expressing fkh.
+76	figure	Figure 3	16	(H) As in J, to evaluate Ets65A modeling results (See Figure 3—figure supplement 2B).
+77	figure	Figure 3—figure supplement 1	1	Overview of INTACT-seq and TAPIN-seq libraries.
+78	figure	Figure 3—figure supplement 1	2	(A) Libraries with fewer nuclei had greater carry-over of ninaE transcript, which encodes the abundant rhodopsin in the fly eye.
+79	figure	Figure 3—figure supplement 1	3	The upper outliers are libraries made from R1-6 photoreceptors, the only cells that express ninaE.
+80	figure	Figure 3—figure supplement 1	4	The lower outliers are appendage muscle libraries created after heads are removed from the fly bodies, effectively eliminating ninaE carry-over from photoreceptors.
+81	figure	Figure 3—figure supplement 1	5	(B, C).
+82	figure	Figure 3—figure supplement 1	6	Modeling the distribution of ninaE correctly distinguishes true expression by R1-6 from transcript carry-over in the remaining samples.
+83	figure	Figure 3—figure supplement 1	7	(D) Distribution of mean on-state transcript abundance across all modeled genes.
+84	figure	Figure 3—figure supplement 1	8	(E) Distribution of dynamic range across all modeled genes.
+85	figure	Figure 3—figure supplement 1	9	(F) Concordance of inferred expression states between replicates.
+86	figure	Figure 3—figure supplement 1	10	Concordance was computed as the number of genes predicted to express (p(on)>=0.8) or not (p(on)<=0.2) in both replicates divided by the number of genes predicted to express or not in either replicate.
+87	figure	Figure 3—figure supplement 1	11	(G) Cumulative distribution of inferred expression probabilities for gene/cell pairs reported to express in FlyBase (n = 193 positive benchmark points).
+88	figure	Figure 3—figure supplement 1	12	Our mixture model correctly inferred expression of 179 of the 193 gene/cell pairs.
+89	figure	Figure 3—figure supplement 1	13	The 14 discordant pairs involved six genes (labeled in black).
+90	figure	Figure 3—figure supplement 1	14	(H–M) Modeling results for the six genes with benchmark mismatches.
+91	figure	Figure 3—figure supplement 1	15	The on and off components are represented as orange and blue curves, respectively.
+92	figure	Figure 3—figure supplement 1	16	Black points represent the inferred probabilities of expression for all drivers.
+93	figure	Figure 3—figure supplement 1	17	Red points highlight the drivers where the model results disagreed with the benchmark.
+94	figure	Figure 3—figure supplement 1	18	The transcript abundance (x-axis) reflects the average of all ‘high quality’ replicates (minimum two per cell type).
+95	figure	Figure 3—figure supplement 2	1	Validation of fkh and Ets65A model inferences.
+96	figure	Figure 3—figure supplement 2	2	(A, B) To evaluate our modeling results for fkh and Ets65A we evaluated protein expression in several cell types (related to Figure 3F–H) using GFP-fusion proteins (Materials and methods).
+97	figure	Figure 3—figure supplement 2	3	The indicated cell types (lower left corner) were visualized with a membrane marker (magenta).
+98	figure	Figure 3—figure supplement 2	4	The second Mi15 panel (in B) includes examples of occasional cells without detectable Ets65-GFP expression (arrows).
+99	figure	Figure 4	1	TAPIN-seq profiles identify genes enriched in cell types and groups.
+100	figure	Figure 4	2	(A) Cells grouped by a minimum evolution tree of their inferred expression states.
+101	figure	Figure 4	3	(B) Heatmap of marker genes enriched in photoreceptors, glia, muscle, and pigment cells.
+102	figure	Figure 4	4	(C) Distribution of expression breadth for genes in ‘terminal’ FlyBase gene groups with more than 10 members in our expression probability matrix.
+103	figure	Figure 4	5	The least- and most- broadly expressed gene groups are labeled, along with the DPR-interacting, beat and DPR family of extracellular proteins.
+104	figure	Figure 4	6	(D) TfAP-2 transcription factor distinguishes closely related cell types T4 and T5.
+105	figure	Figure 4	7	(E,F) TfAP-2 protein is specifically expressed in T4 and not in T5, confirming this detection of differential expression levels.
+106	figure	Figure 4	8	GFP-tagged TfAP-2 (mainly nuclear, in green; see Supplementary file 1E and Materials and methods) is shown together with a membrane marker (magenta) expressed in T4 (E) or T5 (F) cells.
+107	figure	Figure 4	9	(G) Comparison of genes with differential expression in two driver lines for T5 neurons expressing in different subtypes, identify genes that differentially label layers of the lobula plate (corresponding to different subtypes of T5 cells).
+108	figure	Figure 4	10	(H) Confirming the TAPIN-seq identification, klg protein (detected using a GFP tag (green); see Supplementary file 1E and Materials and methods) is expressed in T4/T5 cells with the expected layer specificity (layers 3 and 4) in the lobula plate (LP).
+109	figure	Figure 4	11	A neuropil marker is shown in magenta.
+110	figure	Figure 4—figure supplement 1	1	TAPIN-seq profiles identify genes enriched in cell types and groups.
+111	figure	Figure 4—figure supplement 1	2	(A) Cell adhesion molecules specifically expressed across our transcriptome catalog.
+112	figure	Figure 4—figure supplement 1	3	(B–D) The expression pattern of all beat, DIP, and Dpr family members depicted as heatmaps of probabilities of expression (left), heatmaps of relative transcript abundance (middle), or cumulative density curves of normalized expression level (right).
+113	figure	Figure 4—figure supplement 1	4	The density curves, each depicting a bimodally expressed gene in the gene family, show expression levels that were normalized using the mean expression levels of the modeled off an on states for each gene; normalized level = (logE - mu_off) / (mu_on - mu_off).
+114	figure	Figure 4—figure supplement 1	5	The density curves illustrate that DIP genes are sparsely expressed, followed by beat and Dpr genes.
+115	figure	Figure 4—figure supplement 1	6	Of the three families, the Dpr genes exhibit transcript abundance that appears more continuous between the estimated off and on states rather than discretely bimodal.
+116	figure	Figure 4—figure supplement 1	7	(E,F) The number of interacting pairs of extracellular protein pairs (Özkan et al., 2013) expressed by pairs of cells in the lamina (E) is not sufficient to predict the synaptic connectivity of these cells F; data from Rivera-Alba et al.
+117	figure	Figure 4—figure supplement 1	8	(2011).
+118	figure	Figure 4—figure supplement 1	9	To match our expression data, we summed the synapse counts for the individual R1-R6 photoreceptors originally reported by Rivera-Alba et al.
+119	figure	Figure 4—figure supplement 1	10	(2011).
+120	figure	Figure 4—figure supplement 1	11	For the same reason, we also duplicated the subtype-unidentified Lawf synapse counts as separate Lawf1 and Lawf2 entries in the connectome matrix.
+121	figure	Figure 5	1	TAPIN-seq complements single cell RNA-seq profiling.
+122	figure	Figure 5	2	(A, B) We evaluated whether single cell RNA-seq of the optic lobe (A) (Konstantinides et al., 2018) and brain (Davie et al., 2018) proportionally represents cell types found in the optic lobe.
+123	figure	Figure 5	3	By comparing the single cell cluster sizes to the true abundance of each cell type (estimated as described in the Materials and methods) we found that the scRNA-seq map can both under- and over-estimate the abundance of each cell type (assuming accurate cell type labels), or that the cell type is incorrectly assigned (i.e. contains different or additional cell types).
+124	figure	Figure 5	4	To estimate the true cell count, we made use of known anatomy (for example, several cell types are known to be present exactly once in each of the ~2×750 medulla columns per brain) or relied on published counts.
+125	figure	Figure 5	5	In addition, we performed some new counts.
+126	figure	Figure 5	6	(See Materials and methods for details.)
+127	figure	Figure 5	7	Observed/expected ratio = ((size of cluster labeled as cell type X/size of cluster labeled as T1) / (true abundance of cell type X/true abundance of T1)).
+128	figure	Figure 5	8	(C) We used non-negative least squares regression to model each TAPIN-seq profile as a linear weighted sum of single cell clusters in the whole brain scRNA-seq map.
+129	figure	Figure 5	9	The heatmap represents the regression coefficients of each single cell cluster (rows) contributing to the TAPIN-seq profile of each cell type, normalized within rows.
+130	figure	Figure 5	10	(D) We evaluated expression of genes that mark selected single cell clusters (Davie et al., 2018) in our TAPIN-seq profiles of visual system neurons. (see Figure 5—figure supplement 2 for the complete heatmap).
+131	figure	Figure 5—figure supplement 1	1	Regressing TAPIN-seq profiles against optic lobe single cell clusters.
+132	figure	Figure 5—figure supplement 1	2	(A) We used non-negative least squares regression to model each TAPIN-seq profile as a linear weighted sum of optic lobe single cell clusters (Konstantinides et al., 2018).
+133	figure	Figure 5—figure supplement 1	3	The heatmap represents the regression coefficients of each single cell cluster (rows) contributing to the TAPIN-seq profile of each cell type, normalized within rows.
+134	figure	Figure 5—figure supplement 2	1	TAPIN-seq expression of genes marking single cell clusters.
+135	figure	Figure 5—figure supplement 2	2	(A) We evaluated expression of marker genes for each optic lobe single cell cluster (as reported in Konstantinides et al., 2018) in our TAPIN-seq profiles of visual system neurons.
+136	figure	Figure 5—figure supplement 2	3	If a single cell cluster marker corresponds to one of our identified cell types, we expect to see its marker genes highly enriched in the corresponding cell type’s expression.
+137	figure	Figure 5—figure supplement 2	4	Note that some of the single cell clusters with the best apparent cell type matches (e.g., cluster 15/TmY5a, cluster 55/Mi15) were originally reported with a different annotation.
+138	figure	Figure 5—figure supplement 2	5	(B) Expression of marker genes for each brain single cell cluster (as reported in Davie et al., 2018), as in (A).
+139	figure	Figure 5—figure supplement 3	1	kn-GAL4 expression.
+140	figure	Figure 5—figure supplement 3	2	(A) kn-GAL4 driven expression of a membrane-targeted GFP (green) in the optic lobe.
+141	figure	Figure 5—figure supplement 3	3	Single confocal section with a reference marker (anti-Brp) in magenta.
+142	figure	Figure 5—figure supplement 3	4	TmY14 cell bodies are unusual in that they are found only in a subregion of the medulla cell body rind (see http://flweb.janelia.org/cgi-bin/view_flew_imagery.cgi?
+143	figure	Figure 5—figure supplement 3	5	line=R10G02 for an image of a GAL4 line that in the optic lobe expresses mainly in TmY14).
+144	figure	Figure 5—figure supplement 3	6	Both the cell body distribution and optic lobe layer pattern (compare cells in (C)) indicate that kn-GAL4 is expressed in optic lobe cell types other than TmY14.
+145	figure	Figure 5—figure supplement 3	7	(B) Stochastic labeling of kn-GAL4 neurons using MCFO.
+146	figure	Figure 5—figure supplement 3	8	A TmY5a cell and an LC4 cell are indicated.
+147	figure	Figure 5—figure supplement 3	9	Other cell types, including several TmY14, are also labeled.
+148	figure	Figure 5—figure supplement 3	10	Image shows a single confocal section without a reference marker.
+149	figure	Figure 5—figure supplement 3	11	(C,D) Examples of TmY14 (C) and TmY5a (D) cells.
+150	figure	Figure 5—figure supplement 3	12	Reconstructed views generated from confocal stacks of MCFO-labeled cells using the indicated driver lines.
+151	figure	Figure 6	1	Expression of synthesis and transport genes indicate neurotransmitter phenotypes.
+152	figure	Figure 6	2	(A) Expression of neurotransmitter marker genes indicate the neurotransmitters produced in nearly all profiled cells.
+153	figure	Figure 6	3	With few exceptions, nearly all cell types express only one fast neurotransmitter.
+154	figure	Figure 6	4	(B, C) We confirm TAPIN-seq results at the protein level (green) for (B) Vesicular monoamine transporter (Vmat) expressed in Mi15 (magenta) and (C) Nitric oxide synthase (Nos) in C3 (magenta).
+155	figure	Figure 6	5	Top panel in (C) shows a section through the optic lobe, lower panels C3 cell bodies.
+156	figure	Figure 6	6	(D) Several neuropeptides and receptors also express specifically (examples).
+157	figure	Figure 6	7	(E) Allatostatin A (AstA) protein expression in the medulla as an example of a neuropeptide with a very specific optic lobe expression pattern.
+158	figure	Figure 6	8	The AstA distribution in the optic lobe matches the distribution and layer pattern of Pm3 cells, consistent with the TAPIN-Seq data.
+159	figure	Figure 6—figure supplement 1	1	Transcriptional regulators of neurotransmitter identity.
+160	figure	Figure 6—figure supplement 1	2	(A) Transcription factors whose expression is predictive of neurotransmitter phenotype (i.e., P(neurotransmitter output | transcription factor expressed)).
+161	figure	Figure 6—figure supplement 1	3	The ten most predictive transcription factors are shown for each neurotransmitter output marker.
+162	figure	Figure 6—figure supplement 1	4	(B) Summary of orthologous transcription factors in worm and mouse and their association with specific neurotransmitter types.
+163	figure	Figure 6—figure supplement 1	5	(C) The Gad1-associated gene Lim3 does not express in cholinergic Dm12 neurons, but does in the GABA-ergic Dm10 neurons.
+164	figure	Figure 6—figure supplement 1	6	Double labeling using LexA-markers for Dm12 and Dm10 (green) with a Lim3 protein-trap-GAL4 driving RFP (magenta).
+165	figure	Figure 6—figure supplement 1	7	This example highlights a case where Lim3 expression identifies a cell type in a group of similar cells (the Dm cells profiled in this study) that is GABAergic (all other Dms in this group are glutamatergic).
+166	figure	Figure 7	1	Patterns of neurotransmitter receptor expression.
+167	figure	Figure 7	2	(A) Neurotransmitter receptors are widely expressed in specific patterns.
+168	figure	Figure 7	3	With the exception of histamine, most cells express receptors or receptor subunits for nearly all neurotransmitters.
+169	figure	Figure 7	4	(B) Expression of the glutamate-gated chloride channel (GluClalpha), detected using a GFP-tag (green), in the optic lobe.
+170	figure	Figure 7	5	The lamina pattern includes many neurons as well as proximal satellite, epithelial and marginal glia.
+171	figure	Figure 7	6	A glia-specific nuclear marker (anti-repo) is shown in magenta.
+172	figure	Figure 7	7	(C) Octopamine receptor (Oamb) expressing cells in the optic lobe detected with a protein-trap GAL4 driving expression of a membrane targeted GFP (green).
+173	figure	Figure 7	8	Anti-repo (magenta).
+174	figure	Figure 7	9	In the lamina (to the top and left of the image), Lawf1/2 and L5 neurons and marginal glia are recognizable.
+175	figure	Figure 7—figure supplement 1	1	Patterns of neurotransmitter receptor expression complement connectomics.
+176	figure	Figure 7—figure supplement 1	2	(A) Transcriptomes reveal the neurotransmitters in core cell types of the ON and OFF components of the motion detection pathway.
+177	figure	Figure 7—figure supplement 1	3	The ON and OFF motion detection pathways supply inputs to directionally sensitive T4 and T5 neurons, respectively (Takemura et al., 2017; Shinomiya et al., 2019).
+178	figure	Figure 7—figure supplement 1	4	Our results show that all of the inputs to T5 (Tm1, Tm2, Tm4, and Tm9) are cholinergic, whereas the inputs to T4 are a mixture of GABAergic (C3, Mi4), cholinergic (Mi1, Tm3), and glutamatergic (Mi9), suggesting different input signs.
+179	figure	Figure 7—figure supplement 1	5	Discovering the functional signs of inputs to the directionally selective neurons is an essential step in understanding the mechanism of this long-studied neuronal computation (Strother et al., 2017).
+180	figure	Figure 7—figure supplement 1	6	In addition, our data reveals aspects of the motion pathway that have not yet been functionally examined, such as the identification of other signaling components (see B).
+181	figure	Figure 7—figure supplement 1	7	(B) Examples of the expression of genes involved in neuropeptide, non-canonical small molecule (nitric oxide), or gap junction communication in the cell types in (A).
+182	figure	Figure 8	1	Molecular and connectomics analyses suggest R8 photoreceptors signal via both histaminergic and cholinergic neurotransmission.
+183	figure	Figure 8	2	(A, A’, A’’, B).
+184	figure	Figure 8	3	Expression of VAChT in R8 cells.
+185	figure	Figure 8	4	Expression of a HA-tagged VAChT was induced in R8 cells by recombinase-mediated excision of an interruption cassette from a modified genomic copy of the VAChT gene (Pankova and Borst, 2017).
+186	figure	Figure 8	5	R7 and R8 cells project to different layers of the medulla (A, schematic).
+187	figure	Figure 8	6	Single confocal sections show R7 and R8 cells in magenta and anti-HA immunolabeling in green.
+188	figure	Figure 8	7	R7 and R8 cells (labeled with mAb 24B10) are shown in magenta.
+189	figure	Figure 8	8	Stop-cassette excision in R8 photoreceptors (using sens-FLP) results in VAChT-HA labeling of R8 terminals in both the main medulla (A’) and the dorsal rim (where R7 and R8 cells project to very similar layer positions) (A’’).
+190	figure	Figure 8	9	Stop-cassette excision in all photoreceptors (using ey3.5-FLP) also produces VAChT-HA labeling in R8 while expression in R7 was not detected (B).
+191	figure	Figure 8	10	Scale bar, 10 µm.
+192	figure	Figure 8	11	(C) Heatmap of receptor expression probabilities (color) and relative abundance (numbers; transcripts per million) in R8 targets identified by EM (at least five synapses in Takemura et al., 2013).
+193	figure	Figure 8	12	(D) Connectivity network for R8 cells, overlaid with receptor expression.
+194	figure	Figure 8	13	(E) Possible distributions of postsynaptic receptors at R8 synapses.
+195	figure	Figure 8	14	Individual active zones can interact with multiple postsynaptic cells which could be grouped in distinct ways.
+196	figure	Figure 8	15	(F) Classification of postsynaptic cells at individual R8 active zones (Takemura et al., 2013) based on histamine receptor expression.
+197	figure	Figure 8	16	(G) Same analysis as in F but for an R7 cell.
+198	figure	Figure 9	1	Using gene expression to functionally interpret circuit structure.
+199	figure	Figure 9	2	(A) Different properties of GABA-A receptors in Drosophila observed in in vitro studies.
+200	figure	Figure 9	3	GABA-A receptor subunits can form either cation or anion channels depending on subunit composition.
+201	figure	Figure 9	4	(B) Expression of GABA-A subunits in selected cell types.
+202	figure	Figure 9	5	(C) L1 and two of its target cells form strong reciprocal connections with C2 neurons.
+203	figure	Figure 9	6	(D) Distribution of Rdl and Grd expressing cells at individual C2 synapses.
+204	figure	Figure 9	7	(E) Glutamate receptors can also be excitatory or inhibitory.
+205	figure	Figure 9	8	(F) Examples of expression patterns for selected glutamate receptors and transporters.
+206	figure	Figure 9	9	(G, H) Morphology of Lai (G) and Dm9 (H) cells.
+207	figure	Figure 9	10	Illustrations based on MCFO images of single cells.
+208	figure	Figure 9	11	(I, J) Analysis of the input and output pathways of Lai (I) and Dm9 (J) neurons suggests a potentially similar functional role for these cells.
+209	figure	Figure 9	12	The predicted absence of GluCl-alpha in Dm9 suggests that glutamatergic input from Dm8 to Dm9 may be excitatory.
+210	supplement	Supplementary file 1	1	Supplemental tables (A) All drivers (B) RNAseq samples (C) Benchmark entries (D) Marker genes (E) Anatomy details (F) TAPIN-seq buffers.
+211	supplement	Supplementary file 2	1	Key Resource Table.
+212	supplement	Supplementary file 2	2	List of key resources and reagents used in this study.

@@ -1,0 +1,99 @@
+	tag	label	sentence	text
+1	figure	Fig. 1	1	Joint kinematics during forward and backward walking. a An example frame from high-speed videos of fly walking on a 6-mm diameter ball.
+2	figure	Fig. 1	2	Colored dots indicate anatomical landmarks annotated by an artificial neural network trained on DeepLabCut. b Right, schematic of a Drosophila leg showing each leg segment and joint, and color codes used for each joint in all Figures.
+3	figure	Fig. 1	3	Left, joint angle tracking from an episode of an MDN > CsChrimson fly walking on ball.
+4	figure	Fig. 1	4	Red bars indicate the red-light stimulus. c Top, a frame from the Supplementary Movie 1 tracked in b, overlaid with the trajectory of tarsal tips of all three legs during forward walking (white) and backward walking (red).
+5	figure	Fig. 1	5	Bottom, average trajectories of tarsal tips during forward walking (gray) and backward walking (red).
+6	figure	Fig. 1	6	Anterior (AEP), posterior (PEP), and dorsal (DEP) extreme positions for the hindleg are indicated.
+7	figure	Fig. 1	7	See also Supplementary Movie 1. d Joint angles from averaged steps of hindleg and foreleg during forward walking and backward walking.
+8	figure	Fig. 1	8	Grey shading represents swing phase, as inferred from the averaged tarsal tip trajectories.
+9	figure	Fig. 1	9	N = 7 flies; n = 156, 75, 156, or 142 steps (from left to right). e Average step size for each fly during forward and backward walking, defined as the distance between AEP and PEP.
+10	figure	Fig. 1	10	F forward walking, B backward walking.
+11	figure	Fig. 1	11	Bars indicate mean ± s.e.m. of per fly averages for e–h. f Average swing stroke amplitude, defined as the distance between DEP and the line segment connecting AEP and PEP. g Average foreleg joint angle range (maximum–minimum angle). h Average hindleg joint angle range. i Representative joint angle tracking of flies with fore-, mid-, or hindlegs bilaterally amputated at the tarsus.
+12	figure	Fig. 1	12	Dashed boxes indicate the amputated leg.
+13	figure	Fig. 1	13	See also Supplementary Movie 2. j Stepping frequency for each leg, before and after amputation, shown as mean ± s.e.m. n = 6 flies for each group.
+14	figure	Fig. 1	14	Grey lines indicate paired trial averages for the same fly, before and after amputation.
+15	figure	Fig. 1	15	P values are shown in italics; two-tailed paired t-tests.
+16	figure	Fig. 1	16	Source data are provided as a Source Data file.
+17	figure	Fig. 2	1	Trans-Tango reveals cells postsynaptic to MDNs. a Top, schematic of trans-Tango labeling, showing target cell in green and trans-synaptically labeled cells in red.
+18	figure	Fig. 2	2	Bottom, an example of trans-Tango labeling of cells postsynaptic to MDNs, targeted with MDN-1-GAL4.
+19	figure	Fig. 2	3	Left, maximum projection confocal image of the VNC, shown in ventral and lateral views, with MDN axons in green (anti-GFP), trans-Tango labeled cells in red (anti-HA), and all synapses in blue (anti-Bruchpilot, nc82).
+20	figure	Fig. 2	4	Right, the same sample registered onto a standard VNC template, with the trans-Tango channel shown as a color-coded maximal intensity projection (colorMIP) in which color encodes the z-section in which the maximum occurs. b Top, schematic of stochastic trans-Tango labeling.
+21	figure	Fig. 2	5	Bottom left and middle, standard deviation projections of colorMIP images of the post- and presynaptic channels, respectively, of 541 stochastic trans-Tango samples.
+22	figure	Fig. 2	6	Bottom right, standard deviation projection of 65 types of segmented neurons and their mirror images. c Segmented MT cell types from stochastic trans-Tango dataset, shown as registered maximum intensity projections overlaid on the JRC2017 template VNC.
+23	figure	Fig. 2	7	Cell-type designations are colored to indicate ascending neurons (black), and interneurons with soma located in either T1 (red), T2 (green), or T3 (blue).
+24	figure	Fig. 2	8	Each cell type is given a provisional name beginning with “MT” (“MDN trans-Tango”).
+25	figure	Fig. 3	1	MDN-responsive neurons identified by functional imaging. a Schematic of the functional imaging and data analysis pipeline. b Maximum intensity projections of imaged VNC volumes during photostimulation, using MDN-1-GAL4 to drive Chrimson88 in MDNs.
+26	figure	Fig. 3	2	Cyan represents activated voxels; red represents inhibited voxels.
+27	figure	Fig. 3	3	See also Supplementary Movie 3.
+28	figure	Fig. 3	4	We recorded from at least 5 independent samples for each genotype and obtained similar results across the samples. c Top, pipeline for discovering cell types that are functionally connected to MDN.
+29	figure	Fig. 3	5	Bottom, an example showing how an MDN-responsive cell type is identified.
+30	figure	Fig. 3	6	The three images are, from left to right, a maximum intensity projection of activated voxels in the VNC of a fly in which Chrimson88 expression is driven by MDN-1-GAL4 and GCaMP6s expression is driven by 28F07-LexA, a multi-color flip-out (MFCO) image from the corresponding 28F07-GAL4 driver, and a single cell segmented from the MCFO image that matches the morphology of the MDN-responsive neurons. d Twenty-four MF interneuron types, whereby segmentally repeated cells are classified as the same cell type.
+31	figure	Fig. 3	7	Maximum intensity projections of segmented and registered images are shown on the left; averaged responses to MDN activation on the right (mean ± s.e.m. of n ≥ 5 samples; red shading indicates the 20 s red-light stimulus; see also Supplementary Fig.
+32	figure	Fig. 3	8	2).
+33	figure	Fig. 3	9	Cell types labeled in red were also identified in the trans-Tango experiments (see Supplementary Fig. 1 for pairwise comparisons). e Eight MF ascending neuron types and their calcium responses to MDN activation. f The single MF motor neuron type and its calcium response to MDN activation.
+34	figure	Fig. 3	10	Each cell type in d-f is given a provisional name beginning with “MF” (“MDN functional imaging”).
+35	figure	Fig. 4	1	Several MF cell types contribute to MDN-induced backward walking. a Correspondence between 29 MF cell types, their matching MT cell types, cell types identified in a systematic analysis of leg neuropil neurons, and the split-GAL4 lines that label them and were used to generate the data shown in b. b Total backward walking distance during 9 episodes of 5-s photoactivation of MDN, in flies in which a single MF cell type was silenced.
+36	figure	Fig. 4	2	Each data point represents the mean of all flies tested with a single split-GAL4 line, shaded to indicate P values from one-way ANOVA tests with post-hoc Dunnett’s correction for multiple comparisons.
+37	figure	Fig. 4	3	For cell types for which multiple split-GAL4 lines were tested, the mean across all lines is shown.
+38	figure	Fig. 4	4	Dashed green line marks the backward walking distance of negative control flies, for comparison.
+39	figure	Fig. 4	5	See also Supplementary Fig. 3b. and Supplementary Movie 4.
+40	figure	Fig. 4	6	Source data are provided as a Source Data file.
+41	figure	Fig. 5	1	LBL40 neurons control tibia flexion. a Segmented and registered images of MDN (red) and LBL40 (green) from ventral and lateral perspectives, and calcium response in LBL40 upon photoactivation of MDN.
+42	figure	Fig. 5	2	Same data as in Fig. 3d, see also Supplementary Movie 5. b Confocal images of VNCs of two split-GAL4 lines labeling LBL40 (magenta, nc82 staining; green, anti-GFP staining of CsChrimson-mVenus reporter), and activated voxels (cyan) from calcium imaging experiments using each line. c Selected frames from a representative video of LBL40 activation in a tethered, decapitated fly, during a 5-s red-light stimulus from t = 0 ms.
+43	figure	Fig. 5	3	Arrows indicate the femur-tibia angles.
+44	figure	Fig. 5	4	Dashed line with arrows in the overlay image indicates sequence of movement.
+45	figure	Fig. 5	5	See also Supplementary Movie 6. d Hindleg joint angle time series, showing two representative traces for each genotype.
+46	figure	Fig. 5	6	Red shade indicates a 5-s pulse of red light.
+47	figure	Fig. 5	7	A short black line marks the origin for each trace (t = 0 s, 0 degrees).
+48	figure	Fig. 5	8	Arrows indicate the initial femur-tibia flexion; arrowheads mark steps.
+49	figure	Fig. 5	9	The top traces are from the video shown in c. e Maximal femur-tibia joint flexion within 1 s after red-light onset.
+50	figure	Fig. 5	10	Bars indicate mean ± s.e.m.
+51	figure	Fig. 5	11	P values are shown in italics; two-tailed Mann–Whitney tests.
+52	figure	Fig. 5	12	Source data are provided as a Source Data file. f Top, overlaid hindleg femur-tibia joint angles from trials in which LBL40 was activated by a 50 ms light pulse.
+53	figure	Fig. 5	13	Bottom, mean joint angle traces, calculated separately for trials with and without a step.
+54	figure	Fig. 5	14	Red shading indicates the red-light stimulus.
+55	figure	Fig. 5	15	N = 3 flies and n = 105 trials. g Minimum femur-tibia joint angles for non-step and step trials.
+56	figure	Fig. 5	16	Bars indicate mean ± s.e.m.
+57	figure	Fig. 5	17	P values are shown in italics, two-tailed Mann–Whitney test.
+58	figure	Fig. 5	18	Source data are provided as a Source Data file. h Registered segmented image of LBL40 (green), LUM9 (blue), and all synapses (gray, nc82). i Confocal images of VNCs of a LexA line labeling LBL40 and SS50996, labeling LUM9 (green, anti-GFP staining of a myr-GFP or CsChrimson-mVenus reporter; magenta, nc82), and activated voxels (cyan) from calcium imaging of LUM9 upon LBL40 activation.
+59	figure	Fig. 5	19	Traces show the averaged responses for LUM9 to LBL40 activation (mean ± s.e.m., N = 6 flies), upon either a single 20-s stimulus or two 1-s light pulses (red shading).
+60	figure	Fig. 6	1	LUL130 neurons trigger leg lifting. a Segmented and registered images of MDN (red) and LUL130 (green) from ventral and lateral perspectives, and calcium responses of LUL130 upon MDN activation.
+61	figure	Fig. 6	2	Same data as in Fig. 3d, see also Supplementary Movie 7. b Confocal images of VNCs of two split-GAL4 lines labeling LUL130 (magenta, nc82 staining; green, anti-GFP staining of CsChrimson-mVenus reporter), and activated voxels (cyan) from calcium imaging experiments using each line. c Selected frames from a representative video of LUL130 activation in a tethered, decapitated fly upon a 5-ms red-light stimulus applied at t = 0 ms.
+62	figure	Fig. 6	3	Arrows indicate the femur-tibia angles.
+63	figure	Fig. 6	4	Dashed line with arrows in the overlay image indicates sequence of movement.
+64	figure	Fig. 6	5	See also Supplementary Movie 8. d Representative traces of tarsal tip positions for each leg.
+65	figure	Fig. 6	6	Red shade indicates a 5-s pulse of red light. e Percentage of flies lifting each leg. f Left, averaged hindleg joint angles upon photoactivation of LUL130 by 5-ms red-light pulses, starting at 0 ms.
+66	figure	Fig. 6	7	Gray indicates the inferred swing phase.
+67	figure	Fig. 6	8	Right, z-scores of coxa-trochanter, femur-tibia and tibia-tarsus angles from the same data, highlighting the phase relationships between joints.
+68	figure	Fig. 6	9	N = 3 flies and n = 100 trials. g Representative footfall pattern during a continuous 5-s photoactivation of LUL130 (red shading).
+69	figure	Fig. 6	10	LF, LM, LR, RF, RM, RH designate left and right fore-, mid- and hindlegs, respectively.
+70	figure	Fig. 6	11	See also Supplementary Movie 9. h Leg coordination during 5-s photoactivation of LUL130, quantified as a co-swing index (the total time both legs are in swing divided by the time either leg is in swing).
+71	figure	Fig. 6	12	Bars indicate mean ± s.e.m.
+72	figure	Fig. 6	13	N = 5 flies (n = 5 intrasegmental leg pairs, n = 10 intersegmental pairs).
+73	figure	Fig. 6	14	F foreleg, M midleg, H hindleg, L left, R right, ipsi ipsilateral, cont contralateral.
+74	figure	Fig. 6	15	Source data are provided as a Source Data file.
+75	figure	Fig. 7	1	LBL40 and LUL130 function in the stance and swing phases of backward walking. a Experimental protocol.
+76	figure	Fig. 7	2	Each fly was subject to the same number of control (Ctrl) and experimental (Exp) trials.
+77	figure	Fig. 7	3	Red bar indicates red-light stimulus; blue bar indicates blue-light stimulus. b Representative hindleg joint angle time series for positive control flies expressing both CsChrimson and GtACR2 in MDN, and stimulated with either red and blue light alone, or both. c Representative hindleg joint angle time series for flies of the indicated genotypes.
+78	figure	Fig. 7	4	See also Supplementary Movies 10 and 11. d Left: overlaid femur-tibia joint angle from all steps during the 10-s blue-light stimulus in experimental trials (blue), and the corresponding period in control flies (red).
+79	figure	Fig. 7	5	Right: average of all steps for experimental (blue) and control trials (red).
+80	figure	Fig. 7	6	Before averaging, individual traces were truncated if another step occurred within the 1.5 s time window. e–g Slope of femur-tibia joint angle change (e) and minimum angle (f) during stance phase, and step frequencies (g) during the 10-s blue-light stimulus period of experimental trials and the corresponding period of control trials.
+81	figure	Fig. 7	7	All data are shown as mean ± s.e.m. across all N flies, with colored lines pairing experimental and control values for the same fly.
+82	figure	Fig. 7	8	P values are shown in italics, two-tailed paired t-tests.
+83	figure	Fig. 7	9	Source data are provided as a Source Data file.
+84	supplement	File S1	1	Supplementary Information
+85	supplement	File S2	1	Supplementary Movie 1
+86	supplement	File S3	1	Supplementary Movie 2
+87	supplement	File S4	1	Supplementary Movie 3
+88	supplement	File S5	1	Supplementary Movie 4
+89	supplement	File S6	1	Supplementary Movie 5
+90	supplement	File S7	1	Supplementary Movie 6
+91	supplement	File S8	1	Supplementary Movie 7
+92	supplement	File S9	1	Supplementary Movie 8
+93	supplement	File S10	1	Supplementary Movie 9
+94	supplement	File S11	1	Supplementary Movie 10
+95	supplement	File S12	1	Supplementary Movie 11
+96	supplement	File S13	1	Supplementary Data
+97	supplement	File S14	1	Description of Additional Supplementary Files
+98	supplement	File S15	1	Reporting Summary

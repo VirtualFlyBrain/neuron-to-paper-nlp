@@ -1,0 +1,4 @@
+scispacy
+#  pip install /home/huseyin/Downloads/en_core_sci_sm-0.5.0.tar.gz
+rdflib
+pandas

@@ -1,0 +1,69 @@
+	tag	label	sentence	text
+1	figure	Fig. 1	1	Identification of DskGAL4 neurons that inhibit male courtship. a Experimental design of screening for courtship-inhibiting neurons. b Identification of DskGAL4 and CrzGAL4 that inhibit male courtship when driving UAS-dTrpA1 at 30 °C (red circle) compared to permissive temperature 22 °C (blue square). n = 12 for sNPF-GAL4 and Lk-GAL4, n = 18 for Burs-GAL4, Dh31-GAL4 and Proc-GAL4, n = 20 for SIFaGAL4s, n = 24 for others. ***p < 0.001, Mann–Whitney U test. c Thermogenetic activation of Dsk neurons labeled by another DskGAL4 (attP2) severely inhibits male courtship. n = 24 for each. p < 0.001, Kruskal–Wallis test. ***p < 0.001 and p > 0.1 (n.s.), post hoc Dunn’s multiple comparisons test. d Optogenetic activation of DskGAL4 (attP2) neurons abolishes male courtship. n = 24 for each. p < 0.001, Kruskal–Wallis test. **p < 0.01 and ***p < 0.001, post hoc Dunn’s multiple comparisons test. e Optogenetic activation of DskGAL4 neurons rapidly inhibits male courtship. n = 24 for each. f Courtship inhibition by optogenetic activation of DskGAL4 neurons lasts for more than 10 min after lights off. n = 24. n.s. not significant.
+2	figure	Fig. 1	2	Error bars indicate SEM.
+3	figure	Fig. 1	3	Source data are provided as a Source Data file
+4	figure	Fig. 2	1	Four pairs of Dsk- and fruM-expressing neurons inhibit male courtship. a Expression pattern of DskGAL4 in the central nervous system revealed by anti-GFP (left) and anti-DSK (middle).
+5	figure	Fig. 2	2	Representative of eight male flies.
+6	figure	Fig. 2	3	Scale bars, 50 μm. b Two pairs of MP1 and two pairs of MP3 neurons are co-labeled by fruLexA driving LexAop-RedStinger (magenta) and DskGAL4 driving UAS-Stinger-GFP (green).
+7	figure	Fig. 2	4	Representative of five male brains.
+8	figure	Fig. 2	5	Scale bars, 50 μm and 20 μm (zoom-in). c Intersectional strategy to label and manipulate Dsk and fruM co-expressing MP1 and MP3 neurons.
+9	figure	Fig. 2	6	Representative of 6 male brains.
+10	figure	Fig. 2	7	Scale bars, 50 μm. d Optogenetic activation of intersectional neurons between DskFlp and fruGAL4 abolishes male courtship.
+11	figure	Fig. 2	8	Red square indicates test in red light, and gray circle indicates test in dark. n = 24 for each. p < 0.001, Kruskal–Wallis test. ***p < 0.001 and p > 0.99 (n.s.), post hoc Dunn’s multiple comparisons test.
+12	figure	Fig. 2	9	Error bars indicate SEM.
+13	figure	Fig. 2	10	Source data are provided as a Source Data file
+14	figure	Fig. 3	1	Single-neuron labeling and manipulation of Dsk MP neurons. a–f Stochastic labeling of single MP3 (a), two MP3 (b), single MP1a (c and d) and single MP1b (e) neurons.
+15	figure	Fig. 3	2	Two MP3, one MP1a and one MP1b neurons are registrated in a standard brain (f).
+16	figure	Fig. 3	3	Scale bars, 50 μm. g The frequency of hs-Flp/Y; UAS > stop > CsChrimson-mVenus/+; DskGAL4/+ males with CsChrimson-mVenus expressed in indicated neurons for courters (n = 30, white bars) or non-courters (n = 73, black bars). **p < 0.01, ***p < 0.001 and p = 0.48 (n.s.), chi-square test. n.s. not significant.
+17	figure	Fig. 3	4	Source data are provided as a Source Data file
+18	figure	Fig. 4	1	Dsk and P1 neurons function antagonistically to regulate male sexual arousal. a Co-activation of Dsk and P1 neurons results in intermediate courtship levels. n = 24, 19, 17, 24, 24, 20, 24, 24, 20, 24, 24, 24, 24, and 24 respectively (from left to right).
+19	figure	Fig. 4	2	Genotypes as indicated. p < 0.05, Kruskal–Wallis test. *p < 0.05, **p < 0.01, ***p < 0.001, and p > 0.1 (n.s.) post hoc Dunn’s multiple comparisons test. b, c Dsk and P1 neurons oppositely regulate sleep. n = 60, 56, 57, and 60 respectively. p < 0.001, Kruskal–Wallis test. ***p < 0.001 and p > 0.99 (n.s.), post hoc Dunn’s multiple comparisons test. d, e Spontaneous walking velocity of individual males at permissive temperature (22 °C). n = 24, 24, 36, and 19, respectively. p = 0.07, One-way ANOVA. f–j Dsk and P1 neurons oppositely regulate spontaneous walking velocity. n = 24, 24, 32, and 19, respectively.
+20	figure	Fig. 4	3	For overall mean velocity (g): p < 0.001, One-way ANOVA. ***p < 0.001 and p > 0.1 (n.s.), post hoc Tukey’s multiple comparisons test.
+21	figure	Fig. 4	4	For mean velocity from 0.5 h to 1.5 h (h): p < 0.001, Kruskal–Wallis test. *p < 0.05 and p > 0.99 (n.s.), post hoc Dunn’s multiple comparisons test.
+22	figure	Fig. 4	5	For mean velocity from 12 h to 13 h (i): p < 0.001, One-way ANOVA. ***p < 0.001 and p > 0.1 (n.s.), post hoc Tukey’s multiple comparisons test.
+23	figure	Fig. 4	6	For mean velocity from 23 h to 24 h (j): p < 0.001, Kruskal–Wallis test. *p < 0.05 and p > 0.99 (n.s.), post hoc Dunn’s multiple comparisons test. k Representative walking trajectories in a visual-induced walking assay during a 6-min observational time. l, m Activation of Dsk neurons does not affect visual tracking ability or visual-induced walking speed. n = 20, 20, 12, and 18, respectively.
+24	figure	Fig. 4	7	For visual tracking performance: p = 0.3265, Kruskal–Wallis test; for walking speed: p = 0.3544, Kruskal–Wallis test. n.s. not significant.
+25	figure	Fig. 4	8	Error bars indicate SEM.
+26	figure	Fig. 4	9	Source data are provided as a Source Data file
+27	figure	Fig. 5	1	Experience-dependent synaptic interaction between Dsk and P1 neurons. a Registration of P1 neurons and Dsk MP neurons in a standard brain. b Potential membrane contacts between P1 and Dsk neurons as revealed by conventional GRASP technique.
+28	figure	Fig. 5	2	Representative of five male brains. c–f There is no syb-GRASP signal from Dsk neurons to dsx neurons including P1 neurons.
+29	figure	Fig. 5	3	Representative of five male brains for each genotype. g–i Experience-dependent synaptic transmission from P1 neurons to Dsk neurons as revealed by syb-GRASP signals. n = 9 for each. p < 0.001, One-way ANOVA. ***p < 0.001, post hoc Tukey’s multiple comparisons test. j–n Experience-dependent synaptic transmission from dsx neurons (including P1 neurons) to Dsk neurons as revealed by syb-GRASP signals in single-housed males (green bar) and group housed males (magenta bar for male–male group, and blue bar for male–female group). n = 10, 10 and 7 for each group respectively.
+30	figure	Fig. 5	4	For ROI-1: p < 0.001, Kruskal–Wallis test. **p < 0.01, ***p < 0.001 and p > 0.99 (n.s.), post hoc Dunn’s multiple comparisons test.
+31	figure	Fig. 5	5	For ROI-2: p < 0.001, Kruskal–Wallis test. *p < 0.05, ***p < 0.001 and p = 0.08 (n.s.), post hoc Dunn’s multiple comparisons test.
+32	figure	Fig. 5	6	For ROI-3: p < 0.001, Kruskal–Wallis test. *p < 0.05, ***p < 0.001 and p = 0.31 (n.s.), post hoc Dunn’s multiple comparisons test. n.s. not significant.
+33	figure	Fig. 5	7	Error bars indicate SEM.
+34	figure	Fig. 5	8	Source data are provided as a Source Data file
+35	figure	Fig. 6	1	DSK peptides inhibit male courtship behavior. a Predicted amino acid sequence and mature peptides from the Dsk gene in wild-type, ∆Dsk1 and ΔDsk2 flies. b Validation of ∆Dsk mutants by anti-DSK staining.
+36	figure	Fig. 6	2	Representative of 5 male brains each.
+37	figure	Fig. 6	3	Arrows indicate cell bodies of MP neurons.
+38	figure	Fig. 6	4	Scale bars, 50 μm. c Dsk mutant males have normal courtship toward virgin females.
+39	figure	Fig. 6	5	Genotypes as indicated. n = 24 for each. p = 0.22, Kruskal–Wallis test. d Dsk mutant males do not show abnormal male–male courtship. n = 20 for each. p = 0.42, Kruskal–Wallis test. e Courtship inhibition by activating DskGAL4 neurons is dependent on the DSK-2 peptide. n = 24 for each. p < 0.001, Kruskal–Wallis test. **p < 0.001, ***p < 0.001 and p > 0.1 (n.s.), post hoc Dunn’s multiple comparisons test. f Down-regulation of Dsk gene expression using UAS-DskRNAi as revealed by anti-DSK staining in males raised at 22 °C.
+40	figure	Fig. 6	6	Scale bars, 50 μm. g Quantification of anti-DSK signal in the brain. n = 7 and 6. ***p < 0.01, Mann–Whitney U test. h Courtship inhibition by activating DskGAL4 neurons is dependent on DSK, as knocking down Dsk by RNAi restores courtship by DskGAL4/UAS-dTrpA1 males at 30 °C. n = 24 for each. p < 0.001, Kruskal–Wallis test. ***p < 0.001 and p = 0.85 (n.s.), post hoc Dunn’s multiple comparisons test. i Acutely over expression of DSK peptides two days before courtship test significantly suppresses male courtship. n = 24, 21, 20, and 20, respectively. p < 0.001, Kruskal–-Wallis test. ***p < 0.001 and p > 0.99 (n.s.), post hoc Dunn’s multiple comparisons test. n.s. not significant.
+41	figure	Fig. 6	7	Error bars indicate SEM.
+42	figure	Fig. 6	8	Source data are provided as a Source Data file
+43	figure	Fig. 7	1	CCKLR-17D3 inhibits male courtship. a–c Generation and validation of a 9.04 kb deletion mutant of the CCKLR-17D3 gene. d Courtship inhibition by activating DskGAL4 neurons is dependent on DSK’s receptor CCKLR-17D3 but not CCKLR-17D1, as mutation in CCKLR-17D3 but not in CCKLR-17D1 restores courtship by DskGAL4/UAS-dTrpA1 males at 30 °C.
+44	figure	Fig. 7	2	Genotypes as indicated. n = 24, 24, 24, 24, 24, 24, 18, 24, 18, 24, 24, 24, 18, and 13, respectively. ***p < 0.001, Mann–Whitney U test. e Acutely over expression of CCKLR-17D3 but not CCKLR-17D1 two days before courtship test significantly suppresses male courtship. n = 19, 20, 24, 24, 21, and 22 respectively. p < 0.01, Kruskal–Wallis test. **p < 0.01 and p > 0.1 (n.s.), post hoc Dunn’s multiple comparisons test. n.s. not significant.
+45	figure	Fig. 7	3	Error bars indicate SEM. f Generation of knock-in GAL4 into the CCKLR-17D3 locus. g Expression pattern of 17D3GAL4 visualized by UAS-myrGFP in male CNS.
+46	figure	Fig. 7	4	Representative of eight males. h, i Intersectional expression between 17D3GAL4 and fruLexA in the male CNS.
+47	figure	Fig. 7	5	Representative of five males.
+48	figure	Fig. 7	6	Arrow indicates the male-specific P1 neurons (i).
+49	figure	Fig. 7	7	Genotype: 17D3GAL4/Y; UAS > stop > myrGFP LexAop2-FlpL/+; fruLexA/+. j, k Intersectional expression between 17D3GAL4 and dsxLexA (j), 17D3GAL4 and R71G01LexA (k) in males.
+50	figure	Fig. 7	8	Representative of five males each.
+51	figure	Fig. 7	9	Arrow indicates the male-specific P1 neurons.
+52	figure	Fig. 7	10	Scale bars, 50 μm. l An illustration from dsx neurons acting on Dsk neurons via synaptic transmission, and Dsk neurons to CCKLR-17D3 neurons via secretion of DSK.
+53	figure	Fig. 7	11	Source data are provided as a Source Data file
+54	figure	Fig. 8	1	A model of DSK signaling regulating male sexual arousal.
+55	figure	Fig. 8	2	On one hand, male-specific P1 neurons that express both FRUM and DSXM integrate multiple sensory cues including both excitatory (e.g. from virgin females) and inhibitory (e.g. from males) information for courtship, and activation of P1 neurons persistently promotes male sexual behavior and wakefulness (reduction of sleep and increase of spontaneous walking), indicative of increased sexual arousal.
+56	figure	Fig. 8	3	On the other hand, four pairs of Dsk- and fruM-expressing neurons interact with P1 neurons to form a potential functional loop, and act through DSK/CCKLR-17D3 signaling in fruM circuitry to persistently inhibit male sexual behavior and wakefulness.
+57	figure	Fig. 8	4	The DSK/CCKLR-17D3 signaling responds to multiple physiological conditions including aging, feeding and group-housing experiences.
+58	figure	Fig. 8	5	Thus the interplay between internal states represented by DSK/CCKLR-17D3 signaling and external sensory stimulation represented by P1 neuronal activity orchestrates appropriate male sexual behavior
+59	supplement	File S1	1	Supplementary Information
+60	supplement	File S2	1	Description of Additional Supplementary Files
+61	supplement	File S3	1	Supplementary Movie 1
+62	supplement	File S4	1	Supplementary Movie 2
+63	supplement	File S5	1	Supplementary Movie 3
+64	supplement	File S6	1	Supplementary Movie 4
+65	supplement	File S7	1	Supplementary Movie 5
+66	supplement	File S8	1	Peer Review File
+67	supplement	File S9	1	Reporting Summary
+68	supplement	File S10	1	Source Data

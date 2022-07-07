@@ -1,49 +1,31 @@
 file_name	mention_text	candidate_entity_iri	candidate_entity_label	candidate_entity_aliases	confidence
 PMC7316511	1A	FBbt:00100416	larval antennal lobe glomerulus 1a	1a,FBbt:00100416	1.0
 PMC7316511	5B	FBbt:00048184	prothoracic leg tarsal taste bristle 5b	f5b,FBbt:00048184,m5b	1.0
+PMC7316511	accessory rostrum retractors	FBbt:00003263	muscle cell of proboscis muscle 2 dorsal	accessory retractor of rostrum,FBbt:00003263,maxillary retractor muscle,proboscis muscle 2,proboscis muscle 2-1,proboscis muscle m2D	0.9312063455581665
 PMC7316511	AD	FBbt:00047119	larval anterior dorsal commissure	aD,FBbt:00047119,larval antero-dorsal commissure	1.0
 PMC7316511	ADs	FBbt:00001248	anterior deutocerebral subperineurial glia cluster	ADSG,FBbt:00001248,anterior deuterocerebral subperineurial glia cluster	1.0
-PMC7316511	B	FBbt:00002345	abdominal desD neuron	b,FBbt:00002345,dc2,dp2,p9	1.0
-PMC7316511	CNS	FBbt:00005094	central nervous system	CNS,FBbt:00005094	1.0
-PMC7316511	CO	FBbt:00005215	chordotonal organ	ch,FBbt:00005215,co,scolopophorous organ,sensilla scolopophora	1.0
-PMC7316511	Central nervous system (	FBbt:00005094	central nervous system	CNS,FBbt:00005094	1.0
-PMC7316511	D	FBbt:00048431	adult abdominal dorsal multidendritic neuron ddaC	D neuron,FBbt:00048431	0.8554139137268066
-PMC7316511	DBD	FBbt:00002442	abdominal dorsal bipolar neuron dbp	DLN,FBbt:00002442,dbd,dorsal bipolar dendrite neuron,dorsal bipolar neuron	1.0
-PMC7316511	DBDs	FBbt:00001318	support cell of the dorsal bipolar dendritic cell	DBD support glia,FBbt:00001318,DBDG,SDBP	1.0
-PMC7316511	Drosophila	FBbt:00000001	organism	Drosophila,FBbt:00000001,whole organism	1.0
-PMC7316511	GFP	FBbt:00001788	female genital primordium (male)	RFP,FBbt:00001788,male repressed primordium,repressed female genital primordium,rfp	1.0
-PMC7316511	Hugin	FBbt:00110925	Hugin neuron	Hug neuron,FBbt:00110925,Hugin cell	0.9603630304336548
-PMC7316511	ImageJ	FBbt:00003004	adult	imago,FBbt:00003004	0.9466856122016907
-PMC7316511	Intrinsic	FBbt:00003664	intrinsic neuron	local interneuron,FBbt:00003664	0.9547716975212097
-PMC7316511	Lott	FBbt:00000533	mesothoracic lateral oblique muscle cell	LO,FBbt:00000533	1.0
-PMC7316511	M	FBbt:00003597	obsolete abdominal 2 neuroblast medial cluster	m,FBbt:00003597	1.0
-PMC7316511	MA	FBbt:00004105	adult first abdominal nerve	Ab1Nv,FBbt:00004105,AbN1,MA,abdominal segment 1 nerve,accessory metathoracic nerve,metathoracic accessory nerve,nerve of the first abdominal segment	1.0
-PMC7316511	Muscle	FBbt:00003404	muscle cell of mesothoracic extracoxal depressor muscle 66	TDM,FBbt:00003404,TDT,extracoxal depressor of trochanter,jump muscle,tergal depressor of the trochanter muscle,tergal depressor of trochanter,tergotrochanter muscle,tergotrochanteral muscle,tt muscle	1.0
-PMC7316511	Muscle 4	FBbt:00000600	muscle cell of A1-7 lateral longitudinal muscle 1	A1-7 LL1,FBbt:00000600,A1-7 pl2,A1-7 pleural longitudinal 2,DILM,abdominal lateral longitudinal muscle,abdominal lateral longitudinal muscle 1,muscle 4,muscle 4 - dorso-lateral internal longitudinal	1.0
-PMC7316511	Muscle 6	FBbt:00000604	muscle cell of A1-7 ventral longitudinal muscle 3	A1-7 VL3,FBbt:00000604,A1-7 ventral internal oblique 2,A1-7 vio2,abdominal ventral longitudinal muscle 3,muscle 6,muscle 6 - ventral internal longitudinal	1.0
-PMC7316511	Muscle 7	FBbt:00000605	muscle cell of A1-7 ventral longitudinal muscle 4	A1-7 VL4,FBbt:00000605,A1-7 ventral internal oblique 3,A1-7 vio3,abdominal ventral longitudinal muscle 4,muscle 7,muscle 7 - ventral internal longitudinal	0.9999999403953552
-PMC7316511	Muscle 9	FBbt:00000609	muscle cell of A1-7 dorsal oblique muscle 1	A1-7 DO1,FBbt:00000609,A1-7 deo4,A1-7 dorsal external oblique 4,abdominal dorsal oblique muscle 1,muscle 9,muscle 9 - dorsal external oblique	1.0
-PMC7316511	Pharyngeal	FBbt:00001867	pharyngeal bar	T rib,FBbt:00001867,T-bar,pharyngeal rib,pharyngeal ridge	0.9014114141464233
-PMC7316511	Proboscis	FBbt:00003272	muscle cell of proboscis muscle 9	cibarial muscle 9,FBbt:00003272,lateral pharyngeal muscle,proboscis muscle m9,protractor of fulcrum,protractor of rostrum,retractor of fulcrum,rostral protractor,rostrum protractor muscle	0.863474428653717
-PMC7316511	Raw:	FBbt:00100211	cell body rind of adult antennal lobe	cortex of antennal lobe,FBbt:00100211,rAL	0.8900523781776428
-PMC7316511	SEZ	FBbt:00051068	subesophageal zone	SEZ,FBbt:00051068,subesophageal ganglion	1.0
-PMC7316511	TNT	FBbt:00001996	larval transverse nerve	TN,FBbt:00001996	0.8636366724967957
-PMC7316511	Type I	FBbt:00049368	adult lateral horn PD2a1 neuron	LHPD2a1,FBbt:00049368,ML9,adult LHPD2a1 neuron,adult PD2a1 neuron,adult posterior dorsal tract 2 neuron a1,type I	0.9999998807907104
-PMC7316511	accessory rostrum retractors	FBbt:00003263	muscle cell of proboscis muscle 2 dorsal	accessory retractor of rostrum,FBbt:00003263,maxillary retractor muscle,proboscis muscle 2,proboscis muscle 2-1,proboscis muscle m2D	0.9312063455581665
 PMC7316511	adult	FBbt:00003004	adult	imago,FBbt:00003004	1.0
 PMC7316511	aim	FBbt:00047891	maxillary anterior commissure	ISA,FBbt:00047891,aIMX,anterior intermediate commissure of maxillary neuromere,larval intermediate anterior subesophageal commissure	1.0
 PMC7316511	apodeme	FBbt:00001005	embryonic/larval apodeme	larval apodeme,FBbt:00001005	0.9240580201148987
 PMC7316511	appendage	FBbt:00000046	dorsal appendage	chorionic appendage,FBbt:00000046	0.8804709911346436
+PMC7316511	B	FBbt:00002345	abdominal desD neuron	b,FBbt:00002345,dc2,dp2,p9	1.0
 PMC7316511	base	FBbt:00110199	V1 segment of the vertical lobe	MB-V1,FBbt:00110199,base,larval LVL,larval lower vertical lobe	1.0
 PMC7316511	bitter	FBbt:00100044	high salt/bitter-sensing neuron	L2 GRN,FBbt:00100044,bitter neuron	0.9605289101600647
 PMC7316511	bouton	FBbt:00005116	bouton	synaptic bouton,FBbt:00005116,terminal bouton	0.9999999403953552
 PMC7316511	brain	FBbt:00110636	adult cerebral ganglion	CRG,FBbt:00110636,SPG,adult supraesophageal ganglion,brain,cerebrum	1.0
+PMC7316511	Central nervous system (	FBbt:00005094	central nervous system	CNS,FBbt:00005094	1.0
 PMC7316511	cerebral cortex	FBbt:00003625	adult brain cell body rind	adult brain cortex,FBbt:00003625,cerebral cortex	1.0
+PMC7316511	CNS	FBbt:00005094	central nervous system	CNS,FBbt:00005094	1.0
+PMC7316511	CO	FBbt:00005215	chordotonal organ	ch,FBbt:00005215,co,scolopophorous organ,sensilla scolopophora	1.0
 PMC7316511	cold	FBbt:00007576	aristal sensory neuron VP3	TRN_VP3,FBbt:00007576,VP3RNa,aristal neuron (VP3),cold aristal neuron,cold cell,cool aristal neuron,cool cell,cool thermoreceptor cells in the arista,cooling cell	0.8647245168685913
 PMC7316511	constriction	FBbt:00000458	embryonic midgut constriction 1	anterior constriction,FBbt:00000458	0.9075582027435303
 PMC7316511	cuticle	FBbt:00004983	embryonic/larval cuticle	larval cuticle,FBbt:00004983	0.8783736228942871
+PMC7316511	D	FBbt:00048431	adult abdominal dorsal multidendritic neuron ddaC	D neuron,FBbt:00048431	0.8554139137268066
+PMC7316511	DBD	FBbt:00002442	abdominal dorsal bipolar neuron dbp	DLN,FBbt:00002442,dbd,dorsal bipolar dendrite neuron,dorsal bipolar neuron	1.0
+PMC7316511	DBDs	FBbt:00001318	support cell of the dorsal bipolar dendritic cell	DBD support glia,FBbt:00001318,DBDG,SDBP	1.0
 PMC7316511	dendritic arbors	FBbt:00005111	dendritic tree	dendritic arbor,FBbt:00005111	0.9352812170982361
 PMC7316511	distal	FBbt:00048290	distal larval optic neuropil	LONd,FBbt:00048290,distal LON	0.8982616066932678
+PMC7316511	Drosophila	FBbt:00000001	organism	Drosophila,FBbt:00000001,whole organism	1.0
 PMC7316511	esophagus	FBbt:00005381	esophagus	oesophagus,FBbt:00005381	0.9999999403953552
 PMC7316511	external	FBbt:00005396	adult integumentary system	adult external,FBbt:00005396,adult integument	0.9493845105171204
 PMC7316511	eye	FBbt:00004508	eye	compound eye,FBbt:00004508	0.9999998807907104
@@ -51,6 +33,7 @@ PMC7316511	eye mechanosensory bristle	FBbt:00047346	mechanosensory neuron of int
 PMC7316511	female	FBbt:00110417	adult fruitless aDT-b (female) neuron	female aDT-b neuron,FBbt:00110417,female aDT2 neuron,female fru-mAL neuron,female mAL neuron	0.854278564453125
 PMC7316511	fibers	FBbt:00003635	adult protocerebral bridge 1 glomerulus-fan-shaped body-lateral accessory lobe neuron	HFS,FBbt:00003635,PFI neuron,heavy fibers,horizontal fiber system neuron,pb-fb-idfp neuron,pb-fb-vbo neuron	0.891213059425354
 PMC7316511	free	FBbt:00051234	adult fan-shaped body 1 column-rubus neuron	FB-RUB neuron,FBbt:00051234,FR	1.0
+PMC7316511	GFP	FBbt:00001788	female genital primordium (male)	RFP,FBbt:00001788,male repressed primordium,repressed female genital primordium,rfp	1.0
 PMC7316511	gnathal ganglion	FBbt:00004013	gnathal ganglion	GNG,FBbt:00004013,SEG,SOG,subesophageal ganglion,suboesophageal ganglion	0.9999999403953552
 PMC7316511	gustatory receptors	FBbt:00005927	gustatory receptor neuron	GRN,FBbt:00005927,GSN,gustatory sensory neuron	0.9175348281860352
 PMC7316511	haustellum	FBbt:00004541	haustellum	mediproboscis,FBbt:00004541	1.0
@@ -59,11 +42,14 @@ PMC7316511	haustellum flexor	FBbt:00003264	muscle cell of proboscis muscle 3	fle
 PMC7316511	haustellum joint	FBbt:00051176	rostrum-haustellum joint	basiproboscis-mediproboscis joint,FBbt:00051176,haustellum joint	1.0
 PMC7316511	head capsule	FBbt:00004482	head capsule	capsula,FBbt:00004482	1.0
 PMC7316511	horizontal	FBbt:00003920	ventral giant horizontal cell HSS	HS south,FBbt:00003920,HSS,ventral horizontal neuron	0.8870029449462891
+PMC7316511	Hugin	FBbt:00110925	Hugin neuron	Hug neuron,FBbt:00110925,Hugin cell	0.9603630304336548
 PMC7316511	humeral bristles	FBbt:00004249	humeral bristle	humeral seta,FBbt:00004249,postpronotal bristle	0.8882460594177246
 PMC7316511	image	FBbt:00003004	adult	imago,FBbt:00003004	0.9054219126701355
 PMC7316511	imaged	FBbt:00003004	adult	imago,FBbt:00003004	0.8784415125846863
+PMC7316511	ImageJ	FBbt:00003004	adult	imago,FBbt:00003004	0.9466856122016907
 PMC7316511	interneuron	FBbt:00001604	UMI interneuron	MP3 cell,FBbt:00001604,MP3 neuron,unpaired median interneuron	1.0
 PMC7316511	interneuronal	FBbt:00001604	UMI interneuron	MP3 cell,FBbt:00001604,MP3 neuron,unpaired median interneuron	0.8523295521736145
+PMC7316511	Intrinsic	FBbt:00003664	intrinsic neuron	local interneuron,FBbt:00003664	0.9547716975212097
 PMC7316511	junction	FBbt:00045009	pedunculus divide of adult mushroom body	PEDD,FBbt:00045009,heel,knee,lobe junction,pedunculus divide	0.8875904083251953
 PMC7316511	labella	FBbt:00004531	labellum	labella,FBbt:00004531,labial palpus,labium	0.9999999403953552
 PMC7316511	labellar	FBbt:00004531	labellum	labella,FBbt:00004531,labial palpus,labium	0.8511093258857727
@@ -72,7 +58,10 @@ PMC7316511	labial nerve	FBbt:00100333	labial nerve	LbN,FBbt:00100333	1.0
 PMC7316511	larval	FBbt:00005837	embryonic/larval neuromuscular junction	larval NMJ,FBbt:00005837,larval neuromuscular junction	0.9999999403953552
 PMC7316511	lateral	FBbt:00004044	LN period neuron	LC,FBbt:00004044,LN,LN per neuron,adult lateral neuron,lateral cell,lateral neuron	0.8629997968673706
 PMC7316511	lengths	FBbt:00000357	larval lateral E tracheal branch 6	LE6,FBbt:00000357	1.0
+PMC7316511	Lott	FBbt:00000533	mesothoracic lateral oblique muscle cell	LO,FBbt:00000533	1.0
+PMC7316511	M	FBbt:00003597	obsolete abdominal 2 neuroblast medial cluster	m,FBbt:00003597	1.0
 PMC7316511	m2D	FBbt:00048173	prothoracic leg tarsal taste bristle 2d (male)	m2d,FBbt:00048173	1.0
+PMC7316511	MA	FBbt:00004105	adult first abdominal nerve	Ab1Nv,FBbt:00004105,AbN1,MA,abdominal segment 1 nerve,accessory metathoracic nerve,metathoracic accessory nerve,nerve of the first abdominal segment	1.0
 PMC7316511	male	FBbt:00110579	adult fruitless aDT-b (male) neuron	male aDT-b neuron,FBbt:00110579,male aDT2 neuron,male fru-mAL neuron,male mAL neuron	0.9036915302276611
 PMC7316511	mechanosensory	FBbt:00049612	mechanosensory eo neuron	mechanosensory neuron of eo-type sensillum,FBbt:00049612	0.9720582365989685
 PMC7316511	mn9	FBbt:00100335	mandibular nerve	MnN,FBbt:00100335	1.0
@@ -81,11 +70,16 @@ PMC7316511	motor neuron(s)	FBbt:00001564	U neuron	U motor neuron,FBbt:00001564,U
 PMC7316511	motor neuron’s	FBbt:00001564	U neuron	U motor neuron,FBbt:00001564,U/CQ neuron	0.983456552028656
 PMC7316511	mouthparts	FBbt:00001845	cephalopharyngeal skeleton	CPS,FBbt:00001845,cephalo-pharyngeal skeleton,larval head skeleton,mouth parts	0.8856649398803711
 PMC7316511	muscle	FBbt:00003404	muscle cell of mesothoracic extracoxal depressor muscle 66	TDM,FBbt:00003404,TDT,extracoxal depressor of trochanter,jump muscle,tergal depressor of the trochanter muscle,tergal depressor of trochanter,tergotrochanter muscle,tergotrochanteral muscle,tt muscle	1.0
+PMC7316511	Muscle	FBbt:00003404	muscle cell of mesothoracic extracoxal depressor muscle 66	TDM,FBbt:00003404,TDT,extracoxal depressor of trochanter,jump muscle,tergal depressor of the trochanter muscle,tergal depressor of trochanter,tergotrochanter muscle,tergotrochanteral muscle,tt muscle	1.0
 PMC7316511	muscle 1	FBbt:00000591	muscle cell of A1-7 dorsal acute muscle 1	A1-7 DA1,FBbt:00000591,A1-7 DIOM 3,A1-7 dio3,A1-7 dorsal internal oblique 3,abdominal dorsal acute muscle 1,muscle 1,muscle 1 - dorsal internal oblique	1.0
 PMC7316511	muscle 10	FBbt:00000610	muscle cell of A1-7 dorsal oblique muscle 2	A1-7 DO2,FBbt:00000610,A1-7 deo3,A1-7 dorsal external oblique 3,abdominal dorsal oblique muscle 2,muscle 10,muscle 10 - dorsal external oblique	1.0
 PMC7316511	muscle 3	FBbt:00000593	muscle cell of A1-7 dorsal acute muscle 3	A1-7 DA3,FBbt:00000593,A1-7 dio1,A1-7 dorsal internal oblique 1,abdominal dorsal acute muscle 3,muscle 3,muscle 3 - dorsal internal oblique	1.0
+PMC7316511	Muscle 4	FBbt:00000600	muscle cell of A1-7 lateral longitudinal muscle 1	A1-7 LL1,FBbt:00000600,A1-7 pl2,A1-7 pleural longitudinal 2,DILM,abdominal lateral longitudinal muscle,abdominal lateral longitudinal muscle 1,muscle 4,muscle 4 - dorso-lateral internal longitudinal	1.0
 PMC7316511	muscle 4	FBbt:00000600	muscle cell of A1-7 lateral longitudinal muscle 1	A1-7 LL1,FBbt:00000600,A1-7 pl2,A1-7 pleural longitudinal 2,DILM,abdominal lateral longitudinal muscle,abdominal lateral longitudinal muscle 1,muscle 4,muscle 4 - dorso-lateral internal longitudinal	1.0
+PMC7316511	Muscle 6	FBbt:00000604	muscle cell of A1-7 ventral longitudinal muscle 3	A1-7 VL3,FBbt:00000604,A1-7 ventral internal oblique 2,A1-7 vio2,abdominal ventral longitudinal muscle 3,muscle 6,muscle 6 - ventral internal longitudinal	1.0
+PMC7316511	Muscle 7	FBbt:00000605	muscle cell of A1-7 ventral longitudinal muscle 4	A1-7 VL4,FBbt:00000605,A1-7 ventral internal oblique 3,A1-7 vio3,abdominal ventral longitudinal muscle 4,muscle 7,muscle 7 - ventral internal longitudinal	0.9999999403953552
 PMC7316511	muscle 7	FBbt:00000605	muscle cell of A1-7 ventral longitudinal muscle 4	A1-7 VL4,FBbt:00000605,A1-7 ventral internal oblique 3,A1-7 vio3,abdominal ventral longitudinal muscle 4,muscle 7,muscle 7 - ventral internal longitudinal	0.9999999403953552
+PMC7316511	Muscle 9	FBbt:00000609	muscle cell of A1-7 dorsal oblique muscle 1	A1-7 DO1,FBbt:00000609,A1-7 deo4,A1-7 dorsal external oblique 4,abdominal dorsal oblique muscle 1,muscle 9,muscle 9 - dorsal external oblique	1.0
 PMC7316511	muscle 9	FBbt:00000609	muscle cell of A1-7 dorsal oblique muscle 1	A1-7 DO1,FBbt:00000609,A1-7 deo4,A1-7 dorsal external oblique 4,abdominal dorsal oblique muscle 1,muscle 9,muscle 9 - dorsal external oblique	1.0
 PMC7316511	nervous system	FBbt:00001911	embryonic/larval nervous system	larval nervous system,FBbt:00001911	0.9345785975456238
 PMC7316511	neuromuscular junctions	FBbt:00005142	neuromuscular junction	NMJ,FBbt:00005142	0.8982986807823181
@@ -93,6 +87,7 @@ PMC7316511	neuron	FBbt:00001564	U neuron	U motor neuron,FBbt:00001564,U/CQ neuro
 PMC7316511	never	FBbt:00003122	lever of abdominal spiracle	lever,FBbt:00003122	0.8765758872032166
 PMC7316511	peptidergic	FBbt:00004101	peptidergic neuron	peptinergic neuron,FBbt:00004101	0.9724152088165283
 PMC7316511	pharyngeal	FBbt:00001867	pharyngeal bar	T rib,FBbt:00001867,T-bar,pharyngeal rib,pharyngeal ridge	0.9014114141464233
+PMC7316511	Pharyngeal	FBbt:00001867	pharyngeal bar	T rib,FBbt:00001867,T-bar,pharyngeal rib,pharyngeal ridge	0.9014114141464233
 PMC7316511	pharyngeal motor neuron	FBbt:00004023	proboscis muscle 11 dorsal motor neuron	MN11,FBbt:00004023,cibarial pump muscle 11 motor neuron,cibarial pump muscle neuron,pharyngeal motor neuron,proboscis motor neuron mn11D,procurrent nerve	1.0
 PMC7316511	pharyngeal motor neurons	FBbt:00004023	proboscis muscle 11 dorsal motor neuron	MN11,FBbt:00004023,cibarial pump muscle 11 motor neuron,cibarial pump muscle neuron,pharyngeal motor neuron,proboscis motor neuron mn11D,procurrent nerve	0.88468337059021
 PMC7316511	pharyngeal neuron	FBbt:00004023	proboscis muscle 11 dorsal motor neuron	MN11,FBbt:00004023,cibarial pump muscle 11 motor neuron,cibarial pump muscle neuron,pharyngeal motor neuron,proboscis motor neuron mn11D,procurrent nerve	0.8903353810310364
@@ -102,6 +97,7 @@ PMC7316511	pivots	FBbt:00047156	larval maxillary posterior intermediate commissu
 PMC7316511	plot rostrum	FBbt:00004540	rostrum	basiproboscis,FBbt:00004540	0.862320601940155
 PMC7316511	plots	FBbt:00007083	adult posterior lateral fascicle	PLF,FBbt:00007083,p l fasc	1.0
 PMC7316511	proboscis	FBbt:00003272	muscle cell of proboscis muscle 9	cibarial muscle 9,FBbt:00003272,lateral pharyngeal muscle,proboscis muscle m9,protractor of fulcrum,protractor of rostrum,retractor of fulcrum,rostral protractor,rostrum protractor muscle	0.863474428653717
+PMC7316511	Proboscis	FBbt:00003272	muscle cell of proboscis muscle 9	cibarial muscle 9,FBbt:00003272,lateral pharyngeal muscle,proboscis muscle m9,protractor of fulcrum,protractor of rostrum,retractor of fulcrum,rostral protractor,rostrum protractor muscle	0.863474428653717
 PMC7316511	proboscis joint	FBbt:00051174	proboscis joint	adult proboscis joint,FBbt:00051174,proboscis articulation	1.0
 PMC7316511	proboscis joints	FBbt:00051174	proboscis joint	adult proboscis joint,FBbt:00051174,proboscis articulation	0.9774217009544373
 PMC7316511	proboscis motor	FBbt:00111298	proboscis muscle 9 motor neuron	E49 motor neuron,FBbt:00111298,cibarial pump muscle 9 motor neuron,proboscis motor neuron mn9	0.9394237995147705
@@ -110,6 +106,7 @@ PMC7316511	proboscis muscles	FBbt:00003272	muscle cell of proboscis muscle 9	cib
 PMC7316511	proboscis ventral	FBbt:00004028	adult labial nerve	LN,FBbt:00004028,LbN,LbNv,labellar nerve,maxillar labellar nerve,maxillar labial nerve,maxillary-labial nerve,ventral proboscis nerve	0.8820376396179199
 PMC7316511	proximal	FBbt:00048292	proximal larval optic neuropil	LONp,FBbt:00048292,proximal LON	0.9270682334899902
 PMC7316511	pseudotrachea	FBbt:00004164	pseudotrachea	pseudotracheal ridge,FBbt:00004164,pseudotracheal row	1.0
+PMC7316511	Raw:	FBbt:00100211	cell body rind of adult antennal lobe	cortex of antennal lobe,FBbt:00100211,rAL	0.8900523781776428
 PMC7316511	rostrum	FBbt:00004540	rostrum	basiproboscis,FBbt:00004540	0.9999999403953552
 PMC7316511	rostrum joint	FBbt:00051175	head-rostrum joint	head-basiproboscis joint,FBbt:00051175,proximal joint of proboscis,rostrum joint	1.0
 PMC7316511	rostrum pivots	FBbt:00004540	rostrum	basiproboscis,FBbt:00004540	0.9238259792327881
@@ -120,11 +117,14 @@ PMC7316511	salivary	FBbt:00003134	salivary pump	Syr,FBbt:00003134,salivary valve
 PMC7316511	secondary	FBbt:00047096	secondary neuron	adult-specific neuron,FBbt:00047096,postembryonic neuron	0.9600140452384949
 PMC7316511	segment	FBbt:00111027	adult thoracic neuromere	TG segment,FBbt:00111027,adult thoracic ganglion segment	0.9999999403953552
 PMC7316511	segments	FBbt:00111027	adult thoracic neuromere	TG segment,FBbt:00111027,adult thoracic ganglion segment	0.9221962094306946
+PMC7316511	SEZ	FBbt:00051068	subesophageal zone	SEZ,FBbt:00051068,subesophageal ganglion	1.0
 PMC7316511	sub(o)esophageal ganglion	FBbt:00004013	gnathal ganglion	GNG,FBbt:00004013,SEG,SOG,subesophageal ganglion,suboesophageal ganglion	0.9342266917228699
 PMC7316511	subesophageal	FBbt:00047356	adult subesophageal lateral glial cell	SLG,FBbt:00047356,SLN,doublesex-expressing Subesophageal Lateral Neuron,dsx-SLN,dsx-expressing Subesophageal Lateral Neuron,subesophageal lateral neuron	0.9023123383522034
 PMC7316511	subesophageal zone	FBbt:00051068	subesophageal zone	SEZ,FBbt:00051068,subesophageal ganglion	0.9999999403953552
 PMC7316511	synaptic	FBbt:00005815	dense body	NMJ synaptic ribbon,FBbt:00005815	0.9042073488235474
 PMC7316511	tip	FBbt:00110197	V3 segment of the vertical lobe	MB-V3,FBbt:00110197,larval UVL,larval upper vertical lobe,tip	1.0
+PMC7316511	TNT	FBbt:00001996	larval transverse nerve	TN,FBbt:00001996	0.8636366724967957
+PMC7316511	Type I	FBbt:00049368	adult lateral horn PD2a1 neuron	LHPD2a1,FBbt:00049368,ML9,adult LHPD2a1 neuron,adult PD2a1 neuron,adult posterior dorsal tract 2 neuron a1,type I	0.9999998807907104
 PMC7316511	type II	FBbt:00049362	adult lateral horn AV6a1 neuron	L11,FBbt:00049362,L12,LHAV6a1,adult AV6a1 neuron,adult LHAV6a1 neuron,adult anterior ventral tract 6 neuron a1,type II	1.0
 PMC7316511	valve	FBbt:00001677	embryonic/larval ostium	embryonic/larval ostia,FBbt:00001677,larval ostia,lateral valve	0.8558350205421448
 PMC7316511	ventral nervous systems	FBbt:00005097	ventral nerve cord	ventral nervous system,FBbt:00005097	0.8982399702072144

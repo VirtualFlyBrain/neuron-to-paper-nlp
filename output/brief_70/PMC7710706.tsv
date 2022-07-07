@@ -3,17 +3,74 @@ PMC7710706	-12	FBbt:00049022	larval mushroom body one-step feedback neuron 15	CN
 PMC7710706	14B lineage	FBbt:00048934	lineage NB4-1 neuron	lineage 14 neuron,FBbt:00048934	0.7625318765640259
 PMC7710706	50-ms	FBbt:00000127	head mesoderm	HeadMes,FBbt:00000127,HeadMesP3,P4 HeadMes,head mesoderm P3 primordium,head mesoderm primordium P4,hms,procephalic mesoderm	0.7138830423355103
 PMC7710706	AD	FBbt:00047119	larval anterior dorsal commissure	aD,FBbt:00047119,larval antero-dorsal commissure	1.0
+PMC7710706	adult	FBbt:00003004	adult	imago,FBbt:00003004	1.0
 PMC7710706	AEP	FBbt:00045001	plexiform medulla	MEP,FBbt:00045001,PLME,medulla proper	0.8812693953514099
+PMC7710706	anatomical	FBbt:10000000	anatomical entity	Drosophila,FBbt:10000000	0.7242487072944641
+PMC7710706	Anterior	FBbt:00047207	adult midgut-hindgut hybrid zone	HPZ,FBbt:00047207,adult HZ,adult Wg ring,adult midgut-hindgut boundary,anterior SCZ,anterior spindle cell zone,hindgut proliferation zone,midgut/hindgut imaginal ring	0.8375430703163147
+PMC7710706	anti-HA Tag (	FBbt:00004052	adult ventral nerve cord	TAC,FBbt:00004052,TAG,adult ThGng,adult VNC,adult VNS,adult ventral nervous system,thoracico-abdominal center,thoracico-abdominal ganglia,thoracico-abdominal ganglion,thoracico-abdominal nervous system,thoracicoabdominal ganglion	0.7573705315589905
+PMC7710706	aperture	FBbt:00004525	prestomal cavity	prestomal aperture,FBbt:00004525	0.7069190144538879
+PMC7710706	ascending	FBbt:00110155	octopaminergic VUMa neuron	OA-VUMa,FBbt:00110155,SOG VUM neuron,VUM neuron of the subesophageal ganglion,ascending VUM neuron,subesophageal ganglion VUM neuron,subesophageal ganglion ventral unpaired median neuron,ventral unpaired median octopaminergic anterior neuron	0.841026782989502
+PMC7710706	bilaterally	FBbt:00049650	bilaterally projecting wind sensitive wedge projection neuron	WPNB,FBbt:00049650,bilaterally projecting WPN	0.7536142468452454
+PMC7710706	black	FBbt:00005199	Kolbchen	B,FBbt:00005199,Kolbchen, k,black dot,black organ,pit,ventral pit	0.8131770491600037
+PMC7710706	body	FBbt:00005107	cell body	soma,FBbt:00005107	0.7536259293556213
+PMC7710706	body wall	FBbt:00110299	hypodermal muscle cell of A1-7	body wall muscle,FBbt:00110299	0.8467459082603455
+PMC7710706	body-coxa	FBbt:00051076	body-coxa joint	proximal joint of coxa,FBbt:00051076	0.8048561811447144
+PMC7710706	Bottom right	FBbt:00051240	right asymmetrical body	AB(R),FBbt:00051240,right AB	0.7129877209663391
+PMC7710706	boundaries	FBbt:00110914	adult midgut constriction R0-R1	BR0-R1,FBbt:00110914,boundary R0-R1	0.7167174816131592
+PMC7710706	bouts	FBbt:00005116	bouton	synaptic bouton,FBbt:00005116,terminal bouton	0.7487436532974243
+PMC7710706	boxes	FBbt:00048272	wing margin mechanosensory bristle	Wes,FBbt:00048272,wing external sensillum	0.7286400198936462
+PMC7710706	brain	FBbt:00110636	adult cerebral ganglion	CRG,FBbt:00110636,SPG,adult supraesophageal ganglion,brain,cerebrum	1.0
 PMC7710706	CA	FBbt:00003685	mushroom body calyx	CA,FBbt:00003685,calyx,calyx of corpora pedunculata,calyx of mushroom body,main calyx	1.0
+PMC7710706	cell	FBbt:00004781	wing basal cell 1	C' cell,FBbt:00004781	1.0
+PMC7710706	central nervous system	FBbt:00005094	central nervous system	CNS,FBbt:00005094	1.0
+PMC7710706	central neurons	FBbt:00004046	LNv neuron	lateral neuron ventral,FBbt:00004046,ventral adult lateral neuron,ventral lateral neurons	0.7646285891532898
+PMC7710706	chamber	FBbt:00003157	adult heart chamber 1	Ht1,FBbt:00003157,chamber 1,conical chamber	0.9637370705604553
+PMC7710706	cholinergic	FBbt:00007403	cholinergic local interneuron of the adult antennal lobe	AL-LNC,FBbt:00007403,LNC,cholinergic adult AL LN	0.8401883840560913
+PMC7710706	class	FBbt:00100145	gustatory receptor neuron of the dorsal organ	DO class,FBbt:00100145	0.8016329407691956
 PMC7710706	CMOS	FBbt:00004906	centripetal follicle cell	CMFC,FBbt:00004906,centripetally migrating follicle cell,inwardly migrating follicle cell	0.7745294570922852
 PMC7710706	CNS	FBbt:00005094	central nervous system	CNS,FBbt:00005094	1.0
 PMC7710706	CO	FBbt:00005215	chordotonal organ	ch,FBbt:00005215,co,scolopophorous organ,sensilla scolopophora	1.0
+PMC7710706	command	FBbt:00110985	adult feeding interneuron	FDG neuron,FBbt:00110985,Fdg interneuron,feeding command neuron	0.7089091539382935
+PMC7710706	continuous	FBbt:00049644	adult continuous antennal lobe local neuron	adult continuous AL LN,FBbt:00049644,adult regional antennal lobe local neuron,lavish LN,regional ALLN	0.7935888171195984
+PMC7710706	contralateral	FBbt:00051484	medulla layer 6-contralateral ventral complex projection neuron	ML6-VMPR,FBbt:00051484,ML6-VMPR-s,i,MR6-VMPL,MR6-VMPL-s,i,contralateral MV neuron,long MV neuron	0.8600737452507019
+PMC7710706	coxa-trochanter	FBbt:00007661	prothoracic coxa-trochanter joint	GTr,FBbt:00007661,T1 JTr,distal joint of prothoracic coxa,proximal joint of prothoracic trochanter	0.7499092817306519
+PMC7710706	coxa-trochanter joint	FBbt:00007661	prothoracic coxa-trochanter joint	GTr,FBbt:00007661,T1 JTr,distal joint of prothoracic coxa,proximal joint of prothoracic trochanter	0.8856971263885498
 PMC7710706	CT	FBbt:00047137	wing neuropil	WTct,FBbt:00047137,wing tectulum	1.0
 PMC7710706	DBD	FBbt:00002442	abdominal dorsal bipolar neuron dbp	DLN,FBbt:00002442,dbd,dorsal bipolar dendrite neuron,dorsal bipolar neuron	1.0
+PMC7710706	descending	FBbt:00047511	adult descending neuron	DN,FBbt:00047511	0.9331408739089966
+PMC7710706	descending control	FBbt:00047511	adult descending neuron	DN,FBbt:00047511	0.7109503149986267
+PMC7710706	descending controls	FBbt:00047511	adult descending neuron	DN,FBbt:00047511	0.7229283452033997
+PMC7710706	descending inputs	FBbt:00047511	adult descending neuron	DN,FBbt:00047511	0.7449377775192261
+PMC7710706	descending neuron	FBbt:00047511	adult descending neuron	DN,FBbt:00047511	0.9652511477470398
+PMC7710706	descending neuron falls	FBbt:00047511	adult descending neuron	DN,FBbt:00047511	0.7651222944259644
+PMC7710706	descending neurons	FBbt:00047511	adult descending neuron	DN,FBbt:00047511	0.8253811597824097
+PMC7710706	descending neurons-a	FBbt:00047511	adult descending neuron	DN,FBbt:00047511	0.8259498476982117
+PMC7710706	directional	FBbt:00111066	medulla directional M6 local neuron	directional M6-LN,FBbt:00111066	0.7132564783096313
+PMC7710706	distal	FBbt:00048290	distal larval optic neuropil	LONd,FBbt:00048290,distal LON	0.8982616066932678
+PMC7710706	dorsal	FBbt:00003628	adult DN period neuron	DN period neuron,FBbt:00003628,adult dorsal neuron	0.8212167024612427
 PMC7710706	DPX	FBbt:00004055	adult dorsal prothoracic nerve	ADN,FBbt:00004055,DNv1,DPN,DProN,anterior dorsal nerve,first dorsal nerve	0.824222981929779
 PMC7710706	Drosophila	FBbt:00000001	organism	Drosophila,FBbt:00000001,whole organism	1.0
+PMC7710706	dyes	FBbt:00048272	wing margin mechanosensory bristle	Wes,FBbt:00048272,wing external sensillum	0.8384547829627991
+PMC7710706	eclosion	FBbt:00048095	eclosion hormone neuron	Eh neuron,FBbt:00048095	0.7478211522102356
+PMC7710706	excitatory	FBbt:00111729	larval excitatory interneuron eIN	eIN,FBbt:00111729,larval abdominal excitatory interneuron eIN	0.7448768615722656
+PMC7710706	expressing	FBbt:00001579	EG neuron	eg-expressing neuron,FBbt:00001579	0.791627824306488
+PMC7710706	external	FBbt:00005396	adult integumentary system	adult external,FBbt:00005396,adult integument	0.9493845105171204
+PMC7710706	e–h. f	FBbt:00111518	adult female ppk25 neuron	F cell,FBbt:00111518	0.7100082635879517
+PMC7710706	F	FBbt:00111518	adult female ppk25 neuron	F cell,FBbt:00111518	0.7100082635879517
+PMC7710706	F foreleg	FBbt:00004663	prothoracic leg	T1 leg,FBbt:00004663,first leg,foreleg	0.916513204574585
+PMC7710706	feedforward	FBbt:00047192	larval feedforward local interneuron	iLN,FBbt:00047192	0.7720366716384888
 PMC7710706	Feedforward	FBbt:00047192	larval feedforward local interneuron	iLN,FBbt:00047192	0.7720366716384888
+PMC7710706	female	FBbt:00110417	adult fruitless aDT-b (female) neuron	female aDT-b neuron,FBbt:00110417,female aDT2 neuron,female fru-mAL neuron,female mAL neuron	0.854278564453125
 PMC7710706	Femur	FBbt:00004667	prothoracic femur	T1 femur,FBbt:00004667	0.8841272592544556
+PMC7710706	femur	FBbt:00004667	prothoracic femur	T1 femur,FBbt:00004667	0.8841272592544556
+PMC7710706	femur-tibia	FBbt:00051083	prothoracic femur-tibia joint	T1 femur-tibia joint,FBbt:00051083	0.8012921214103699
+PMC7710706	femur-tibia angle	FBbt:00051083	prothoracic femur-tibia joint	T1 femur-tibia joint,FBbt:00051083	0.7353896498680115
+PMC7710706	femur-tibia joint	FBbt:00051083	prothoracic femur-tibia joint	T1 femur-tibia joint,FBbt:00051083	0.9467273950576782
+PMC7710706	femur-tibia joint angle	FBbt:00051083	prothoracic femur-tibia joint	T1 femur-tibia joint,FBbt:00051083	0.8889795541763306
+PMC7710706	femur-tibia joint angle change	FBbt:00051083	prothoracic femur-tibia joint	T1 femur-tibia joint,FBbt:00051083	0.7733722925186157
+PMC7710706	femur-tibia joint angles	FBbt:00051083	prothoracic femur-tibia joint	T1 femur-tibia joint,FBbt:00051083	0.8480541110038757
+PMC7710706	femur-tibia joints	FBbt:00051083	prothoracic femur-tibia joint	T1 femur-tibia joint,FBbt:00051083	0.9309054017066956
+PMC7710706	fiber	FBbt:00005074	muscle cell	muscle fiber,FBbt:00005074,myofiber,myofibril	0.7998383641242981
 PMC7710706	Fig 1	FBbt:00001311	interface glial cell	IG,FBbt:00001311,longitudinal glia,longitudinal glial cell,neuropil cover glia	0.7392475008964539
 PMC7710706	Fig 1a	FBbt:00100416	larval antennal lobe glomerulus 1a	1a,FBbt:00100416	0.7288652658462524
 PMC7710706	Fig 1i	FBbt:00001311	interface glial cell	IG,FBbt:00001311,longitudinal glia,longitudinal glial cell,neuropil cover glia	0.8097838759422302
@@ -40,96 +97,12 @@ PMC7710706	Fig 7d	FBbt:00001311	interface glial cell	IG,FBbt:00001311,longitudin
 PMC7710706	Fig 7e	FBbt:00001311	interface glial cell	IG,FBbt:00001311,longitudinal glia,longitudinal glial cell,neuropil cover glia	0.8097838759422302
 PMC7710706	Fig 7f	FBbt:00001311	interface glial cell	IG,FBbt:00001311,longitudinal glia,longitudinal glial cell,neuropil cover glia	0.8097838759422302
 PMC7710706	Fig 7g	FBbt:00001311	interface glial cell	IG,FBbt:00001311,longitudinal glia,longitudinal glial cell,neuropil cover glia	0.8097838759422302
-PMC7710706	GFP	FBbt:00001788	female genital primordium (male)	RFP,FBbt:00001788,male repressed primordium,repressed female genital primordium,rfp	1.0
-PMC7710706	JFRC2013	FBbt:00002013	lesB neuron	les B,FBbt:00002013	0.720901608467102
-PMC7710706	JK22c	FBbt:00100398	larval antennal lobe glomerulus 22c	22c,FBbt:00100398	0.8626282811164856
-PMC7710706	JRC2017	FBbt:20002017	adult posterior slope neuron 262	PS262,FBbt:20002017,adult PS262 neuron	0.7190917134284973
-PMC7710706	Japan	FBbt:00001969	larval papilla nerve	SNIV,FBbt:00001969,pan,sensory nerve IV	0.7872804403305054
-PMC7710706	LED	FBbt:00000357	larval lateral E tracheal branch 6	LE6,FBbt:00000357	0.7371352314949036
-PMC7710706	LEDs	FBbt:00000357	larval lateral E tracheal branch 6	LE6,FBbt:00000357	1.0
-PMC7710706	LUL130	FBbt:00051127	adult prothoracic LUL130 neuron	adult MT107 neuron,FBbt:00051127	0.7739548683166504
-PMC7710706	LUL130’s	FBbt:00051127	adult prothoracic LUL130 neuron	adult MT107 neuron,FBbt:00051127	0.7352829575538635
-PMC7710706	MAN	FBbt:00111307	adult moonwalker ascending neuron	MAN neuron,FBbt:00111307	0.9142823219299316
-PMC7710706	MCFO	FBbt:00001631	medial cervical tract	MCT,FBbt:00001631	0.8614316582679749
-PMC7710706	MCFOs	FBbt:00001631	medial cervical tract	MCT,FBbt:00001631	0.8614316582679749
-PMC7710706	MDN	FBbt:00111308	adult moonwalker descending neuron	MDN,FBbt:00111308,MDN neuron	1.0
-PMC7710706	MDNs	FBbt:00047544	median dorsal abdominal tract	MDA,FBbt:00047544,MDT	0.750765323638916
-PMC7710706	MF01	FBbt:00051089	adult LBL40 neuron of ventral nerve cord	adult MF01 neuron,FBbt:00051089,adult MT315 neuron	0.8151183724403381
-PMC7710706	MF09	FBbt:00051097	adult LUL130 neuron of ventral nerve cord	adult MF09 neuron,FBbt:00051097	0.8171772360801697
-PMC7710706	MF13	FBbt:00051101	adult LBL52 neuron of ventral nerve cord	adult MF13 neuron,FBbt:00051101	0.8846511244773865
-PMC7710706	MF14	FBbt:00051102	adult LUL152 neuron of ventral nerve cord	adult MF14 neuron,FBbt:00051102	0.8852294087409973
-PMC7710706	MF25	FBbt:00051113	adult LBA22 neuron of ventral nerve cord	adult MF25 neuron,FBbt:00051113	0.886004626750946
-PMC7710706	MF33	FBbt:00051121	adult LUM9 neuron of ventral nerve cord	adult MF33 neuron,FBbt:00051121	0.8169223070144653
-PMC7710706	MT	FBbt:00003836	medullary tangential neuron	Mt,FBbt:00003836	1.0
-PMC7710706	MT315	FBbt:00051089	adult LBL40 neuron of ventral nerve cord	adult MF01 neuron,FBbt:00051089,adult MT315 neuron	0.9057093262672424
-PMC7710706	MT323	FBbt:00051162	adult metathoracic LUL130 neuron	adult MT323 neuron,FBbt:00051162	0.9063612818717957
-PMC7710706	Moonwalker Descending Neurons	FBbt:00111308	adult moonwalker descending neuron	MDN,FBbt:00111308,MDN neuron	0.878943681716919
-PMC7710706	PMT	FBbt:00005560	posterior endoderm	P2 postEndo,FBbt:00005560,PMG,postEndo,postEndoP2,postMGRudP2,posterior endoderm primordium P2,posterior midgut primordium rudiment,posterior midgut rudiment	1.0
-PMC7710706	PMTs	FBbt:00005560	posterior endoderm	P2 postEndo,FBbt:00005560,PMG,postEndo,postEndoP2,postMGRudP2,posterior endoderm primordium P2,posterior midgut primordium rudiment,posterior midgut rudiment	1.0
-PMC7710706	RFP	FBbt:00001788	female genital primordium (male)	RFP,FBbt:00001788,male repressed primordium,repressed female genital primordium,rfp	1.0
-PMC7710706	ROI	FBbt:00048509	adult round body	RB,FBbt:00048509,ROB	0.781345009803772
-PMC7710706	SS47938	FBbt:00047938	antennal lobe VUMa5 neuron	AL-VUMa5,FBbt:00047938	0.8605426549911499
-PMC7710706	T1	FBbt:00000017	prothoracic segment	prothorax,FBbt:00000017,t1,thoracic segment 1	1.0
-PMC7710706	T2	FBbt:00000018	mesothoracic segment	mesothorax,FBbt:00000018,t2,thoracic segment 2	1.0
-PMC7710706	T3	FBbt:00000019	metathoracic segment	metathorax,FBbt:00000019,t3,thoracic segment 3	1.0
-PMC7710706	T3 neuropils	FBbt:00045030	superior neuropils	SNP,FBbt:00045030,superior protocerebrum	0.710902750492096
-PMC7710706	TES	FBbt:00048282	adult thoracic mechanosensory chaeta	Tes,FBbt:00048282,thoracic external sensillum	1.0
-PMC7710706	TNT	FBbt:00001996	larval transverse nerve	TN,FBbt:00001996	0.8636366724967957
-PMC7710706	Tag	FBbt:00004052	adult ventral nerve cord	TAC,FBbt:00004052,TAG,adult ThGng,adult VNC,adult VNS,adult ventral nervous system,thoracico-abdominal center,thoracico-abdominal ganglia,thoracico-abdominal ganglion,thoracico-abdominal nervous system,thoracicoabdominal ganglion	0.9999999403953552
-PMC7710706	Tibia	FBbt:00004665	prothoracic tibia	T1 tibia,FBbt:00004665	0.8675435781478882
-PMC7710706	USB3	FBbt:00000343	larval fat body tracheal branch 3	FB3,FBbt:00000343	0.951335072517395
-PMC7710706	VNC	FBbt:00001102	larval ventral nerve cord	larval ventral ganglion,FBbt:00001102,ventral cord,vnc	1.0
-PMC7710706	VT	FBbt:00000508	prothoracic ventral transverse muscle cell	VT,FBbt:00000508	1.0
-PMC7710706	Vieworks	FBbt:00000572	muscle cell of metathoracic ventral oblique muscle 3	VO3,FBbt:00000572,ventral internal oblique muscle,vio3	0.7088132500648499
-PMC7710706	adult	FBbt:00003004	adult	imago,FBbt:00003004	1.0
-PMC7710706	anatomical	FBbt:10000000	anatomical entity	Drosophila,FBbt:10000000	0.7242487072944641
-PMC7710706	anti-HA Tag (	FBbt:00004052	adult ventral nerve cord	TAC,FBbt:00004052,TAG,adult ThGng,adult VNC,adult VNS,adult ventral nervous system,thoracico-abdominal center,thoracico-abdominal ganglia,thoracico-abdominal ganglion,thoracico-abdominal nervous system,thoracicoabdominal ganglion	0.7573705315589905
-PMC7710706	aperture	FBbt:00004525	prestomal cavity	prestomal aperture,FBbt:00004525	0.7069190144538879
-PMC7710706	ascending	FBbt:00110155	octopaminergic VUMa neuron	OA-VUMa,FBbt:00110155,SOG VUM neuron,VUM neuron of the subesophageal ganglion,ascending VUM neuron,subesophageal ganglion VUM neuron,subesophageal ganglion ventral unpaired median neuron,ventral unpaired median octopaminergic anterior neuron	0.841026782989502
-PMC7710706	bilaterally	FBbt:00049650	bilaterally projecting wind sensitive wedge projection neuron	WPNB,FBbt:00049650,bilaterally projecting WPN	0.7536142468452454
-PMC7710706	body	FBbt:00005107	cell body	soma,FBbt:00005107	0.7536259293556213
-PMC7710706	body wall	FBbt:00110299	hypodermal muscle cell of A1-7	body wall muscle,FBbt:00110299	0.8467459082603455
-PMC7710706	body-coxa	FBbt:00051076	body-coxa joint	proximal joint of coxa,FBbt:00051076	0.8048561811447144
-PMC7710706	boundaries	FBbt:00110914	adult midgut constriction R0-R1	BR0-R1,FBbt:00110914,boundary R0-R1	0.7167174816131592
-PMC7710706	bouts	FBbt:00005116	bouton	synaptic bouton,FBbt:00005116,terminal bouton	0.7487436532974243
-PMC7710706	brain	FBbt:00110636	adult cerebral ganglion	CRG,FBbt:00110636,SPG,adult supraesophageal ganglion,brain,cerebrum	1.0
-PMC7710706	cell	FBbt:00004781	wing basal cell 1	C' cell,FBbt:00004781	1.0
-PMC7710706	central nervous system	FBbt:00005094	central nervous system	CNS,FBbt:00005094	1.0
-PMC7710706	central neurons	FBbt:00004046	LNv neuron	lateral neuron ventral,FBbt:00004046,ventral adult lateral neuron,ventral lateral neurons	0.7646285891532898
-PMC7710706	chamber	FBbt:00003157	adult heart chamber 1	Ht1,FBbt:00003157,chamber 1,conical chamber	0.9637370705604553
-PMC7710706	cholinergic	FBbt:00007403	cholinergic local interneuron of the adult antennal lobe	AL-LNC,FBbt:00007403,LNC,cholinergic adult AL LN	0.8401883840560913
-PMC7710706	class	FBbt:00100145	gustatory receptor neuron of the dorsal organ	DO class,FBbt:00100145	0.8016329407691956
-PMC7710706	command	FBbt:00110985	adult feeding interneuron	FDG neuron,FBbt:00110985,Fdg interneuron,feeding command neuron	0.7089091539382935
-PMC7710706	coxa-trochanter	FBbt:00007661	prothoracic coxa-trochanter joint	GTr,FBbt:00007661,T1 JTr,distal joint of prothoracic coxa,proximal joint of prothoracic trochanter	0.7499092817306519
-PMC7710706	coxa-trochanter joint	FBbt:00007661	prothoracic coxa-trochanter joint	GTr,FBbt:00007661,T1 JTr,distal joint of prothoracic coxa,proximal joint of prothoracic trochanter	0.8856971263885498
-PMC7710706	descending	FBbt:00047511	adult descending neuron	DN,FBbt:00047511	0.9331408739089966
-PMC7710706	descending control	FBbt:00047511	adult descending neuron	DN,FBbt:00047511	0.7109503149986267
-PMC7710706	descending controls	FBbt:00047511	adult descending neuron	DN,FBbt:00047511	0.7229283452033997
-PMC7710706	descending inputs	FBbt:00047511	adult descending neuron	DN,FBbt:00047511	0.7449377775192261
-PMC7710706	descending neuron	FBbt:00047511	adult descending neuron	DN,FBbt:00047511	0.9652511477470398
-PMC7710706	descending neuron falls	FBbt:00047511	adult descending neuron	DN,FBbt:00047511	0.7651222944259644
-PMC7710706	descending neurons	FBbt:00047511	adult descending neuron	DN,FBbt:00047511	0.8253811597824097
-PMC7710706	descending neurons-a	FBbt:00047511	adult descending neuron	DN,FBbt:00047511	0.8259498476982117
-PMC7710706	directional	FBbt:00111066	medulla directional M6 local neuron	directional M6-LN,FBbt:00111066	0.7132564783096313
-PMC7710706	distal	FBbt:00048290	distal larval optic neuropil	LONd,FBbt:00048290,distal LON	0.8982616066932678
-PMC7710706	dyes	FBbt:00048272	wing margin mechanosensory bristle	Wes,FBbt:00048272,wing external sensillum	0.8384547829627991
-PMC7710706	eclosion	FBbt:00048095	eclosion hormone neuron	Eh neuron,FBbt:00048095	0.7478211522102356
-PMC7710706	excitatory	FBbt:00111729	larval excitatory interneuron eIN	eIN,FBbt:00111729,larval abdominal excitatory interneuron eIN	0.7448768615722656
-PMC7710706	external	FBbt:00005396	adult integumentary system	adult external,FBbt:00005396,adult integument	0.9493845105171204
-PMC7710706	feedforward	FBbt:00047192	larval feedforward local interneuron	iLN,FBbt:00047192	0.7720366716384888
-PMC7710706	female	FBbt:00110417	adult fruitless aDT-b (female) neuron	female aDT-b neuron,FBbt:00110417,female aDT2 neuron,female fru-mAL neuron,female mAL neuron	0.854278564453125
-PMC7710706	femur	FBbt:00004667	prothoracic femur	T1 femur,FBbt:00004667	0.8841272592544556
-PMC7710706	femur-tibia	FBbt:00051083	prothoracic femur-tibia joint	T1 femur-tibia joint,FBbt:00051083	0.8012921214103699
-PMC7710706	femur-tibia angle	FBbt:00051083	prothoracic femur-tibia joint	T1 femur-tibia joint,FBbt:00051083	0.7353896498680115
-PMC7710706	femur-tibia joint	FBbt:00051083	prothoracic femur-tibia joint	T1 femur-tibia joint,FBbt:00051083	0.9467273950576782
-PMC7710706	femur-tibia joint angle	FBbt:00051083	prothoracic femur-tibia joint	T1 femur-tibia joint,FBbt:00051083	0.8889795541763306
-PMC7710706	femur-tibia joint angles	FBbt:00051083	prothoracic femur-tibia joint	T1 femur-tibia joint,FBbt:00051083	0.8480541110038757
-PMC7710706	femur-tibia joints	FBbt:00051083	prothoracic femur-tibia joint	T1 femur-tibia joint,FBbt:00051083	0.9309054017066956
-PMC7710706	fiber	FBbt:00005074	muscle cell	muscle fiber,FBbt:00005074,myofiber,myofibril	0.7998383641242981
 PMC7710706	fly’s	FBbt:00007529	adult lateral fan-shaped body tangential neuron Fl1	Fl1,FBbt:00007529,lateral fan-shaped neuron Fl1	0.7728031873703003
 PMC7710706	forceps	FBbt:00004843	surstylus	clasper,FBbt:00004843,coxopodite,forceps,inner lobe of tergite 9,primary clasper	0.9999999403953552
+PMC7710706	foreleg	FBbt:00004663	prothoracic leg	T1 leg,FBbt:00004663,first leg,foreleg	1.0
 PMC7710706	foreleg joints	FBbt:00004663	prothoracic leg	T1 leg,FBbt:00004663,first leg,foreleg	0.8113467693328857
 PMC7710706	forelegs	FBbt:00004663	prothoracic leg	T1 leg,FBbt:00004663,first leg,foreleg	0.8351249098777771
+PMC7710706	GFP	FBbt:00001788	female genital primordium (male)	RFP,FBbt:00001788,male repressed primordium,repressed female genital primordium,rfp	1.0
 PMC7710706	glutamatergic neurons	FBbt:00110138	glutamatergic local interneuron of the adult antennal lobe	glutamatergic adult AL LN,FBbt:00110138	0.7682322263717651
 PMC7710706	group	FBbt:00004103	ventral group vA neuron	VA neuron,FBbt:00004103,vA neuron,ventral-abdominal neuron	0.7332032918930054
 PMC7710706	hindleg	FBbt:00004707	metathoracic leg	T3 leg,FBbt:00004707,hindleg,third leg	1.0
@@ -144,12 +117,26 @@ PMC7710706	imaging	FBbt:00003004	adult	imago,FBbt:00003004	0.7125100493431091
 PMC7710706	input	FBbt:00049427	adult lateral horn input neuron	adult LH input neuron,FBbt:00049427,adult LHIN,adult lateral horn input PN	0.7806375026702881
 PMC7710706	inputs	FBbt:00049427	adult lateral horn input neuron	adult LH input neuron,FBbt:00049427,adult LHIN,adult lateral horn input PN	0.7209688425064087
 PMC7710706	interneurons	FBbt:00001604	UMI interneuron	MP3 cell,FBbt:00001604,MP3 neuron,unpaired median interneuron	0.7384823560714722
+PMC7710706	intersegmental	FBbt:00048088	adult intersegmental mechanosensory system neuron	intersegmental neuron,FBbt:00048088	0.9667149186134338
+PMC7710706	ipsi	FBbt:00111239	larval Ipsigoro neuron	Ipsi DN,FBbt:00111239	0.835811972618103
+PMC7710706	ipsilateral	FBbt:00007426	fascicle	ipsilateral tract,FBbt:00007426	0.8716837167739868
+PMC7710706	Japan	FBbt:00001969	larval papilla nerve	SNIV,FBbt:00001969,pan,sensory nerve IV	0.7872804403305054
+PMC7710706	JFRC2013	FBbt:00002013	lesB neuron	les B,FBbt:00002013	0.720901608467102
+PMC7710706	JK22c	FBbt:00100398	larval antennal lobe glomerulus 22c	22c,FBbt:00100398	0.8626282811164856
+PMC7710706	Joint	FBbt:00004645	leg joint	adult leg joint,FBbt:00004645,leg articulation	0.7997356653213501
 PMC7710706	joint	FBbt:00004645	leg joint	adult leg joint,FBbt:00004645,leg articulation	0.7997356653213501
 PMC7710706	joints	FBbt:00004645	leg joint	adult leg joint,FBbt:00004645,leg articulation	0.7516193389892578
+PMC7710706	JRC2017	FBbt:20002017	adult posterior slope neuron 262	PS262,FBbt:20002017,adult PS262 neuron	0.7190917134284973
+PMC7710706	L left	FBbt:00051239	left asymmetrical body	AB(L),FBbt:00051239,left AB	0.8464850783348083
 PMC7710706	larvae	FBbt:00005837	embryonic/larval neuromuscular junction	larval NMJ,FBbt:00005837,larval neuromuscular junction	0.8501152396202087
 PMC7710706	larval	FBbt:00005837	embryonic/larval neuromuscular junction	larval NMJ,FBbt:00005837,larval neuromuscular junction	0.9999999403953552
 PMC7710706	lateral	FBbt:00004044	LN period neuron	LC,FBbt:00004044,LN,LN per neuron,adult lateral neuron,lateral cell,lateral neuron	0.8629997968673706
+PMC7710706	LED	FBbt:00000357	larval lateral E tracheal branch 6	LE6,FBbt:00000357	0.7371352314949036
+PMC7710706	LEDs	FBbt:00000357	larval lateral E tracheal branch 6	LE6,FBbt:00000357	1.0
+PMC7710706	Left	FBbt:00051239	left asymmetrical body	AB(L),FBbt:00051239,left AB	0.8464850783348083
+PMC7710706	left	FBbt:00051239	left asymmetrical body	AB(L),FBbt:00051239,left AB	0.8464850783348083
 PMC7710706	leg	FBbt:00004663	prothoracic leg	T1 leg,FBbt:00004663,first leg,foreleg	0.7618003487586975
+PMC7710706	Leg	FBbt:00004663	prothoracic leg	T1 leg,FBbt:00004663,first leg,foreleg	0.7618003487586975
 PMC7710706	leg joint	FBbt:00004645	leg joint	adult leg joint,FBbt:00004645,leg articulation	1.0
 PMC7710706	leg joints	FBbt:00004645	leg joint	adult leg joint,FBbt:00004645,leg articulation	0.9619534015655518
 PMC7710706	leg muscle	FBbt:00003404	muscle cell of mesothoracic extracoxal depressor muscle 66	TDM,FBbt:00003404,TDT,extracoxal depressor of trochanter,jump muscle,tergal depressor of the trochanter muscle,tergal depressor of trochanter,tergotrochanter muscle,tergotrochanteral muscle,tt muscle	0.7033498287200928
@@ -157,16 +144,40 @@ PMC7710706	leg neuropils	FBbt:00047139	adult leg neuropil	adult leg neuromere,FB
 PMC7710706	legs	FBbt:00006049	escort cell	EC,FBbt:00006049,IGS,inner germarial sheath cell,inner germarium sheath cell,inner sheath cell	0.7248499989509583
 PMC7710706	lens	FBbt:00004199	lens	corneal lens,FBbt:00004199	1.0
 PMC7710706	level	FBbt:00041000	synaptic neuropil block	level 1 neuropil,FBbt:00041000	0.7137299180030823
+PMC7710706	LF	FBbt:00000362	larval lateral F tracheal branch	LF,FBbt:00000362,f branch	1.0
 PMC7710706	line segment	FBbt:00111027	adult thoracic neuromere	TG segment,FBbt:00111027,adult thoracic ganglion segment	0.810918390750885
+PMC7710706	LM	FBbt:00003326	intracoxal levator muscle cell	trlm,FBbt:00003326,trochanter levator muscle	0.8897895216941833
 PMC7710706	local	FBbt:00051493	local neuron	local interneuron,FBbt:00051493	0.9154924154281616
 PMC7710706	lower	FBbt:00110191	lower toe of larval mushroom body medial lobe	MAML,FBbt:00110191,MB-MA,axonal side branches,bulbous swelling,lower toe,ma,medial appendix of larval mushroom body	0.8997003436088562
+PMC7710706	LUL130	FBbt:00051127	adult prothoracic LUL130 neuron	adult MT107 neuron,FBbt:00051127	0.7739548683166504
+PMC7710706	LUL130’s	FBbt:00051127	adult prothoracic LUL130 neuron	adult MT107 neuron,FBbt:00051127	0.7352829575538635
+PMC7710706	M midleg	FBbt:00004685	mesothoracic leg	T2 leg,FBbt:00004685,middle leg,midleg,second leg	0.8700780272483826
+PMC7710706	MAN	FBbt:00111307	adult moonwalker ascending neuron	MAN neuron,FBbt:00111307	0.9142823219299316
+PMC7710706	MCFO	FBbt:00001631	medial cervical tract	MCT,FBbt:00001631	0.8614316582679749
+PMC7710706	MCFOs	FBbt:00001631	medial cervical tract	MCT,FBbt:00001631	0.8614316582679749
+PMC7710706	MDN	FBbt:00111308	adult moonwalker descending neuron	MDN,FBbt:00111308,MDN neuron	1.0
+PMC7710706	MDNs	FBbt:00047544	median dorsal abdominal tract	MDA,FBbt:00047544,MDT	0.750765323638916
 PMC7710706	mechanosensory	FBbt:00049612	mechanosensory eo neuron	mechanosensory neuron of eo-type sensillum,FBbt:00049612	0.9720582365989685
 PMC7710706	metal	FBbt:00004096	adult metathoracic leg nerve	MLN,FBbt:00004096,MetaLN,T3LN,VNv3,third leg nerve,third ventral nerve,ventral metathoracic nerve	0.812300980091095
+PMC7710706	MF01	FBbt:00051089	adult LBL40 neuron of ventral nerve cord	adult MF01 neuron,FBbt:00051089,adult MT315 neuron	0.8151183724403381
+PMC7710706	MF09	FBbt:00051097	adult LUL130 neuron of ventral nerve cord	adult MF09 neuron,FBbt:00051097	0.8171772360801697
+PMC7710706	MF13	FBbt:00051101	adult LBL52 neuron of ventral nerve cord	adult MF13 neuron,FBbt:00051101	0.8846511244773865
+PMC7710706	MF14	FBbt:00051102	adult LUL152 neuron of ventral nerve cord	adult MF14 neuron,FBbt:00051102	0.8852294087409973
+PMC7710706	MF25	FBbt:00051113	adult LBA22 neuron of ventral nerve cord	adult MF25 neuron,FBbt:00051113	0.886004626750946
+PMC7710706	MF33	FBbt:00051121	adult LUM9 neuron of ventral nerve cord	adult MF33 neuron,FBbt:00051121	0.8169223070144653
+PMC7710706	middle	FBbt:00047108	middle midgut	acid zone,FBbt:00047108	0.8169605135917664
 PMC7710706	midleg	FBbt:00004685	mesothoracic leg	T2 leg,FBbt:00004685,middle leg,midleg,second leg	1.0
 PMC7710706	midlegs	FBbt:00004685	mesothoracic leg	T2 leg,FBbt:00004685,middle leg,midleg,second leg	0.7744028568267822
 PMC7710706	minimal femur-tibia joint angle	FBbt:00051083	prothoracic femur-tibia joint	T1 femur-tibia joint,FBbt:00051083	0.8104382157325745
+PMC7710706	Minimum femur-tibia joint angles	FBbt:00051083	prothoracic femur-tibia joint	T1 femur-tibia joint,FBbt:00051083	0.7995338439941406
 PMC7710706	mobility	FBbt:00048012	adult capability neuron	adult Capa neuron,FBbt:00048012	0.7859575748443604
+PMC7710706	Moonwalker Descending Neurons	FBbt:00111308	adult moonwalker descending neuron	MDN,FBbt:00111308,MDN neuron	0.878943681716919
 PMC7710706	motor neuron	FBbt:00001564	U neuron	U motor neuron,FBbt:00001564,U/CQ neuron	1.0
+PMC7710706	motor neuron type	FBbt:00052011	adult type II motor neuron	adult muscle Tdc2N,FBbt:00052011	0.8183459043502808
+PMC7710706	MT	FBbt:00003836	medullary tangential neuron	Mt,FBbt:00003836	1.0
+PMC7710706	MT cell	FBbt:00004781	wing basal cell 1	C' cell,FBbt:00004781	0.7340865135192871
+PMC7710706	MT315	FBbt:00051089	adult LBL40 neuron of ventral nerve cord	adult MF01 neuron,FBbt:00051089,adult MT315 neuron	0.9057093262672424
+PMC7710706	MT323	FBbt:00051162	adult metathoracic LUL130 neuron	adult MT323 neuron,FBbt:00051162	0.9063612818717957
 PMC7710706	multiple	FBbt:00049954	multiple zone Johnston organ neuron	JO-mz,FBbt:00049954,multiple zone JON	0.764741063117981
 PMC7710706	muscle	FBbt:00003404	muscle cell of mesothoracic extracoxal depressor muscle 66	TDM,FBbt:00003404,TDT,extracoxal depressor of trochanter,jump muscle,tergal depressor of the trochanter muscle,tergal depressor of trochanter,tergotrochanter muscle,tergotrochanteral muscle,tt muscle	1.0
 PMC7710706	nc82	FBbt:00004908	stretch follicle cell	NCFC,FBbt:00004908,nurse cell follicle cell,nurse follicle cell,squamous follicle cell,stretch cell,stretched follicle cell	0.821789026260376
@@ -174,6 +185,7 @@ PMC7710706	neuron	FBbt:00001564	U neuron	U motor neuron,FBbt:00001564,U/CQ neuro
 PMC7710706	neurons	FBbt:00001427	MP1 precursor	MP1 neurons,FBbt:00001427,midline precursor 1 neuron	0.7146049737930298
 PMC7710706	neuropil	FBbt:00005139	neuropil	neuropil,FBbt:00005139	1.0
 PMC7710706	notum	FBbt:00004580	mesothoracic tergum	alinotum,FBbt:00004580,mesonotum,notum	1.0
+PMC7710706	origin	FBbt:00047447	optic glomerulus interneuron	OGIN,FBbt:00047447,optic glomeruli interneuron	0.7161875367164612
 PMC7710706	oscillate	FBbt:00049636	adult evening cell	E cell,FBbt:00049636,E oscillator,E pacemaker,evening oscillator neuron	0.7100045084953308
 PMC7710706	output	FBbt:00049286	adult lateral horn output neuron	adult LHON,FBbt:00049286	0.7359464168548584
 PMC7710706	pace	FBbt:00006048	pacemaker neuron	clock neuron,FBbt:00006048	0.7582324743270874
@@ -185,128 +197,74 @@ PMC7710706	peripheral	FBbt:00110875	peripheral cell	PC,FBbt:00110875,niche perip
 PMC7710706	piezo	FBbt:00047156	larval maxillary posterior intermediate commissure	larval S2 posterior intermediate commissure,FBbt:00047156,pIMX	1.0
 PMC7710706	plot	FBbt:00007427	posterior optic commissure	POC,FBbt:00007427,POT,posterior optic tract	0.7134283781051636
 PMC7710706	plots	FBbt:00007083	adult posterior lateral fascicle	PLF,FBbt:00007083,p l fasc	1.0
+PMC7710706	PMT	FBbt:00005560	posterior endoderm	P2 postEndo,FBbt:00005560,PMG,postEndo,postEndoP2,postMGRudP2,posterior endoderm primordium P2,posterior midgut primordium rudiment,posterior midgut rudiment	1.0
+PMC7710706	PMTs	FBbt:00005560	posterior endoderm	P2 postEndo,FBbt:00005560,PMG,postEndo,postEndoP2,postMGRudP2,posterior endoderm primordium P2,posterior midgut primordium rudiment,posterior midgut rudiment	1.0
 PMC7710706	poly1	FBbt:00100370	multiglomerular antennal lobe projection neuron L1 adPN	poly[L1] adPN,FBbt:00100370	0.7548941969871521
 PMC7710706	polysynaptic	FBbt:00005815	dense body	NMJ synaptic ribbon,FBbt:00005815	0.7093104720115662
+PMC7710706	posterior	FBbt:00040046	posterior superior lateral protocerebrum	PSLP,FBbt:00040046,posterior SLP,posterior splr,pslpr	0.8775382041931152
 PMC7710706	postsynaptic	FBbt:00005815	dense body	NMJ synaptic ribbon,FBbt:00005815	0.7936967611312866
 PMC7710706	pre-	FBbt:00049284	adult enteroendocrine precursor cell	EP,FBbt:00049284,adult enteroendocrine progenitor cell,pre-EE	0.7665007710456848
+PMC7710706	presynaptic channels	FBbt:00005122	presynaptic ribbon	presynaptic specialisation,FBbt:00005122	0.7429091930389404
 PMC7710706	primary	FBbt:00047097	primary neuron	embryonic lineage neuron,FBbt:00047097,embryonic neuron,larval neuron,primary lineage neuron	0.9419446587562561
 PMC7710706	projections	FBbt:00007392	projection neuron	PN,FBbt:00007392	0.7324768900871277
 PMC7710706	proprioceptive	FBbt:00051439	proprioceptive sensory neuron	proprioceptor neuron,FBbt:00051439	0.8360850811004639
 PMC7710706	proximal	FBbt:00048292	proximal larval optic neuropil	LONp,FBbt:00048292,proximal LON	0.9270682334899902
 PMC7710706	proximally	FBbt:00048292	proximal larval optic neuropil	LONp,FBbt:00048292,proximal LON	0.716225266456604
+PMC7710706	R right	FBbt:00051240	right asymmetrical body	AB(R),FBbt:00051240,right AB	0.8630387187004089
 PMC7710706	rate	FBbt:00048542	cell body rind of adult antler	cortex of antler,FBbt:00048542,rATL,rATLm	0.7288011908531189
 PMC7710706	reliability	FBbt:00048012	adult capability neuron	adult Capa neuron,FBbt:00048012	0.7125585675239563
 PMC7710706	retinal	FBbt:00006009	eye photoreceptor cell	lamina receptor cell,FBbt:00006009,retinula cell	0.7068417072296143
+PMC7710706	RFP	FBbt:00001788	female genital primordium (male)	RFP,FBbt:00001788,male repressed primordium,repressed female genital primordium,rfp	1.0
+PMC7710706	RH	FBbt:00110986	transmedullary Y neuron Rh3TmY	Rh3TmY,FBbt:00110986	0.7535741925239563
+PMC7710706	Right	FBbt:00051240	right asymmetrical body	AB(R),FBbt:00051240,right AB	0.8630387187004089
+PMC7710706	right	FBbt:00051240	right asymmetrical body	AB(R),FBbt:00051240,right AB	0.8630387187004089
+PMC7710706	RM	FBbt:00000969	abdominal 8 ventral longitudinal muscle cell	A8 VL,FBbt:00000969,srm	1.0
+PMC7710706	ROI	FBbt:00048509	adult round body	RB,FBbt:00048509,ROB	0.781345009803772
 PMC7710706	secondary	FBbt:00047096	secondary neuron	adult-specific neuron,FBbt:00047096,postembryonic neuron	0.9600140452384949
 PMC7710706	secondary Alexa	FBbt:00047096	secondary neuron	adult-specific neuron,FBbt:00047096,postembryonic neuron	0.7459439039230347
 PMC7710706	segment	FBbt:00111027	adult thoracic neuromere	TG segment,FBbt:00111027,adult thoracic ganglion segment	0.9999999403953552
 PMC7710706	segment-specific	FBbt:00047096	secondary neuron	adult-specific neuron,FBbt:00047096,postembryonic neuron	0.7205665111541748
+PMC7710706	segmented	FBbt:00111027	adult thoracic neuromere	TG segment,FBbt:00111027,adult thoracic ganglion segment	0.7085533738136292
+PMC7710706	Segmented	FBbt:00111027	adult thoracic neuromere	TG segment,FBbt:00111027,adult thoracic ganglion segment	0.7085533738136292
 PMC7710706	segments	FBbt:00111027	adult thoracic neuromere	TG segment,FBbt:00111027,adult thoracic ganglion segment	0.9221962094306946
 PMC7710706	sensory	FBbt:00048237	larval anus sensory neuron	ASN,FBbt:00048237	0.7269520163536072
 PMC7710706	sign	FBbt:00047427	adult SIFamide cell of pars intercerebralis	SIFa,FBbt:00047427,SIFamide	1.0
 PMC7710706	single descending neuron	FBbt:00047511	adult descending neuron	DN,FBbt:00047511	0.8235533833503723
 PMC7710706	smooth	FBbt:00005070	visceral muscle cell	smooth muscle,FBbt:00005070	0.7580361366271973
+PMC7710706	soma	FBbt:00005107	cell body	soma,FBbt:00005107	1.0
 PMC7710706	sparse	FBbt:00049647	adult oligoglomerular antennal lobe local neuron	adult few glomeruli AL LN,FBbt:00049647,adult few glomeruli antennal lobe local neuron,adult oligoglomerular AL LN,adult sparse antennal lobe projection neuron,sparse ALLN	0.7812212705612183
 PMC7710706	specific	FBbt:00047096	secondary neuron	adult-specific neuron,FBbt:00047096,postembryonic neuron	0.7712814211845398
+PMC7710706	SS47938	FBbt:00047938	antennal lobe VUMa5 neuron	AL-VUMa5,FBbt:00047938	0.8605426549911499
 PMC7710706	stage	FBbt:00005311	stage 5 embryo	cellular blastoderm embryo,FBbt:00005311	0.721920371055603
 PMC7710706	surface	FBbt:00001258	subperineurial glial cell	SPG,FBbt:00001258,barrier glial cell,inner perineural sheath cell,inner perineurial sheath cell,subperineurial associated glial cell,surface glia	0.8485134243965149
 PMC7710706	surface traction	FBbt:00001258	subperineurial glial cell	SPG,FBbt:00001258,barrier glial cell,inner perineural sheath cell,inner perineurial sheath cell,subperineurial associated glial cell,surface glia	0.7032617330551147
 PMC7710706	synaptic	FBbt:00005815	dense body	NMJ synaptic ribbon,FBbt:00005815	0.9042073488235474
+PMC7710706	T1	FBbt:00000017	prothoracic segment	prothorax,FBbt:00000017,t1,thoracic segment 1	1.0
+PMC7710706	T2	FBbt:00000018	mesothoracic segment	mesothorax,FBbt:00000018,t2,thoracic segment 2	1.0
+PMC7710706	T3	FBbt:00000019	metathoracic segment	metathorax,FBbt:00000019,t3,thoracic segment 3	1.0
+PMC7710706	T3 neuropils	FBbt:00045030	superior neuropils	SNP,FBbt:00045030,superior protocerebrum	0.710902750492096
+PMC7710706	Tag	FBbt:00004052	adult ventral nerve cord	TAC,FBbt:00004052,TAG,adult ThGng,adult VNC,adult VNS,adult ventral nervous system,thoracico-abdominal center,thoracico-abdominal ganglia,thoracico-abdominal ganglion,thoracico-abdominal nervous system,thoracicoabdominal ganglion	0.9999999403953552
 PMC7710706	tarsal tip	FBbt:00110197	V3 segment of the vertical lobe	MB-V3,FBbt:00110197,larval UVL,larval upper vertical lobe,tip	0.724158763885498
 PMC7710706	tarsus	FBbt:00051080	prothoracic tarsus	T1 tarsus,FBbt:00051080	0.8765763640403748
+PMC7710706	TES	FBbt:00048282	adult thoracic mechanosensory chaeta	Tes,FBbt:00048282,thoracic external sensillum	1.0
 PMC7710706	thoracic segments	FBbt:00000017	prothoracic segment	prothorax,FBbt:00000017,t1,thoracic segment 1	0.9279467463493347
+PMC7710706	Tibia	FBbt:00004665	prothoracic tibia	T1 tibia,FBbt:00004665	0.8675435781478882
 PMC7710706	tibia	FBbt:00004665	prothoracic tibia	T1 tibia,FBbt:00004665	0.8675435781478882
 PMC7710706	tibia flexor	FBbt:00003322	tibial depressor muscle cell	tibial flexor muscle,FBbt:00003322,tidm	0.8181807398796082
 PMC7710706	tibia flexor muscles	FBbt:00003322	tibial depressor muscle cell	tibial flexor muscle,FBbt:00003322,tidm	0.8504327535629272
 PMC7710706	tibia-reductor muscle	FBbt:00058109	tibial reductor muscle cell	tirm,FBbt:00058109	0.9152776002883911
+PMC7710706	tibia-tarsus	FBbt:00051086	prothoracic tibia-tarsus joint	T1 tibia-tarsus joint,FBbt:00051086	0.8038585186004639
 PMC7710706	tibia-tarsus joints	FBbt:00051086	prothoracic tibia-tarsus joint	T1 tibia-tarsus joint,FBbt:00051086	0.9317386150360107
+PMC7710706	TNT	FBbt:00001996	larval transverse nerve	TN,FBbt:00001996	0.8636366724967957
 PMC7710706	train	FBbt:00110636	adult cerebral ganglion	CRG,FBbt:00110636,SPG,adult supraesophageal ganglion,brain,cerebrum	0.7234606742858887
 PMC7710706	transition	FBbt:00047029	transition cell	TC,FBbt:00047029,basal cell of terminal filament	0.8944843411445618
 PMC7710706	type	FBbt:00049368	adult lateral horn PD2a1 neuron	LHPD2a1,FBbt:00049368,ML9,adult LHPD2a1 neuron,adult PD2a1 neuron,adult posterior dorsal tract 2 neuron a1,type I	0.8284856677055359
+PMC7710706	USB3	FBbt:00000343	larval fat body tracheal branch 3	FB3,FBbt:00000343	0.951335072517395
+PMC7710706	ventral	FBbt:00004046	LNv neuron	lateral neuron ventral,FBbt:00004046,ventral adult lateral neuron,ventral lateral neurons	0.7495887279510498
 PMC7710706	ventral nerve cord	FBbt:00005097	ventral nerve cord	ventral nervous system,FBbt:00005097	1.0
+PMC7710706	Vieworks	FBbt:00000572	muscle cell of metathoracic ventral oblique muscle 3	VO3,FBbt:00000572,ventral internal oblique muscle,vio3	0.7088132500648499
+PMC7710706	VNC	FBbt:00001102	larval ventral nerve cord	larval ventral ganglion,FBbt:00001102,ventral cord,vnc	1.0
+PMC7710706	VT	FBbt:00000508	prothoracic ventral transverse muscle cell	VT,FBbt:00000508	1.0
 PMC7710706	width	FBbt:00007660	proximal joint of prothoracic coxa	GTh,FBbt:00007660	0.7202983498573303
 PMC7710706	zoom lens	FBbt:00004199	lens	corneal lens,FBbt:00004199	0.7280704379081726
 PMC7710706	“slow” tibia	FBbt:00004665	prothoracic tibia	T1 tibia,FBbt:00004665	0.7422603964805603
-PMC7710706	AEP	FBbt:00045001	plexiform medulla	MEP,FBbt:00045001,PLME,medulla proper	0.8812693953514099
-PMC7710706	Anterior	FBbt:00047207	adult midgut-hindgut hybrid zone	HPZ,FBbt:00047207,adult HZ,adult Wg ring,adult midgut-hindgut boundary,anterior SCZ,anterior spindle cell zone,hindgut proliferation zone,midgut/hindgut imaginal ring	0.8375430703163147
-PMC7710706	Bottom right	FBbt:00051240	right asymmetrical body	AB(R),FBbt:00051240,right AB	0.7129877209663391
-PMC7710706	Drosophila	FBbt:00000001	organism	Drosophila,FBbt:00000001,whole organism	1.0
-PMC7710706	F	FBbt:00111518	adult female ppk25 neuron	F cell,FBbt:00111518	0.7100082635879517
-PMC7710706	F foreleg	FBbt:00004663	prothoracic leg	T1 leg,FBbt:00004663,first leg,foreleg	0.916513204574585
-PMC7710706	Joint	FBbt:00004645	leg joint	adult leg joint,FBbt:00004645,leg articulation	0.7997356653213501
-PMC7710706	L left	FBbt:00051239	left asymmetrical body	AB(L),FBbt:00051239,left AB	0.8464850783348083
-PMC7710706	LF	FBbt:00000362	larval lateral F tracheal branch	LF,FBbt:00000362,f branch	1.0
-PMC7710706	LM	FBbt:00003326	intracoxal levator muscle cell	trlm,FBbt:00003326,trochanter levator muscle	0.8897895216941833
-PMC7710706	LUL130	FBbt:00051127	adult prothoracic LUL130 neuron	adult MT107 neuron,FBbt:00051127	0.7739548683166504
-PMC7710706	Left	FBbt:00051239	left asymmetrical body	AB(L),FBbt:00051239,left AB	0.8464850783348083
-PMC7710706	Leg	FBbt:00004663	prothoracic leg	T1 leg,FBbt:00004663,first leg,foreleg	0.7618003487586975
-PMC7710706	M midleg	FBbt:00004685	mesothoracic leg	T2 leg,FBbt:00004685,middle leg,midleg,second leg	0.8700780272483826
-PMC7710706	MCFO	FBbt:00001631	medial cervical tract	MCT,FBbt:00001631	0.8614316582679749
-PMC7710706	MDN	FBbt:00111308	adult moonwalker descending neuron	MDN,FBbt:00111308,MDN neuron	1.0
-PMC7710706	MDNs	FBbt:00047544	median dorsal abdominal tract	MDA,FBbt:00047544,MDT	0.750765323638916
-PMC7710706	MT	FBbt:00003836	medullary tangential neuron	Mt,FBbt:00003836	1.0
-PMC7710706	MT cell	FBbt:00004781	wing basal cell 1	C' cell,FBbt:00004781	0.7340865135192871
-PMC7710706	Minimum femur-tibia joint angles	FBbt:00051083	prothoracic femur-tibia joint	T1 femur-tibia joint,FBbt:00051083	0.7995338439941406
-PMC7710706	R right	FBbt:00051240	right asymmetrical body	AB(R),FBbt:00051240,right AB	0.8630387187004089
-PMC7710706	RH	FBbt:00110986	transmedullary Y neuron Rh3TmY	Rh3TmY,FBbt:00110986	0.7535741925239563
-PMC7710706	RM	FBbt:00000969	abdominal 8 ventral longitudinal muscle cell	A8 VL,FBbt:00000969,srm	1.0
-PMC7710706	Right	FBbt:00051240	right asymmetrical body	AB(R),FBbt:00051240,right AB	0.8630387187004089
-PMC7710706	Segmented	FBbt:00111027	adult thoracic neuromere	TG segment,FBbt:00111027,adult thoracic ganglion segment	0.7085533738136292
-PMC7710706	T1	FBbt:00000017	prothoracic segment	prothorax,FBbt:00000017,t1,thoracic segment 1	1.0
-PMC7710706	T2	FBbt:00000018	mesothoracic segment	mesothorax,FBbt:00000018,t2,thoracic segment 2	1.0
-PMC7710706	T3	FBbt:00000019	metathoracic segment	metathorax,FBbt:00000019,t3,thoracic segment 3	1.0
-PMC7710706	VNC	FBbt:00001102	larval ventral nerve cord	larval ventral ganglion,FBbt:00001102,ventral cord,vnc	1.0
-PMC7710706	ascending	FBbt:00110155	octopaminergic VUMa neuron	OA-VUMa,FBbt:00110155,SOG VUM neuron,VUM neuron of the subesophageal ganglion,ascending VUM neuron,subesophageal ganglion VUM neuron,subesophageal ganglion ventral unpaired median neuron,ventral unpaired median octopaminergic anterior neuron	0.841026782989502
-PMC7710706	bilaterally	FBbt:00049650	bilaterally projecting wind sensitive wedge projection neuron	WPNB,FBbt:00049650,bilaterally projecting WPN	0.7536142468452454
-PMC7710706	black	FBbt:00005199	Kolbchen	B,FBbt:00005199,Kolbchen, k,black dot,black organ,pit,ventral pit	0.8131770491600037
-PMC7710706	boxes	FBbt:00048272	wing margin mechanosensory bristle	Wes,FBbt:00048272,wing external sensillum	0.7286400198936462
-PMC7710706	continuous	FBbt:00049644	adult continuous antennal lobe local neuron	adult continuous AL LN,FBbt:00049644,adult regional antennal lobe local neuron,lavish LN,regional ALLN	0.7935888171195984
-PMC7710706	contralateral	FBbt:00051484	medulla layer 6-contralateral ventral complex projection neuron	ML6-VMPR,FBbt:00051484,ML6-VMPR-s,i,MR6-VMPL,MR6-VMPL-s,i,contralateral MV neuron,long MV neuron	0.8600737452507019
-PMC7710706	coxa-trochanter	FBbt:00007661	prothoracic coxa-trochanter joint	GTr,FBbt:00007661,T1 JTr,distal joint of prothoracic coxa,proximal joint of prothoracic trochanter	0.7499092817306519
-PMC7710706	dorsal	FBbt:00003628	adult DN period neuron	DN period neuron,FBbt:00003628,adult dorsal neuron	0.8212167024612427
-PMC7710706	expressing	FBbt:00001579	EG neuron	eg-expressing neuron,FBbt:00001579	0.791627824306488
-PMC7710706	e–h. f	FBbt:00111518	adult female ppk25 neuron	F cell,FBbt:00111518	0.7100082635879517
-PMC7710706	femur-tibia	FBbt:00051083	prothoracic femur-tibia joint	T1 femur-tibia joint,FBbt:00051083	0.8012921214103699
-PMC7710706	femur-tibia joint	FBbt:00051083	prothoracic femur-tibia joint	T1 femur-tibia joint,FBbt:00051083	0.9467273950576782
-PMC7710706	femur-tibia joint angle	FBbt:00051083	prothoracic femur-tibia joint	T1 femur-tibia joint,FBbt:00051083	0.8889795541763306
-PMC7710706	femur-tibia joint angle change	FBbt:00051083	prothoracic femur-tibia joint	T1 femur-tibia joint,FBbt:00051083	0.7733722925186157
-PMC7710706	foreleg	FBbt:00004663	prothoracic leg	T1 leg,FBbt:00004663,first leg,foreleg	1.0
-PMC7710706	group	FBbt:00004103	ventral group vA neuron	VA neuron,FBbt:00004103,vA neuron,ventral-abdominal neuron	0.7332032918930054
-PMC7710706	hindleg	FBbt:00004707	metathoracic leg	T3 leg,FBbt:00004707,hindleg,third leg	1.0
-PMC7710706	hindlegs	FBbt:00004707	metathoracic leg	T3 leg,FBbt:00004707,hindleg,third leg	0.8169870972633362
-PMC7710706	image	FBbt:00003004	adult	imago,FBbt:00003004	0.9054219126701355
-PMC7710706	imaged	FBbt:00003004	adult	imago,FBbt:00003004	0.8784415125846863
-PMC7710706	images	FBbt:00003004	adult	imago,FBbt:00003004	0.8178465366363525
-PMC7710706	interneurons	FBbt:00001604	UMI interneuron	MP3 cell,FBbt:00001604,MP3 neuron,unpaired median interneuron	0.7384823560714722
-PMC7710706	intersegmental	FBbt:00048088	adult intersegmental mechanosensory system neuron	intersegmental neuron,FBbt:00048088	0.9667149186134338
-PMC7710706	ipsi	FBbt:00111239	larval Ipsigoro neuron	Ipsi DN,FBbt:00111239	0.835811972618103
-PMC7710706	ipsilateral	FBbt:00007426	fascicle	ipsilateral tract,FBbt:00007426	0.8716837167739868
-PMC7710706	joint	FBbt:00004645	leg joint	adult leg joint,FBbt:00004645,leg articulation	0.7997356653213501
-PMC7710706	joints	FBbt:00004645	leg joint	adult leg joint,FBbt:00004645,leg articulation	0.7516193389892578
-PMC7710706	lateral	FBbt:00004044	LN period neuron	LC,FBbt:00004044,LN,LN per neuron,adult lateral neuron,lateral cell,lateral neuron	0.8629997968673706
-PMC7710706	left	FBbt:00051239	left asymmetrical body	AB(L),FBbt:00051239,left AB	0.8464850783348083
-PMC7710706	leg	FBbt:00004663	prothoracic leg	T1 leg,FBbt:00004663,first leg,foreleg	0.7618003487586975
-PMC7710706	legs	FBbt:00006049	escort cell	EC,FBbt:00006049,IGS,inner germarial sheath cell,inner germarium sheath cell,inner sheath cell	0.7248499989509583
-PMC7710706	line segment	FBbt:00111027	adult thoracic neuromere	TG segment,FBbt:00111027,adult thoracic ganglion segment	0.810918390750885
-PMC7710706	middle	FBbt:00047108	middle midgut	acid zone,FBbt:00047108	0.8169605135917664
-PMC7710706	motor neuron type	FBbt:00052011	adult type II motor neuron	adult muscle Tdc2N,FBbt:00052011	0.8183459043502808
-PMC7710706	multiple	FBbt:00049954	multiple zone Johnston organ neuron	JO-mz,FBbt:00049954,multiple zone JON	0.764741063117981
-PMC7710706	nc82	FBbt:00004908	stretch follicle cell	NCFC,FBbt:00004908,nurse cell follicle cell,nurse follicle cell,squamous follicle cell,stretch cell,stretched follicle cell	0.821789026260376
-PMC7710706	neuron	FBbt:00001564	U neuron	U motor neuron,FBbt:00001564,U/CQ neuron	1.0
-PMC7710706	neurons	FBbt:00001427	MP1 precursor	MP1 neurons,FBbt:00001427,midline precursor 1 neuron	0.7146049737930298
-PMC7710706	neuropil	FBbt:00005139	neuropil	neuropil,FBbt:00005139	1.0
-PMC7710706	origin	FBbt:00047447	optic glomerulus interneuron	OGIN,FBbt:00047447,optic glomeruli interneuron	0.7161875367164612
-PMC7710706	period	FBbt:00004044	LN period neuron	LC,FBbt:00004044,LN,LN per neuron,adult lateral neuron,lateral cell,lateral neuron	0.804178774356842
-PMC7710706	posterior	FBbt:00040046	posterior superior lateral protocerebrum	PSLP,FBbt:00040046,posterior SLP,posterior splr,pslpr	0.8775382041931152
-PMC7710706	postsynaptic	FBbt:00005815	dense body	NMJ synaptic ribbon,FBbt:00005815	0.7936967611312866
-PMC7710706	presynaptic channels	FBbt:00005122	presynaptic ribbon	presynaptic specialisation,FBbt:00005122	0.7429091930389404
-PMC7710706	projections	FBbt:00007392	projection neuron	PN,FBbt:00007392	0.7324768900871277
-PMC7710706	right	FBbt:00051240	right asymmetrical body	AB(R),FBbt:00051240,right AB	0.8630387187004089
-PMC7710706	segment	FBbt:00111027	adult thoracic neuromere	TG segment,FBbt:00111027,adult thoracic ganglion segment	0.9999999403953552
-PMC7710706	segmented	FBbt:00111027	adult thoracic neuromere	TG segment,FBbt:00111027,adult thoracic ganglion segment	0.7085533738136292
-PMC7710706	soma	FBbt:00005107	cell body	soma,FBbt:00005107	1.0
-PMC7710706	tarsal tip	FBbt:00110197	V3 segment of the vertical lobe	MB-V3,FBbt:00110197,larval UVL,larval upper vertical lobe,tip	0.724158763885498
-PMC7710706	tarsus	FBbt:00051080	prothoracic tarsus	T1 tarsus,FBbt:00051080	0.8765763640403748
-PMC7710706	tibia	FBbt:00004665	prothoracic tibia	T1 tibia,FBbt:00004665	0.8675435781478882
-PMC7710706	tibia-tarsus	FBbt:00051086	prothoracic tibia-tarsus joint	T1 tibia-tarsus joint,FBbt:00051086	0.8038585186004639
-PMC7710706	ventral	FBbt:00004046	LNv neuron	lateral neuron ventral,FBbt:00004046,ventral adult lateral neuron,ventral lateral neurons	0.7495887279510498

@@ -82,6 +82,8 @@ def process_data_files(nlp):
     """
     clean_folder(OUTPUT_FOLDER)
     data_files = sorted(os.listdir(DATA_FOLDER))
+
+    all_data = dict()
     for filename in data_files:
         file_path = os.path.join(DATA_FOLDER, filename)
         if os.path.isfile(file_path) and LINKING_FILE_EXTENSION not in filename:
@@ -105,11 +107,25 @@ def process_data_files(nlp):
                     if mention not in all_mentions:
                         all_mentions.append(mention)
 
-            output_path = OUTPUT_FOLDER + str(file_path).split("/data/")[1]
-            output_path = output_path.replace("_captions", "")
+            file_name = all_mentions[0]["file_name"]
+            if file_name in all_data:
+                existing_data = all_data[file_name]
+                existing_data.extend(all_mentions)
+            else:
+                all_data[file_name] = all_mentions
 
-            all_mentions.sort(key=lambda x: x["mention_text"])
-            write_mentions_to_file(output_path, all_mentions, append=True)
+            # output_path = OUTPUT_FOLDER + str(file_path).split("/data/")[1]
+            # output_path = output_path.replace("_captions", "")
+            #
+            # all_mentions.sort(key=lambda x: x["mention_text"])
+            # write_mentions_to_file(output_path, all_mentions, append=True)
+
+    for file_name in all_data:
+        output_path = OUTPUT_FOLDER + file_name + ".tsv"
+        data = all_data[file_name]
+        unique = [i for n, i in enumerate(data) if i not in data[n + 1:]]
+        sorted_data = sorted(unique, key=lambda x: str(x["mention_text"]).lower())
+        write_mentions_to_file(output_path, sorted_data, append=False)
 
 
 def is_already_mentioned(mentions, text):

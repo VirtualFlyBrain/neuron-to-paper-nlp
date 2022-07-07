@@ -1,0 +1,98 @@
+file_name	mention_text	candidate_entity_iri	candidate_entity_label	candidate_entity_aliases	confidence
+PMC6800437	B_DSK	FBbt:00048998	Drosulfakinin neuron	DPC,FBbt:00048998,DSK,DSK-producing cell,Dsk-producing neuron,dsk neuron	0.8767982721328735
+PMC6800437	CA	FBbt:00003685	mushroom body calyx	CA,FBbt:00003685,calyx,calyx of corpora pedunculata,calyx of mushroom body,main calyx	1.0
+PMC6800437	CCKLR	FBbt:00049279	adult midgut region R3ab	CCR,FBbt:00049279,adult midgut Cu region,adult midgut copper cells region,copper cell region of the adult midgut	1.0
+PMC6800437	CCKLR-17D3.	FBbt:00049279	adult midgut region R3ab	CCR,FBbt:00049279,adult midgut Cu region,adult midgut copper cells region,copper cell region of the adult midgut	1.0
+PMC6800437	CNS	FBbt:00005094	central nervous system	CNS,FBbt:00005094	1.0
+PMC6800437	DN1	FBbt:00003629	DN1 neuron	adult dorsal neuron 1,FBbt:00003629,adult dorsal neuron-1	0.9327059984207153
+PMC6800437	DSK	FBbt:00048998	Drosulfakinin neuron	DPC,FBbt:00048998,DSK,DSK-producing cell,Dsk-producing neuron,dsk neuron	1.0
+PMC6800437	Dr.	FBbt:00004329	dorsal row of wing sensilla	DR,FBbt:00004329	1.0
+PMC6800437	Drosophila	FBbt:00000001	organism	Drosophila,FBbt:00000001,whole organism	1.0
+PMC6800437	Drosulfakinin	FBbt:00048998	Drosulfakinin neuron	DPC,FBbt:00048998,DSK,DSK-producing cell,Dsk-producing neuron,dsk neuron	0.9725878834724426
+PMC6800437	Dsk	FBbt:00048998	Drosulfakinin neuron	DPC,FBbt:00048998,DSK,DSK-producing cell,Dsk-producing neuron,dsk neuron	1.0
+PMC6800437	FRU^M	FBbt:00016687	fruitless expressing neuron	fru neuron,FBbt:00016687	0.8524815440177917
+PMC6800437	F_DSK	FBbt:00048998	Drosulfakinin neuron	DPC,FBbt:00048998,DSK,DSK-producing cell,Dsk-producing neuron,dsk neuron	0.8767982721328735
+PMC6800437	GFP	FBbt:00001788	female genital primordium (male)	RFP,FBbt:00001788,male repressed primordium,repressed female genital primordium,rfp	1.0
+PMC6800437	GFP1	FBbt:00050018	neuroblast DM1	FBP1,FBbt:00050018,central complex neuroblast Z,neuroblast DPMm1	0.936068058013916
+PMC6800437	ImageJ.	FBbt:00003004	adult	imago,FBbt:00003004	0.9466856122016907
+PMC6800437	MP1	FBbt:00001599	MP1 neuron	Midline precursor 1 cell,FBbt:00001599	0.9246689081192017
+PMC6800437	MP1a	FBbt:00001600	MP1a neuron	MP1(l),FBbt:00001600	0.9313778281211853
+PMC6800437	MP3	FBbt:00001604	UMI interneuron	MP3 cell,FBbt:00001604,MP3 neuron,unpaired median interneuron	0.9280998706817627
+PMC6800437	MP3 cell	FBbt:00001432	MP3 precursor	MP3 cell,FBbt:00001432,Midline precursor 3 cell,UMI precursor,unpaired median interneuron precursor	1.0
+PMC6800437	MP3 neuron	FBbt:00001604	UMI interneuron	MP3 cell,FBbt:00001604,MP3 neuron,unpaired median interneuron	1.0
+PMC6800437	Male	FBbt:00110579	adult fruitless aDT-b (male) neuron	male aDT-b neuron,FBbt:00110579,male aDT2 neuron,male fru-mAL neuron,male mAL neuron	0.9036915302276611
+PMC6800437	Mip	FBbt:00047486	myoinhibitory peptide neuron	Mip neuron,FBbt:00047486,Myoinhibiting peptide precursor neuron	0.9380271434783936
+PMC6800437	Myoinhibitory-peptide	FBbt:00047486	myoinhibitory peptide neuron	Mip neuron,FBbt:00047486,Myoinhibiting peptide precursor neuron	0.8923175930976868
+PMC6800437	NGS	FBbt:00006049	escort cell	EC,FBbt:00006049,IGS,inner germarial sheath cell,inner germarium sheath cell,inner sheath cell	1.0
+PMC6800437	P1	FBbt:00002740	prothoracic ventral campaniform sensillum vc1	p1,FBbt:00002740,prothoracic ventral sensillum campaniformium vc1,vp1	1.0
+PMC6800437	PA	FBbt:00001335	anterior protocerebral neuroblast	Pa,FBbt:00001335	1.0
+PMC6800437	PCR	FBbt:00003668	protocerebral bridge	PB,FBbt:00003668,PCB,pb	1.0
+PMC6800437	PFA	FBbt:00003636	adult fan-shaped body delta neuron	PFS,FBbt:00003636,pontine fiber,pontine fiber system,pontine neuron	1.0
+PMC6800437	PI	FBbt:00003700	adult pars intercerebralis	PI,FBbt:00003700,cell body rind of adult medial superior medial protocerebrum,rSMPm	1.0
+PMC6800437	Pars Intercerebralis	FBbt:00005802	pars intercerebralis	PI,FBbt:00005802	1.0
+PMC6800437	Primary	FBbt:00047097	primary neuron	embryonic lineage neuron,FBbt:00047097,embryonic neuron,larval neuron,primary lineage neuron	0.9419446587562561
+PMC6800437	SIFamide	FBbt:00047427	adult SIFamide cell of pars intercerebralis	SIFa,FBbt:00047427,SIFamide	1.0
+PMC6800437	SLP	FBbt:00007054	superior lateral protocerebrum	DLP,FBbt:00007054,IDLP,SLP,adult superior lateral protocerebrum,slpr	1.0
+PMC6800437	SMP	FBbt:00007055	superior medial protocerebrum	IDLP,FBbt:00007055,SDFP,SMP,impr,smpr	1.0
+PMC6800437	SOG	FBbt:00004013	gnathal ganglion	GNG,FBbt:00004013,SEG,SOG,subesophageal ganglion,suboesophageal ganglion	1.0
+PMC6800437	Secondary	FBbt:00047096	secondary neuron	adult-specific neuron,FBbt:00047096,postembryonic neuron	0.9600140452384949
+PMC6800437	UAS-mCD8RFP	FBbt:00001788	female genital primordium (male)	RFP,FBbt:00001788,male repressed primordium,repressed female genital primordium,rfp	1.0
+PMC6800437	UAS-myrGFP	FBbt:00001788	female genital primordium (male)	RFP,FBbt:00001788,male repressed primordium,repressed female genital primordium,rfp	1.0
+PMC6800437	USA	FBbt:00004305	posterior supraalar bristle	pSA,FBbt:00004305	0.8550272583961487
+PMC6800437	VNC	FBbt:00001102	larval ventral nerve cord	larval ventral ganglion,FBbt:00001102,ventral cord,vnc	1.0
+PMC6800437	XbaI	FBbt:00003746	lamina intrinsic neuron	Am,FBbt:00003746,Lai,amacrine cell	0.9441471695899963
+PMC6800437	brain	FBbt:00110636	adult cerebral ganglion	CRG,FBbt:00110636,SPG,adult supraesophageal ganglion,brain,cerebrum	1.0
+PMC6800437	cDNA	FBbt:00047512	descending neuron of the anterior dorsal brain	DNa,FBbt:00047512	0.8771221041679382
+PMC6800437	ca	FBbt:00003685	mushroom body calyx	CA,FBbt:00003685,calyx,calyx of corpora pedunculata,calyx of mushroom body,main calyx	1.0
+PMC6800437	complex	FBbt:00040001	lateral complex	LX,FBbt:00040001	0.8953744173049927
+PMC6800437	dopaminergic	FBbt:00005131	dopaminergic neuron	DA neuron,FBbt:00005131,dopamine neuron	0.9648752212524414
+PMC6800437	doublesex	FBbt:00047354	adult doublesex aDN neuron	doublesex-expressing anterior-Dorsal Neuron,FBbt:00047354,dsx-aDN,dsx-expressing anterior-Dorsal Neuron	0.8611767888069153
+PMC6800437	dsx-expressing	FBbt:00047370	adult doublesex pLN (male) neuron	doublesex-expressing posterior Lateral Neuron,FBbt:00047370,dsx-expressing posterior Lateral Neuron,dsx-pLN	0.8521536588668823
+PMC6800437	external	FBbt:00005396	adult integumentary system	adult external,FBbt:00005396,adult integument	0.9493845105171204
+PMC6800437	female	FBbt:00110417	adult fruitless aDT-b (female) neuron	female aDT-b neuron,FBbt:00110417,female aDT2 neuron,female fru-mAL neuron,female mAL neuron	0.854278564453125
+PMC6800437	fru^M	FBbt:00016687	fruitless expressing neuron	fru neuron,FBbt:00016687	0.8524815440177917
+PMC6800437	fru^M-	FBbt:00016687	fruitless expressing neuron	fru neuron,FBbt:00016687	0.8524815440177917
+PMC6800437	fruitless	FBbt:00110475	adult fruitless Lo neuron	LP1 neuron,FBbt:00110475,Lo neuron,fru-Lo neuron	0.8974221348762512
+PMC6800437	gustatory	FBbt:00047946	gustatory projection neuron	TPN,FBbt:00047946,gustatory PN,gustatory second-order neuron,taste projection neuron	0.8929725289344788
+PMC6800437	image	FBbt:00003004	adult	imago,FBbt:00003004	0.9054219126701355
+PMC6800437	imaged	FBbt:00003004	adult	imago,FBbt:00003004	0.8784415125846863
+PMC6800437	intermediate	FBbt:00048291	intermediate larval optic neuropil	LONi,FBbt:00048291,intermediate LON	0.9241838455200195
+PMC6800437	intestine	FBbt:00003143	adult hindgut	adult intestine,FBbt:00003143	0.9598460793495178
+PMC6800437	lateral horn (LH)	FBbt:00007053	adult lateral horn	LH,FBbt:00007053,lateral protocerebrum	0.9265531301498413
+PMC6800437	lower	FBbt:00110191	lower toe of larval mushroom body medial lobe	MAML,FBbt:00110191,MB-MA,axonal side branches,bulbous swelling,lower toe,ma,medial appendix of larval mushroom body	0.8997003436088562
+PMC6800437	male	FBbt:00110579	adult fruitless aDT-b (male) neuron	male aDT-b neuron,FBbt:00110579,male aDT2 neuron,male fru-mAL neuron,male mAL neuron	0.9036915302276611
+PMC6800437	male’s	FBbt:00110579	adult fruitless aDT-b (male) neuron	male aDT-b neuron,FBbt:00110579,male aDT2 neuron,male fru-mAL neuron,male mAL neuron	0.8855653405189514
+PMC6800437	neuromuscular junction	FBbt:00005142	neuromuscular junction	NMJ,FBbt:00005142	1.0
+PMC6800437	neuron	FBbt:00001564	U neuron	U motor neuron,FBbt:00001564,U/CQ neuron	1.0
+PMC6800437	olfactory	FBbt:00051298	olfactory projection neuron	olfactory PN,FBbt:00051298	0.8870711922645569
+PMC6800437	organism	FBbt:00000001	organism	Drosophila,FBbt:00000001,whole organism	1.0
+PMC6800437	pC1	FBbt:00049926	adult doublesex pC1e (female) neuron	pC1e,FBbt:00049926	0.8786962032318115
+PMC6800437	peptidergic neurons	FBbt:00004101	peptidergic neuron	peptinergic neuron,FBbt:00004101	0.8755197525024414
+PMC6800437	presynaptic	FBbt:00005122	presynaptic ribbon	presynaptic specialisation,FBbt:00005122	0.91164630651474
+PMC6800437	primary	FBbt:00047097	primary neuron	embryonic lineage neuron,FBbt:00047097,embryonic neuron,larval neuron,primary lineage neuron	0.9419446587562561
+PMC6800437	receptor	FBbt:00004211	photoreceptor neuron	photoreceptor cell,FBbt:00004211,receptor cell	0.8798742890357971
+PMC6800437	secondary	FBbt:00047096	secondary neuron	adult-specific neuron,FBbt:00047096,postembryonic neuron	0.9600140452384949
+PMC6800437	soma	FBbt:00005107	cell body	soma,FBbt:00005107	1.0
+PMC6800437	suboesophageal ganglion	FBbt:00004013	gnathal ganglion	GNG,FBbt:00004013,SEG,SOG,subesophageal ganglion,suboesophageal ganglion	1.0
+PMC6800437	superior lateral protocerebrum	FBbt:00007054	superior lateral protocerebrum	DLP,FBbt:00007054,IDLP,SLP,adult superior lateral protocerebrum,slpr	1.0
+PMC6800437	superior medial protocerebrum	FBbt:00007055	superior medial protocerebrum	IDLP,FBbt:00007055,SDFP,SMP,impr,smpr	1.0
+PMC6800437	synaptic	FBbt:00005815	dense body	NMJ synaptic ribbon,FBbt:00005815	0.9042073488235474
+PMC6800437	ventral nerve cord	FBbt:00005097	ventral nerve cord	ventral nervous system,FBbt:00005097	1.0
+PMC6800437	ventral nerve cords	FBbt:00005097	ventral nerve cord	ventral nervous system,FBbt:00005097	0.9326199889183044
+PMC6800437	Δ17D3	FBbt:00111658	larval Jaam3 neuron	A06j,FBbt:00111658,A12c3,HMD3	1.0
+PMC6800437	∆17D1	FBbt:00111656	larval Jaam1 neuron	A06h1,FBbt:00111656,A12p,HMD1	1.0
+PMC6800437	∆17D3	FBbt:00111658	larval Jaam3 neuron	A06j,FBbt:00111658,A12c3,HMD3	1.0
+PMC6800437	CNS	FBbt:00005094	central nervous system	CNS,FBbt:00005094	1.0
+PMC6800437	DSK	FBbt:00048998	Drosulfakinin neuron	DPC,FBbt:00048998,DSK,DSK-producing cell,Dsk-producing neuron,dsk neuron	1.0
+PMC6800437	Dsk	FBbt:00048998	Drosulfakinin neuron	DPC,FBbt:00048998,DSK,DSK-producing cell,Dsk-producing neuron,dsk neuron	1.0
+PMC6800437	MP1	FBbt:00001599	MP1 neuron	Midline precursor 1 cell,FBbt:00001599	0.9246689081192017
+PMC6800437	MP1a	FBbt:00001600	MP1a neuron	MP1(l),FBbt:00001600	0.9313778281211853
+PMC6800437	MP3	FBbt:00001604	UMI interneuron	MP3 cell,FBbt:00001604,MP3 neuron,unpaired median interneuron	0.9280998706817627
+PMC6800437	P1	FBbt:00002740	prothoracic ventral campaniform sensillum vc1	p1,FBbt:00002740,prothoracic ventral sensillum campaniformium vc1,vp1	1.0
+PMC6800437	UAS-myrGFP	FBbt:00001788	female genital primordium (male)	RFP,FBbt:00001788,male repressed primordium,repressed female genital primordium,rfp	1.0
+PMC6800437	brain	FBbt:00110636	adult cerebral ganglion	CRG,FBbt:00110636,SPG,adult supraesophageal ganglion,brain,cerebrum	1.0
+PMC6800437	central nervous system	FBbt:00005094	central nervous system	CNS,FBbt:00005094	1.0
+PMC6800437	female	FBbt:00110417	adult fruitless aDT-b (female) neuron	female aDT-b neuron,FBbt:00110417,female aDT2 neuron,female fru-mAL neuron,female mAL neuron	0.854278564453125
+PMC6800437	intermediate	FBbt:00048291	intermediate larval optic neuropil	LONi,FBbt:00048291,intermediate LON	0.9241838455200195
+PMC6800437	male	FBbt:00110579	adult fruitless aDT-b (male) neuron	male aDT-b neuron,FBbt:00110579,male aDT2 neuron,male fru-mAL neuron,male mAL neuron	0.9036915302276611
+PMC6800437	∆Dsk	FBbt:00048998	Drosulfakinin neuron	DPC,FBbt:00048998,DSK,DSK-producing cell,Dsk-producing neuron,dsk neuron	0.8767982721328735

@@ -1,0 +1,137 @@
+file_name	mention_text	candidate_entity_iri	candidate_entity_label	candidate_entity_aliases	confidence
+PMC8252886	3C	FBbt:00048177	prothoracic leg tarsal taste bristle 3c (male)	m3c,FBbt:00048177	1.0
+PMC8252886	4D	FBbt:00047087	mushroom body dorsal layer of gamma lobe slice 4	g4d,FBbt:00047087,gamma4d	1.0
+PMC8252886	AC	FBbt:00001105	larval anterior commissure	aC,FBbt:00001105	1.0
+PMC8252886	AL	FBbt:00007401	adult antennal lobe	AL,FBbt:00007401,adult olfactory lobe	1.0
+PMC8252886	ALPN1	FBbt:00007333	AC thermosensory neuron	AC neuron,FBbt:00007333,ALPN1,anterior cell	1.0
+PMC8252886	ALPN2	FBbt:00100374	adult uniglomerular projection neuron VP5+SEZ adPN	ALPN2,FBbt:00100374,VP5+SEZ adPN,VP5+Z adPN,VP5+Z_adPN,multiglomerular antennal lobe projection neuron emb adPN,poly[emb] adPN	1.0
+PMC8252886	ALPN3	FBbt:00049751	adult antennal lobe projection neuron VP4+ vPN	ALPN3,FBbt:00049751,VP4+ vPN,VP4+_vPN	0.9999998807907104
+PMC8252886	ALPN4	FBbt:00049763	adult antennal lobe projection neuron VM1++ l2PN	ALPN4,FBbt:00049763,M_l2PNm16_R,VM1++ l2PN	1.0
+PMC8252886	APL	FBbt:00100222	adult mushroom body anterior paired lateral cell	APL,FBbt:00100222,MB anterior paired lateral neuron,MB-APL,adult APL	1.0
+PMC8252886	AVLP	FBbt:00040043	anterior ventrolateral protocerebrum	AVLP,FBbt:00040043,anterior VLP	1.0
+PMC8252886	Aso	FBbt:00052043	larval anal sense organ	ASO,FBbt:00052043,SO1,sc1,t1,ventral anal sensillum	1.0
+PMC8252886	Brain	FBbt:00110636	adult cerebral ganglion	CRG,FBbt:00110636,SPG,adult supraesophageal ganglion,brain,cerebrum	1.0
+PMC8252886	DPM	FBbt:00000489	dorsal pharyngeal muscle cell	DPM,FBbt:00000489,larval CDM,larval cibarial dilator muscle	0.9999999403953552
+PMC8252886	Drosophila	FBbt:00000001	organism	Drosophila,FBbt:00000001,whole organism	1.0
+PMC8252886	GFP	FBbt:00001788	female genital primordium (male)	RFP,FBbt:00001788,male repressed primordium,repressed female genital primordium,rfp	1.0
+PMC8252886	HEPES	FBbt:00004414	capitellum trichoid sensillum	Hes,FBbt:00004414,capitella sensillum trichodeum,capitella trichoid sensillum,haltere external sensillum	1.0
+PMC8252886	ImageJ.	FBbt:00003004	adult	imago,FBbt:00003004	0.9466856122016907
+PMC8252886	JFRC2	FBbt:00049598	giant fiber coupled neuron 2	GFC2,FBbt:00049598	1.0
+PMC8252886	Kenyon	FBbt:00003686	Kenyon cell	KC,FBbt:00003686,MB neuron,intrinsic cell of mushroom body,intrinsic neuron of mushroom body,mature Kenyon cell,mushroom body neuron	0.8895178437232971
+PMC8252886	Kenyon cell	FBbt:00003686	Kenyon cell	KC,FBbt:00003686,MB neuron,intrinsic cell of mushroom body,intrinsic neuron of mushroom body,mature Kenyon cell,mushroom body neuron	1.0
+PMC8252886	Kenyon cell claw	FBbt:00048001	six-claw Kenyon cell	six-claw KC,FBbt:00048001	0.8847755193710327
+PMC8252886	LH	FBbt:00000382	larval lateral H tracheal branch	LH,FBbt:00000382,h branch	1.0
+PMC8252886	LOPN	FBbt:20002842	adult lobula-dorsal accessory calyx projection neuron	LOPN,FBbt:20002842,SLP448,adult SLP448 neuron,adult superior lateral protocerebrum neuron 448	1.0
+PMC8252886	Li	FBbt:00003882	lobula intrinsic neuron	Li,FBbt:00003882,lobular intrinsic neuron	1.0
+PMC8252886	OL	FBbt:00003701	adult optic lobe	OL,FBbt:00003701	1.0
+PMC8252886	OLCT1	FBbt:00048337	adult optic lobe-calycal tract 1	OLCT1,FBbt:00048337	1.0
+PMC8252886	PBST-NGS	FBbt:00006049	escort cell	EC,FBbt:00006049,IGS,inner germarial sheath cell,inner germarium sheath cell,inner sheath cell	0.8534657955169678
+PMC8252886	PFA	FBbt:00003636	adult fan-shaped body delta neuron	PFS,FBbt:00003636,pontine fiber,pontine fiber system,pontine neuron	1.0
+PMC8252886	PLP	FBbt:00040044	posterior lateral protocerebrum	CVLP,FBbt:00040044,PLP,SPP,plpr,posteriolateral protocerebrum,posterior-lateral protocerebrum,posteriorlateral protocerebrum	1.0
+PMC8252886	PLPPN	FBbt:00051252	adult posterior lateral protocerebrum-dorsal accessory calyx projection neuron	PLPPN,FBbt:00051252	1.0
+PMC8252886	S3A	FBbt:00048175	prothoracic leg tarsal taste bristle 3a	f3a,FBbt:00048175,m3a	1.0
+PMC8252886	S3B	FBbt:00048176	prothoracic leg tarsal taste bristle 3b	f3b,FBbt:00048176,m3b	1.0
+PMC8252886	S3C	FBbt:00048177	prothoracic leg tarsal taste bristle 3c (male)	m3c,FBbt:00048177	1.0
+PMC8252886	SLP	FBbt:00007054	superior lateral protocerebrum	DLP,FBbt:00007054,IDLP,SLP,adult superior lateral protocerebrum,slpr	1.0
+PMC8252886	SMP	FBbt:00007055	superior medial protocerebrum	IDLP,FBbt:00007055,SDFP,SMP,impr,smpr	1.0
+PMC8252886	Shih	FBbt:00002369	abdominal lesC neuron	H,FBbt:00002369,h2,lh1,shC	1.0
+PMC8252886	UAS-C3PA-GFP	FBbt:00001788	female genital primordium (male)	RFP,FBbt:00001788,male repressed primordium,repressed female genital primordium,rfp	1.0
+PMC8252886	UAS-PA-GFP	FBbt:00001788	female genital primordium (male)	RFP,FBbt:00001788,male repressed primordium,repressed female genital primordium,rfp	1.0
+PMC8252886	adult	FBbt:00003004	adult	imago,FBbt:00003004	1.0
+PMC8252886	antennal lobe	FBbt:00007401	adult antennal lobe	AL,FBbt:00007401,adult olfactory lobe	0.9404340386390686
+PMC8252886	anterior ventral lateral protocerebrum	FBbt:00040043	anterior ventrolateral protocerebrum	AVLP,FBbt:00040043,anterior VLP	0.8895366191864014
+PMC8252886	brain	FBbt:00110636	adult cerebral ganglion	CRG,FBbt:00110636,SPG,adult supraesophageal ganglion,brain,cerebrum	1.0
+PMC8252886	calyx	FBbt:00003685	mushroom body calyx	CA,FBbt:00003685,calyx,calyx of corpora pedunculata,calyx of mushroom body,main calyx	1.0
+PMC8252886	cell	FBbt:00004781	wing basal cell 1	C' cell,FBbt:00004781	1.0
+PMC8252886	cell body	FBbt:00005107	cell body	soma,FBbt:00005107	1.0
+PMC8252886	cluster	FBbt:00001617	deutero/tritocerebral embryonic fiber tract founder cluster	D/T cluster,FBbt:00001617	1.0
+PMC8252886	complex	FBbt:00040001	lateral complex	LX,FBbt:00040001	0.8953744173049927
+PMC8252886	dendritic	FBbt:00005111	dendritic tree	dendritic arbor,FBbt:00005111	0.8803882002830505
+PMC8252886	dendritic arbors	FBbt:00005111	dendritic tree	dendritic arbor,FBbt:00005111	0.9352812170982361
+PMC8252886	dorsal accessory calyx	FBbt:00045007	adult mushroom body dorsal accessory calyx	ACA,FBbt:00045007,dACA,dorsal accessory calyx,mushroom body accessory calyx	1.0
+PMC8252886	dorsal accessory calyx-which	FBbt:00045007	adult mushroom body dorsal accessory calyx	ACA,FBbt:00045007,dACA,dorsal accessory calyx,mushroom body accessory calyx	0.8902536034584045
+PMC8252886	female	FBbt:00110417	adult fruitless aDT-b (female) neuron	female aDT-b neuron,FBbt:00110417,female aDT2 neuron,female fru-mAL neuron,female mAL neuron	0.854278564453125
+PMC8252886	gustatory	FBbt:00047946	gustatory projection neuron	TPN,FBbt:00047946,gustatory PN,gustatory second-order neuron,taste projection neuron	0.8929725289344788
+PMC8252886	honeybee brain	FBbt:00110636	adult cerebral ganglion	CRG,FBbt:00110636,SPG,adult supraesophageal ganglion,brain,cerebrum	0.8660110831260681
+PMC8252886	honeybee mushroom body	FBbt:00005801	mushroom body	MB,FBbt:00005801,corpora pedunculata	0.9240550398826599
+PMC8252886	imaged	FBbt:00003004	adult	imago,FBbt:00003004	0.8784415125846863
+PMC8252886	lateral	FBbt:00004044	LN period neuron	LC,FBbt:00004044,LN,LN per neuron,adult lateral neuron,lateral cell,lateral neuron	0.8629997968673706
+PMC8252886	lateral horn	FBbt:00007053	adult lateral horn	LH,FBbt:00007053,lateral protocerebrum	0.9265531301498413
+PMC8252886	lens	FBbt:00004199	lens	corneal lens,FBbt:00004199	1.0
+PMC8252886	lobula	FBbt:00003852	lobula	LO,FBbt:00003852,Lo,Lob	1.0
+PMC8252886	main	FBbt:00047084	mushroom body main layer of gamma lobe slice 3	g3main,FBbt:00047084,gamma3main	0.8675462603569031
+PMC8252886	medulla	FBbt:00003748	medulla	ME,FBbt:00003748,Med,m,optic medulla	1.0
+PMC8252886	mushroom body	FBbt:00005801	mushroom body	MB,FBbt:00005801,corpora pedunculata	1.0
+PMC8252886	mushroom body output	FBbt:00047953	mushroom body output neuron	MBON,FBbt:00047953	0.9785858988761902
+PMC8252886	neuron	FBbt:00001564	U neuron	U motor neuron,FBbt:00001564,U/CQ neuron	1.0
+PMC8252886	neuropil	FBbt:00005139	neuropil	neuropil,FBbt:00005139	1.0
+PMC8252886	olfactory	FBbt:00051298	olfactory projection neuron	olfactory PN,FBbt:00051298	0.8870711922645569
+PMC8252886	olfactory projection neuron	FBbt:00007422	antennal lobe projection neuron	olfactory projection neuron,FBbt:00007422	1.0
+PMC8252886	olfactory receptors	FBbt:00005926	olfactory receptor neuron	ORN,FBbt:00005926,OSN,odorant receptor neuron,olfactory sensory neuron	0.9149104356765747
+PMC8252886	optic glomeruli	FBbt:00047447	optic glomerulus interneuron	OGIN,FBbt:00047447,optic glomeruli interneuron	0.8525541424751282
+PMC8252886	optic lobe	FBbt:00003701	adult optic lobe	OL,FBbt:00003701	0.9481093883514404
+PMC8252886	pedunculus	FBbt:00003687	mushroom body pedunculus	PED,FBbt:00003687,peduncle,peduncle of mushroom body,peduncule,peduncule of mushroom body,pedunculus,stalk of corpora pedunculata,stalk of mushroom body	1.0
+PMC8252886	posterior	FBbt:00040046	posterior superior lateral protocerebrum	PSLP,FBbt:00040046,posterior SLP,posterior splr,pslpr	0.8775382041931152
+PMC8252886	posterior antennal lobe	FBbt:00003928	antennal lobe glomerulus VP2	PAL,FBbt:00003928,VP2,antennal glomerulus VP2,hot glomerulus,medial PAP,medial proximal antennal protocerebrum,posterior antennal lobe	1.0
+PMC8252886	posterior lateral	FBbt:00007432	LP neuron	LPN,FBbt:00007432,LPN-AstA,lateral posterior neuron	0.9472315907478333
+PMC8252886	posterior lateral protocerebrum	FBbt:00040044	posterior lateral protocerebrum	CVLP,FBbt:00040044,PLP,SPP,plpr,posteriolateral protocerebrum,posterior-lateral protocerebrum,posteriorlateral protocerebrum	1.0
+PMC8252886	projection	FBbt:00007392	projection neuron	PN,FBbt:00007392	0.9511634111404419
+PMC8252886	projection neuron	FBbt:00007392	projection neuron	PN,FBbt:00007392	1.0
+PMC8252886	soma	FBbt:00005107	cell body	soma,FBbt:00005107	1.0
+PMC8252886	soma of _	FBbt:00005107	cell body	soma,FBbt:00005107	0.926630973815918
+PMC8252886	sub-esophageal ganglion	FBbt:00004013	gnathal ganglion	GNG,FBbt:00004013,SEG,SOG,subesophageal ganglion,suboesophageal ganglion	0.8818069100379944
+PMC8252886	superior clamp	FBbt:00040048	superior clamp	IPl,FBbt:00040048,IPm,SCL,SPP,ilpr,impr,lateral inferior protocerebrum,medial inferior protocerebrum	1.0
+PMC8252886	superior lateral protocerebrum	FBbt:00007054	superior lateral protocerebrum	DLP,FBbt:00007054,IDLP,SLP,adult superior lateral protocerebrum,slpr	1.0
+PMC8252886	superior medial protocerebrum	FBbt:00007055	superior medial protocerebrum	IDLP,FBbt:00007055,SDFP,SMP,impr,smpr	1.0
+PMC8252886	tile	FBbt:00003646	adult protocerebral bridge 1 glomerulus-ellipsoid body tile-nodulus 1 neuron	CX-SFN (pb-eb-no),FBbt:00003646,P-EN neuron,PB 1-glomerulus neuron>EBP-NoL1,PB 1-glomerulus neuron>EBP-NoR1,PB-EB-NO neuron,PBG2-9.s-EBt.b-NO1.b neuron,PEN,PEN neuron,pb-eb-no neuron,protocerebral bridge-ellipsoid body-noduli neuron,shifting neuron,tile neuron	0.9334622621536255
+PMC8252886	tip	FBbt:00110197	V3 segment of the vertical lobe	MB-V3,FBbt:00110197,larval UVL,larval upper vertical lobe,tip	1.0
+PMC8252886	ventral accessory calyx	FBbt:00048332	adult mushroom body lateral accessory calyx	lACA,FBbt:00048332,lateral accessory calyx	0.8889974355697632
+PMC8252886	visual projection neurons	FBbt:00048287	visual projection neuron	VPN,FBbt:00048287	0.8995958566665649
+PMC8252886	α’/β’_ap	FBbt:00047076	mushroom body anterior-posterior layer of beta' lobe slice 1	b'1ap,FBbt:00047076,beta'1ap	1.0
+PMC8252886	γ_main	FBbt:00047084	mushroom body main layer of gamma lobe slice 3	g3main,FBbt:00047084,gamma3main	0.9999999403953552
+PMC8252886	AL	FBbt:00007401	adult antennal lobe	AL,FBbt:00007401,adult olfactory lobe	1.0
+PMC8252886	ALPN2	FBbt:00100374	adult uniglomerular projection neuron VP5+SEZ adPN	ALPN2,FBbt:00100374,VP5+SEZ adPN,VP5+Z adPN,VP5+Z_adPN,multiglomerular antennal lobe projection neuron emb adPN,poly[emb] adPN	1.0
+PMC8252886	AVLP	FBbt:00040043	anterior ventrolateral protocerebrum	AVLP,FBbt:00040043,anterior VLP	1.0
+PMC8252886	B	FBbt:00002345	abdominal desD neuron	b,FBbt:00002345,dc2,dp2,p9	1.0
+PMC8252886	CA	FBbt:00003685	mushroom body calyx	CA,FBbt:00003685,calyx,calyx of corpora pedunculata,calyx of mushroom body,main calyx	1.0
+PMC8252886	D	FBbt:00048431	adult abdominal dorsal multidendritic neuron ddaC	D neuron,FBbt:00048431	0.8554139137268066
+PMC8252886	Dorsal Accessory Calyx	FBbt:00045007	adult mushroom body dorsal accessory calyx	ACA,FBbt:00045007,dACA,dorsal accessory calyx,mushroom body accessory calyx	1.0
+PMC8252886	Drosophila	FBbt:00000001	organism	Drosophila,FBbt:00000001,whole organism	1.0
+PMC8252886	GFP	FBbt:00001788	female genital primordium (male)	RFP,FBbt:00001788,male repressed primordium,repressed female genital primordium,rfp	1.0
+PMC8252886	H	FBbt:00002369	abdominal lesC neuron	H,FBbt:00002369,h2,lh1,shC	1.0
+PMC8252886	Kenyon cell	FBbt:00003686	Kenyon cell	KC,FBbt:00003686,MB neuron,intrinsic cell of mushroom body,intrinsic neuron of mushroom body,mature Kenyon cell,mushroom body neuron	1.0
+PMC8252886	LH	FBbt:00000382	larval lateral H tracheal branch	LH,FBbt:00000382,h branch	1.0
+PMC8252886	LO	FBbt:00000533	mesothoracic lateral oblique muscle cell	LO,FBbt:00000533	1.0
+PMC8252886	LOPN	FBbt:20002842	adult lobula-dorsal accessory calyx projection neuron	LOPN,FBbt:20002842,SLP448,adult SLP448 neuron,adult superior lateral protocerebrum neuron 448	1.0
+PMC8252886	Lobula	FBbt:00003852	lobula	LO,FBbt:00003852,Lo,Lob	1.0
+PMC8252886	ME	FBbt:00003748	medulla	ME,FBbt:00003748,Med,m,optic medulla	1.0
+PMC8252886	OL	FBbt:00003701	adult optic lobe	OL,FBbt:00003701	1.0
+PMC8252886	PLP	FBbt:00040044	posterior lateral protocerebrum	CVLP,FBbt:00040044,PLP,SPP,plpr,posteriolateral protocerebrum,posterior-lateral protocerebrum,posteriorlateral protocerebrum	1.0
+PMC8252886	PLPPN	FBbt:00051252	adult posterior lateral protocerebrum-dorsal accessory calyx projection neuron	PLPPN,FBbt:00051252	1.0
+PMC8252886	Posterior Lateral Protocerebrum	FBbt:00040044	posterior lateral protocerebrum	CVLP,FBbt:00040044,PLP,SPP,plpr,posteriolateral protocerebrum,posterior-lateral protocerebrum,posteriorlateral protocerebrum	1.0
+PMC8252886	SC	FBbt:00001907	embryonic/larval Malpighian tubule Type II cell	SC,FBbt:00001907,larval Malpighian tubule Type II cell,larval Malpighian tubule stellate cell	0.9999999403953552
+PMC8252886	SLP	FBbt:00007054	superior lateral protocerebrum	DLP,FBbt:00007054,IDLP,SLP,adult superior lateral protocerebrum,slpr	1.0
+PMC8252886	SMP	FBbt:00007055	superior medial protocerebrum	IDLP,FBbt:00007055,SDFP,SMP,impr,smpr	1.0
+PMC8252886	antennal lobe	FBbt:00007401	adult antennal lobe	AL,FBbt:00007401,adult olfactory lobe	0.9404340386390686
+PMC8252886	anterior ventral lateral protocerebrum	FBbt:00040043	anterior ventrolateral protocerebrum	AVLP,FBbt:00040043,anterior VLP	0.8895366191864014
+PMC8252886	brain	FBbt:00110636	adult cerebral ganglion	CRG,FBbt:00110636,SPG,adult supraesophageal ganglion,brain,cerebrum	1.0
+PMC8252886	dACA	FBbt:00045007	adult mushroom body dorsal accessory calyx	ACA,FBbt:00045007,dACA,dorsal accessory calyx,mushroom body accessory calyx	1.0
+PMC8252886	dendritic arbors	FBbt:00005111	dendritic tree	dendritic arbor,FBbt:00005111	0.9352812170982361
+PMC8252886	dorsal accessory calyx	FBbt:00045007	adult mushroom body dorsal accessory calyx	ACA,FBbt:00045007,dACA,dorsal accessory calyx,mushroom body accessory calyx	1.0
+PMC8252886	imaged	FBbt:00003004	adult	imago,FBbt:00003004	0.8784415125846863
+PMC8252886	lateral horn (	FBbt:00007053	adult lateral horn	LH,FBbt:00007053,lateral protocerebrum	0.9265531301498413
+PMC8252886	lobula	FBbt:00003852	lobula	LO,FBbt:00003852,Lo,Lob	1.0
+PMC8252886	mushroom body	FBbt:00005801	mushroom body	MB,FBbt:00005801,corpora pedunculata	1.0
+PMC8252886	neuron	FBbt:00001564	U neuron	U motor neuron,FBbt:00001564,U/CQ neuron	1.0
+PMC8252886	neuropil	FBbt:00005139	neuropil	neuropil,FBbt:00005139	1.0
+PMC8252886	optic lobe	FBbt:00003701	adult optic lobe	OL,FBbt:00003701	0.9481093883514404
+PMC8252886	posterior	FBbt:00040046	posterior superior lateral protocerebrum	PSLP,FBbt:00040046,posterior SLP,posterior splr,pslpr	0.8775382041931152
+PMC8252886	posterior lateral protocerebrum	FBbt:00040044	posterior lateral protocerebrum	CVLP,FBbt:00040044,PLP,SPP,plpr,posteriolateral protocerebrum,posterior-lateral protocerebrum,posteriorlateral protocerebrum	1.0
+PMC8252886	superior clamp	FBbt:00040048	superior clamp	IPl,FBbt:00040048,IPm,SCL,SPP,ilpr,impr,lateral inferior protocerebrum,medial inferior protocerebrum	1.0
+PMC8252886	superior lateral protocerebrum	FBbt:00007054	superior lateral protocerebrum	DLP,FBbt:00007054,IDLP,SLP,adult superior lateral protocerebrum,slpr	1.0
+PMC8252886	superior medial protocerebrum	FBbt:00007055	superior medial protocerebrum	IDLP,FBbt:00007055,SDFP,SMP,impr,smpr	1.0
+PMC8252886	vACA	FBbt:00110991	adult mushroom body ventral accessory calyx	vACA,FBbt:00110991	1.0
+PMC8252886	ventral accessory calyx	FBbt:00048332	adult mushroom body lateral accessory calyx	lACA,FBbt:00048332,lateral accessory calyx	0.8889974355697632
+PMC8252886	α/βp Kenyon cell	FBbt:00003686	Kenyon cell	KC,FBbt:00003686,MB neuron,intrinsic cell of mushroom body,intrinsic neuron of mushroom body,mature Kenyon cell,mushroom body neuron	1.0
+PMC8252886	α’/β’ap	FBbt:00047076	mushroom body anterior-posterior layer of beta' lobe slice 1	b'1ap,FBbt:00047076,beta'1ap	1.0
+PMC8252886	γmain	FBbt:00047084	mushroom body main layer of gamma lobe slice 3	g3main,FBbt:00047084,gamma3main	0.9999999403953552

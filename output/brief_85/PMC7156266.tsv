@@ -1,0 +1,160 @@
+file_name	mention_text	candidate_entity_iri	candidate_entity_label	candidate_entity_aliases	confidence
+PMC7156266	13A	FBbt:00100415	larval antennal lobe glomerulus 13a	13a,FBbt:00100415	1.0
+PMC7156266	7B	FBbt:00051243	dopaminergic PPL1 fan-shaped body layer 7 neuron	FB7B,FBbt:00051243,SMPSLPFB7	0.9644079804420471
+PMC7156266	AD	FBbt:00047119	larval anterior dorsal commissure	aD,FBbt:00047119,larval antero-dorsal commissure	1.0
+PMC7156266	Adult	FBbt:00003004	adult	imago,FBbt:00003004	1.0
+PMC7156266	B	FBbt:00002345	abdominal desD neuron	b,FBbt:00002345,dc2,dp2,p9	1.0
+PMC7156266	CNS	FBbt:00005094	central nervous system	CNS,FBbt:00005094	1.0
+PMC7156266	Cre	FBbt:00045037	adult crepine	CRE,FBbt:00045037,IDFP,IPa,aimpr,anterior inferior medial protocerebrum,anterior inferior protocerebrum	1.0
+PMC7156266	D	FBbt:00048431	adult abdominal dorsal multidendritic neuron ddaC	D neuron,FBbt:00048431	0.8554139137268066
+PMC7156266	DBD	FBbt:00002442	abdominal dorsal bipolar neuron dbp	DLN,FBbt:00002442,dbd,dorsal bipolar dendrite neuron,dorsal bipolar neuron	1.0
+PMC7156266	Dbx	FBbt:00001318	support cell of the dorsal bipolar dendritic cell	DBD support glia,FBbt:00001318,DBDG,SDBP	1.0
+PMC7156266	Dfd	FBbt:00002648	dorsal fold lateral sensillum	DFL,FBbt:00002648,dorsal fold lateral sensillum DFL,inner dorsal fold lateral sensillum	1.0
+PMC7156266	Drosophila	FBbt:00000001	organism	Drosophila,FBbt:00000001,whole organism	1.0
+PMC7156266	FM7c	FBbt:00003658	adult median bundle fan-shaped body tangential neuron	Fm neuron,FBbt:00003658,median fan-shaped neuron Fm	0.8741942048072815
+PMC7156266	FeCO	FBbt:00007592	femoral chordotonal organ	FCO,FBbt:00007592,FeCO	1.0
+PMC7156266	GABAergic	FBbt:00007228	GABAergic neuron	GABA-ergic neuron,FBbt:00007228	0.9727698564529419
+PMC7156266	GABAergic fate	FBbt:00007228	GABAergic neuron	GABA-ergic neuron,FBbt:00007228	0.8543471097946167
+PMC7156266	GABAergic neurons	FBbt:00007228	GABAergic neuron	GABA-ergic neuron,FBbt:00007228	0.8768631219863892
+PMC7156266	GFP	FBbt:00001788	female genital primordium (male)	RFP,FBbt:00001788,male repressed primordium,repressed female genital primordium,rfp	1.0
+PMC7156266	Hemilineage	FBbt:00049539	Notch ON hemilineage neuron	A hemilineage neuron,FBbt:00049539	0.903265118598938
+PMC7156266	ImageJ	FBbt:00003004	adult	imago,FBbt:00003004	0.9466856122016907
+PMC7156266	Johnston organ	FBbt:00004178	Johnston organ	JO,FBbt:00004178,Johnston's organ,chordotonal organ of antennal segment 2	0.9999999403953552
+PMC7156266	LOF	FBbt:00007131	larval optic focus	LOF,FBbt:00007131	1.0
+PMC7156266	LoxP	FBbt:00000533	mesothoracic lateral oblique muscle cell	LO,FBbt:00000533	1.0
+PMC7156266	MCFO	FBbt:00001631	medial cervical tract	MCT,FBbt:00001631	0.8614316582679749
+PMC7156266	Mlodzik	FBbt:00005408	mushroom body medial lobe	ML,FBbt:00005408,horizontal lobe of mushroom body,medial branch of mushroom body,medial lobe,medial lobe of mushroom body	1.0
+PMC7156266	NB	FBbt:00005146	neuroblast	NB,FBbt:00005146,neural stem cell	1.0
+PMC7156266	Neuroblasts	FBbt:00005146	neuroblast	NB,FBbt:00005146,neural stem cell	0.9228275418281555
+PMC7156266	PCR	FBbt:00003668	protocerebral bridge	PB,FBbt:00003668,PCB,pb	1.0
+PMC7156266	PNS	FBbt:00005098	peripheral nervous system	PNS,FBbt:00005098	0.9999999403953552
+PMC7156266	Scr	FBbt:00002943	abdominal 9 dorsocaudal sensory organ PLSOh	dcsc,FBbt:00002943,posterior lateral sensory organ,sc2/3,sk,t2	1.0
+PMC7156266	T1	FBbt:00000017	prothoracic segment	prothorax,FBbt:00000017,t1,thoracic segment 1	1.0
+PMC7156266	T2	FBbt:00000018	mesothoracic segment	mesothorax,FBbt:00000018,t2,thoracic segment 2	1.0
+PMC7156266	TTMn	FBbt:00007406	tergotrochanteral muscle motor neuron	TDTmn,FBbt:00007406,TTMn,tergal depressor of trochanter muscle motor neuron,tt MN	1.0
+PMC7156266	UAS-CD8GFP	FBbt:00001788	female genital primordium (male)	RFP,FBbt:00001788,male repressed primordium,repressed female genital primordium,rfp	1.0
+PMC7156266	VNC	FBbt:00001102	larval ventral nerve cord	larval ventral ganglion,FBbt:00001102,ventral cord,vnc	1.0
+PMC7156266	XbaI	FBbt:00003746	lamina intrinsic neuron	Am,FBbt:00003746,Lai,amacrine cell	0.9441471695899963
+PMC7156266	abdominal segments	FBbt:00000022	abdominal segment 1	a1,FBbt:00000022	0.9214088916778564
+PMC7156266	adult	FBbt:00003004	adult	imago,FBbt:00003004	1.0
+PMC7156266	adult nervous system	FBbt:00004052	adult ventral nerve cord	TAC,FBbt:00004052,TAG,adult ThGng,adult VNC,adult VNS,adult ventral nervous system,thoracico-abdominal center,thoracico-abdominal ganglia,thoracico-abdominal ganglion,thoracico-abdominal nervous system,thoracicoabdominal ganglion	0.9230327010154724
+PMC7156266	adults	FBbt:00003004	adult	imago,FBbt:00003004	0.8939151167869568
+PMC7156266	brain	FBbt:00110636	adult cerebral ganglion	CRG,FBbt:00110636,SPG,adult supraesophageal ganglion,brain,cerebrum	1.0
+PMC7156266	bristle	FBbt:00005179	macrochaeta	bristle,FBbt:00005179,setae	1.0
+PMC7156266	chordotonal	FBbt:00005222	chordotonal neuron	Type II neuron,FBbt:00005222,ch neuron,scolopidial neuron	0.9659352898597717
+PMC7156266	chordotonal neurons	FBbt:00005222	chordotonal neuron	Type II neuron,FBbt:00005222,ch neuron,scolopidial neuron	0.8523672819137573
+PMC7156266	chordotonal organ	FBbt:00005215	chordotonal organ	ch,FBbt:00005215,co,scolopophorous organ,sensilla scolopophora	1.0
+PMC7156266	chordotonal organs	FBbt:00005215	chordotonal organ	ch,FBbt:00005215,co,scolopophorous organ,sensilla scolopophora	0.887531042098999
+PMC7156266	clone	FBbt:00110474	adult fruitless Lo lineage clone	LP1 clone,FBbt:00110474,Lo clone,fru-Lo clone	0.9272320866584778
+PMC7156266	complex	FBbt:00040001	lateral complex	LX,FBbt:00040001	0.8953744173049927
+PMC7156266	contralateral	FBbt:00051484	medulla layer 6-contralateral ventral complex projection neuron	ML6-VMPR,FBbt:00051484,ML6-VMPR-s,i,MR6-VMPL,MR6-VMPL-s,i,contralateral MV neuron,long MV neuron	0.8600737452507019
+PMC7156266	dpn^EE-	FBbt:00004055	adult dorsal prothoracic nerve	ADN,FBbt:00004055,DNv1,DPN,DProN,anterior dorsal nerve,first dorsal nerve	0.8670365214347839
+PMC7156266	embryonic	FBbt:00047097	primary neuron	embryonic lineage neuron,FBbt:00047097,embryonic neuron,larval neuron,primary lineage neuron	0.95000159740448
+PMC7156266	feCO	FBbt:00007592	femoral chordotonal organ	FCO,FBbt:00007592,FeCO	1.0
+PMC7156266	female	FBbt:00110417	adult fruitless aDT-b (female) neuron	female aDT-b neuron,FBbt:00110417,female aDT2 neuron,female fru-mAL neuron,female mAL neuron	0.854278564453125
+PMC7156266	female reproductive tract	FBbt:00004911	oviduct	female internal reproductive tract,FBbt:00004911,female upper reproductive tract	0.90817791223526
+PMC7156266	femoral chordotonal organ	FBbt:00007592	femoral chordotonal organ	FCO,FBbt:00007592,FeCO	0.9999999403953552
+PMC7156266	femur	FBbt:00004667	prothoracic femur	T1 femur,FBbt:00004667	0.8841272592544556
+PMC7156266	glutamatergic	FBbt:00110138	glutamatergic local interneuron of the adult antennal lobe	glutamatergic adult AL LN,FBbt:00110138	0.8722558617591858
+PMC7156266	haltere	FBbt:00049638	haltere tract	HT,FBbt:00049638,ITD-HT	0.8578916192054749
+PMC7156266	hemilineage	FBbt:00049539	Notch ON hemilineage neuron	A hemilineage neuron,FBbt:00049539	0.903265118598938
+PMC7156266	immature	FBbt:00051423	developing neuron	differentiating neuron,FBbt:00051423,immature neuron	0.9716971516609192
+PMC7156266	interneuronal	FBbt:00001604	UMI interneuron	MP3 cell,FBbt:00001604,MP3 neuron,unpaired median interneuron	0.8523295521736145
+PMC7156266	ipsilateral	FBbt:00007426	fascicle	ipsilateral tract,FBbt:00007426	0.8716837167739868
+PMC7156266	larvae	FBbt:00005837	embryonic/larval neuromuscular junction	larval NMJ,FBbt:00005837,larval neuromuscular junction	0.8501152396202087
+PMC7156266	larval	FBbt:00005837	embryonic/larval neuromuscular junction	larval NMJ,FBbt:00005837,larval neuromuscular junction	0.9999999403953552
+PMC7156266	leg chordotonal	FBbt:00048274	mechanosensory neuron of leg chordotonal organ	Lco1N,FBbt:00048274,leg chordotonal neuron,leg chordotonal organ primary neuron	0.9743001461029053
+PMC7156266	leg disc	FBbt:00001780	ventral thoracic disc	leg disc,FBbt:00001780,ventral thoracic disk	1.0
+PMC7156266	lineage	FBbt:00048923	lineage NB1-2 neuron	lineage 1 neuron,FBbt:00048923	0.863726019859314
+PMC7156266	lots	FBbt:00000533	mesothoracic lateral oblique muscle cell	LO,FBbt:00000533	1.0
+PMC7156266	loxP	FBbt:00000533	mesothoracic lateral oblique muscle cell	LO,FBbt:00000533	1.0
+PMC7156266	motor neuron	FBbt:00001564	U neuron	U motor neuron,FBbt:00001564,U/CQ neuron	1.0
+PMC7156266	neuroblasts	FBbt:00005146	neuroblast	NB,FBbt:00005146,neural stem cell	0.9228275418281555
+PMC7156266	neuron	FBbt:00001564	U neuron	U motor neuron,FBbt:00001564,U/CQ neuron	1.0
+PMC7156266	neuropil	FBbt:00005139	neuropil	neuropil,FBbt:00005139	1.0
+PMC7156266	organ	FBbt:00002665	hypopharyngeal organ	Organ X,FBbt:00002665,PPS,hpo,posterior pharyngeal sense organ,posterior pharyngeal sensilla,pps	0.9999999403953552
+PMC7156266	pMN	FBbt:00048500	larval antennal-pharyngeal nerve motor neuron	AN motor neuron,FBbt:00048500,PMN,larval pharyngeal motor neuron	0.9999999403953552
+PMC7156266	peripheral nervous system	FBbt:00005098	peripheral nervous system	PNS,FBbt:00005098	1.0
+PMC7156266	pluggin	FBbt:00047447	optic glomerulus interneuron	OGIN,FBbt:00047447,optic glomeruli interneuron	0.8665960431098938
+PMC7156266	postembryonic	FBbt:00047096	secondary neuron	adult-specific neuron,FBbt:00047096,postembryonic neuron	0.9620468020439148
+PMC7156266	postembryonic hemilineages	FBbt:00048898	lineage 2 secondary neuron	hemilineage 2A secondary neuron,FBbt:00048898,lineage NB2-1 Notch ON secondary neuron,lineage NB2-1 secondary neuron,postembryonic 2A hemilineage neuron,postembryonic lineage 2 neuron,postembryonic lineage NB2-1 Notch ON neuron,postembryonic lineage NB2-1 neuron	0.8849684000015259
+PMC7156266	posterior	FBbt:00040046	posterior superior lateral protocerebrum	PSLP,FBbt:00040046,posterior SLP,posterior splr,pslpr	0.8775382041931152
+PMC7156266	precursor cell	FBbt:00001432	MP3 precursor	MP3 cell,FBbt:00001432,Midline precursor 3 cell,UMI precursor,unpaired median interneuron precursor	0.8946755528450012
+PMC7156266	precursors	FBbt:00001432	MP3 precursor	MP3 cell,FBbt:00001432,Midline precursor 3 cell,UMI precursor,unpaired median interneuron precursor	0.8704842329025269
+PMC7156266	projection	FBbt:00007392	projection neuron	PN,FBbt:00007392	0.9511634111404419
+PMC7156266	pupal	FBbt:00002957	pupal tracheal dorsal trunk	pupal DT,FBbt:00002957,pupal dorsal longitudinal trunk,pupal great lateral trunk	0.8800613284111023
+PMC7156266	secondary	FBbt:00047096	secondary neuron	adult-specific neuron,FBbt:00047096,postembryonic neuron	0.9600140452384949
+PMC7156266	segment	FBbt:00111027	adult thoracic neuromere	TG segment,FBbt:00111027,adult thoracic ganglion segment	0.9999999403953552
+PMC7156266	segments	FBbt:00111027	adult thoracic neuromere	TG segment,FBbt:00111027,adult thoracic ganglion segment	0.9221962094306946
+PMC7156266	sensory organ precursors	FBbt:00001137	sensory mother cell	SMC,FBbt:00001137,SOP,sensillum precursor,sensory organ mother cell,sensory organ precursor cell,sensory organ progenitor cell	0.8923764228820801
+PMC7156266	synaptic	FBbt:00005815	dense body	NMJ synaptic ribbon,FBbt:00005815	0.9042073488235474
+PMC7156266	thoracic segments	FBbt:00000017	prothoracic segment	prothorax,FBbt:00000017,t1,thoracic segment 1	0.9279467463493347
+PMC7156266	ventral nerve cord	FBbt:00005097	ventral nerve cord	ventral nervous system,FBbt:00005097	1.0
+PMC7156266	3D projection	FBbt:00007392	projection neuron	PN,FBbt:00007392	0.9511634111404419
+PMC7156266	A2	FBbt:00000023	abdominal segment 2	a2,FBbt:00000023	1.0
+PMC7156266	Acj6	FBbt:00004914	female accessory gland	AcGl,FBbt:00004914,appendicular gland,colleterial gland,parovarium	1.0
+PMC7156266	B	FBbt:00002345	abdominal desD neuron	b,FBbt:00002345,dc2,dp2,p9	1.0
+PMC7156266	B, D	FBbt:00048431	adult abdominal dorsal multidendritic neuron ddaC	D neuron,FBbt:00048431	0.8554139137268066
+PMC7156266	CNS	FBbt:00005094	central nervous system	CNS,FBbt:00005094	1.0
+PMC7156266	D	FBbt:00048431	adult abdominal dorsal multidendritic neuron ddaC	D neuron,FBbt:00048431	0.8554139137268066
+PMC7156266	GABAergic	FBbt:00007228	GABAergic neuron	GABA-ergic neuron,FBbt:00007228	0.9727698564529419
+PMC7156266	GFP	FBbt:00001788	female genital primordium (male)	RFP,FBbt:00001788,male repressed primordium,repressed female genital primordium,rfp	1.0
+PMC7156266	H	FBbt:00002369	abdominal lesC neuron	H,FBbt:00002369,h2,lh1,shC	1.0
+PMC7156266	Johnston’s organ	FBbt:00004178	Johnston organ	JO,FBbt:00004178,Johnston's organ,chordotonal organ of antennal segment 2	0.9953204393386841
+PMC7156266	M	FBbt:00003597	obsolete abdominal 2 neuroblast medial cluster	m,FBbt:00003597	1.0
+PMC7156266	MCFO	FBbt:00001631	medial cervical tract	MCT,FBbt:00001631	0.8614316582679749
+PMC7156266	NB	FBbt:00005146	neuroblast	NB,FBbt:00005146,neural stem cell	1.0
+PMC7156266	No	FBbt:00003680	nodulus	NO,FBbt:00003680,Nod,no,noduli,ventral tubercle	0.9999999403953552
+PMC7156266	PNS	FBbt:00005098	peripheral nervous system	PNS,FBbt:00005098	0.9999999403953552
+PMC7156266	S3	FBbt:00100482	lobula columnar neuron LC10	LC10,FBbt:00100482,Lcn10,S3	1.0
+PMC7156266	Sens	FBbt:00048504	larval serotonergic SE0 neuron of enteric nervous system	SE0-1,FBbt:00048504,SE0PG,Se0ens	0.9093057513237
+PMC7156266	T1	FBbt:00000017	prothoracic segment	prothorax,FBbt:00000017,t1,thoracic segment 1	1.0
+PMC7156266	T2	FBbt:00000018	mesothoracic segment	mesothorax,FBbt:00000018,t2,thoracic segment 2	1.0
+PMC7156266	T3	FBbt:00000019	metathoracic segment	metathorax,FBbt:00000019,t3,thoracic segment 3	1.0
+PMC7156266	VNC	FBbt:00001102	larval ventral nerve cord	larval ventral ganglion,FBbt:00001102,ventral cord,vnc	1.0
+PMC7156266	Z projection	FBbt:00007392	projection neuron	PN,FBbt:00007392	0.9511634111404419
+PMC7156266	abdominal	FBbt:00048718	abdominal 1 LL1 motor neuron	abdominal 1 A1-7 LL1 motor neuron,FBbt:00048718,abdominal 1 U5 neuron	0.857699453830719
+PMC7156266	abdominal segments	FBbt:00000022	abdominal segment 1	a1,FBbt:00000022	0.9214088916778564
+PMC7156266	adult	FBbt:00003004	adult	imago,FBbt:00003004	1.0
+PMC7156266	adults	FBbt:00003004	adult	imago,FBbt:00003004	0.8939151167869568
+PMC7156266	brain	FBbt:00110636	adult cerebral ganglion	CRG,FBbt:00110636,SPG,adult supraesophageal ganglion,brain,cerebrum	1.0
+PMC7156266	central brain	FBbt:00047887	adult central brain	midbrain,FBbt:00047887	0.949384868144989
+PMC7156266	chordotonal	FBbt:00005222	chordotonal neuron	Type II neuron,FBbt:00005222,ch neuron,scolopidial neuron	0.9659352898597717
+PMC7156266	chordotonal neurons	FBbt:00005222	chordotonal neuron	Type II neuron,FBbt:00005222,ch neuron,scolopidial neuron	0.8523672819137573
+PMC7156266	chordotonal organ	FBbt:00005215	chordotonal organ	ch,FBbt:00005215,co,scolopophorous organ,sensilla scolopophora	1.0
+PMC7156266	chordotonal organ lineage	FBbt:00005215	chordotonal organ	ch,FBbt:00005215,co,scolopophorous organ,sensilla scolopophora	0.8790788054466248
+PMC7156266	clone	FBbt:00110474	adult fruitless Lo lineage clone	LP1 clone,FBbt:00110474,Lo clone,fru-Lo clone	0.9272320866584778
+PMC7156266	cluster	FBbt:00001617	deutero/tritocerebral embryonic fiber tract founder cluster	D/T cluster,FBbt:00001617	1.0
+PMC7156266	compartment	FBbt:00007127	embryonic/larval antennal lobe	BA,FBbt:00007127,LAL,antennal compartment,baso-anterior synaptic neuropil domain,basoanterior compartment,larval AL,larval antennal lobe,larval olfactory lobe	0.8592690825462341
+PMC7156266	contralateral	FBbt:00051484	medulla layer 6-contralateral ventral complex projection neuron	ML6-VMPR,FBbt:00051484,ML6-VMPR-s,i,MR6-VMPL,MR6-VMPL-s,i,contralateral MV neuron,long MV neuron	0.8600737452507019
+PMC7156266	cuticle	FBbt:00004983	embryonic/larval cuticle	larval cuticle,FBbt:00004983	0.8783736228942871
+PMC7156266	dbxDBD/+	FBbt:00001318	support cell of the dorsal bipolar dendritic cell	DBD support glia,FBbt:00001318,DBDG,SDBP	1.0
+PMC7156266	ejaculatory bulb	FBbt:00004962	ejaculatory bulb	sperm pump,FBbt:00004962	1.0
+PMC7156266	embryonic progeny	FBbt:00048864	lineage MNB primary neuron	embryonic MNB progeny,FBbt:00048864,embryonic MNBp,embryonic lineage 0 neuron,embryonic lineage MNB neuron,lineage 0 primary neuron	0.8597061634063721
+PMC7156266	female	FBbt:00110417	adult fruitless aDT-b (female) neuron	female aDT-b neuron,FBbt:00110417,female aDT2 neuron,female fru-mAL neuron,female mAL neuron	0.854278564453125
+PMC7156266	female reproductive tract	FBbt:00004911	oviduct	female internal reproductive tract,FBbt:00004911,female upper reproductive tract	0.90817791223526
+PMC7156266	femur	FBbt:00004667	prothoracic femur	T1 femur,FBbt:00004667	0.8841272592544556
+PMC7156266	gnathal segments	FBbt:00000011	gnathal segment	postoral segment,FBbt:00000011	0.9736854434013367
+PMC7156266	hindleg	FBbt:00004707	metathoracic leg	T3 leg,FBbt:00004707,hindleg,third leg	1.0
+PMC7156266	image	FBbt:00003004	adult	imago,FBbt:00003004	0.9054219126701355
+PMC7156266	immunopositive	FBbt:00110031	Leucokinin neuron	LK neuron,FBbt:00110031,LK-immunopositive neuron,LK-immunoreactive cell	0.892642080783844
+PMC7156266	ipsilateral	FBbt:00007426	fascicle	ipsilateral tract,FBbt:00007426	0.8716837167739868
+PMC7156266	larvae	FBbt:00005837	embryonic/larval neuromuscular junction	larval NMJ,FBbt:00005837,larval neuromuscular junction	0.8501152396202087
+PMC7156266	larval	FBbt:00005837	embryonic/larval neuromuscular junction	larval NMJ,FBbt:00005837,larval neuromuscular junction	0.9999999403953552
+PMC7156266	leg disc	FBbt:00001780	ventral thoracic disc	leg disc,FBbt:00001780,ventral thoracic disk	1.0
+PMC7156266	lineage	FBbt:00048923	lineage NB1-2 neuron	lineage 1 neuron,FBbt:00048923	0.863726019859314
+PMC7156266	male	FBbt:00110579	adult fruitless aDT-b (male) neuron	male aDT-b neuron,FBbt:00110579,male aDT2 neuron,male fru-mAL neuron,male mAL neuron	0.9036915302276611
+PMC7156266	neuron	FBbt:00001564	U neuron	U motor neuron,FBbt:00001564,U/CQ neuron	1.0
+PMC7156266	neuropil	FBbt:00005139	neuropil	neuropil,FBbt:00005139	1.0
+PMC7156266	organ	FBbt:00002665	hypopharyngeal organ	Organ X,FBbt:00002665,PPS,hpo,posterior pharyngeal sense organ,posterior pharyngeal sensilla,pps	0.9999999403953552
+PMC7156266	posterior	FBbt:00040046	posterior superior lateral protocerebrum	PSLP,FBbt:00040046,posterior SLP,posterior splr,pslpr	0.8775382041931152
+PMC7156266	precursors	FBbt:00001432	MP3 precursor	MP3 cell,FBbt:00001432,Midline precursor 3 cell,UMI precursor,unpaired median interneuron precursor	0.8704842329025269
+PMC7156266	projection	FBbt:00007392	projection neuron	PN,FBbt:00007392	0.9511634111404419
+PMC7156266	pupal	FBbt:00002957	pupal tracheal dorsal trunk	pupal DT,FBbt:00002957,pupal dorsal longitudinal trunk,pupal great lateral trunk	0.8800613284111023
+PMC7156266	right	FBbt:00051240	right asymmetrical body	AB(R),FBbt:00051240,right AB	0.8630387187004089
+PMC7156266	segment	FBbt:00111027	adult thoracic neuromere	TG segment,FBbt:00111027,adult thoracic ganglion segment	0.9999999403953552
+PMC7156266	segmentally-repeated	FBbt:00051362	segmentally-repeated neuroblast	serially-homologous neuroblast,FBbt:00051362	0.8759365677833557
+PMC7156266	segments	FBbt:00111027	adult thoracic neuromere	TG segment,FBbt:00111027,adult thoracic ganglion segment	0.9221962094306946
+PMC7156266	sensory organ	FBbt:00005163	sensory organ cell	SOC,FBbt:00005163	0.9047372341156006
+PMC7156266	sensory organ precursors	FBbt:00001137	sensory mother cell	SMC,FBbt:00001137,SOP,sensillum precursor,sensory organ mother cell,sensory organ precursor cell,sensory organ progenitor cell	0.8923764228820801
+PMC7156266	thoracic segments	FBbt:00000017	prothoracic segment	prothorax,FBbt:00000017,t1,thoracic segment 1	0.9279467463493347

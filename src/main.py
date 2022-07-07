@@ -12,9 +12,11 @@ from scispacy.candidate_generation import (
     LinkerPaths
 )
 
+CONFIDENCE_THRESHOLD = 0.70
+
 LINKING_FILE_EXTENSION = "_linking.tsv"
 DATA_FOLDER = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../data")
-OUTPUT_FOLDER = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../output")
+OUTPUT_FOLDER = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../output/brief_70/")
 
 FBBT_JSON = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../resources/fbbt-cedar.jsonl")
 nmslib_index = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../linker/nmslib_index.bin")
@@ -53,7 +55,7 @@ def main():
     new entity linking tables in the data folder.
     """
     nlp = spacy.load("en_core_sci_sm")
-    nlp.add_pipe("scispacy_linker", config={"resolve_abbreviations": True, "linker_name": "fbbt", "threshold": 0.85})
+    nlp.add_pipe("scispacy_linker", config={"resolve_abbreviations": True, "linker_name": "fbbt", "threshold": CONFIDENCE_THRESHOLD})
 
     # process_test_sentence(nlp)
     process_data_files(nlp)
@@ -90,20 +92,23 @@ def process_data_files(nlp):
                 mentions = process_sentence(nlp, record["text"])
                 for mention in mentions:
                     mention["file_name"] = str(filename).split(".")[0].split("_")[0]
-                    if "section" in record:
-                        mention["section"] = record["section"]
-                    elif "tag" in record:
-                        mention["section"] = record["tag"]
-                    if "paragraph" in record:
-                        mention["paragraph"] = record["paragraph"]
-                    elif "label" in record:
-                        mention["paragraph"] = record["label"]
-                    if "sentence" in record:
-                        mention["sentence_num"] = record["sentence"]
+                    # if "section" in record:
+                    #     mention["section"] = record["section"]
+                    # elif "tag" in record:
+                    #     mention["section"] = record["tag"]
+                    # if "paragraph" in record:
+                    #     mention["paragraph"] = record["paragraph"]
+                    # elif "label" in record:
+                    #     mention["paragraph"] = record["label"]
+                    # if "sentence" in record:
+                    #     mention["sentence_num"] = record["sentence"]
+                    if mention not in all_mentions:
+                        all_mentions.append(mention)
 
-                    all_mentions.append(mention)
-            output_path = str(file_path).replace("/data/", "/output/")
+            output_path = OUTPUT_FOLDER + str(file_path).split("/data/")[1]
             output_path = output_path.replace("_captions", "")
+
+            all_mentions.sort(key=lambda x: x["mention_text"])
             write_mentions_to_file(output_path, all_mentions, append=True)
 
 
@@ -138,7 +143,7 @@ def process_sentence(nlp, sentence):
             if not is_already_mentioned(mentions, ent.text):
                 mentions.append({
                     "mention_text": ent.text,
-                    "sentence": sentence,
+                    # "sentence": sentence,
                     "candidate_entity_iri": entity_id,
                     "candidate_entity_label": linking.canonical_name,
                     "candidate_entity_aliases": ",".join(linking.aliases),

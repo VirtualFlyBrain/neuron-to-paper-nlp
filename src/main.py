@@ -1,5 +1,5 @@
 import os
-
+from decimal import Decimal
 from pmc_utils import read_csv_to_dict, write_mentions_to_file, clean_folder
 
 import spacy
@@ -12,11 +12,11 @@ from scispacy.candidate_generation import (
     LinkerPaths
 )
 
-CONFIDENCE_THRESHOLD = 0.70
+CONFIDENCE_THRESHOLD = 0.85
 
 LINKING_FILE_EXTENSION = "_linking.tsv"
 DATA_FOLDER = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../data")
-OUTPUT_FOLDER = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../output/brief_70/")
+OUTPUT_FOLDER = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../output/brief_85_2/")
 
 FBBT_JSON = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../resources/fbbt-cedar.jsonl")
 nmslib_index = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../linker/nmslib_index.bin")
@@ -54,11 +54,17 @@ def main():
     Loads the pre-trained embedding model and processes pmc files existing in the data folder. As an output generates
     new entity linking tables in the data folder.
     """
-    nlp = spacy.load("en_core_sci_sm")
-    nlp.add_pipe("scispacy_linker", config={"resolve_abbreviations": True, "linker_name": "fbbt", "threshold": CONFIDENCE_THRESHOLD})
+    nlp = load_model()
 
     # process_test_sentence(nlp)
     process_data_files(nlp)
+
+
+def load_model():
+    nlp = spacy.load("en_core_sci_sm")
+    nlp.add_pipe("scispacy_linker",
+                 config={"resolve_abbreviations": True, "linker_name": "fbbt", "threshold": CONFIDENCE_THRESHOLD})
+    return nlp
 
 
 def process_test_sentence(nlp):
@@ -67,9 +73,11 @@ def process_test_sentence(nlp):
     :param nlp: embedding model
     :return:
     """
-    sentence = "The metameric furrows and MesEc that forms between segments during embryonic stage 11 and persists to the " \
-               "larval stage (Campos-Ortega and Hartenstein, 1985). Any tracheal lateral trunk anterior branch primordium " \
-               "(FBbt:00000234) that is part of some metathoracic tracheal primordium (FBbt:00000188)."
+    # sentence = "The metameric furrows and MesEc that forms between segments during embryonic stage 11 and persists to the " \
+    #            "larval stage (Campos-Ortega and Hartenstein, 1985). Any tracheal lateral trunk anterior branch primordium " \
+    #            "(FBbt:00000234) that is part of some metathoracic tracheal primordium (FBbt:00000188)."
+    sentence = "The suppression of male and female sexual behaviors depends on the secretion of the neuropeptide DSK-2, which then acts on one of its receptors CCKLR-17D3 that is expressed in many fru^M neurons including P1 neurons and the mushroom bodies."
+    mentions = analyze_sentence(nlp, sentence)
     mentions = process_sentence(nlp, sentence)
     for mention in mentions:
         print(mention)
@@ -94,16 +102,6 @@ def process_data_files(nlp):
                 mentions = process_sentence(nlp, record["text"])
                 for mention in mentions:
                     mention["file_name"] = str(filename).split(".")[0].split("_")[0]
-                    # if "section" in record:
-                    #     mention["section"] = record["section"]
-                    # elif "tag" in record:
-                    #     mention["section"] = record["tag"]
-                    # if "paragraph" in record:
-                    #     mention["paragraph"] = record["paragraph"]
-                    # elif "label" in record:
-                    #     mention["paragraph"] = record["label"]
-                    # if "sentence" in record:
-                    #     mention["sentence_num"] = record["sentence"]
                     if mention not in all_mentions:
                         all_mentions.append(mention)
 
@@ -152,26 +150,43 @@ def process_sentence(nlp, sentence):
     mentions = list()
     for ent in doc.ents:
         if ent._.kb_ents:
-            entity = ent._.kb_ents[0]
-            entity_id = entity[0]
-            confidence = entity[1]
-            linking = linker.kb.cui_to_entity[entity_id]
-            if not is_already_mentioned(mentions, ent.text):
-                mentions.append({
-                    "mention_text": ent.text,
-                    # "sentence": sentence,
-                    "candidate_entity_iri": entity_id,
-                    "candidate_entity_label": linking.canonical_name,
-                    "candidate_entity_aliases": ",".join(linking.aliases),
-                    "confidence": confidence
-                })
-            # print("Mention : " + ent.text)
-            # for fbbt_ent in ent._.kb_ents:
-            #     print("----------")
-            #     print(fbbt_ent)
-            #     linking = linker.kb.cui_to_entity[fbbt_ent[0]]
-            #     print(linker.kb.cui_to_entity[fbbt_ent[0]])
-            # print("********")
+            highest_confidence = Decimal(0)
+            for entity in ent._.kb_ents:
+                entity_id = entity[0]
+                confidence = Decimal(entity[1])
+                if confidence > highest_confidence:
+                    highest_confidence = confidence
+                if confidence >= (highest_confidence - Decimal(0.1)):
+                    linking = linker.kb.cui_to_entity[entity_id]
+                    mentions.append({
+                        "mention_text": ent.text,
+                        # "sentence": sentence,
+                        "candidate_entity_iri": entity_id,
+                        "candidate_entity_label": linking.canonical_name,
+                        "candidate_entity_aliases": ",".join(linking.aliases),
+                        "confidence": str(confidence)
+                    })
+    return mentions
+
+
+def analyze_sentence(nlp, sentence):
+    """
+    Processes a sentence to link entities and prints all mention-linking options for analysis.
+    :param nlp: embedding model
+    :param sentence: sentence to process
+    :return: list of mentions (entity linking results)
+    """
+    doc = nlp(sentence)
+    mentions = list()
+    for ent in doc.ents:
+        if ent._.kb_ents:
+            print("Mention : " + ent.text)
+            for fbbt_ent in ent._.kb_ents:
+                print("----------")
+                print(fbbt_ent)
+                linking = linker.kb.cui_to_entity[fbbt_ent[0]]
+                print(linker.kb.cui_to_entity[fbbt_ent[0]])
+            print("********")
     return mentions
 
 

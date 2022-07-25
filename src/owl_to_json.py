@@ -1,6 +1,7 @@
 import os
 import json
 from rdflib import Graph
+from nlp_utils import generate_phrase_variances
 
 FBBT_ONT = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../resources/fbbt-cedar-reasoned.owl")
 FBBT_JSON = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../resources/fbbt-cedar.jsonl")
@@ -19,9 +20,9 @@ def parse_fbbt_ontology(ontology_path):
         ?fbbtClass a owl:Class .
         ?fbbtClass rdfs:label ?label .
         ?fbbtClass oboInOwl:id ?id . 
-        ?fbbtClass oboInOwl:hasRelatedSynonym ?aliases .
-        ?fbbtClass rdfs:subClassOf* ?parent .
-        ?fbbtClass obo:IAO_0000115 ?definition .
+        OPTIONAL { ?fbbtClass oboInOwl:hasRelatedSynonym ?aliases } . 
+        OPTIONAL { ?fbbtClass rdfs:subClassOf* ?parent } . 
+        OPTIONAL { ?fbbtClass obo:IAO_0000115 ?definition } . 
         FILTER ( strstarts(str(?fbbtClass), "http://purl.obolibrary.org/obo/FBbt_"))
     }"""
     qres = fbbt_graph.query(list_fbbt_entities)
@@ -42,21 +43,34 @@ def parse_fbbt_ontology(ontology_path):
                             'aliases': list(),
                             'types': list(),
                             'definition': str(row.definition)}
+            expand_aliases(str(row.label), concept_info['aliases'])
             concept_details[str(row.id)] = concept_info
 
-        if str(row.aliases) not in concept_info['aliases']:
+        if row.aliases and str(row.aliases) not in concept_info['aliases']:
             concept_info['aliases'].append(str(row.aliases))
+            expand_aliases(str(row.aliases), concept_info['aliases'])
 
         if str(row.id) not in concept_info['aliases']:
             concept_info['aliases'].append(str(row.id))
 
-        if str(row.parent).startswith(OBO_NAMESPACE):
+        if row.parent and str(row.parent).startswith(OBO_NAMESPACE):
             parent_short_name = str(row.parent).replace(OBO_NAMESPACE, "").replace("_", ":")
             if parent_short_name not in concept_info['types']:
                 concept_info['types'].append(parent_short_name)
 
     fbbt_graph.close()
     return concept_details
+
+
+def expand_aliases(text, aliases):
+    """
+    Expands the given text through generating its variants and adds as an alias
+    :param text: text to generate variances
+    :param aliases: aliases list to expand
+    """
+    for text_variance in generate_phrase_variances(text):
+        if text_variance not in aliases:
+            aliases.append(text_variance)
 
 
 def save_to_json(concept_details, ouput_path):

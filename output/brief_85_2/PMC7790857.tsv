@@ -1,0 +1,278 @@
+file_name	mention_text	candidate_entity_iri	candidate_entity_label	candidate_entity_aliases	confidence
+PMC7790857	/TM2	FBbt:00058125	proximal pretarsal depressor muscle cell	proximal pretarsal depressor muscle cell,long tendon muscle 2,FBbt:00058125,ltm2	0.861149013042449951171875
+PMC7790857	/TM2	FBbt:00003790	transmedullary neuron Tm2	transmedullary Tm2,transmedullary neuron Tm2,Tm2,FBbt:00003790	0.8502714633941650390625
+PMC7790857	/TM2	FBbt:00004339	twin sensillum of margin 2	twin sensillum of margin 2,TM2,FBbt:00004339,wing nerve TSM(2),wing nerve TSM	0.8502714633941650390625
+PMC7790857	/TM2	FBbt:00100767	larval dopaminergic TM2 neuron	larval dopaminergic TM2 neuron,larval dopaminergic TM2,TM2 neuron,TM2,FBbt:00100767,thoracic 2 dopaminergic medial neuron,thoracic 2 dopaminergic medial	0.8502714633941650390625
+PMC7790857	2D projection	FBbt:00007392	projection neuron	projection neuron,projection,PN,FBbt:00007392	0.85526752471923828125
+PMC7790857	Acj6	FBbt:00011674	anterior cardioblast	anterior cardioblast,ACB,FBbt:00011674,OFT,cardiac outflow region	1
+PMC7790857	AD	FBbt:00047119	larval anterior dorsal commissure	larval anterior dorsal commissure,aD,FBbt:00047119,larval antero-dorsal commissure,larval antero dorsal commissure	1
+PMC7790857	adult	FBbt:00003004	adult	adult,imago,FBbt:00003004	1
+PMC7790857	adult	FBbt:00005821	adult neuromuscular junction	adult neuromuscular junction,adult NMJ,FBbt:00005821	1
+PMC7790857	adult	FBbt:00047095	adult neuron	adult neuron,adult,FBbt:00047095	1
+PMC7790857	adult	FBbt:00047207	adult midgut-hindgut hybrid zone	adult midgut hindgut hybrid zone,adult midgut-hindgut hybrid zone,HPZ,FBbt:00047207,adult HZ,adult Wg ring,adult midgut-hindgut boundary,adult midgut hindgut boundary,anterior SCZ,anterior spindle cell zone,hindgut proliferation zone,midgut/hindgut imaginal ring	1
+PMC7790857	adult	FBbt:00049481	adult Malpighian tubule principal cell of stem cell zone	adult Malpighian tubule principal cell of stem cell zone,adult Malpighian tubule PC of stem cell zone,FBbt:00049481,adult Malpighian tubule Type I cell of stem cell zone,adult RC,adult renalcyte	1
+PMC7790857	Adult	FBbt:00003004	adult	adult,imago,FBbt:00003004	1
+PMC7790857	Adult	FBbt:00005821	adult neuromuscular junction	adult neuromuscular junction,adult NMJ,FBbt:00005821	1
+PMC7790857	Adult	FBbt:00047095	adult neuron	adult neuron,adult,FBbt:00047095	1
+PMC7790857	Adult	FBbt:00047207	adult midgut-hindgut hybrid zone	adult midgut hindgut hybrid zone,adult midgut-hindgut hybrid zone,HPZ,FBbt:00047207,adult HZ,adult Wg ring,adult midgut-hindgut boundary,adult midgut hindgut boundary,anterior SCZ,anterior spindle cell zone,hindgut proliferation zone,midgut/hindgut imaginal ring	1
+PMC7790857	Adult	FBbt:00049481	adult Malpighian tubule principal cell of stem cell zone	adult Malpighian tubule principal cell of stem cell zone,adult Malpighian tubule PC of stem cell zone,FBbt:00049481,adult Malpighian tubule Type I cell of stem cell zone,adult RC,adult renalcyte	1
+PMC7790857	adult optic lobe	FBbt:00003701	adult optic lobe	adult optic lobe,OL,FBbt:00003701	1
+PMC7790857	adult optic lobe	FBbt:00003702	adult optic lobe neuron	adult optic lobe neuron,adult optic lobe,FBbt:00003702	1
+PMC7790857	Adult.rds	FBbt:00003004	adult	adult,imago,FBbt:00003004	0.893524110317230224609375
+PMC7790857	Adult.rds	FBbt:00005821	adult neuromuscular junction	adult neuromuscular junction,adult NMJ,FBbt:00005821	0.893524110317230224609375
+PMC7790857	Adult.rds	FBbt:00047095	adult neuron	adult neuron,adult,FBbt:00047095	0.893524110317230224609375
+PMC7790857	Adult.rds	FBbt:00047207	adult midgut-hindgut hybrid zone	adult midgut hindgut hybrid zone,adult midgut-hindgut hybrid zone,HPZ,FBbt:00047207,adult HZ,adult Wg ring,adult midgut-hindgut boundary,adult midgut hindgut boundary,anterior SCZ,anterior spindle cell zone,hindgut proliferation zone,midgut/hindgut imaginal ring	0.893524110317230224609375
+PMC7790857	Adult.rds	FBbt:00049481	adult Malpighian tubule principal cell of stem cell zone	adult Malpighian tubule principal cell of stem cell zone,adult Malpighian tubule PC of stem cell zone,FBbt:00049481,adult Malpighian tubule Type I cell of stem cell zone,adult RC,adult renalcyte	0.893524110317230224609375
+PMC7790857	age	FBbt:00003985	adult medial antennal lobe tract	adult medial antennal lobe tract,AGT,FBbt:00003985,antenno-glomerular tract,antenno glomerular tract,iACT,inner antenno-cerebral tract,inner antenno cerebral tract,inner antennocerebral tract,inner antennocommissural tract,inner antennoglomerular tract,mALT,tractus olfactorio-globularis,tractus olfactorio globularis	0.856829106807708740234375
+PMC7790857	brain	FBbt:00005095	brain	brain,FBbt:00005095	1
+PMC7790857	brain	FBbt:00110636	adult cerebral ganglion	adult cerebral ganglion,CRG,FBbt:00110636,SPG,adult supraesophageal ganglion,brain,cerebrum	1
+PMC7790857	brain	FBbt:00003624	adult brain	adult brain,FBbt:00003624	0.9264659881591796875
+PMC7790857	C2	FBbt:00003743	centrifugal neuron C2	centrifugal C2,centrifugal neuron C2,C2,FBbt:00003743	1
+PMC7790857	C3	FBbt:00003744	centrifugal neuron C3	centrifugal C3,centrifugal neuron C3,C3,FBbt:00003744	1
+PMC7790857	CCA	FBbt:00003216	adult corpus cardiacum	adult corpus cardiacum,CCA,FBbt:00003216	1
+PMC7790857	cDNA	FBbt:00047512	descending neuron of the anterior dorsal brain	descending of the anterior dorsal brain,descending neuron of the anterior dorsal brain,DNa,FBbt:00047512	0.878640472888946533203125
+PMC7790857	cell	FBbt:00004781	wing basal cell 1	wing basal cell 1,C' cell,FBbt:00004781	0.99999988079071044921875
+PMC7790857	cell	FBbt:00007002	cell	cell,FBbt:00007002	0.99999988079071044921875
+PMC7790857	cell	FBbt:00048288	terminal filament cell	terminal filament cell,apical cell,FBbt:00048288,tf cell	0.99999988079071044921875
+PMC7790857	central brain	FBbt:00047888	central brain	central brain,FBbt:00047888	1
+PMC7790857	central brain	FBbt:00047887	adult central brain	adult central brain,midbrain,FBbt:00047887	0.954402029514312744140625
+PMC7790857	clock	FBbt:00006048	pacemaker neuron	pacemaker,pacemaker neuron,clock neuron,clock,FBbt:00006048	0.99999988079071044921875
+PMC7790857	clock	FBbt:00100163	adult pacemaker neuron	adult pacemaker neuron,adult pacemaker,adult clock neuron,adult clock,FBbt:00100163	0.94590437412261962890625
+PMC7790857	convergence	FBbt:00051207	larval mushroom body-lateral horn convergence neuron	larval mushroom body-lateral horn convergence,larval mushroom body lateral horn convergence neuron,larval mushroom body lateral horn convergence,larval mushroom body-lateral horn convergence neuron,larval CN,FBbt:00051207,larval convergence neuron,larval convergence	0.94109284877777099609375
+PMC7790857	D	FBbt:00001316	midline dorsal glial cell	midline dorsal glial cell,D-MG,D MG,FBbt:00001316,dorsal midline glial cell	1
+PMC7790857	D	FBbt:00048431	adult abdominal dorsal multidendritic neuron ddaC	adult abdominal dorsal multidendritic ddaC,adult abdominal dorsal multidendritic neuron ddaC,D neuron,D,FBbt:00048431	1
+PMC7790857	DBD/+	FBbt:00001318	support cell of the dorsal bipolar dendritic cell	support cell of the dorsal bipolar dendritic cell,DBD support glia,FBbt:00001318,DBDG,SDBP	1
+PMC7790857	dendritic arbors	FBbt:00005111	dendritic tree	dendritic tree,dendritic arbor,FBbt:00005111	0.930376708507537841796875
+PMC7790857	differentiate	FBbt:00051423	developing neuron	developing,developing neuron,differentiating neuron,differentiating,FBbt:00051423,immature neuron,immature	0.858560621738433837890625
+PMC7790857	differentiating cells	FBbt:00051423	developing neuron	developing,developing neuron,differentiating neuron,differentiating,FBbt:00051423,immature neuron,immature	0.865645110607147216796875
+PMC7790857	Dm1	FBbt:00000498	muscle cell of dorsal mouthpart muscle 1	muscle cell of dorsal mouthpart muscle 1,DM1,FBbt:00000498	1
+PMC7790857	Dm1	FBbt:00003768	distal medullary amacrine neuron Dm1	distal medullary amacrine neuron Dm1,distal medullary amacrine Dm1,Dm1,FBbt:00003768	1
+PMC7790857	Dm1	FBbt:00110135	distal medullary amacrine neuron Dm10	distal medullary amacrine neuron Dm10,distal medullary amacrine Dm10,Dm1-5,Dm1 5,FBbt:00110135,Dm10,distal medullary amacrine neuron Dm1-5,distal medullary amacrine neuron Dm1 5,distal medullary amacrine Dm1-5,distal medullary amacrine Dm1 5	0.919404685497283935546875
+PMC7790857	Dm11	FBbt:00111272	distal medullary amacrine neuron Dm11	distal medullary amacrine Dm11,distal medullary amacrine neuron Dm11,Dm11,FBbt:00111272	1
+PMC7790857	Dm12	FBbt:00111273	distal medullary amacrine neuron Dm12	distal medullary amacrine neuron Dm12,distal medullary amacrine Dm12,Dm12,FBbt:00111273	1
+PMC7790857	Dm3	FBbt:00003770	distal medullary amacrine neuron Dm3	distal medullary amacrine Dm3,distal medullary amacrine neuron Dm3,Dm3,FBbt:00003770	1
+PMC7790857	Dm3	FBbt:00110334	larval dopaminergic DM3 neuron	larval dopaminergic DM3,larval dopaminergic DM3 neuron,DM3 neuron,DM3,FBbt:00110334	1
+PMC7790857	Dm3 neuron	FBbt:00110334	larval dopaminergic DM3 neuron	larval dopaminergic DM3,larval dopaminergic DM3 neuron,DM3 neuron,DM3,FBbt:00110334	1
+PMC7790857	Dm3 neuron	FBbt:00003770	distal medullary amacrine neuron Dm3	distal medullary amacrine Dm3,distal medullary amacrine neuron Dm3,Dm3,FBbt:00003770	0.91953718662261962890625
+PMC7790857	Dm3-Dm3	FBbt:00003770	distal medullary amacrine neuron Dm3	distal medullary amacrine Dm3,distal medullary amacrine neuron Dm3,Dm3,FBbt:00003770	0.946118772029876708984375
+PMC7790857	Dm3-Dm3	FBbt:00110334	larval dopaminergic DM3 neuron	larval dopaminergic DM3,larval dopaminergic DM3 neuron,DM3 neuron,DM3,FBbt:00110334	0.946118772029876708984375
+PMC7790857	Dm4	FBbt:00003771	distal medullary amacrine neuron Dm4	distal medullary amacrine neuron Dm4,distal medullary amacrine Dm4,Dm4,FBbt:00003771	1
+PMC7790857	Dm4	FBbt:00110335	larval dopaminergic DM4 neuron	larval dopaminergic DM4 neuron,larval dopaminergic DM4,DM4 neuron,DM4,FBbt:00110335	1
+PMC7790857	Dm8	FBbt:00013774	distal medullary amacrine neuron Dm8	distal medullary amacrine neuron Dm8,distal medullary amacrine Dm8,Dm8,FBbt:00013774,Dm8a	1
+PMC7790857	Dm8	FBbt:00110068	obsolete distal medullary amacrine neuron Dm8a	obsolete distal medullary amacrine neuron Dm8a,obsolete distal medullary amacrine Dm8a,Dm8,FBbt:00110068,Dm8a	1
+PMC7790857	Dm9	FBbt:00111271	distal medullary amacrine neuron Dm9	distal medullary amacrine Dm9,distal medullary amacrine neuron Dm9,Dm9,FBbt:00111271,glia-like cell,glia like cell	1
+PMC7790857	dorsal	FBbt:00003628	adult DN period neuron	adult DN period neuron,adult DN period,DN period neuron,DN period,FBbt:00003628,adult dorsal neuron,adult dorsal	0.90185701847076416015625
+PMC7790857	dorsal	FBbt:00007431	DN3a neuron	DN3a,DN3a neuron,adult dorsal neuron-3a.,adult dorsal neuron 3a.,adult dorsal -3a.,adult dorsal 3a.,FBbt:00007431	0.90185701847076416015625
+PMC7790857	Dorsal	FBbt:00003628	adult DN period neuron	adult DN period neuron,adult DN period,DN period neuron,DN period,FBbt:00003628,adult dorsal neuron,adult dorsal	0.90185701847076416015625
+PMC7790857	Dorsal	FBbt:00007431	DN3a neuron	DN3a,DN3a neuron,adult dorsal neuron-3a.,adult dorsal neuron 3a.,adult dorsal -3a.,adult dorsal 3a.,FBbt:00007431	0.90185701847076416015625
+PMC7790857	Drosophila	FBbt:00000001	organism	organism,Drosophila,FBbt:00000001,whole organism	1
+PMC7790857	Drosophila	FBbt:10000000	anatomical entity	anatomical entity,Drosophila,FBbt:10000000	1
+PMC7790857	expressing	FBbt:00001579	EG neuron	EG neuron,EG,eg-expressing neuron,eg expressing,eg expressing neuron,eg-expressing,FBbt:00001579	0.866330087184906005859375
+PMC7790857	eye	FBbt:00004508	eye	eye,compound eye,FBbt:00004508	1
+PMC7790857	female	FBbt:00110417	adult fruitless aDT-b (female) neuron	adult fruitless aDT-b (female) neuron,adult fruitless aDT b (female),adult fruitless aDT-b (female),adult fruitless aDT b (female) neuron,adult fruitless aDT-b neuron,adult fruitless aDT b,adult fruitless aDT-b,adult fruitless aDT b neuron,female aDT-b neuron,female aDT-b,female aDT b neuron,female aDT b,FBbt:00110417,female aDT2 neuron,female aDT2,female fru-mAL neuron,female fru-mAL,female fru mAL,female fru mAL neuron,female mAL neuron,female mAL	0.888061225414276123046875
+PMC7790857	Ganglion Mother Cell	FBbt:00005149	ganglion mother cell	ganglion mother cell,GMC,FBbt:00005149	1
+PMC7790857	GFP	FBbt:00001788	female genital primordium (male)	female genital primordium,female genital primordium (male),RFP,FBbt:00001788,male repressed primordium,repressed female genital primordium,rfp	1
+PMC7790857	GFP	FBbt:00048547	larval posterior terminal filament cell	larval posterior terminal filament cell,TFp,FBbt:00048547	1
+PMC7790857	glia	FBbt:00100497	adult glial cell	adult glial cell,glia,FBbt:00100497	1
+PMC7790857	glia-like cells	FBbt:00111271	distal medullary amacrine neuron Dm9	distal medullary amacrine Dm9,distal medullary amacrine neuron Dm9,Dm9,FBbt:00111271,glia-like cell,glia like cell	0.86183106899261474609375
+PMC7790857	GMC	FBbt:00005149	ganglion mother cell	ganglion mother cell,GMC,FBbt:00005149	1
+PMC7790857	GMC	FBbt:00001438	ganglion mother cell GMC4-2a	ganglion mother cell GMC4 2a,ganglion mother cell GMC4-2a,GMC-1,GMC 1,FBbt:00001438	0.94637382030487060546875
+PMC7790857	GMC	FBbt:00007374	ganglion mother cell GMC7-3a	ganglion mother cell GMC7-3a,ganglion mother cell GMC7 3a,GMC-1,GMC 1,FBbt:00007374	0.94637382030487060546875
+PMC7790857	GMC	FBbt:00007375	ganglion mother cell GMC7-3b	ganglion mother cell GMC7-3b,ganglion mother cell GMC7 3b,GMC-2,GMC 2,FBbt:00007375,ganglion mother cell GMC 7-3b,ganglion mother cell GMC 7 3b	0.94393122196197509765625
+PMC7790857	GMC	FBbt:00007376	ganglion mother cell GMC7-3c	ganglion mother cell GMC7 3c,ganglion mother cell GMC7-3c,GMC-3,GMC 3,FBbt:00007376,ganglion mother cell GMC 7-3c,ganglion mother cell GMC 7 3c	0.9383289813995361328125
+PMC7790857	grn	FBbt:00005927	gustatory receptor neuron	gustatory receptor neuron,gustatory receptor,GRN,FBbt:00005927,GSN,gustatory sensory neuron,gustatory sensory	1
+PMC7790857	HPSQHSHPPQ	FBbt:00047207	adult midgut-hindgut hybrid zone	adult midgut hindgut hybrid zone,adult midgut-hindgut hybrid zone,HPZ,FBbt:00047207,adult HZ,adult Wg ring,adult midgut-hindgut boundary,adult midgut hindgut boundary,anterior SCZ,anterior spindle cell zone,hindgut proliferation zone,midgut/hindgut imaginal ring	1
+PMC7790857	IC	FBbt:00001533	yIc	yIc,FBbt:00001533	1
+PMC7790857	IC	FBbt:00048549	larval intermingled cell	larval intermingled cell,IC,FBbt:00048549,larval interstitial cell	1
+PMC7790857	ICA	FBbt:00001501	5-3Ica	5 3Ica,5-3Ica,FBbt:00001501	0.8861186504364013671875
+PMC7790857	ICs	FBbt:00048278	wing campaniform sensillum	wing campaniform sensillum,Wcs,FBbt:00048278,wing sensillum campaniformium	1
+PMC7790857	ICs	FBbt:00048295	haltere campaniform sensillum	haltere campaniform sensillum,Hcs,FBbt:00048295,haltere sensillum campaniformium	1
+PMC7790857	immature	FBbt:00051423	developing neuron	developing,developing neuron,differentiating neuron,differentiating,FBbt:00051423,immature neuron,immature	1
+PMC7790857	immature	FBbt:00051424	immature neuron	immature neuron,immature,FBbt:00051424	1
+PMC7790857	immature	FBbt:00111207	embryonic/larval fan-shaped body - primordial	embryonic/larval fan-shaped body - primordial,embryonic/larval fan shaped body   primordial,embryonic/larval fan-shaped body,embryonic/larval fan shaped body,FBbt:00111207,immature FB,immature fan-shaped body,immature fan shaped body,larval FB,larval fan-shaped primordium,larval fan shaped primordium,prFB	0.94826519489288330078125
+PMC7790857	IPC	FBbt:00001951	larval inner optic anlage	larval inner optic anlage,IOA,FBbt:00001951,IPC,embryonic/larval inner optic anlage,inner proliferation center,ipc	1
+PMC7790857	IPC	FBbt:00004011	insulin secreting cell of pars intercerebralis	insulin secreting cell of pars intercerebralis,IPC,FBbt:00004011,dorsomedial neurosecretory cell,insulin producing cell of brain	1
+PMC7790857	IPC	FBbt:00007369	interommatidial precursor cell	interommatidial precursor cell,IPC,FBbt:00007369,inter-ommatidial precursor cell,inter ommatidial precursor cell	1
+PMC7790857	IPC	FBbt:00047842	ipc-1 neuron	ipc 1,ipc 1 neuron,ipc-1,ipc-1 neuron,ITP-ir protocerebral neuron 1,ITP-ir protocerebral 1,ITP ir protocerebral neuron 1,ITP ir protocerebral 1,FBbt:00047842	0.952217280864715576171875
+PMC7790857	IPC	FBbt:00047843	adult ipc-1 neuron	adult ipc 1,adult ipc-1 neuron,adult ipc 1 neuron,adult ipc-1,adult ALK neuron,adult ALK,FBbt:00047843,adult ITP-ir protocerebral neuron 1,adult ITP-ir protocerebral 1,adult ITP ir protocerebral neuron 1,adult ITP ir protocerebral 1,adult anterior leucokinin neuron,adult anterior leucokinin	0.903408467769622802734375
+PMC7790857	KC	FBbt:00003686	Kenyon cell	Kenyon cell,KC,FBbt:00003686,MB neuron,MB,intrinsic cell of mushroom body,intrinsic neuron of mushroom body,intrinsic of mushroom body,mature Kenyon cell,mushroom body neuron,mushroom body	1
+PMC7790857	KC	FBbt:00049825	adult Kenyon cell	adult Kenyon cell,adult KC,FBbt:00049825	0.914288938045501708984375
+PMC7790857	Kenyon Cells	FBbt:00100247	gamma Kenyon cell	gamma Kenyon cell,KCg,FBbt:00100247,Kenyon cells (gamma lobe),Kenyon cells,gamma KC,gamma neuron,gamma,mushroom body gamma neuron,mushroom body gamma	1
+PMC7790857	Kenyon Cells	FBbt:00110929	alpha/beta core Kenyon cell	alpha/beta core Kenyon cell,KCab-c,KCab c,FBbt:00110929,Kenyon cells (alpha/beta lobe core),Kenyon cells,alpha/beta c KC,alpha/beta c Kenyon cell,alpha/beta core KC,alpha/beta core neuron,alpha/beta core,alpha/betac,mushroom body alpha/beta core neuron,mushroom body alpha/beta core	1
+PMC7790857	Kenyon Cells	FBbt:00110930	alpha/beta surface Kenyon cell	alpha/beta surface Kenyon cell,KCab-s,KCab s,FBbt:00110930,Kenyon cells (alpha/beta lobe surface),Kenyon cells,alpha/beta s KC,alpha/beta s Kenyon cell,alpha/beta surface KC,alpha/beta surface neuron,alpha/beta surface,alpha/betas,mushroom body alpha/beta surface neuron,mushroom body alpha/beta surface	1
+PMC7790857	Kenyon cells	FBbt:00100247	gamma Kenyon cell	gamma Kenyon cell,KCg,FBbt:00100247,Kenyon cells (gamma lobe),Kenyon cells,gamma KC,gamma neuron,gamma,mushroom body gamma neuron,mushroom body gamma	1
+PMC7790857	Kenyon cells	FBbt:00110929	alpha/beta core Kenyon cell	alpha/beta core Kenyon cell,KCab-c,KCab c,FBbt:00110929,Kenyon cells (alpha/beta lobe core),Kenyon cells,alpha/beta c KC,alpha/beta c Kenyon cell,alpha/beta core KC,alpha/beta core neuron,alpha/beta core,alpha/betac,mushroom body alpha/beta core neuron,mushroom body alpha/beta core	1
+PMC7790857	Kenyon cells	FBbt:00110930	alpha/beta surface Kenyon cell	alpha/beta surface Kenyon cell,KCab-s,KCab s,FBbt:00110930,Kenyon cells (alpha/beta lobe surface),Kenyon cells,alpha/beta s KC,alpha/beta s Kenyon cell,alpha/beta surface KC,alpha/beta surface neuron,alpha/beta surface,alpha/betas,mushroom body alpha/beta surface neuron,mushroom body alpha/beta surface	1
+PMC7790857	klg	FBbt:00001247	basal procephalic longitudinal glia cluster	basal procephalic longitudinal glia cluster,BPLG,FBbt:00001247	1
+PMC7790857	L	FBbt:20001434	adult wedge-bilateral lateral accessory lobe neuron	adult wedge bilateral lateral accessory lobe neuron,adult wedge-bilateral lateral accessory lobe,adult wedge-bilateral lateral accessory lobe neuron,adult wedge bilateral lateral accessory lobe,LAL138,FBbt:20001434,WL-L neuron,WL L neuron,WL L,WL-L,adult LAL138 neuron,adult LAL138,adult lateral accessory lobe neuron 138,adult lateral accessory lobe 138,wedge-LAL.s-LAL.b.contra,wedge LAL.s LAL.b.contra	1
+PMC7790857	L1	FBbt:00003719	lamina monopolar neuron L1	lamina monopolar neuron L1,lamina monopolar L1,L1,FBbt:00003719,monopolar laminar cell L1	1
+PMC7790857	L1	FBbt:00005337	first instar larva	first instar larva,L1,FBbt:00005337	1
+PMC7790857	L1	FBbt:00049318	adult lateral horn AD1a1 neuron	adult lateral horn AD1a1 neuron,adult lateral horn AD1a1,L1,FBbt:00049318,LHAD1a1,adult AD1a1 neuron,adult AD1a1,adult LHAD1a1 neuron,adult LHAD1a1,adult anterior dorsal tract 1 neuron a1,adult anterior dorsal tract 1 a1	1
+PMC7790857	La	FBbt:00003708	lamina	lamina,LA,FBbt:00003708,La	1
+PMC7790857	La	FBbt:00006021	lch5 ligament attachment cell	lch5 ligament attachment cell,LA,FBbt:00006021	1
+PMC7790857	La	FBbt:00110190	lateral appendix of larval mushroom body	lateral appendix of larval mushroom body,LAML,FBbt:00110190,MB-LA,MB LA,axonal side branches,bulbous swelling,la	1
+PMC7790857	La	FBbt:00111200	dopaminergic lamina neuron	dopaminergic lamina,dopaminergic lamina neuron,LA neuron,LA,FBbt:00111200	1
+PMC7790857	Lai	FBbt:00003746	lamina intrinsic neuron	lamina intrinsic neuron,lamina intrinsic,Am,FBbt:00003746,Lai,amacrine cell	1
+PMC7790857	lamina	FBbt:00003708	lamina	lamina,LA,FBbt:00003708,La	1
+PMC7790857	Lamina	FBbt:00003708	lamina	lamina,LA,FBbt:00003708,La	1
+PMC7790857	lamina monopolar	FBbt:00003718	lamina monopolar neuron	lamina monopolar neuron,lamina monopolar,LMC,FBbt:00003718,lamina monopolar cell,monopolar laminar cell	1
+PMC7790857	lamina monopolar	FBbt:00003720	lamina monopolar neuron L2	lamina monopolar neuron L2,lamina monopolar L2,L2,FBbt:00003720,monopolar laminar cell L2	0.918072879314422607421875
+PMC7790857	lamina monopolar	FBbt:00003719	lamina monopolar neuron L1	lamina monopolar neuron L1,lamina monopolar L1,L1,FBbt:00003719,monopolar laminar cell L1	0.917007923126220703125
+PMC7790857	lamina monopolar	FBbt:00003721	lamina monopolar neuron L3	lamina monopolar L3,lamina monopolar neuron L3,L3,FBbt:00003721,monopolar laminar cell L3	0.90949308872222900390625
+PMC7790857	lamina monopolar cells	FBbt:00003718	lamina monopolar neuron	lamina monopolar neuron,lamina monopolar,LMC,FBbt:00003718,lamina monopolar cell,monopolar laminar cell	0.877680361270904541015625
+PMC7790857	larval	FBbt:00001446	embryonic/larval neuron	embryonic/larval,embryonic/larval neuron,larval neuron,larval,FBbt:00001446	0.99999988079071044921875
+PMC7790857	larval	FBbt:00005837	embryonic/larval neuromuscular junction	embryonic/larval neuromuscular junction,larval NMJ,FBbt:00005837,larval neuromuscular junction	0.99999988079071044921875
+PMC7790857	larval	FBbt:00047097	primary neuron	primary,primary neuron,embryonic lineage neuron,embryonic lineage,FBbt:00047097,embryonic neuron,embryonic,larval neuron,larval,primary lineage neuron,primary lineage	0.99999988079071044921875
+PMC7790857	larval	FBbt:00049181	mouth hook depressor muscle cell	mouth hook depressor muscle cell,larval MHD,FBbt:00049181	0.99999988079071044921875
+PMC7790857	larval	FBbt:00051986	dorsal organ warming cell	dorsal organ warming cell,larval WC,FBbt:00051986,larval warming cell	0.99999988079071044921875
+PMC7790857	lateral	FBbt:00004044	LN period neuron	LN period neuron,LN period,LC,FBbt:00004044,LN,LN per neuron,LN per,adult lateral neuron,adult lateral,lateral cell,lateral neuron,lateral	1
+PMC7790857	lateral cell body	FBbt:00001302	lateral cell body glial cell	lateral cell body glial cell,L-CBG,L CBG,FBbt:00001302,lateral CBG,lateral cortex glial cell,lateral cortex-associated glial cell,lateral cortex associated glial cell,longitudinal cell body glial cell	0.850002706050872802734375
+PMC7790857	Lawf1	FBbt:00003741	lamina wide-field 1 neuron	lamina wide-field 1,lamina wide field 1 neuron,lamina wide field 1,lamina wide-field 1 neuron,LaWF1,FBbt:00003741,Lawf,Lawf1	1
+PMC7790857	Lawf2	FBbt:00110065	lamina wide-field 2 neuron	lamina wide field 2,lamina wide field 2 neuron,lamina wide-field 2 neuron,lamina wide-field 2,Lawf2,FBbt:00110065,Lawfl2	1
+PMC7790857	LC	FBbt:00000399	lateral cephalic tracheal branch	lateral cephalic tracheal branch,LC,FBbt:00000399	1
+PMC7790857	LC	FBbt:00003870	lobula columnar neuron	lobula columnar,lobula columnar neuron,LC,FBbt:00003870,LCN,Lcn,lobular columnar neuron,lobular columnar	1
+PMC7790857	LC	FBbt:00004044	LN period neuron	LN period neuron,LN period,LC,FBbt:00004044,LN,LN per neuron,LN per,adult lateral neuron,adult lateral,lateral cell,lateral neuron,lateral	1
+PMC7790857	LC	FBbt:00100007	lateral core of antennal mechanosensory and motor center	lateral core of antennal mechanosensory and motor center,JON-LC,JON LC,FBbt:00100007,LC,lateral core of AMMC,lateral core region	1
+PMC7790857	LC10a	FBbt:00111747	lobula columnar neuron LC10a	lobula columnar LC10a,lobula columnar neuron LC10a,LC10a,FBbt:00111747	1
+PMC7790857	LC10a	FBbt:00048234	fruitless-expressing lobula columnar neuron LC10a	fruitless-expressing lobula columnar LC10a,fruitless-expressing lobula columnar neuron LC10a,fruitless expressing lobula columnar neuron LC10a,fruitless expressing lobula columnar LC10a,fru+ LC10a neuron,fru+ LC10a,FBbt:00048234	0.918596804141998291015625
+PMC7790857	LC10b	FBbt:00111745	lobula columnar neuron LC10b	lobula columnar neuron LC10b,lobula columnar LC10b,LC10b,FBbt:00111745	1
+PMC7790857	LC10c	FBbt:00111746	lobula columnar neuron LC10c	lobula columnar neuron LC10c,lobula columnar LC10c,LC10c,FBbt:00111746	1
+PMC7790857	LC10d	FBbt:00111748	lobula columnar neuron LC10d	lobula columnar neuron LC10d,lobula columnar LC10d,LC10d,FBbt:00111748	1
+PMC7790857	LC10d	FBbt:00100482	lobula columnar neuron LC10	lobula columnar LC10,lobula columnar neuron LC10,LC10,FBbt:00100482,Lcn10,S3	0.916941225528717041015625
+PMC7790857	LC12	FBbt:00100484	lobula columnar neuron LC12	lobula columnar LC12,lobula columnar neuron LC12,LC12,FBbt:00100484,Lcn12	1
+PMC7790857	LC14	FBbt:00100486	lobula columnar neuron LC14	lobula columnar neuron LC14,lobula columnar LC14,DC neuron,DC,FBbt:00100486,LC14,Lcn14	0.999999940395355224609375
+PMC7790857	LC16	FBbt:00111751	lobula columnar neuron LC16	lobula columnar neuron LC16,lobula columnar LC16,LC16,FBbt:00111751	1
+PMC7790857	LC17	FBbt:00111752	lobula columnar neuron LC17	lobula columnar LC17,lobula columnar neuron LC17,LC17,FBbt:00111752	0.99999988079071044921875
+PMC7790857	LC6	FBbt:00003876	lobula columnar neuron LC6	lobula columnar LC6,lobula columnar neuron LC6,LC06,FBbt:00003876,LC6,S4,lobula columnar neuron Lcn6,lobula columnar Lcn6,lobular columnar neuron Lcn6,lobular columnar Lcn6	1
+PMC7790857	lea	FBbt:00049273	adult anterior lateral ellipsoid fascicle	adult anterior lateral ellipsoid fascicle,LEa,FBbt:00049273	1
+PMC7790857	Left	FBbt:00051239	left asymmetrical body	left asymmetrical body,AB(L),AB,FBbt:00051239,left AB	0.90426290035247802734375
+PMC7790857	Lo	FBbt:00000533	mesothoracic lateral oblique muscle cell	mesothoracic lateral oblique muscle cell,LO,FBbt:00000533	1
+PMC7790857	Lo	FBbt:00000567	metathoracic lateral oblique muscle cell	metathoracic lateral oblique muscle cell,LO,FBbt:00000567	1
+PMC7790857	Lo	FBbt:00000614	obsolete A1-7 lateral oblique muscle	obsolete A1-7 lateral oblique muscle,obsolete A1 7 lateral oblique muscle,LO,FBbt:00000614,abdominal lateral oblique muscle	1
+PMC7790857	Lo	FBbt:00003852	lobula	lobula,LO,FBbt:00003852,Lo,Lob	1
+PMC7790857	Lo	FBbt:00110475	adult fruitless Lo neuron	adult fruitless Lo,adult fruitless Lo neuron,LP1 neuron,LP1,FBbt:00110475,Lo neuron,Lo,fru-Lo neuron,fru Lo,fru Lo neuron,fru-Lo	1
+PMC7790857	lobula	FBbt:00003852	lobula	lobula,LO,FBbt:00003852,Lo,Lob	1
+PMC7790857	lobula layers	FBbt:00048344	lobula layer	lobula layer,FBbt:00048344	0.8554933071136474609375
+PMC7790857	lobula plate	FBbt:00003885	lobula plate	lobula plate,LOP,FBbt:00003885,LoP,Lop,lobula plate neuropil	1
+PMC7790857	Lobula plate	FBbt:00003885	lobula plate	lobula plate,LOP,FBbt:00003885,LoP,Lop,lobula plate neuropil	1
+PMC7790857	logFC	FBbt:00045004	lobula complex	lobula complex,LOX,FBbt:00045004	1
+PMC7790857	LoP	FBbt:00003885	lobula plate	lobula plate,LOP,FBbt:00003885,LoP,Lop,lobula plate neuropil	1
+PMC7790857	Lp	FBbt:00000402	lateroposterior tracheal branch	lateroposterior tracheal branch,LP,FBbt:00000402	0.999999940395355224609375
+PMC7790857	Lp	FBbt:00007432	LP neuron	LP,LP neuron,LPN,FBbt:00007432,LPN-AstA,LPN AstA,lateral posterior neuron,lateral posterior	0.999999940395355224609375
+PMC7790857	LPC	FBbt:00040047	clamp	clamp,CL,FBbt:00040047,LPC	1
+PMC7790857	LPC	FBbt:00045032	superior intermediate protocerebrum	superior intermediate protocerebrum,DLP,FBbt:00045032,FSPP,LPC,SIP,impr,smpr	1
+PMC7790857	LPC	FBbt:00111766	lobula plate columnar neuron	lobula plate columnar neuron,lobula plate columnar,LPC,FBbt:00111766,LPLC	1
+PMC7790857	LPi3-4	FBbt:00111289	lobula plate intrinsic neuron LPi3-4	lobula plate intrinsic LPi3-4,lobula plate intrinsic neuron LPi3-4,lobula plate intrinsic LPi3 4,lobula plate intrinsic neuron LPi3 4,LPi3-4,LPi3 4,FBbt:00111289	1
+PMC7790857	M	FBbt:00003597	obsolete abdominal 2 neuroblast medial cluster	obsolete abdominal 2 neuroblast medial cluster,m,FBbt:00003597	1
+PMC7790857	M	FBbt:00003616	obsolete abdominal 1 medial neuroblast	obsolete abdominal 1 medial neuroblast,abdominal neuroblast medial cluster,FBbt:00003616,m	1
+PMC7790857	M	FBbt:00003617	obsolete abdominal 3 neuroblast medial cluster	obsolete abdominal 3 neuroblast medial cluster,m,FBbt:00003617	1
+PMC7790857	M	FBbt:00003618	obsolete abdominal 4 neuroblast medial cluster	obsolete abdominal 4 neuroblast medial cluster,m,FBbt:00003618	1
+PMC7790857	M	FBbt:00003619	obsolete abdominal 5 neuroblast medial cluster	obsolete abdominal 5 neuroblast medial cluster,m,FBbt:00003619	1
+PMC7790857	male	FBbt:00110579	adult fruitless aDT-b (male) neuron	adult fruitless aDT b (male),adult fruitless aDT-b neuron,adult fruitless aDT b,adult fruitless aDT b (male) neuron,adult fruitless aDT-b (male),adult fruitless aDT-b,adult fruitless aDT b neuron,adult fruitless aDT-b (male) neuron,male aDT-b neuron,male aDT-b,male aDT b,male aDT b neuron,FBbt:00110579,male aDT2 neuron,male aDT2,male fru-mAL neuron,male fru-mAL,male fru mAL neuron,male fru mAL,male mAL neuron,male mAL	0.94522964954376220703125
+PMC7790857	mamo	FBbt:00110191	lower toe of larval mushroom body medial lobe	lower toe of larval mushroom body medial lobe,MAML,FBbt:00110191,MB-MA,MB MA,axonal side branches,bulbous swelling,lower toe,ma,medial appendix of larval mushroom body	1
+PMC7790857	mark photoreceptors	FBbt:00004211	photoreceptor neuron	photoreceptor,photoreceptor neuron,photoreceptor cell,FBbt:00004211,receptor cell	0.873577117919921875
+PMC7790857	mark photoreceptors	FBbt:00005162	photoreceptor	photoreceptor,FBbt:00005162	0.873577117919921875
+PMC7790857	MCFO	FBbt:00001631	medial cervical tract	medial cervical tract,MCT,FBbt:00001631	0.8657381534576416015625
+PMC7790857	Me	FBbt:00003748	medulla	medulla,ME,FBbt:00003748,Med,m,optic medulla	1
+PMC7790857	media	FBbt:00004762	wing vein L4	wing vein L4,cubitus vein,FBbt:00004762,media 1,medial posterior and cubitus anterior,median vein,putative first branch of medial vein	0.925922453403472900390625
+PMC7790857	medulla	FBbt:00003748	medulla	medulla,ME,FBbt:00003748,Med,m,optic medulla	1
+PMC7790857	Medulla	FBbt:00003748	medulla	medulla,ME,FBbt:00003748,Med,m,optic medulla	1
+PMC7790857	mle	FBbt:00005408	mushroom body medial lobe	mushroom body medial lobe,ML,FBbt:00005408,horizontal lobe of mushroom body,medial branch of mushroom body,medial lobe,medial lobe of mushroom body	0.913354814052581787109375
+PMC7790857	Mt1	FBbt:00003837	medullary tangential neuron Mt1	medullary tangential Mt1,medullary tangential neuron Mt1,Mt1,FBbt:00003837	1
+PMC7790857	NB	FBbt:00005146	neuroblast	neuroblast,NB,FBbt:00005146,neural stem cell	1
+PMC7790857	neuron	FBbt:00001564	U neuron	U,U neuron,U motor neuron,U motor,FBbt:00001564,U/CQ neuron,U/CQ	0.99999988079071044921875
+PMC7790857	neuron	FBbt:00001576	NH neuron	NH neuron,NH,FBbt:00001576	0.99999988079071044921875
+PMC7790857	neuron	FBbt:00001581	PQ neuron	PQ neuron,PQ,FBbt:00001581	0.99999988079071044921875
+PMC7790857	neuron	FBbt:00001586	GW neuron	GW neuron,GW,7-3M,7 3M,FBbt:00001586	0.99999988079071044921875
+PMC7790857	neuron	FBbt:00002311	A1-7 DA2 motor neuron	A1-7 DA2 motor neuron,A1 7 DA2 motor,A1-7 DA2 motor,A1 7 DA2 motor neuron,MN-DA2 neuron,MN DA2 neuron,MN DA2,MN-DA2,FBbt:00002311,MN2-Ib,MN2 Ib,U/CQ neuron,U/CQ,U2 motor neuron,U2 motor,abdominal A1-7 DA2 motor neuron,abdominal A1-7 DA2 motor,abdominal A1 7 DA2 motor neuron,abdominal A1 7 DA2 motor,abdominal U2 neuron,abdominal U2	0.99999988079071044921875
+PMC7790857	neuronal differentiation	FBbt:00051423	developing neuron	developing,developing neuron,differentiating neuron,differentiating,FBbt:00051423,immature neuron,immature	0.852701365947723388671875
+PMC7790857	neuropil	FBbt:00005139	neuropil	neuropil,FBbt:00005139	1
+PMC7790857	NYUAD	FBbt:00047119	larval anterior dorsal commissure	larval anterior dorsal commissure,aD,FBbt:00047119,larval antero-dorsal commissure,larval antero dorsal commissure	0.95064222812652587890625
+PMC7790857	olfactory projection	FBbt:00007422	antennal lobe projection neuron	antennal lobe projection,antennal lobe projection neuron,olfactory projection neuron,olfactory projection,FBbt:00007422	1
+PMC7790857	olfactory projection	FBbt:00051298	olfactory projection neuron	olfactory projection,olfactory projection neuron,olfactory PN,FBbt:00051298	1
+PMC7790857	olfactory projection	FBbt:00051299	adult olfactory projection neuron	adult olfactory projection neuron,adult olfactory projection,adult olfactory PN,FBbt:00051299	0.976388454437255859375
+PMC7790857	olfactory projection	FBbt:00051300	larval olfactory projection neuron	larval olfactory projection neuron,larval olfactory projection,larval olfactory PN,FBbt:00051300	0.94233834743499755859375
+PMC7790857	OPC	FBbt:00001933	larval outer optic anlage	larval outer optic anlage,OOA,FBbt:00001933,OPC,embryonic/larval outer optic anlage,opc,outer proliferation center	1
+PMC7790857	optic glomerulus	FBbt:00003698	optic glomerulus	optic glomerulus,optic focus,FBbt:00003698	0.999999940395355224609375
+PMC7790857	optic lobe	FBbt:00003701	adult optic lobe	adult optic lobe,OL,FBbt:00003701	0.952128589153289794921875
+PMC7790857	optic lobe	FBbt:00003702	adult optic lobe neuron	adult optic lobe neuron,adult optic lobe,FBbt:00003702	0.952128589153289794921875
+PMC7790857	optic lobe	FBbt:00001930	embryonic/larval optic lobe	embryonic/larval optic lobe,larval optic lobe,FBbt:00001930	0.888887345790863037109375
+PMC7790857	P70 Tm4	FBbt:00003792	transmedullary neuron Tm4	transmedullary Tm4,transmedullary neuron Tm4,Tm4,FBbt:00003792	0.85320377349853515625
+PMC7790857	PC	FBbt:00001343	central protocerebral neuroblast	central protocerebral neuroblast,Pc,FBbt:00001343	1
+PMC7790857	PC	FBbt:00001906	embryonic/larval Malpighian tubule Type I cell	embryonic/larval Malpighian tubule Type I cell,PC,FBbt:00001906,larval Malpighian tubule Type I cell,larval Malpighian tubule principal cell	1
+PMC7790857	PC	FBbt:00005644	embryonic Malpighian tubule Type I cell	embryonic Malpighian tubule Type I cell,Malpighian tubule principal cell,FBbt:00005644,PC	1
+PMC7790857	PC	FBbt:00005796	Malpighian tubule Type I cell	Malpighian tubule Type I cell,Malpighian tubule principal cell,FBbt:00005796,PC	1
+PMC7790857	PC	FBbt:00110875	peripheral cell	peripheral cell,PC,FBbt:00110875,niche peripheral cell	1
+PMC7790857	peptidergic neurons	FBbt:00004101	peptidergic neuron	peptidergic,peptidergic neuron,peptinergic neuron,peptinergic,FBbt:00004101	0.856820285320281982421875
+PMC7790857	photoreceptors	FBbt:00004211	photoreceptor neuron	photoreceptor,photoreceptor neuron,photoreceptor cell,FBbt:00004211,receptor cell	0.928095340728759765625
+PMC7790857	photoreceptors	FBbt:00005162	photoreceptor	photoreceptor,FBbt:00005162	0.928095340728759765625
+PMC7790857	photoreceptors	FBbt:00007253	photoreceptor cell of Bolwig organ	photoreceptor cell of Bolwig organ,larval photoreceptor neuron,larval photoreceptor,FBbt:00007253,photoreceptor cell of Bolwig's organ	0.87270915508270263671875
+PMC7790857	Pm1	FBbt:00003833	proximal medullary amacrine neuron Pm1	proximal medullary amacrine neuron Pm1,proximal medullary amacrine Pm1,Pm1,FBbt:00003833	1
+PMC7790857	Pm2	FBbt:00003835	proximal medullary amacrine neuron Pm2	proximal medullary amacrine Pm2,proximal medullary amacrine neuron Pm2,Pm2,FBbt:00003835	1
+PMC7790857	Pm3	FBbt:00110066	proximal medullary amacrine neuron Pm3	proximal medullary amacrine Pm3,proximal medullary amacrine neuron Pm3,Pm3,FBbt:00110066	1
+PMC7790857	posterior ventrolateral protocerebrum	FBbt:00040042	posterior ventrolateral protocerebrum	posterior ventrolateral protocerebrum,PVLP,FBbt:00040042,posterior VLP	0.99999988079071044921875
+PMC7790857	PR	FBbt:00003627	protocerebrum	protocerebrum,PR,FBbt:00003627,protocerebral neuromere	1
+PMC7790857	PR	FBbt:00005062	prohemocyte	prohemocyte,HSC,FBbt:00005062,Pr,blast cell,hematopoietic precursor cell,polygonal cell,prohaemocyte	1
+PMC7790857	primary	FBbt:00047097	primary neuron	primary,primary neuron,embryonic lineage neuron,embryonic lineage,FBbt:00047097,embryonic neuron,embryonic,larval neuron,larval,primary lineage neuron,primary lineage	0.999999940395355224609375
+PMC7790857	primary	FBbt:00049543	small undifferentiated primary neuron	small undifferentiated primary neuron,small undifferentiated primary,embryonically born secondary neuron,embryonically born secondary,FBbt:00049543,pioneer neuron,pioneer,primary SU neuron,primary SU	0.95678770542144775390625
+PMC7790857	projection	FBbt:00007392	projection neuron	projection neuron,projection,PN,FBbt:00007392	1
+PMC7790857	proximal	FBbt:00048292	proximal larval optic neuropil	proximal larval optic neuropil,LONp,FBbt:00048292,proximal LON	0.9231469631195068359375
+PMC7790857	PVLP	FBbt:00040042	posterior ventrolateral protocerebrum	posterior ventrolateral protocerebrum,PVLP,FBbt:00040042,posterior VLP	1
+PMC7790857	PVLP optic glomerulus	FBbt:00007582	optic glomerulus of the PVLP	optic glomerulus of the PVLP,FBbt:00007582	0.904235899448394775390625
+PMC7790857	PVLP optic glomerulus	FBbt:00003698	optic glomerulus	optic glomerulus,optic focus,FBbt:00003698	0.859404385089874267578125
+PMC7790857	R8	FBbt:00004227	photoreceptor cell R8	photoreceptor cell R8,R8,FBbt:00004227,lamina receptor cell R8,receptor cell R8	1
+PMC7790857	receptor	FBbt:00004211	photoreceptor neuron	photoreceptor,photoreceptor neuron,photoreceptor cell,FBbt:00004211,receptor cell	0.866659581661224365234375
+PMC7790857	retina	FBbt:00004200	retina	retina,FBbt:00004200	1
+PMC7790857	right	FBbt:00051240	right asymmetrical body	right asymmetrical body,AB(R),AB,FBbt:00051240,right AB	0.881916522979736328125
+PMC7790857	Right	FBbt:00051240	right asymmetrical body	right asymmetrical body,AB(R),AB,FBbt:00051240,right AB	0.881916522979736328125
+PMC7790857	row	FBbt:00100152	row	row,FBbt:00100152	1
+PMC7790857	secondary	FBbt:00047096	secondary neuron	secondary,secondary neuron,adult-specific neuron,adult-specific,adult specific neuron,adult specific,FBbt:00047096,postembryonic neuron,postembryonic	1
+PMC7790857	specific	FBbt:00047096	secondary neuron	secondary,secondary neuron,adult-specific neuron,adult-specific,adult specific neuron,adult specific,FBbt:00047096,postembryonic neuron,postembryonic	0.96775686740875244140625
+PMC7790857	specific	FBbt:00048239	male-specific neuron	male-specific neuron,male specific neuron,male-specific,male specific,FBbt:00048239	0.889921724796295166015625
+PMC7790857	Synapse	FBbt:00005114	synapse	synapse,FBbt:00005114	1
+PMC7790857	synaptic	FBbt:00005815	dense body	dense body,NMJ synaptic ribbon,FBbt:00005815	0.893421471118927001953125
+PMC7790857	T1	FBbt:00000017	prothoracic segment	prothoracic segment,prothorax,FBbt:00000017,t1,thoracic segment 1	1
+PMC7790857	T1	FBbt:00000168	embryonic prothoracic segment	embryonic prothoracic segment,prothorax,FBbt:00000168,t1,thoracic segment 1	1
+PMC7790857	T1	FBbt:00001743	larval prothoracic segment	larval prothoracic segment,prothorax,FBbt:00001743,t1,thoracic segment 1	1
+PMC7790857	T1	FBbt:00002931	abdominal 9 dorsal trichoid sensillum ALSOh	abdominal 9 dorsal trichoid sensillum ALSOh,abdominal 8 dorsomedial sensillum trichodeum ALSOh,FBbt:00002931,sc 1,sc 1/2,sk,t1,t4/5	1
+PMC7790857	T1	FBbt:00002932	abdominal 8 dorsomedial basiconic sensillum ALSOp	abdominal 8 dorsomedial basiconic sensillum ALSOp,abdominal 8 dorsomedial sensillum basiconicum ALSOp,FBbt:00002932,sc 1,sc 1/2,sk,t1,t4/5	1
+PMC7790857	T2a	FBbt:00003729	T neuron T2a	T T2a,T neuron T2a,T2a,FBbt:00003729	0.99999988079071044921875
+PMC7790857	T4	FBbt:00003731	T neuron T4	T T4,T neuron T4,T4,FBbt:00003731	1
+PMC7790857	T4b	FBbt:00003733	T neuron T4b	T T4b,T neuron T4b,T4b,FBbt:00003733	1
+PMC7790857	T4c	FBbt:00003734	T neuron T4c	T T4c,T neuron T4c,T4c,FBbt:00003734	1
+PMC7790857	T4d	FBbt:00003735	T neuron T4d	T neuron T4d,T T4d,T4d,FBbt:00003735	1
+PMC7790857	T5	FBbt:00003736	T neuron T5	T neuron T5,T T5,T5,FBbt:00003736	1
+PMC7790857	T5b	FBbt:00003738	T neuron T5b	T neuron T5b,T T5b,T5b,FBbt:00003738	1
+PMC7790857	T5c	FBbt:00003739	T neuron T5c	T neuron T5c,T T5c,T5c,FBbt:00003739	1
+PMC7790857	TE	FBbt:00058013	transient extrinsic neuron of pupal optic lobe	transient extrinsic of pupal optic lobe,transient extrinsic neuron of pupal optic lobe,TE,FBbt:00058013,TE neuron	1
+PMC7790857	TEd	FBbt:00058015	dorsal transient extrinsic neuron of pupal optic lobe	dorsal transient extrinsic neuron of pupal optic lobe,dorsal transient extrinsic of pupal optic lobe,TEd,FBbt:00058015,TEd neuron	1
+PMC7790857	terminal	FBbt:00005112	nerve terminal	nerve terminal,terminal,FBbt:00005112	1
+PMC7790857	Terminal	FBbt:00005112	nerve terminal	nerve terminal,terminal,FBbt:00005112	1
+PMC7790857	TEv	FBbt:00058014	ventral transient extrinsic neuron of pupal optic lobe	ventral transient extrinsic of pupal optic lobe,ventral transient extrinsic neuron of pupal optic lobe,TEv,FBbt:00058014,TEv neuron	1
+PMC7790857	Tm28	FBbt:00003816	transmedullary neuron Tm28	transmedullary Tm28,transmedullary neuron Tm28,Tm28,FBbt:00003816	0.999999940395355224609375
+PMC7790857	Tm3	FBbt:00003791	transmedullary neuron Tm3a	transmedullary neuron Tm3a,transmedullary Tm3a,Tm3,FBbt:00003791,Tm3a,transmedullary neuron Tm3,transmedullary Tm3	1
+PMC7790857	Tm3	FBbt:00100766	larval dopaminergic TM3 neuron	larval dopaminergic TM3 neuron,larval dopaminergic TM3,TM3 neuron,TM3,FBbt:00100766,thoracic 3 dopaminergic medial neuron,thoracic 3 dopaminergic medial	1
+PMC7790857	Tm3	FBbt:00110129	transmedullary neuron Tm3-6	transmedullary Tm3 6,transmedullary Tm3-6,transmedullary neuron Tm3 6,transmedullary neuron Tm3-6,Tm3-6,Tm3 6,FBbt:00110129	0.928116023540496826171875
+PMC7790857	Tm4	FBbt:00003792	transmedullary neuron Tm4	transmedullary Tm4,transmedullary neuron Tm4,Tm4,FBbt:00003792	1
+PMC7790857	Tm5c	FBbt:00110074	transmedullary neuron Tm5c	transmedullary Tm5c,transmedullary neuron Tm5c,Tm5c,FBbt:00110074	1
+PMC7790857	Tm9	FBbt:00003797	transmedullary neuron Tm9	transmedullary Tm9,transmedullary neuron Tm9,Tm9,FBbt:00003797	0.999999940395355224609375
+PMC7790857	TmY14	FBbt:00111286	transmedullary Y neuron TmY14	transmedullary Y TmY14,transmedullary Y neuron TmY14,TmY14,FBbt:00111286	1
+PMC7790857	TmY14	FBbt:00003818	transmedullary Y neuron TmY1	transmedullary Y neuron TmY1,transmedullary Y TmY1,TmY1,FBbt:00003818	0.9191682338714599609375
+PMC7790857	TmY4	FBbt:00003819	transmedullary Y neuron TmY2	transmedullary Y TmY2,transmedullary Y neuron TmY2,TmY2,FBbt:00003819	1
+PMC7790857	TmY4	FBbt:00003820	transmedullary Y neuron TmY3	transmedullary Y neuron TmY3,transmedullary Y TmY3,TmY3,FBbt:00003820	1
+PMC7790857	TmY4	FBbt:00003821	transmedullary Y neuron TmY4	transmedullary Y neuron TmY4,transmedullary Y TmY4,TmY4,FBbt:00003821	1
+PMC7790857	TmY4	FBbt:00003822	transmedullary Y neuron TmY5	transmedullary Y neuron TmY5,transmedullary Y TmY5,TmY5,FBbt:00003822	1
+PMC7790857	TmY4	FBbt:00003824	transmedullary Y neuron TmY6	transmedullary Y neuron TmY6,transmedullary Y TmY6,TmY6,FBbt:00003824	1
+PMC7790857	TmY8	FBbt:00003819	transmedullary Y neuron TmY2	transmedullary Y TmY2,transmedullary Y neuron TmY2,TmY2,FBbt:00003819	1
+PMC7790857	TmY8	FBbt:00003820	transmedullary Y neuron TmY3	transmedullary Y neuron TmY3,transmedullary Y TmY3,TmY3,FBbt:00003820	1
+PMC7790857	TmY8	FBbt:00003821	transmedullary Y neuron TmY4	transmedullary Y neuron TmY4,transmedullary Y TmY4,TmY4,FBbt:00003821	1
+PMC7790857	TmY8	FBbt:00003822	transmedullary Y neuron TmY5	transmedullary Y neuron TmY5,transmedullary Y TmY5,TmY5,FBbt:00003822	1
+PMC7790857	TmY8	FBbt:00003824	transmedullary Y neuron TmY6	transmedullary Y neuron TmY6,transmedullary Y TmY6,TmY6,FBbt:00003824	1
+PMC7790857	undifferentiated	FBbt:00049609	undifferentiated glial cell	undifferentiated glial cell,developing glial cell,FBbt:00049609,udg	0.88700962066650390625
+PMC7790857	VA1d	FBbt:00007101	antennal lobe glomerulus VA1d	antennal lobe glomerulus VA1d,VA1d,FBbt:00007101,antennal lobe glomerulus VA1 dorsal compartment	1
+PMC7790857	ventral photoreceptors	FBbt:00004211	photoreceptor neuron	photoreceptor,photoreceptor neuron,photoreceptor cell,FBbt:00004211,receptor cell	0.862004578113555908203125
+PMC7790857	ventral photoreceptors	FBbt:00005162	photoreceptor	photoreceptor,FBbt:00005162	0.862004578113555908203125
+PMC7790857	VT	FBbt:00000508	prothoracic ventral transverse muscle cell	prothoracic ventral transverse muscle cell,VT,FBbt:00000508	1
+PMC7790857	VT	FBbt:00047542	ventral median tract of ventral cervical fasciculus	ventral median tract of ventral cervical fasciculus,VTV,FBbt:00047542,ventral median tract of the ventral cervical fascicle,ventromedian tract	1
+PMC7790857	VT	FBbt:00047769	leg taste bristle segmental tarsal chemosensory neuron	leg taste bristle segmental tarsal chemosensory,leg taste bristle segmental tarsal chemosensory neuron,Lgs1NT,FBbt:00047769,VT,leg gustatory sensillum primary neuron of thorax,leg gustatory sensillum primary of thorax,non-ascending leg taste bristle chemosensory neuron,non-ascending leg taste bristle chemosensory,non ascending leg taste bristle chemosensory neuron,non ascending leg taste bristle chemosensory,stGRN	1
+PMC7790857	Yellow	FBbt:00001909	yellow body	yellow body,FBbt:00001909	0.890703678131103515625

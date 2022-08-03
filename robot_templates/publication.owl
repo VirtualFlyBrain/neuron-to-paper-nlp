@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/identifier -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/identifier"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/pages -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/pages"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/volume -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/volume"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/year -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/year"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/BibliographicResource -->
+
+    <Class rdf:about="http://purl.org/dc/terms/BibliographicResource"/>
+    
+
+
+    <!-- https://doi.org/10.1016/j.celrep.2020.108138 -->
+
+    <Class rdf:about="https://doi.org/10.1016/j.celrep.2020.108138">
+        <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/BibliographicResource"/>
+        <terms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMC8252886</terms:identifier>
+        <terms:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string">108138</terms:pages>
+        <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Visual Input into the Drosophila melanogaster Mushroom Body</terms:title>
+        <terms:volume rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32</terms:volume>
+        <terms:year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020</terms:year>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jinzhi Liet al., 2020</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://doi.org/10.1038/s41467-019-12758-6 -->
+
+    <Class rdf:about="https://doi.org/10.1038/s41467-019-12758-6">
+        <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/BibliographicResource"/>
+        <terms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMC6800437</terms:identifier>
+        <terms:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4770</terms:pages>
+        <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drosulfakinin signaling in fruitless circuitry antagonizes P1 neurons to regulate sexual arousal in Drosophila</terms:title>
+        <terms:volume rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</terms:volume>
+        <terms:year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019</terms:year>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shunfan Wuet al., 2019</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://doi.org/10.1038/s41467-020-19936-x -->
+
+    <Class rdf:about="https://doi.org/10.1038/s41467-020-19936-x">
+        <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/BibliographicResource"/>
+        <terms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMC7710706</terms:identifier>
+        <terms:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6166</terms:pages>
+        <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Distributed control of motor circuits for backward walking in Drosophila</terms:title>
+        <terms:volume rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</terms:volume>
+        <terms:year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020</terms:year>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kai Fenget al., 2020</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://doi.org/10.1038/s41586-020-2879-3 -->
+
+    <Class rdf:about="https://doi.org/10.1038/s41586-020-2879-3">
+        <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/BibliographicResource"/>
+        <terms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMC7790857</terms:identifier>
+        <terms:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string">88-95</terms:pages>
+        <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuronal diversity and convergence in a visual system developmental atlas</terms:title>
+        <terms:volume rdf:datatype="http://www.w3.org/2001/XMLSchema#string">589</terms:volume>
+        <terms:year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021</terms:year>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mehmet Neset Özelet al., 2021</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://doi.org/10.7554/eLife.50901 -->
+
+    <Class rdf:about="https://doi.org/10.7554/eLife.50901">
+        <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/BibliographicResource"/>
+        <terms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMC7034979</terms:identifier>
+        <terms:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string">e50901</terms:pages>
+        <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A genetic, genomic, and computational resource for exploring neural circuit function</terms:title>
+        <terms:volume rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</terms:volume>
+        <terms:year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020</terms:year>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fred P Daviset al., 2020</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://doi.org/10.7554/eLife.54978 -->
+
+    <Class rdf:about="https://doi.org/10.7554/eLife.54978">
+        <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/BibliographicResource"/>
+        <terms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMC7316511</terms:identifier>
+        <terms:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string">e54978</terms:pages>
+        <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Controlling motor neurons of every muscle for fly proboscis reaching</terms:title>
+        <terms:volume rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</terms:volume>
+        <terms:year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020</terms:year>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Claire E McKellaret al., 2020</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://doi.org/10.7554/eLife.55007 -->
+
+    <Class rdf:about="https://doi.org/10.7554/eLife.55007">
+        <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/BibliographicResource"/>
+        <terms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMC7156266</terms:identifier>
+        <terms:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string">e55007</terms:pages>
+        <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unc-4 acts to promote neuronal identity and development of the take-off circuit in the Drosophila CNS</terms:title>
+        <terms:volume rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</terms:volume>
+        <terms:year rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020</terms:year>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haluk Lacinet al., 2020</rdfs:label>
+    </Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+

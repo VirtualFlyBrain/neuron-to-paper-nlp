@@ -1,6 +1,7 @@
 import os
 from decimal import Decimal
 from pmc_utils import read_csv_to_dict, write_mentions_to_file, clean_folder
+from template_generator import generate_publications_robot_template, generate_linkings_robot_template
 
 import spacy
 import scispacy
@@ -14,9 +15,12 @@ from scispacy.candidate_generation import (
 
 CONFIDENCE_THRESHOLD = 0.85
 
-LINKING_FILE_EXTENSION = "_linking.tsv"
 DATA_FOLDER = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../data")
 OUTPUT_FOLDER = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../output/brief_85_2/")
+PUBLICATION_TEMPLATE = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../robot_templates/publication.tsv")
+LINKING_TEMPLATE = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../robot_templates/linking.tsv")
+
+IGNORED_EXTENSIONS = ("_tables.tsv", "_metadata.tsv")
 
 FBBT_JSON = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../resources/fbbt-cedar.jsonl")
 nmslib_index = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../linker/nmslib_index.bin")
@@ -57,7 +61,11 @@ def main():
     nlp = load_model()
 
     # process_test_sentence(nlp)
-    process_data_files(nlp)
+    all_data = process_data_files(nlp)
+
+    pmcid_doi_mapping = generate_publications_robot_template(DATA_FOLDER, PUBLICATION_TEMPLATE)
+    generate_linkings_robot_template(all_data, pmcid_doi_mapping, LINKING_TEMPLATE)
+    write_linkings_to_tsv(all_data)
 
 
 def load_model():
@@ -94,7 +102,7 @@ def process_data_files(nlp):
     all_data = dict()
     for filename in data_files:
         file_path = os.path.join(DATA_FOLDER, filename)
-        if os.path.isfile(file_path) and LINKING_FILE_EXTENSION not in filename:
+        if os.path.isfile(file_path) and not filename.endswith(IGNORED_EXTENSIONS):
             table = read_csv_to_dict(file_path, delimiter="\t", generated_ids=True)[1]
             all_mentions = list()
             for row in table:
@@ -111,13 +119,17 @@ def process_data_files(nlp):
                 existing_data.extend(all_mentions)
             else:
                 all_data[file_name] = all_mentions
+    return all_data
 
-            # output_path = OUTPUT_FOLDER + str(file_path).split("/data/")[1]
-            # output_path = output_path.replace("_captions", "")
-            #
-            # all_mentions.sort(key=lambda x: x["mention_text"])
-            # write_mentions_to_file(output_path, all_mentions, append=True)
 
+
+
+
+def write_linkings_to_tsv(all_data):
+    """
+    Writes entity linking results a plain tsv file.
+    :param all_data: entity linking results
+    """
     for file_name in all_data:
         output_path = OUTPUT_FOLDER + file_name + ".tsv"
         data = all_data[file_name]

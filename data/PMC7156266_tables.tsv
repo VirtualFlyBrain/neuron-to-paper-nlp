@@ -1,0 +1,58 @@
+	Table.1..Driver	Table.1..Target.cell.types	Table.1..Success.in.three.leg.rubbing..Control	Table.1..Success.in.three.leg.rubbing..unc.4.removal	Table.1..Success.in.climbing..time.to.climb...in.seconds...Control	Table.1..Success.in.climbing..time.to.climb...in.seconds...unc.4.removal	Key.resources.table.Reagent.type..species..or.resource	Key.resources.table.Designation	Key.resources.table.Source.or.reference	Key.resources.table.Identifiers	Key.resources.table.Additional.information
+1	sca-GAL4	All CNS and PNS neurons	88.9%, N = 18	0%*, N = 20	100%, 17.7 s. +/- 8, N = 22	9.1%*, N/A¶, N = 22	Antibody	Guinea pig anti-Sens polyclonal	PMID:10975525		1:1000 dilution
+2	dpn-GAL4	All CNS neurons	81.8%, N = 22	28.5%*, N = 21	90%, 20.1 s. +/- 15, N = 30	80%†, 27.6 s.‡+/- 20.5, N = 28	Antibody	Rabbit anti- GABA polyclonal	Sigma	A2052	1:1000 dilution
+3	ato-Gal4	Chordotonal neurons	90%, N = 33	14.8%*, N = 27	N/A**	N/A**	Antibody	Chicken anti-GFP polyclonal	Life Tech.	A10262	1:1000 dilution
+4	sca-GAL4	All CNS and PNS neurons	88.9%, N = 18	0%*, N = 20	100%, 17.7 s. +/- 8, N = 22	9.1%*, N/A¶, N = 22	Antibody	Rabbit anti-HA polyclonal	Cell sig.	3724S	1:500 dilution
+5	dpn-GAL4	All CNS neurons	81.8%, N = 22	28.5%*, N = 21	90%, 20.1 s. +/- 15, N = 30	80%†, 27.6 s.‡+/- 20.5, N = 28	Antibody	Rabbit anti-GFP polyclonal	Thermo Fisher S.	A11122	1:1000 dilution
+6	ato-Gal4	Chordotonal neurons	90%, N = 33	14.8%*, N = 27	N/A**	N/A**	Antibody	Rabbit anti-Unc-4 polyclonal	PMID:24550109		1:1000 dilution
+7	sca-GAL4	All CNS and PNS neurons	88.9%, N = 18	0%*, N = 20	100%, 17.7 s. +/- 8, N = 22	9.1%*, N/A¶, N = 22	Antibody	Rabbit Eve	PMID:2884106		1:2000 dilution
+8	dpn-GAL4	All CNS neurons	81.8%, N = 22	28.5%*, N = 21	90%, 20.1 s. +/- 15, N = 30	80%†, 27.6 s.‡+/- 20.5, N = 28	Antibody	Mouse anti-Acj6 monoclonal	DSHB	Acj6	1:100 dilution
+9	ato-Gal4	Chordotonal neurons	90%, N = 33	14.8%*, N = 27	N/A**	N/A**	Antibody	Rat anti-Cadherin monoclonal	DSHB	DN-Ex#8	1:25 dilution
+10	sca-GAL4	All CNS and PNS neurons	88.9%, N = 18	0%*, N = 20	100%, 17.7 s. +/- 8, N = 22	9.1%*, N/A¶, N = 22	Antibody	goat anti-rabbit Alexa Fluor 488	Life Technologies	A-11034	1:500 dilution
+11	dpn-GAL4	All CNS neurons	81.8%, N = 22	28.5%*, N = 21	90%, 20.1 s. +/- 15, N = 30	80%†, 27.6 s.‡+/- 20.5, N = 28	Antibody	goat anti-rabbit Alexa Fluor 568	Life Technologies	A-11011	1:500 dilution
+12	ato-Gal4	Chordotonal neurons	90%, N = 33	14.8%*, N = 27	N/A**	N/A**	Antibody	goat anti- rabbit Alexa Fluor 633	Life Technologies	A-21070	1:500 dilution
+13	sca-GAL4	All CNS and PNS neurons	88.9%, N = 18	0%*, N = 20	100%, 17.7 s. +/- 8, N = 22	9.1%*, N/A¶, N = 22	Antibody	goat anti-chicken Alexa Fluor 488	Life Technologies	A-11039	1:500 dilution
+14	dpn-GAL4	All CNS neurons	81.8%, N = 22	28.5%*, N = 21	90%, 20.1 s. +/- 15, N = 30	80%†, 27.6 s.‡+/- 20.5, N = 28	Antibody	goat anti-mouse Alexa Fluor 568	Life Technologies	A-11004	1:500 dilution
+15	ato-Gal4	Chordotonal neurons	90%, N = 33	14.8%*, N = 27	N/A**	N/A**	Antibody	goat anti-mouse Alexa Fluor 633	Life Technologies	A-21050	1:500 dilution
+16	sca-GAL4	All CNS and PNS neurons	88.9%, N = 18	0%*, N = 20	100%, 17.7 s. +/- 8, N = 22	9.1%*, N/A¶, N = 22	Antibody	goat anti-rat Alexa Fluor568	Life Technologies	A-11077	1:500 dilution
+17	dpn-GAL4	All CNS neurons	81.8%, N = 22	28.5%*, N = 21	90%, 20.1 s. +/- 15, N = 30	80%†, 27.6 s.‡+/- 20.5, N = 28	Antibody	goat anti-rat Alexa Fluor633	Life Technologies	A-21094	1:500 dilution
+18	ato-Gal4	Chordotonal neurons	90%, N = 33	14.8%*, N = 27	N/A**	N/A**	Genetic reagent (D. melanogaster)	MKRS, P{ry[+t7.2]=hsFLP}86E/TM6B, P{w[+mC]=Crew}DH2, Tb[1]	BloomingtonDrosophila Stock Center	RRID:BDSC_1501	
+19	sca-GAL4	All CNS and PNS neurons	88.9%, N = 18	0%*, N = 20	100%, 17.7 s. +/- 8, N = 22	9.1%*, N/A¶, N = 22	Genetic reagent (D. melanogaster)	P{ry[+t7.2]=hsFLP}1, w[1118]; Adv[1]/CyO	BloomingtonDrosophila Stock Center	RRID:BDSC_6	
+20	dpn-GAL4	All CNS neurons	81.8%, N = 22	28.5%*, N = 21	90%, 20.1 s. +/- 15, N = 30	80%†, 27.6 s.‡+/- 20.5, N = 28	Genetic reagent (D. melanogaster)	y1 w*; P{UAS-FLP.D}JD1	BloomingtonDrosophila Stock Center	RRID:BDSC_4539	
+21	ato-Gal4	Chordotonal neurons	90%, N = 33	14.8%*, N = 27	N/A**	N/A**	Genetic reagent (D. melanogaster)	w*; P{UAS-p35.H}BH1	BloomingtonDrosophila Stock Center	RRID:BDSC_5072	
+22	sca-GAL4	All CNS and PNS neurons	88.9%, N = 18	0%*, N = 20	100%, 17.7 s. +/- 8, N = 22	9.1%*, N/A¶, N = 22	Genetic reagent (D. melanogaster)	P{Tub-dVP16AD.D}	BloomingtonDrosophila Stock Center	RRID:BDSC_60295	
+23	dpn-GAL4	All CNS neurons	81.8%, N = 22	28.5%*, N = 21	90%, 20.1 s. +/- 15, N = 30	80%†, 27.6 s.‡+/- 20.5, N = 28	Genetic reagent (D. melanogaster)	P{Tub-GAL4DBD.D}	Bloomington Drosophila Stock Center	RRID:BDSC_60298	
+24	ato-Gal4	Chordotonal neurons	90%, N = 33	14.8%*, N = 27	N/A**	N/A**	Genetic reagent (D. melanogaster)	w[*]; P{w[+mC]=iav-GAL4.K}3	BloomingtonDrosophila Stock Center	RRID:BDSC_52273	
+25	sca-GAL4	All CNS and PNS neurons	88.9%, N = 18	0%*, N = 20	100%, 17.7 s. +/- 8, N = 22	9.1%*, N/A¶, N = 22	Genetic reagent (D. melanogaster)	y[1] w[*]; Mi{y[+mDint2]=MIC}TfAP-2[MI04611]/TM3, Sb[1] Ser[1]	BloomingtonDrosophila Stock Center	RRID:BDSC_37965	
+26	dpn-GAL4	All CNS neurons	81.8%, N = 22	28.5%*, N = 21	90%, 20.1 s. +/- 15, N = 30	80%†, 27.6 s.‡+/- 20.5, N = 28	Genetic reagent (D. melanogaster)	13XLexAop2-IVS-myr::GFP in attP40	BloomingtonDrosophila Stock Center	RRID:BDSC_32210	
+27	ato-Gal4	Chordotonal neurons	90%, N = 33	14.8%*, N = 27	N/A**	N/A**	Genetic reagent (D. melanogaster)	w[*]; P{w[+mC]=tubP-GAL80[ts]}2/TM2	BloomingtonDrosophilaStock Center	RRID:BDSC_7017	
+28	sca-GAL4	All CNS and PNS neurons	88.9%, N = 18	0%*, N = 20	100%, 17.7 s. +/- 8, N = 22	9.1%*, N/A¶, N = 22	Genetic reagent (D. melanogaster)	hsFlp2::PEST;; HA_V5_FLAG-MCFO	PMID:25964354	RRID:BDSC_9494	
+29	dpn-GAL4	All CNS neurons	81.8%, N = 22	28.5%*, N = 21	90%, 20.1 s. +/- 15, N = 30	80%†, 27.6 s.‡+/- 20.5, N = 28	Genetic reagent (D. melanogaster)	y1 w*; P{ato-GAL4.3.6}10	PMID:10774724		
+30	ato-Gal4	Chordotonal neurons	90%, N = 33	14.8%*, N = 27	N/A**	N/A**	Genetic reagent (D. melanogaster)	Dpn-EE-GAL4-attp16;T3/T6b	PMID:26700685		
+31	sca-GAL4	All CNS and PNS neurons	88.9%, N = 18	0%*, N = 20	100%, 17.7 s. +/- 8, N = 22	9.1%*, N/A¶, N = 22	Genetic reagent (D. melanogaster)	pJFRC29-10XUAS-IVS-myr::GFP-p10 in attP40	PMID:22493255		
+32	dpn-GAL4	All CNS neurons	81.8%, N = 22	28.5%*, N = 21	90%, 20.1 s. +/- 15, N = 30	80%†, 27.6 s.‡+/- 20.5, N = 28	Genetic reagent (D. melanogaster)	pJFRC105-10XUAS-IVS-nlstdTomatoi n VK00040	PMID:22493255		
+33	ato-Gal4	Chordotonal neurons	90%, N = 33	14.8%*, N = 27	N/A**	N/A**	Genetic reagent (D. melanogaster)	Poxn-GAL4.13	PMID:12421707		
+34	sca-GAL4	All CNS and PNS neurons	88.9%, N = 18	0%*, N = 20	100%, 17.7 s. +/- 8, N = 22	9.1%*, N/A¶, N = 22	Genetic reagent (D. melanogaster)	y[1] w[*]; Mi{y[+mDint2]=MIC}TfAP-2[MI04611]/TM3, Sb[1] Ser[1]	BloomingtonDrosophilaStock Center	RRID:BDSC_37965	
+35	dpn-GAL4	All CNS neurons	81.8%, N = 22	28.5%*, N = 21	90%, 20.1 s. +/- 15, N = 30	80%†, 27.6 s.‡+/- 20.5, N = 28	Genetic reagent (D. melanogaster)	UAS-hidAla5	PMID:9814704		
+36	ato-Gal4	Chordotonal neurons	90%, N = 33	14.8%*, N = 27	N/A**	N/A**	Genetic reagent (D. melanogaster)	Actin5Cp4.6>dsFRT > nlsLexAp65	G Rubin		
+37	sca-GAL4	All CNS and PNS neurons	88.9%, N = 18	0%*, N = 20	100%, 17.7 s. +/- 8, N = 22	9.1%*, N/A¶, N = 22	Genetic reagent (D. melanogaster)	pJFRC51-3XUAS-IVS-Syt::smGFP-HA in attP40	G Rubin		
+38	dpn-GAL4	All CNS neurons	81.8%, N = 22	28.5%*, N = 21	90%, 20.1 s. +/- 15, N = 30	80%†, 27.6 s.‡+/- 20.5, N = 28	Genetic reagent (D. melanogaster)	pJFRC12-10XUAS-IVS-myr::GFP in attP18	G Rubin		
+39	ato-Gal4	Chordotonal neurons	90%, N = 33	14.8%*, N = 27	N/A**	N/A**	Genetic reagent (D. melanogaster)	unc-4-GAL4	this study	FBgn0024184	built by H. Lacin
+40	sca-GAL4	All CNS and PNS neurons	88.9%, N = 18	0%*, N = 20	100%, 17.7 s. +/- 8, N = 22	9.1%*, N/A¶, N = 22	Genetic reagent (D. melanogaster)	unc-4-AD	this study	FBgn0024184	built by H. Lacin
+41	dpn-GAL4	All CNS neurons	81.8%, N = 22	28.5%*, N = 21	90%, 20.1 s. +/- 15, N = 30	80%†, 27.6 s.‡+/- 20.5, N = 28	Genetic reagent (D. melanogaster)	unc-4-DBD	this study	FBgn0024184	built by H. Lacin
+42	ato-Gal4	Chordotonal neurons	90%, N = 33	14.8%*, N = 27	N/A**	N/A**	Genetic reagent (D. melanogaster)	unc-4-FRT	this study	FBgn0024184	built by H. Lacin
+43	sca-GAL4	All CNS and PNS neurons	88.9%, N = 18	0%*, N = 20	100%, 17.7 s. +/- 8, N = 22	9.1%*, N/A¶, N = 22	Genetic reagent (D. melanogaster)	unc-4-null	this study	FBgn0024184	built by H. Lacin
+44	dpn-GAL4	All CNS neurons	81.8%, N = 22	28.5%*, N = 21	90%, 20.1 s. +/- 15, N = 30	80%†, 27.6 s.‡+/- 20.5, N = 28	Genetic reagent (D. melanogaster)	TfAP-2-AD	this study	FBgn0261953	built by H. Lacin
+45	ato-Gal4	Chordotonal neurons	90%, N = 33	14.8%*, N = 27	N/A**	N/A**	Genetic reagent (D. melanogaster)	TfAP-2-GAL4	this study	FBgn0261953	built by H. Lacin
+46	sca-GAL4	All CNS and PNS neurons	88.9%, N = 18	0%*, N = 20	100%, 17.7 s. +/- 8, N = 22	9.1%*, N/A¶, N = 22	Genetic reagent (D. melanogaster)	w*;sca-GAL4	PMID:2125959		
+47	dpn-GAL4	All CNS neurons	81.8%, N = 22	28.5%*, N = 21	90%, 20.1 s. +/- 15, N = 30	80%†, 27.6 s.‡+/- 20.5, N = 28	Chemical compound, drug	Paraformaldehyde	EMS	15713	
+48	ato-Gal4	Chordotonal neurons	90%, N = 33	14.8%*, N = 27	N/A**	N/A**	Chemical compound, drug	Vectashield	Vector	H-1000	
+49	sca-GAL4	All CNS and PNS neurons	88.9%, N = 18	0%*, N = 20	100%, 17.7 s. +/- 8, N = 22	9.1%*, N/A¶, N = 22	Chemical compound, drug	Prolong Diamond	Molecular Probes	P36961	
+50	dpn-GAL4	All CNS neurons	81.8%, N = 22	28.5%*, N = 21	90%, 20.1 s. +/- 15, N = 30	80%†, 27.6 s.‡+/- 20.5, N = 28	Recombinant DNA reagent	pHD-DsRed-attP	Addgene	51019	
+51	ato-Gal4	Chordotonal neurons	90%, N = 33	14.8%*, N = 27	N/A**	N/A**	Recombinant DNA reagent	pCFD4-U6:1_U6:3tandemgRNAs	Addgene	49411	
+52	sca-GAL4	All CNS and PNS neurons	88.9%, N = 18	0%*, N = 20	100%, 17.7 s. +/- 8, N = 22	9.1%*, N/A¶, N = 22	Recombinant DNA reagent	pBS-KS-attB2-SA(1)-T2A-Gal4-Hsp70	Addgene	62897	
+53	dpn-GAL4	All CNS neurons	81.8%, N = 22	28.5%*, N = 21	90%, 20.1 s. +/- 15, N = 30	80%†, 27.6 s.‡+/- 20.5, N = 28	Recombinant DNA reagent	pBS-KS-attB2-SA(1)-T2A-Gal4DBD-Hsp70	Addgene	62903	
+54	ato-Gal4	Chordotonal neurons	90%, N = 33	14.8%*, N = 27	N/A**	N/A**	Recombinant DNA reagent	pBS-KS-attB2-SA(1)-T2A-p65AD-Hsp70	Addgene	62914	
+55	sca-GAL4	All CNS and PNS neurons	88.9%, N = 18	0%*, N = 20	100%, 17.7 s. +/- 8, N = 22	9.1%*, N/A¶, N = 22	Recombinant DNA reagent	pBS-KS-attB2-SA(0)-T2A-Gal4-Hsp70	Addgene	62896	
+56	dpn-GAL4	All CNS neurons	81.8%, N = 22	28.5%*, N = 21	90%, 20.1 s. +/- 15, N = 30	80%†, 27.6 s.‡+/- 20.5, N = 28	Recombinant DNA reagent	pBS-KS-attB2-SA(0)- T2A-Gal4DBD-Hsp70	Addgene	62902	
+57	ato-Gal4	Chordotonal neurons	90%, N = 33	14.8%*, N = 27	N/A**	N/A**	Recombinant DNA reagent	pBS-KS-attB2-SA(0)-T2A-p65AD-Hsp70	Addgene	62912	

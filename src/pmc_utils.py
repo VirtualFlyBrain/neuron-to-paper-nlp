@@ -71,14 +71,11 @@ def write_mentions_to_file(file_path, mentions, append=False):
     else:
         mode = "w"
 
-    class_robot_template = pd.DataFrame.from_records(mentions)
-    class_robot_template.to_csv(file_path, sep="\t", index=False, mode=mode, header=add_headers,
-                                columns=["file_name", "mention_text",
-                                         "candidate_entity_iri", "candidate_entity_label", "candidate_entity_aliases",
-                                         "confidence"])
-
-    # class_robot_template.to_csv(file_path, sep="\t", index=False, mode=mode, header=add_headers,
-    #                             columns=["file_name", "section", "paragraph", "sentence_num", "mention_text", "candidate_entity_iri", "candidate_entity_label", "candidate_entity_aliases", "confidence", "sentence"])
+    records_df = pd.DataFrame.from_records(mentions)
+    records_df.to_csv(file_path, sep="\t", index=False, mode=mode, header=add_headers,
+                      columns=["file_name", "mention_text",
+                               "candidate_entity_iri", "candidate_entity_label", "candidate_entity_aliases",
+                               "confidence"])
 
 
 def clean_folder(folder):

@@ -1,0 +1,248 @@
+	tag	label	sentence	text
+1	figure	Figure 1	1	Anatomy of the proboscis.
+2	figure	Figure 1	2	(A–C) Thick sagittal sections of fly heads with proboscis in various states of extension.
+3	figure	Figure 1	3	Scale bars: 100 µm.
+4	figure	Figure 1	4	Arrows, D: dorsal, A: anterior.
+5	figure	Figure 1	5	(A) Muscles and other internal tissues stained with phalloidin (red).
+6	figure	Figure 1	6	Cuticle and sclerites stained with calcofluor white (cyan).
+7	figure	Figure 1	7	(B–C) Soft tissues digested away to reveal rigid external and internal cuticle.
+8	figure	Figure 1	8	Magenta: locations of proboscis joints.
+9	figure	Figure 1	9	Green: pharynx.
+10	figure	Figure 1	10	Cyan: esophagus.
+11	figure	Figure 1	11	(D) Lateral view of a feeding fly, showing proboscis touching surface near forelegs.
+12	figure	Video 1	1	Synchrotron x-ray video of proboscis extension.
+13	figure	Video 1	2	Looping video of proboscis extension in a fly tethered with head glued, in a synchrotron x-ray beam, sagittal view, 1/100 speed.
+14	figure	Video 1	3	This example primarily shows movement of the rostrum (labeled magenta in the later portion of the video), pivoting around the joint marked by crosshairs, with little extension of the haustellum and labella (green).
+15	figure	Video 2	1	Proboscis joint movements in response to sucrose.
+16	figure	Video 2	2	Sagittal view of a tethered fly (anterior: up) reaching the proboscis towards a droplet of sucrose presented to the legs. 1/30 speed.
+17	figure	Video 2	3	Magenta dots: approximate locations of two proboscis joints.
+18	figure	Video 3	1	Rostrum joint movement.
+19	figure	Video 3	2	Proboscis movement restricted to rostrum joint by gluing haustellum (in or out) and head.
+20	figure	Video 3	3	Sagittal view of tethered fly, anterior: up, 1/3 speed.
+21	figure	Video 3	4	Magenta dot: approximate location of rostrum joint.
+22	figure	Video 4	1	Haustellum joint movement.
+23	figure	Video 4	2	Proboscis movement restricted mainly to haustellum joint by gluing rostrum (in or out) and head.
+24	figure	Video 4	3	(Rostrum glued along one surface, not completely immobilized).
+25	figure	Video 4	4	Sagittal view of tethered fly, anterior: up, 1/3 speed.
+26	figure	Video 4	5	Magenta dot: approximate location of haustellum joint.
+27	figure	Figure 2	1	The fly proboscis as a model system for directed reaching.
+28	figure	Figure 2	2	(A) A fly extending the proboscis towards food on the surface of an experimental chamber (sagittal view).
+29	figure	Figure 2	3	(B) A male fly (left) courting a female (right), extending his proboscis towards the female’s posterior.
+30	figure	Figure 2	4	(C) Points used for measurement of angles of the head (connected by the longer lines) and rostrum (shorter lines).
+31	figure	Figure 2	5	Scale bar: 200 µm.
+32	figure	Figure 2	6	(D) Measurement of haustellum angle.
+33	figure	Figure 2	7	(E–G) Angle of head (E), rostrum (F) and haustellum (G) in males feeding or courting on a flat surface. n = 15 flies per condition.
+34	figure	Figure 2	8	T-test (unpaired) *p<0.05, **p<0.01, ***p<0.001, N.S.: not significant.
+35	figure	Figure 2	9	(H–I) Proboscis extension in response to a low (H) or high (I) sucrose droplet presented to the legs of a tethered fly.
+36	figure	Figure 2	10	Scale bar: 500 µm.
+37	figure	Figure 2	11	(J–L) n = 28 males each presented with sucrose once in low position, once in high.
+38	figure	Figure 2	12	T-test (paired).
+39	figure	Figure 2	13	(J) Angle of target from the fly at frame of first leg contact, when target placed in low or high positions, where 90° would be directly ventral to the eye.
+40	figure	Figure 2	14	(K) Mean reach angle: angle from the posterior-anterior axis of the fly to the proboscis tip, averaged over proboscis extension bout.
+41	figure	Figure 2	15	(L) Aim deviation: reach angle minus target angle.
+42	figure	Figure 2	16	(M–O) Joint angles scored 200 ms after beginning of PE: head (M), rostrum (N), haustellum (O).
+43	figure	Video 5	1	Proboscis extension during feeding.
+44	figure	Video 5	2	A wildtype male feeding from sucrose painted onto wall of chamber (bright region) extends the proboscis ventrally towards the food. 1/1 speed.
+45	figure	Video 6	1	Proboscis extension during courtship.
+46	figure	Video 6	2	A male (left) courting a female (right) on a flat surface extends the proboscis anteriorly towards the female. 1/10 speed, wildtype flies.
+47	figure	Video 7	1	Proboscis reaching to targets in different locations.
+48	figure	Video 7	2	Proboscis and head movements reaching towards a sucrose target in high or low (anterior or ventral) locations.
+49	figure	Video 7	3	Sagittal view of tethered fly, anterior: up, 1/1 speed.
+50	figure	Video 8	1	Head movement.
+51	figure	Video 8	2	Head movement towards sucrose when both rostrum and haustellum joints are glued (not labella).
+52	figure	Video 8	3	Sagittal view of tethered fly, anterior: up, 1/3 speed.
+53	figure	Figure 3	1	Proboscis muscles.
+54	figure	Figure 3	2	(A) Frontal view of head with traced proboscis muscles, from clearing technique and segmentation software.
+55	figure	Figure 3	3	Eyes removed at sides, and antennae removed, leaving two holes seen in upper center.
+56	figure	Figure 3	4	Scale bar: 50 µm.
+57	figure	Figure 3	5	(B) Schematics from different views as noted, showing proboscis muscles, brain, esophagus and pharynx.
+58	figure	Figure 3	6	Pharynx superimposed for visibility (approximate outline: dotted line).
+59	figure	Figure 3	7	D: dorsal, M: medial, A: anterior.
+60	figure	Video 9	1	Confocal stack showing an example of raw data from the head clearing technique, first in composite then each channel individually.
+61	figure	Video 9	2	Red: muscles stained with phalloidin.
+62	figure	Video 9	3	Green: GFP stain of several motor neuron types genetically targeted in this example, projecting to the rostrum.
+63	figure	Video 9	4	Blue: synapses stained with nc82.
+64	figure	Video 10	1	A fly head imaged by cuticle autofluorescence (gray) with proboscis pointing downwards and eyes cropped out of image at sides.
+65	figure	Video 10	2	All muscles were stained with phalloidin (stain not shown), then traced in segmentation software to display every proboscis muscle in a different color, first overlaid, then individually.
+66	figure	Video 10	3	Last: approximate path of pharynx.
+67	figure	Video 10	4	(Pharynx is a more complex shape than shown here but is only visible as negative space with this staining, difficult to trace).
+68	figure	Video 10	5	The brain can be seen in dark gray within the head, with hook-shaped sclerites underneath it.
+69	figure	Video 10	6	Fat body and air sacs not shown.
+70	figure	Figure 4	1	A collection of fly strains to genetically control every proboscis muscle.
+71	figure	Figure 4	2	Confocal stacks of split GAL4 lines showing the proboscis muscles (magenta) targeted by the motor neurons of the collection (left images; green).
+72	figure	Figure 4	3	(Note: cuticular structures can also autofluoresce green).
+73	figure	Figure 4	4	Scale bar: 50 µm.
+74	figure	Figure 4	5	Gain and contrast adjusted.
+75	figure	Figure 4	6	Right images: location of those muscles in the head schematic from Figure 3, at a reduced scale.
+76	figure	Figure 4—figure supplement 1	1	Sparse lines providing genetic access to specific proboscis motor neurons.
+77	figure	Figure 4—figure supplement 1	2	Confocal maximum projections of brains (above) and VNCs (below) of split GAL4 lines targeting proboscis motor neurons.
+78	figure	Figure 4—figure supplement 1	3	Targeted neurons: green (GFP).
+79	figure	Figure 4—figure supplement 1	4	Counterstain: magenta (nc82).
+80	figure	Figure 4—figure supplement 1	5	Most lines contain a single motor neuron type in SEZ; a few contain more than one (numbers in Table 1, along with split GAL4s used).
+81	figure	Figure 4—figure supplement 1	6	Gain and contrast adjusted.
+82	figure	Figure 4—figure supplement 1	7	Scale bar: 50 µm.
+83	figure	Figure 4—figure supplement 2	1	Completeness of motor neuron coverage in split GAL4 collection.
+84	figure	Figure 4—figure supplement 2	2	(A) Example proboscis stained for muscles (phalloidin, red), genetically targeted motor neuron (mn9, GFP, green), and neuromuscular junctions (nc82, blue), to determine whether all synaptic sites on the appropriate muscle are occupied by the incoming green axon(s) in that line.
+85	figure	Figure 4—figure supplement 2	3	(More examples of this staining are shown in Video 9 and in B).
+86	figure	Figure 4—figure supplement 2	4	Frontal view, dorsal at top.
+87	figure	Figure 4—figure supplement 2	5	(B) Partial stack projections cropped in the region of each muscle showing neuromuscular junction synapses (nc82, left panels within each group, magenta in overlay) and motor neuron terminals (GFP, middle panels, green in overlay).
+88	figure	Figure 4—figure supplement 2	6	Gain and contrast adjusted.
+89	figure	Figure 4—figure supplement 2	7	Scale bars: 50 µm.
+90	figure	Figure 5	1	Proboscis motor neuron collection: arbors in brain (subesophageal zone).
+91	figure	Figure 5	2	(A) Motor neurons from the split GAL4 lines in Table 1, segmented to show arbors in isolation.
+92	figure	Figure 5	3	Colors match muscles in previous figures.
+93	figure	Figure 5	4	Most motor neurons are segmented from split GAL4 combinations in which their arbors are clearly distinguishable, with the exception that mn3M, 8, 11V, 12D and 13 are segmented from stochastic staining in order to separate them from nearby cells.
+94	figure	Figure 5	5	Single neurons from stochastic staining are superimposed upon their mirror images to show bilateral arbors, for comparison with the neurons segmented bilaterally. mn10 is shown unilaterally, since it was never found bilaterally in any split GAL4 combination.
+95	figure	Figure 5	6	Scale bar: 50 µm.
+96	figure	Figure 5	7	(B) Motor neurons colored according to whether their dendrites are primarily dorsal (magenta) or ventral (green).
+97	figure	Figure 5	8	Magenta: 10, 11D, 11V, 12D, 12V (13: not shown).
+98	figure	Figure 5	9	Rest: ventral.
+99	figure	Figure 5—figure supplement 1	1	Location of motor neuron dendrites relative to other cell types in brain.
+100	figure	Figure 5—figure supplement 1	2	Motor neuron confocal images (green) from brains computationally aligned with brains stained for other cell types in magenta: (A–H) sweet taste inputs (Gr64f-GAL4), (J) eye mechanosensory inputs (VT017251-LexA), (K) bitter taste inputs (Gr66a-GAL4), and (L–N) Hugin neurons (HUGS3-GAL4).
+101	figure	Figure 5—figure supplement 1	3	Frontal view (‘front’) or sagittal view (‘side’) of confocal maximum projections, except single sections where noted.
+102	figure	Figure 5—figure supplement 1	4	Each cell type stained individually for GFP then aligned and overlaid.
+103	figure	Figure 5—figure supplement 1	5	Gain and contrast adjusted.
+104	figure	Figure 5—figure supplement 1	6	Scale bar: 50 µm.
+105	figure	Video 11	1	Each proboscis motor neuron type, isolated using segmentation software.
+106	figure	Video 11	2	Cropped to show only SEZ at the bottom of brain.
+107	figure	Video 11	3	Hole at top: esophageal foramen.
+108	figure	Video 12	1	Translation through computational alignment of feeding command-like neuron ‘Fdg’ (magenta) with motor neurons 1, 9 and 11D (green) shown sequentially.
+109	figure	Video 12	2	Motor neurons: confocal stacks.
+110	figure	Video 12	3	Fdg: manually segmented from a line with a broader expression pattern, NP883-GAL4.
+111	figure	Video 12	4	Central brain, with SEZ at bottom.
+112	figure	Video 12	5	Gain and contrast adjusted.
+113	figure	Figure 6	1	Muscle insertion sites predict function.
+114	figure	Figure 6	2	Sagittal view of proboscis, showing phalloidin-stained muscles (red) and calcofluor white-stained cuticle (cyan).
+115	figure	Figure 6	3	Single optical slices from the planes shown in insets, from 300 µm vibratome sections.
+116	figure	Figure 6	4	Dotted line: path of pharynx.
+117	figure	Figure 6	5	Arrowheads: insertion sites of muscles that do contact the pharynx (A), and that do not (B), predicted to be involved in pumping vs. proboscis positioning, respectively.
+118	figure	Figure 6	6	The salivary muscle 13 can be seen inserting at the junction of the salivary duct (hollow tube – open arrowheads) with the pharynx.
+119	figure	Figure 6	7	12V is out of the plane of view in (A) but its tendon inserts on the pharynx.
+120	figure	Figure 6	8	Rest of muscle insertions shown in Figure 6—figure supplement 1.
+121	figure	Figure 6	9	Scale bar: 50 µm.
+122	figure	Figure 6—figure supplement 1	1	Additional muscle insertion sites.
+123	figure	Figure 6—figure supplement 1	2	Sagittal view of proboscis, showing phalloidin-stained muscles (red) and calcofluor white-stained cuticle (cyan).
+124	figure	Figure 6—figure supplement 1	3	(A,B) Single optical slices from the planes shown in insets, from 300 µm vibratome sections.
+125	figure	Figure 6—figure supplement 1	4	Arrowheads: insertion sites of additional muscles that do not contact the pharynx, predicted to be involved in proboscis positioning.
+126	figure	Figure 6—figure supplement 1	5	Scale bar: 50 µm.
+127	figure	Figure 6—figure supplement 2	1	Features of the alimentary canal.
+128	figure	Figure 6—figure supplement 2	2	(A,B) Vibratome horizontal sections of the head and proboscis cut at proximal (A) or distal (B) levels of the rostrum, stained for muscles (phalloidin, magenta) and connective tissue at muscle attachments (acetylated tubulin, green; also labels neurons).
+129	figure	Figure 6—figure supplement 2	3	Some pump muscles (A, arrowhead) insert directly on the wall of the pharynx (dark vertical opening and tube at center, asterisk), and others use tendons (B, arrowhead) to insert onto the pharynx (B, asterisk).
+130	figure	Figure 6—figure supplement 2	4	Note that the dark cavity of the pharynx is not simply a cylindrical tube but widens into complex cavities within the rostrum.
+131	figure	Figure 6—figure supplement 2	5	Maximum projections of approximately horizontal ~200 µm slices in 7% agarose.
+132	figure	Figure 6—figure supplement 2	6	(A) Is close to the head and shows parts of the compound eyes at the sides (grids of bright dots), and (B) Is close to the distal end of the rostrum, where the maxillary palps can be seen as two structures protruding from the anterior surface of the proboscis, filled with sensory neurons.
+133	figure	Figure 6—figure supplement 2	7	(C) Frontal view of distal proboscis from whole cleared head prep, with labella in open position, showing how pseudotrachea (furrows; arrowhead) lead food to the opening of the pharynx (asterisk).
+134	figure	Figure 6—figure supplement 2	8	Phalloidin imaged at higher gain to show muscles as well as cuticle.
+135	figure	Figure 6—figure supplement 2	9	(D) Frontal view of the opening of the esophagus (asterisk) at the base of the rostrum inside the head.
+136	figure	Figure 6—figure supplement 2	10	Muscles (phalloidin, magenta) and neuromuscular junctions (nc82, white).
+137	figure	Figure 6—figure supplement 2	11	Arrowhead: circular muscles surround the esophagus, enabling peristalsis.
+138	figure	Figure 6—figure supplement 2	12	Scale bars: 50 µm.
+139	figure	Figure 6—figure supplement 2	13	Gain and contrast adjusted.
+140	figure	Video 13	1	Predicted mechanism of pumping food (blue) through the pharynx (white) by sequential activation of the seven muscles that insert on the pharynx wall (colored as in Figures 3 and 4).
+141	figure	Video 13	2	Sagittal view of head.
+142	figure	Figure 7	1	Motor control of the rostrum.
+143	figure	Figure 7	2	(A–E) CsChrimson activation of split GAL4s for rostrum motor neurons, compared to controls (unfilled), quantifying change in proboscis position from rest (total extension of proboscis at maximum movement divided by at rest; therefore no movement = 1) (A), change in rostrum angle from rest (B), change in haustellum angle from rest (C), change in rostrum angle from a protracted position during feeding (D), and change in haustellum angle from an extended position during feeding (E).
+144	figure	Figure 7	3	(F–J) TNT silencing of split GAL4s for rostrum motor neurons, compared to controls, quantifying proboscis position at rest (F), rostrum angle at rest (G), haustellum angle at rest (H), change in rostrum angle from rest to feeding position (I), and change in haustellum angle from rest to feeding position (J).
+145	figure	Figure 7	4	Bar: mean.
+146	figure	Figure 7	5	Biological replicates, n = 14–16 flies/genotype.
+147	figure	Figure 7	6	Asterisks: unpaired t-tests, experimental (colored) vs. each control (showing least significant), with multiple testing correction. *p<0.05, **p<0.01, ***p<0.001, no asterisk, not signficant.
+148	figure	Figure 7	7	See Methods for further explanations of metrics shown.
+149	figure	Figure 7	8	(K–L) Sagittal schematics of proboscis movements controlled by muscle 9 (green): protraction of rostrum and extension of haustellum (arrows).
+150	figure	Figure 7	9	Muscle 9 origin: ventral wall of head.
+151	figure	Figure 7	10	Muscle 9 insertion: internal part of rostrum cuticle (asterisk).
+152	figure	Figure 7	11	Proboscis segments (dark gray) pivot around joints (magenta dots).
+153	figure	Figure 7	12	(M–O) Proboscis movements controlled by muscles 1, 2D and 2V (colored): retraction of rostrum and haustellum (arrows).
+154	figure	Figure 7	13	Muscle origins: posterior wall of head.
+155	figure	Figure 7	14	(P–Q) Frontal view of whole-mount heads (blue) with segmented muscles (green, numbered) and the apodeme within the rostrum (white) that swings outward during rostrum extension, shown with rostrum retracted (P) or extended (Q).
+156	figure	Figure 7	15	Scale bar: 50 µm.
+157	figure	Figure 7—figure supplement 1	1	Examples of rostrum muscle actions.
+158	figure	Figure 7—figure supplement 1	2	(A–B) Example mn9 phenotype: extension of both the rostrum and haustellum in response to CsChrimson activation (B), compared to resting proboscis before the stimulus (A).
+159	figure	Figure 7—figure supplement 1	3	(C–D) Example retractor phenotype: retraction of the rostrum in response to CsChrimson activation of mn1 (D), compared to feeding position before the stimulus (dotted line) (C).
+160	figure	Figure 7—figure supplement 2	1	Raw joint angles, not normalized, for all motor neurons from Figures 7–9.
+161	figure	Figure 7—figure supplement 2	2	(A–B) CsChrimson activation of split GAL4s for the motor neurons shown, quantifying raw rostrum angle in a protracted position during feeding (A) and raw haustellum angle in an extended position during feeding (B).
+162	figure	Figure 7—figure supplement 2	3	(C–D) TNT silencing of the same split GAL4s, quantifying maximum raw rostrum angle during feeding (C) and maximum raw haustellum angle during feeding (D).
+163	figure	Figure 7—figure supplement 2	4	Bar: mean.
+164	figure	Figure 7—figure supplement 2	5	Biological replicates, n = 14–16 flies/genotype.
+165	figure	Figure 7—figure supplement 2	6	Asterisks: unpaired t-tests, experimental (colored) vs. each control (unfilled), showing least significant, with multiple testing correction. *p<0.05, **p<0.01, ***p<0.001, no asterisk, not significant.
+166	figure	Figure 8	1	Motor control of the haustellum.
+167	figure	Figure 8	2	(A–E) CsChrimson activation of haustellum split GAL4s, compared to controls (unfilled), quantifying change in proboscis position from rest (A), change in rostrum angle from rest (B), change in haustellum angle from rest (C), change in rostrum angle from a protracted position during feeding (D), and change in haustellum angle from an extended position during feeding (E).
+168	figure	Figure 8	3	(F–J) TNT silencing of haustellum split GAL4, compared to controls, quantifying proboscis position at rest (F), rostrum angle at rest (G), haustellum angle at rest (H), change in rostrum angle from rest to feeding position (I), and change in haustellum angle from rest to feeding position (J).
+169	figure	Figure 8	4	Bar: mean.
+170	figure	Figure 8	5	Biological replicates, n = 14–16 flies/genotype.
+171	figure	Figure 8	6	Asterisks: unpaired t-tests, experimental (colored) vs. each control (showing least significant), with multiple testing correction. *p<0.05, **p<0.01, ***p<0.001, no asterisk, not signficant.
+172	figure	Figure 8	7	(K–L) Sagittal schematics of proboscis movement controlled by muscle 4 (blue): extension of haustellum (arrow).
+173	figure	Figure 8	8	Muscle 4 location: near haustellum joint.
+174	figure	Figure 8	9	Proboscis segments (dark gray) pivot around joints (magenta dots).
+175	figure	Figure 8	10	(M–N) Proboscis movement controlled by muscle 3 (light blue): flexion of haustellum (arrow).
+176	figure	Figure 8	11	Muscle 3 origin: anterior rostrum.
+177	figure	Figure 8	12	Insertion: asterisk.
+178	figure	Figure 8	13	(O–P) Haustellum mechanism.
+179	figure	Figure 8	14	Lateral view of proboscis (blue) with segmented muscles (green, numbered) and a Y-shaped apodeme (red in composite, white below), from thick sections with haustellum partly flexed (O) or partly extended (P).
+180	figure	Figure 8	15	Muscle 4 inserts on the free dorsal arm of the apodeme (asterisk).
+181	figure	Figure 8	16	Muscle 2V inserts on the anterior apodeme arm (plus sign).
+182	figure	Figure 8	17	Muscle 3 inserts in the haustellum (via tendons not stained here).
+183	figure	Figure 8	18	Arrows: rotation of apodeme, controlling extension of haustellum.
+184	figure	Figure 8	19	Scale bar: 50 µm.
+185	figure	Figure 8—figure supplement 1	1	Examples of haustellum muscle actions.
+186	figure	Figure 8—figure supplement 1	2	(A–B) Example mn4 phenotype: extension of the haustellum in response to CsChrimson activation (B), compared to resting proboscis before the stimulus (A).
+187	figure	Figure 8—figure supplement 1	3	(C–D) Example mn3 phenotype: flexion of the haustellum in response to CsChrimson activation of mn3L (D), compared to proboscis in feeding position before the stimulus (C).
+188	figure	Figure 9	1	Motor control of the labella.
+189	figure	Figure 9	2	(A–C) Sagittal schematics of labellar movements controlled by muscles 7 and 6 (colored): abduction (B) and extension (C) of labella (arrows).
+190	figure	Figure 9	3	Muscle origins: dorsal haustellum.
+191	figure	Figure 9	4	Insertions: at labella (asterisks).
+192	figure	Figure 9	5	Proboscis segments (dark gray) pivot around joints (magenta dots).
+193	figure	Figure 9	6	(D–E) Example phenotype: extension of labella in response to CsChrimson activation of mn6 (E), compared to resting proboscis before the stimulus (D).
+194	figure	Figure 9	7	(F–I) % flies showing labellar extension (F,H) or abduction (G,I) in response to CsChrimson activation (F,G) or TNT silencing (H,I) of motor neurons listed, compared to controls.
+195	figure	Figure 9	8	Fisher’s exact test.
+196	figure	Figure 9	9	Biological replicates, n = 16 flies/genotype.
+197	figure	Figure 9	10	(J–N) CsChrimson activation of split GAL4s listed compared to controls (unfilled), quantifying change in proboscis position from rest (J), change in rostrum angle from rest (K), change in haustellum angle from rest (L), change in rostrum angle from a protracted position during feeding (M), and change in haustellum angle from an extended position during feeding (N).
+198	figure	Figure 9	11	(O–S) TNT silencing of split GAL4s listed compared to controls, quantifying proboscis position at rest (O), rostrum angle at rest (P), haustellum angle at rest (Q), change in rostrum angle from rest to feeding position (R), and change in haustellum angle from rest to feeding position (S).
+199	figure	Figure 9	12	Bar: mean.
+200	figure	Figure 9	13	Biological replicates, n = 14–16 flies/genotype.
+201	figure	Figure 9	14	Asterisks: unpaired t-tests, experimental (colored) vs. each control (showing least significant), with multiple testing correction. *p<0.05, **p<0.01, ***p<0.001, no asterisk, not signficant.
+202	figure	Video 14	1	Behavioral phenotypes of rostrum protractor.
+203	figure	Video 14	2	First part: activation of rostrum protractor (mn9) with CsChrimson, in frames noted, compared to CsChrimson control, beginning with the proboscis in the resting (retracted) position.
+204	figure	Video 14	3	Second part: silencing of mn9 with TNT, compared to TNT control, in a feeding assay where normal flies fully extend the proboscis towards a droplet of sucrose.
+205	figure	Video 14	4	Tethered males, sagittal view (dorsal up), 1/30 speed.
+206	figure	Video 15	1	Behavioral roles of rostrum retractor.
+207	figure	Video 15	2	First part: activation of the main rostrum retractor (mn1) with CsChrimson, in frames noted, compared to CsChrimson control, beginning with the proboscis in the extended position during feeding.
+208	figure	Video 15	3	Second part: silencing of mn1 with TNT, compared to TNT control, in the resting proboscis position to demonstrate that mn1 silencing results in incomplete proboscis retraction.
+209	figure	Video 15	4	Tethered males, sagittal view (dorsal up), 1/30 speed.
+210	figure	Video 16	1	Mechanism of rostrum movement.
+211	figure	Video 16	2	Head (blue), muscles involved in rostrum movement (green), and apodeme within rostrum (white).
+212	figure	Video 16	3	First part: schematic of rostrum movement (pivot point: red crosshairs).
+213	figure	Video 16	4	Muscles: 1 (long, at left), 2V and 2D (short, at left), and 9 (right).
+214	figure	Video 16	5	Dorsal up, anterior at right.
+215	figure	Video 16	6	Second part: same structures segmented from confocal images (sagittal view, maximum projection) with rostrum more retracted (left) or extended (right), showing direction of muscle action (arrows).
+216	figure	Video 16	7	Third part: same segmented structures in rotating views with rostrum more retracted followed by more extended.
+217	figure	Video 17	1	Behavioral roles of haustellum extensor.
+218	figure	Video 17	2	First part: activation of haustellum extensor (mn4) with CsChrimson, in frames noted, compared to CsChrimson control, beginning with the proboscis in the resting (retracted) position.
+219	figure	Video 17	3	Second part: silencing of mn4 with TNT, compared to TNT control, in a feeding assay where normal flies fully extend the proboscis towards a droplet of sucrose.
+220	figure	Video 17	4	Tethered males, sagittal view (dorsal up), 1/30 speed.
+221	figure	Video 18	1	Behavioral roles of haustellum flexor.
+222	figure	Video 18	2	First part: activation of one of the two m3 haustellum flexors (using line mn3M&7) with CsChrimson, in frames noted, compared to CsChrimson control, beginning with the proboscis in the extended position during feeding.
+223	figure	Video 18	3	Second part: silencing of mn3M&7 with TNT, compared to TNT control, in the resting proboscis position to demonstrate that mn3M&7 silencing results in incomplete proboscis retraction.
+224	figure	Video 18	4	Tethered males, sagittal view (dorsal up), 1/30 speed.
+225	figure	Video 19	1	Behavioral roles of labellar extensor.
+226	figure	Video 19	2	First part: activation of labellar extensor (mn6) with CsChrimson, in frames noted, compared to CsChrimson control, beginning with the proboscis in the resting (retracted) position.
+227	figure	Video 19	3	Second part: silencing of mn6 with TNT, compared to TNT control, in a feeding assay.
+228	figure	Video 19	4	Labella marked in blue in certain frames to show difference in labellar angle.
+229	figure	Video 19	5	Tethered males, sagittal view (dorsal: up), 1/30 speed.
+230	figure	Video 20	1	Behavioral roles of labellar abductor.
+231	figure	Video 20	2	First part: activation of labellar abductor (mn7) with CsChrimson, in frames noted, compared to CsChrimson control, beginning from the resting position (proboscis retracted, labella closed).
+232	figure	Video 20	3	Labella marked in blue in certain frames.
+233	figure	Video 20	4	Second part: silencing of mn7 with TNT, compared to TNT control, in a feeding assay where normal flies open the labella towards a droplet of sucrose.
+234	figure	Video 20	5	Tethered males, anterior view (dorsal up), 1/30 speed.
+235	table	Table 1	1	Muscle names and the best split GAL4 lines that target their motor neurons.
+236	table	Table 1	2	Muscle names in different papers, plus our split GAL4s targeting each muscle, motor neurons present in those lines, and location of motor neuron dendrites, soma and which proboscis nerve the axon uses.
+237	table	Table 1	3	In split GAL4 names, D = dorsal, V = ventral, M = medial, L = lateral.
+238	table	Table 1	4	In almost every case, when the motor neurons were present, they occupied 100% of the NMJs on the relevant muscle, with the exceptions of 3 and 10, described in the text.
+239	table	Table 1	5	Former 12–1 is more similar to 11 than to 12–2; renamed as 11V.
+240	table	Table 1	6	12D and 12V are named for proximity, not implying related function.
+241	table	Table 1	7	Yellow: positioning muscles that do not insert on the pharynx.
+242	table	Table 1	8	Green: pharyngeal muscles.
+243	table	Table 2	1	Head stain results from 100 GAL4 lines.
+244	table	Table 2	2	Lines from Rubin (GMR) and Dickson (VT) collections, in attP2 landing site, showing motor neurons found in proboscis.
+245	table	Table 2	3	Note: this clearing technique showed more motor neuron types than were previously known in two lines, GMR18B07 and GMR81B12 (Schwarz et al., 2017).
+246	table	Table 3	1	Summary of motor neuron phenotypes from activation and silencing experiments (also informed by insertion site information).
+247	table	Table 3	2	Asterisks: findings that were previously undescribed, or that differ from a previous study (Schwarz et al., 2017).

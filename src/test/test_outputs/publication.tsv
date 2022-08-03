@@ -1,0 +1,9 @@
+ID	Label	title	PMCID	year	volume	pages	parent
+ID	LABEL	A dc:title	A dc:identifier	A dc:year	A dc:volume	A dc:pages	SC %
+https://doi.org/10.1038/s41467-019-12758-6	Shunfan Wuet al., 2019	Drosulfakinin signaling in fruitless circuitry antagonizes P1 neurons to regulate sexual arousal in Drosophila	PMC6800437	2019	10	4770	dc:BibliographicResource
+https://doi.org/10.7554/eLife.50901	Fred P Daviset al., 2020	A genetic, genomic, and computational resource for exploring neural circuit function	PMC7034979	2020	9	e50901	dc:BibliographicResource
+https://doi.org/10.7554/eLife.55007	Haluk Lacinet al., 2020	Unc-4 acts to promote neuronal identity and development of the take-off circuit in the Drosophila CNS	PMC7156266	2020	9	e55007	dc:BibliographicResource
+https://doi.org/10.7554/eLife.54978	Claire E McKellaret al., 2020	Controlling motor neurons of every muscle for fly proboscis reaching	PMC7316511	2020	9	e54978	dc:BibliographicResource
+https://doi.org/10.1038/s41467-020-19936-x	Kai Fenget al., 2020	Distributed control of motor circuits for backward walking in Drosophila	PMC7710706	2020	11	6166	dc:BibliographicResource
+https://doi.org/10.1038/s41586-020-2879-3	Mehmet Neset Özelet al., 2021	Neuronal diversity and convergence in a visual system developmental atlas	PMC7790857	2021	589	88-95	dc:BibliographicResource
+https://doi.org/10.1016/j.celrep.2020.108138	Jinzhi Liet al., 2020	Visual Input into the Drosophila melanogaster Mushroom Body	PMC8252886	2020	32	108138	dc:BibliographicResource

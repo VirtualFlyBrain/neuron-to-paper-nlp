@@ -1,0 +1,62 @@
+	KEY.RESOURCES.TABLE.subheading	KEY.RESOURCES.TABLE.REAGENT.or.RESOURCE	KEY.RESOURCES.TABLE.SOURCE	KEY.RESOURCES.TABLE.IDENTIFIER
+1	Antibodies	Mouse monoclonal anti-nc82	University of Iowa Developmental Studies Hybridoma Bank	RRID: AB_2314866
+2	Antibodies	Mouse monoclonal anti-GFP-20	Sigma-Aldrich	RRID: AB_259941
+3	Antibodies	Alexa Fluor 488 goat polyclonal anti-mouse IgG	Thermal Fisher	RRID: AB_2576217
+4	Antibodies	Alexa Fluor 633 goat polyclonal anti-mouse IgG	Thermal Fisher	RRID: AB_2535719
+5	Chemicals, Peptides, and Recombinant Proteins	Normal Goat Serum	Jackson ImmunoResearch Laboratories	RRID: AB_2336990
+6	Chemicals, Peptides, and Recombinant Proteins	VECTASHIELD mounting medium	Vector Laboratories Inc.	REF#H-1000
+7	Chemicals, Peptides, and Recombinant Proteins	10X phosphate bovine saline	Sigma-Aldrich	Cat#P5493
+8	Chemicals, Peptides, and Recombinant Proteins	Triton X-100	Sigma-Aldrich	Cat#T8787
+9	Chemicals, Peptides, and Recombinant Proteins	Paraformaldehyde	Electron Microscopy Sciences	Cat#15710
+10	Chemicals, Peptides, and Recombinant Proteins	Collagenase	Sigma-Aldrich	Cat#C5138
+11	Chemicals, Peptides, and Recombinant Proteins	TexasRed dye	Thermo-Fisher	REF#D3328
+12	Chemicals, Peptides, and Recombinant Proteins	MgCl2 solution (1M in H2O)	Sigma-Aldrich	Cat#63069
+13	Chemicals, Peptides, and Recombinant Proteins	CaCl2 solution (1M in H2O)	Sigma-Aldrich	Cat#21115
+14	Chemicals, Peptides, and Recombinant Proteins	NaOH solution (10M in H2O)	Sigma-Aldrich	Cat#72068
+15	Chemicals, Peptides, and Recombinant Proteins	NaCl	Sigma-Aldrich	Cat#S7653
+16	Chemicals, Peptides, and Recombinant Proteins	KCl	Sigma-Aldrich	Cat#P5405
+17	Chemicals, Peptides, and Recombinant Proteins	HEPES	Sigma-Aldrich	Cat#H3375
+18	Chemicals, Peptides, and Recombinant Proteins	Trehalose	Sigma-Aldrich	Cat#T0167
+19	Chemicals, Peptides, and Recombinant Proteins	Sucrose	Sigma-Aldrich	Cat#S1888
+20	Chemicals, Peptides, and Recombinant Proteins	NaHCO3	Sigma-Aldrich	Cat#S5761
+21	Chemicals, Peptides, and Recombinant Proteins	NaH2PO4	Sigma-Aldrich	Cat#S5011
+22	Experimental Models: Organisms/Strains	D. melanogaster: yw;N-Synaptobrevin-GAL42.1;;	Aso et al., 2014	N/A
+23	Experimental Models: Organisms/Strains	D. melanogaster: y1w1118;;R11F07-GAL4attP2;	Bloomington Drosophila Stock Center	BDSC: 39414
+24	Experimental Models: Organisms/Strains	D. melanogaster: y1w1118;;R11F08-GAL4attP2;	Bloomington Drosophila Stock Center	BDSC: 48467
+25	Experimental Models: Organisms/Strains	D. melanogaster: y1w1118;;R12C04-GAL4attP2;	Bloomington Drosophila Stock Center	BDSC: 48494
+26	Experimental Models: Organisms/Strains	D. melanogaster: y1w1118;;R19H07-GAL4attP2;	Bloomington Drosophila Stock Center	BDSC: 48867
+27	Experimental Models: Organisms/Strains	D. melanogaster: y1w1118;;R20G07-GAL4attP2;	Bloomington Drosophila Stock Center	BDSC: 48613
+28	Experimental Models: Organisms/Strains	D. melanogaster: y1w1118;;R30E11-GAL4attP2;	Bloomington Drosophila Stock Center	BDSC: 48100
+29	Experimental Models: Organisms/Strains	D. melanogaster: y1w1118;;R31C03-GAL4attP2;	Bloomington Drosophila Stock Center	BDSC: 48103
+30	Experimental Models: Organisms/Strains	D. melanogaster: y1w1118;;R53B06-GAL4attP2;	Bloomington Drosophila Stock Center	BDSC: 38863
+31	Experimental Models: Organisms/Strains	D. melanogaster: y1w1118;;R44H11-GAL4attP2;	Bloomington Drosophila Stock Center	BDSC: 41268
+32	Experimental Models: Organisms/Strains	D. melanogaster: y1w1118;;R72D07-GAL4attP2;	Bloomington Drosophila Stock Center	BDSC: 39770
+33	Experimental Models: Organisms/Strains	D. melanogaster: y1w1118;;R91H11-GAL4attP2;	Bloomington Drosophila Stock Center	BDSC: 40596
+34	Experimental Models: Organisms/Strains	D. melanogaster: y1w1118;;R95F09-GAL4attP2;	Bloomington Drosophila Stock Center	BDSC: 40712
+35	Experimental Models: Organisms/Strains	D. melanogaster: y1w1118;;R13F02-GAL4ADVK00027,R85D07-GAL4DBDattp2;	Aso et al., 2014	N/A
+36	Experimental Models: Organisms/Strains	D. melanogaster: y1w1118;R52H09-GAL4ADattP40;R18F09-GAL4DBDattP2;	Bloomington Drosophila Stock Center	BDSC: 68267
+37	Experimental Models: Organisms/Strains	D. melanogaster: y1w1118;;R19H07-GAL4ADVK00027;R20G07-GAL4DBDattP2;	Aso et al., 2014	N/A
+38	Experimental Models: Organisms/Strains	D. melanogaster: yw;UAS-C3PA-GFPunknown;;	Aso et al., 2014	N/A
+39	Experimental Models: Organisms/Strains	D. melanogaster: y1w1118;UAS-C3PA-GFPattP40;;	Aso et al., 2014	N/A
+40	Experimental Models: Organisms/Strains	D. melanogaster: y1w1118;;UAS-C3PA-GFPattP2;	Aso et al., 2014	N/A
+41	Experimental Models: Organisms/Strains	D. melanogaster: y1w1118;;UAS-C3PA-GFPVK00005;	Aso et al., 2014	N/A
+42	Experimental Models: Organisms/Strains	D. melanogaster: y1w1118;UAS-SPA-GFPattP40;;	Aso et al., 2014	N/A
+43	Experimental Models: Organisms/Strains	D. melanogaster: yw;UAS-syb::spGFP1-10unknown;;	Aso et al., 2014	N/A
+44	Experimental Models: Organisms/Strains	D. melanogaster: yw;UAS-DenMark2;;	Bloomington Drosophila Stock Center	BDSC: 33062
+45	Experimental Models: Organisms/Strains	D. melanogaster: yw;; UAS-synaptotagmin::GFP3;	Bloomington Drosophila Stock Center	BDSC: 6926
+46	Experimental Models: Organisms/Strains	D. melanogaster: yw;UAS-tdTomatoattP40;;	Aso et al., 2014	N/A
+47	Experimental Models: Organisms/Strains	D. melanogaster: yw;MB247-GAL80unknown;;	Bloomington Drosophila Stock Center	BDSC: 64306
+48	Experimental Models: Organisms/Strains	D. melanogaster: yw;;MB247-LEXA::VP16unknown;	Pitman et al., 2011	N/A
+49	Experimental Models: Organisms/Strains	D. melanogaster: yw;LEXAop-CD4::spGFP11unknown;;	Macpherson et al., 2015	N/A
+50	Experimental Models: Organisms/Strains	D. melanogaster: yw;LEXAop-tdTomatoSu(Hw)attP5;;	Bloomington Drosophila Stock Center	BDSC: 56142
+51	Experimental Models: Organisms/Strains	D. melanogaster: yw;;N-Synaptobrevin-QF;	Aso et al., 2014	N/A
+52	Experimental Models: Organisms/Strains	D. melanogaster: yw;QUAS-C3PAunknown;;	Aso et al., 2014	N/A
+53	Experimental Models: Organisms/Strains	D. melanogaster: yw;QUAS-SPAunknown;;	Aso et al., 2014	N/A
+54	Experimental Models: Organisms/Strains	D. melanogaster: yw;MB247-DsRedunknown;;	Riemensperger et al., 2005	N/A
+55	Software and Algorithms	ImageJ	Schindelin et al., 2012	https://imagej.nih.gov/ij/
+56	Software and Algorithms	Prairie View	Bruker	NA
+57	Software and Algorithms	ZEN microscope software	ZEISS	NA
+58	Other	FlyLight	Jenett et al., 2012	http://www.janelia.org/project-team/flylight
+59	Other	Virtual Fly Brain	Jenett et al., 2012	https://v2.virtualflybrain.org
+60	Other	NeuPrint web interface for the hemibrain connectome database	Xu et al., 2020	https://neuprint.janelia.org
+61	Other	Borosilicate glass with filament	Sutter Instruments	ITEM#BF100-50-10

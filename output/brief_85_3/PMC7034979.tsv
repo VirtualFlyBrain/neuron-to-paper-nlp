@@ -1,0 +1,127 @@
+file_name	mention_text	candidate_entity_iri	candidate_entity_label	candidate_entity_aliases	confidence
+PMC7034979	3C	FBbt:00051291	adult lateral accessory lobe-fan-shaped body layer 3 neuron	adult lateral accessory lobe fan shaped body layer 3 neuron,adult lateral accessory lobe-fan-shaped body layer 3,adult lateral accessory lobe-fan-shaped body layer 3 neuron,adult lateral accessory lobe fan shaped body layer 3,FB3C,FBbt:00051291,IMPL-F,IMPL F,LAL.s-IMP-FBl3.b,LAL.s IMP FBl3.b,LALSMPFB3	0.952938556671142578125
+PMC7034979	Allatostatin A	FBbt:00048142	allatostatin A neuron	allatostatin A neuron,allatostatin A,AstA neuron,AstA,FBbt:00048142,AstA1	0.999999940395355224609375
+PMC7034979	AstA	FBbt:00048142	allatostatin A neuron	allatostatin A neuron,allatostatin A,AstA neuron,AstA,FBbt:00048142,AstA1	1
+PMC7034979	AstC	FBbt:00048165	allatostatin C neuron	allatostatin C,allatostatin C neuron,AstC neuron,AstC,FBbt:00048165	1
+PMC7034979	C2	FBbt:00003743	centrifugal neuron C2	centrifugal C2,centrifugal neuron C2,C2,FBbt:00003743	1
+PMC7034979	C3	FBbt:00003744	centrifugal neuron C3	centrifugal C3,centrifugal neuron C3,C3,FBbt:00003744	1
+PMC7034979	cDNA	FBbt:00047512	descending neuron of the anterior dorsal brain	descending of the anterior dorsal brain,descending neuron of the anterior dorsal brain,DNa,FBbt:00047512	0.890199959278106689453125
+PMC7034979	cell cluster	FBbt:00100218	dopaminergic PPM3 neuron	dopaminergic PPM3,dopaminergic PPM3 neuron,PM cell cluster neuron,PM cell cluster,FBbt:00100218,PPM3,PPM3 cluster neuron,PPM3 cluster,TH-positive posterior medial cluster neuron 3,TH positive posterior medial cluster 3,TH positive posterior medial cluster neuron 3,TH-positive posterior medial cluster 3,protocerebral posteriomedial dopaminergic cluster 3 neuron,protocerebral posteriomedial dopaminergic cluster 3,protocerebral posterior medial dopaminergic cluster neuron 3,protocerebral posterior medial dopaminergic cluster 3	0.85068666934967041015625
+PMC7034979	central complex	FBbt:00049819	adult central complex neuron	adult central complex neuron,adult central complex,CX neuron,CX,FBbt:00049819,CXN	0.9814908504486083984375
+PMC7034979	cholinergic	FBbt:00007173	cholinergic neuron	cholinergic,cholinergic neuron,FBbt:00007173	1
+PMC7034979	cholinergic	FBbt:00058205	adult cholinergic neuron	adult cholinergic neuron,adult cholinergic,FBbt:00058205	0.976334989070892333984375
+PMC7034979	Crz	FBbt:00051052	corazonin neuron	corazonin,corazonin neuron,CRZ,FBbt:00051052,Crz neuron,Crz	1
+PMC7034979	Crz	FBbt:00051053	adult corazonin neuron	adult corazonin,adult corazonin neuron,CRZ,FBbt:00051053,adult Crz neuron,adult Crz	1
+PMC7034979	Crz	FBbt:00052004	larval corazonin neuron	larval corazonin,larval corazonin neuron,CRZ,FBbt:00052004,larval Crz neuron,larval Crz	1
+PMC7034979	Dm1	FBbt:00003768	distal medullary amacrine neuron Dm1	distal medullary amacrine Dm1,distal medullary amacrine neuron Dm1,Dm1,FBbt:00003768	1
+PMC7034979	Dm10	FBbt:00110135	distal medullary amacrine neuron Dm10	distal medullary amacrine neuron Dm10,distal medullary amacrine Dm10,Dm1-5,Dm1 5,FBbt:00110135,Dm10,distal medullary amacrine neuron Dm1-5,distal medullary amacrine Dm1 5,distal medullary amacrine neuron Dm1 5,distal medullary amacrine Dm1-5	1
+PMC7034979	Dm11	FBbt:00111272	distal medullary amacrine neuron Dm11	distal medullary amacrine neuron Dm11,distal medullary amacrine Dm11,Dm11,FBbt:00111272	0.999999940395355224609375
+PMC7034979	Dm12	FBbt:00111273	distal medullary amacrine neuron Dm12	distal medullary amacrine Dm12,distal medullary amacrine neuron Dm12,Dm12,FBbt:00111273	1
+PMC7034979	Dm2	FBbt:00003769	distal medullary amacrine neuron Dm2	distal medullary amacrine Dm2,distal medullary amacrine neuron Dm2,Dm2,FBbt:00003769	1
+PMC7034979	Dm3	FBbt:00003770	distal medullary amacrine neuron Dm3	distal medullary amacrine neuron Dm3,distal medullary amacrine Dm3,Dm3,FBbt:00003770	1
+PMC7034979	Dm4	FBbt:00003771	distal medullary amacrine neuron Dm4	distal medullary amacrine Dm4,distal medullary amacrine neuron Dm4,Dm4,FBbt:00003771	1
+PMC7034979	Dm8	FBbt:00013774	distal medullary amacrine neuron Dm8	distal medullary amacrine Dm8,distal medullary amacrine neuron Dm8,Dm8,FBbt:00013774,Dm8a	1
+PMC7034979	Dm9	FBbt:00111271	distal medullary amacrine neuron Dm9	distal medullary amacrine Dm9,distal medullary amacrine neuron Dm9,Dm9,FBbt:00111271,glia-like cell,glia like cell	1
+PMC7034979	dopamine	FBbt:00005131	dopaminergic neuron	dopaminergic,dopaminergic neuron,DA neuron,DA,FBbt:00005131,dopamine neuron,dopamine	0.99999988079071044921875
+PMC7034979	dopaminergic	FBbt:00005131	dopaminergic neuron	dopaminergic,dopaminergic neuron,DA neuron,DA,FBbt:00005131,dopamine neuron,dopamine	1
+PMC7034979	dopaminergic	FBbt:00058206	adult dopaminergic neuron	adult dopaminergic neuron,adult dopaminergic,FBbt:00058206	0.96760654449462890625
+PMC7034979	Eaat1	FBbt:00048245	tangential neuron CT1	tangential neuron CT1,tangential CT1,CT1,FBbt:00048245	1
+PMC7034979	Eaat2	FBbt:00003909	lobula plate tangential neuron Lpt2	lobula plate tangential neuron Lpt2,lobula plate tangential Lpt2,Lpt2,FBbt:00003909,PT2,lobular plate tangential neuron Lpt2,lobular plate tangential Lpt2	1
+PMC7034979	expressing	FBbt:00001579	EG neuron	EG neuron,EG,eg-expressing neuron,eg expressing,eg-expressing,eg expressing neuron,FBbt:00001579	0.94463193416595458984375
+PMC7034979	expressing fkh.	FBbt:00001579	EG neuron	EG neuron,EG,eg-expressing neuron,eg expressing,eg-expressing,eg expressing neuron,FBbt:00001579	0.94463193416595458984375
+PMC7034979	GABAergic	FBbt:00007228	GABAergic neuron	GABAergic,GABAergic neuron,GABA-ergic neuron,GABA ergic,GABA ergic neuron,GABA-ergic,FBbt:00007228	0.99999988079071044921875
+PMC7034979	GABAergic	FBbt:00058207	adult GABAergic neuron	adult GABAergic neuron,adult GABAergic,FBbt:00058207	0.976894795894622802734375
+PMC7034979	glutamate	FBbt:00100291	glutamatergic neuron	glutamatergic neuron,glutamatergic,FBbt:00100291	0.86916339397430419921875
+PMC7034979	glutamate	FBbt:00058208	adult glutamatergic neuron	adult glutamatergic,adult glutamatergic neuron,FBbt:00058208	0.853301465511322021484375
+PMC7034979	glutamatergic	FBbt:00100291	glutamatergic neuron	glutamatergic neuron,glutamatergic,FBbt:00100291	1
+PMC7034979	glutamatergic	FBbt:00058208	adult glutamatergic neuron	adult glutamatergic,adult glutamatergic neuron,FBbt:00058208	0.98175847530364990234375
+PMC7034979	glutamatergic TmY5a	FBbt:00100291	glutamatergic neuron	glutamatergic neuron,glutamatergic,FBbt:00100291	0.865847408771514892578125
+PMC7034979	glutamatergic TmY5a	FBbt:00058208	adult glutamatergic neuron	adult glutamatergic,adult glutamatergic neuron,FBbt:00058208	0.85005295276641845703125
+PMC7034979	histaminergic	FBbt:00007367	histaminergic neuron	histaminergic neuron,histaminergic,FBbt:00007367	0.999999940395355224609375
+PMC7034979	histaminergic	FBbt:00058210	adult histaminergic neuron	adult histaminergic neuron,adult histaminergic,FBbt:00058210	0.980046570301055908203125
+PMC7034979	inner photoreceptor	FBbt:00006008	inner photoreceptor cell	inner photoreceptor cell,FBbt:00006008	0.917844295501708984375
+PMC7034979	inner photoreceptors	FBbt:00006008	inner photoreceptor cell	inner photoreceptor cell,FBbt:00006008	0.867815494537353515625
+PMC7034979	Kdm2	FBbt:00003769	distal medullary amacrine neuron Dm2	distal medullary amacrine Dm2,distal medullary amacrine neuron Dm2,Dm2,FBbt:00003769	0.870542705059051513671875
+PMC7034979	Kdm2	FBbt:00110333	larval dopaminergic DM2 neuron	larval dopaminergic DM2,larval dopaminergic DM2 neuron,DM2 neuron,DM2,FBbt:00110333	0.870542705059051513671875
+PMC7034979	Kenyon cells	FBbt:00100247	gamma Kenyon cell	gamma Kenyon cell,KCg,FBbt:00100247,Kenyon cells (gamma lobe),Kenyon cells,gamma KC,gamma neuron,gamma,mushroom body gamma neuron,mushroom body gamma	1
+PMC7034979	Kenyon cells	FBbt:00110929	alpha/beta core Kenyon cell	alpha/beta core Kenyon cell,KCab-c,KCab c,FBbt:00110929,Kenyon cells (alpha/beta lobe core),Kenyon cells,alpha/beta c KC,alpha/beta c Kenyon cell,alpha/beta core KC,alpha/beta core neuron,alpha/beta core,alpha/betac,mushroom body alpha/beta core neuron,mushroom body alpha/beta core	1
+PMC7034979	Kenyon cells	FBbt:00110930	alpha/beta surface Kenyon cell	alpha/beta surface Kenyon cell,KCab-s,KCab s,FBbt:00110930,Kenyon cells (alpha/beta lobe surface),Kenyon cells,alpha/beta s KC,alpha/beta s Kenyon cell,alpha/beta surface KC,alpha/beta surface neuron,alpha/beta surface,alpha/betas,mushroom body alpha/beta surface neuron,mushroom body alpha/beta surface	1
+PMC7034979	L1	FBbt:00003719	lamina monopolar neuron L1	lamina monopolar L1,lamina monopolar neuron L1,L1,FBbt:00003719,monopolar laminar cell L1	1
+PMC7034979	L1	FBbt:00049318	adult lateral horn AD1a1 neuron	adult lateral horn AD1a1 neuron,adult lateral horn AD1a1,L1,FBbt:00049318,LHAD1a1,adult AD1a1 neuron,adult AD1a1,adult LHAD1a1 neuron,adult LHAD1a1,adult anterior dorsal tract 1 neuron a1,adult anterior dorsal tract 1 a1	1
+PMC7034979	L2	FBbt:00003720	lamina monopolar neuron L2	lamina monopolar L2,lamina monopolar neuron L2,L2,FBbt:00003720,monopolar laminar cell L2	1
+PMC7034979	L5	FBbt:00003725	lamina monopolar neuron L5	lamina monopolar neuron L5,lamina monopolar L5,L5,FBbt:00003725,monopolar laminar cell L5	1
+PMC7034979	Lai	FBbt:00003746	lamina intrinsic neuron	lamina intrinsic neuron,lamina intrinsic,Am,FBbt:00003746,Lai,amacrine cell	1
+PMC7034979	lamina monopolar cells	FBbt:00003718	lamina monopolar neuron	lamina monopolar,lamina monopolar neuron,LMC,FBbt:00003718,lamina monopolar cell,monopolar laminar cell	0.874362528324127197265625
+PMC7034979	Lamina monopolar L1	FBbt:00003719	lamina monopolar neuron L1	lamina monopolar L1,lamina monopolar neuron L1,L1,FBbt:00003719,monopolar laminar cell L1	1
+PMC7034979	Lat	FBbt:00003745	lamina tangential neuron	lamina tangential neuron,lamina tangential,Lat,FBbt:00003745	1
+PMC7034979	Lawf	FBbt:00003741	lamina wide-field 1 neuron	lamina wide field 1 neuron,lamina wide field 1,lamina wide-field 1,lamina wide-field 1 neuron,LaWF1,FBbt:00003741,Lawf,Lawf1	1
+PMC7034979	Lawf1	FBbt:00003741	lamina wide-field 1 neuron	lamina wide field 1 neuron,lamina wide field 1,lamina wide-field 1,lamina wide-field 1 neuron,LaWF1,FBbt:00003741,Lawf,Lawf1	1
+PMC7034979	Lawf1/2	FBbt:00003741	lamina wide-field 1 neuron	lamina wide field 1 neuron,lamina wide field 1,lamina wide-field 1,lamina wide-field 1 neuron,LaWF1,FBbt:00003741,Lawf,Lawf1	1
+PMC7034979	Lawf2	FBbt:00110065	lamina wide-field 2 neuron	lamina wide-field 2 neuron,lamina wide field 2 neuron,lamina wide field 2,lamina wide-field 2,Lawf2,FBbt:00110065,Lawfl2	1
+PMC7034979	LC4	FBbt:00003874	lobula columnar neuron LC4	lobula columnar LC4,lobula columnar neuron LC4,ColA,FBbt:00003874,LC04,LC4,lobula columnar neuron Lcn4,lobula columnar Lcn4,lobular columnar neuron Lcn4,lobular columnar Lcn4	1
+PMC7034979	lobula plate	FBbt:00047871	type 1 lobula plate-lobula neuron	type 1 lobula plate-lobula,type 1 lobula plate lobula neuron,type 1 lobula plate lobula,type 1 lobula plate-lobula neuron,LPL01,FBbt:00047871,type 1 LPL	0.879277884960174560546875
+PMC7034979	lobula plate	FBbt:00003880	lobula plate-lobula columnar neuron LPLC	lobula plate-lobula columnar LPLC,lobula plate lobula columnar neuron LPLC,lobula plate-lobula columnar neuron LPLC,lobula plate lobula columnar LPLC,Lccn1,FBbt:00003880,lobula complex columnar neuron Lccn1,lobula complex columnar Lccn1,lobula plate-lobula neuron LPL,lobula plate lobula neuron LPL,lobula plate-lobula LPL,lobula plate lobula LPL,lobular complex columnar neuron Lccn1,lobular complex columnar Lccn1	0.870883047580718994140625
+PMC7034979	lobula plate	FBbt:00003881	lobula-lobula plate columnar neuron LLPC	lobula-lobula plate columnar neuron LLPC,lobula lobula plate columnar LLPC,lobula lobula plate columnar neuron LLPC,lobula-lobula plate columnar LLPC,Lccn2,FBbt:00003881,lobula complex columnar neuron Lccn2,lobula complex columnar Lccn2,lobula-lobula plate neuron LLP,lobula-lobula plate LLP,lobula lobula plate neuron LLP,lobula lobula plate LLP,lobular complex columnar neuron Lccn2,lobular complex columnar Lccn2	0.860276639461517333984375
+PMC7034979	LP	FBbt:00007432	LP neuron	LP neuron,LP,LPN,FBbt:00007432,LPN-AstA,LPN AstA,lateral posterior neuron,lateral posterior	1
+PMC7034979	LPLC1	FBbt:00111762	lobula plate-lobula columnar neuron LPLC1	lobula plate lobula columnar LPLC1,lobula plate-lobula columnar LPLC1,lobula plate lobula columnar neuron LPLC1,lobula plate-lobula columnar neuron LPLC1,LPLC1,FBbt:00111762,lobula complex columnar neuron LPLC1,lobula complex columnar LPLC1,lobula plate and lobula columnar neuron 1,lobula plate and lobula columnar 1	1
+PMC7034979	LPLC2	FBbt:00111763	lobula plate-lobula columnar neuron LPLC2	lobula plate-lobula columnar LPLC2,lobula plate-lobula columnar neuron LPLC2,lobula plate lobula columnar LPLC2,lobula plate lobula columnar neuron LPLC2,LPLC2,FBbt:00111763,lobula complex columnar neuron LPLC2,lobula complex columnar LPLC2,lobula plate and lobula columnar neuron 2,lobula plate and lobula columnar 2	1
+PMC7034979	Mi1	FBbt:00003776	medullary intrinsic neuron Mi1	medullary intrinsic neuron Mi1,medullary intrinsic Mi1,Mi1,FBbt:00003776,Sut,medullary intrinsic neuron 1,medullary intrinsic 1,small field unilateral tristratified neuron,small field unilateral tristratified	1
+PMC7034979	Mi15	FBbt:00111285	medullary intrinsic neuron Mi15	medullary intrinsic Mi15,medullary intrinsic neuron Mi15,Mi15,FBbt:00111285	1
+PMC7034979	Mi4	FBbt:00003779	medullary intrinsic neuron Mi4	medullary intrinsic neuron Mi4,medullary intrinsic Mi4,Mi4,FBbt:00003779	1
+PMC7034979	Mi9	FBbt:00003784	medullary intrinsic neuron Mi9	medullary intrinsic neuron Mi9,medullary intrinsic Mi9,Mi9,FBbt:00003784	1
+PMC7034979	mushroom body	FBbt:00003686	Kenyon cell	Kenyon cell,KC,FBbt:00003686,MB neuron,MB,intrinsic cell of mushroom body,intrinsic neuron of mushroom body,intrinsic of mushroom body,mature Kenyon cell,mushroom body neuron,mushroom body	1
+PMC7034979	NPF	FBbt:00048113	adult NPF neuron	adult NPF neuron,adult NPF,NPF,FBbt:00048113	1
+PMC7034979	octopaminergic modulation	FBbt:00052018	octopaminergic ovulation neuron	octopaminergic ovulation,octopaminergic ovulation neuron,FBbt:00052018	0.884422242641448974609375
+PMC7034979	olfactory projection neurons	FBbt:00007422	antennal lobe projection neuron	antennal lobe projection,antennal lobe projection neuron,olfactory projection neuron,olfactory projection,FBbt:00007422	0.926792681217193603515625
+PMC7034979	olfactory projection neurons	FBbt:00051298	olfactory projection neuron	olfactory projection neuron,olfactory projection,olfactory PN,FBbt:00051298	0.926792681217193603515625
+PMC7034979	olfactory projection neurons	FBbt:00051299	adult olfactory projection neuron	adult olfactory projection,adult olfactory projection neuron,adult olfactory PN,FBbt:00051299	0.909826099872589111328125
+PMC7034979	optic lobe	FBbt:00003702	adult optic lobe neuron	adult optic lobe,adult optic lobe neuron,FBbt:00003702	0.96442997455596923828125
+PMC7034979	Pdf	FBbt:00003761	Pdf neuron	Pdf,Pdf neuron,PDF,FBbt:00003761,Pdh neuron,Pdh,pigment-dispersing hormone-immunoreactive neuron,pigment dispersing hormone immunoreactive neuron,pigment-dispersing hormone-immunoreactive,pigment dispersing hormone immunoreactive	0.99999988079071044921875
+PMC7034979	Pdf-expressing	FBbt:00001579	EG neuron	EG neuron,EG,eg-expressing neuron,eg expressing,eg-expressing,eg expressing neuron,FBbt:00001579	0.882303059101104736328125
+PMC7034979	Pdfr	FBbt:00003766	Pdf neuron close to tritocerebrum	Pdf neuron close to tritocerebrum,Pdf close to tritocerebrum,PDF-Tri,PDF Tri,FBbt:00003766,PDFTri,pigment-dispersing hormone-immunoreactive neuron close to tritocerebrum,pigment dispersing hormone immunoreactive neuron close to tritocerebrum,pigment dispersing hormone immunoreactive close to tritocerebrum,pigment-dispersing hormone-immunoreactive close to tritocerebrum	0.85707652568817138671875
+PMC7034979	Pdh	FBbt:00003761	Pdf neuron	Pdf,Pdf neuron,PDF,FBbt:00003761,Pdh neuron,Pdh,pigment-dispersing hormone-immunoreactive neuron,pigment dispersing hormone immunoreactive neuron,pigment-dispersing hormone-immunoreactive,pigment dispersing hormone immunoreactive	1
+PMC7034979	photoreceptor	FBbt:00004211	photoreceptor neuron	photoreceptor neuron,photoreceptor,photoreceptor cell,FBbt:00004211,receptor cell	0.999999940395355224609375
+PMC7034979	Photoreceptor	FBbt:00004211	photoreceptor neuron	photoreceptor neuron,photoreceptor,photoreceptor cell,FBbt:00004211,receptor cell	0.999999940395355224609375
+PMC7034979	photoreceptor cells	FBbt:00004211	photoreceptor neuron	photoreceptor neuron,photoreceptor,photoreceptor cell,FBbt:00004211,receptor cell	0.85818254947662353515625
+PMC7034979	photoreceptor cells	FBbt:00006009	eye photoreceptor cell	eye photoreceptor cell,lamina receptor cell,FBbt:00006009,retinula cell	0.85818254947662353515625
+PMC7034979	photoreceptors	FBbt:00004211	photoreceptor neuron	photoreceptor neuron,photoreceptor,photoreceptor cell,FBbt:00004211,receptor cell	0.92656743526458740234375
+PMC7034979	Pm3	FBbt:00110066	proximal medullary amacrine neuron Pm3	proximal medullary amacrine neuron Pm3,proximal medullary amacrine Pm3,Pm3,FBbt:00110066	1
+PMC7034979	Pm4	FBbt:00111282	proximal medullary amacrine neuron Pm4	proximal medullary amacrine Pm4,proximal medullary amacrine neuron Pm4,Pm4,FBbt:00111282	1
+PMC7034979	Primary	FBbt:00047097	primary neuron	primary,primary neuron,embryonic lineage neuron,embryonic lineage,FBbt:00047097,embryonic neuron,embryonic,larval neuron,larval,primary lineage neuron,primary lineage	1
+PMC7034979	R7	FBbt:00004225	photoreceptor cell R7	photoreceptor cell R7,R7,FBbt:00004225,lamina receptor cell R7,receptor cell R7	1
+PMC7034979	R7 photoreceptor	FBbt:00004225	photoreceptor cell R7	photoreceptor cell R7,R7,FBbt:00004225,lamina receptor cell R7,receptor cell R7	0.916567504405975341796875
+PMC7034979	R8	FBbt:00004227	photoreceptor cell R8	photoreceptor cell R8,R8,FBbt:00004227,lamina receptor cell R8,receptor cell R8	1
+PMC7034979	R8 photoreceptor	FBbt:00004227	photoreceptor cell R8	photoreceptor cell R8,R8,FBbt:00004227,lamina receptor cell R8,receptor cell R8	0.91674315929412841796875
+PMC7034979	R8 photoreceptors	FBbt:00004227	photoreceptor cell R8	photoreceptor cell R8,R8,FBbt:00004227,lamina receptor cell R8,receptor cell R8	0.86603701114654541015625
+PMC7034979	S4	FBbt:00003876	lobula columnar neuron LC6	lobula columnar neuron LC6,lobula columnar LC6,LC06,FBbt:00003876,LC6,S4,lobula columnar neuron Lcn6,lobula columnar Lcn6,lobular columnar neuron Lcn6,lobular columnar Lcn6	1
+PMC7034979	S4	FBbt:00100480	lobula columnar neuron LC9	lobula columnar LC9,lobula columnar neuron LC9,LC09,FBbt:00100480,LC9,Lcn9,S4	1
+PMC7034979	Secondary	FBbt:00047096	secondary neuron	secondary,secondary neuron,adult-specific neuron,adult-specific,adult specific,adult specific neuron,FBbt:00047096,postembryonic neuron,postembryonic	1
+PMC7034979	sensitive	FBbt:00100045	carbon dioxide sensitive neuron	carbon dioxide sensitive neuron,carbon dioxide sensitive,CO2 sensitive neuron,CO2 sensitive,FBbt:00100045	0.888320982456207275390625
+PMC7034979	serotonin	FBbt:00005133	serotonergic neuron	serotonergic neuron,serotonergic,5-HT neuron,5 HT neuron,5 HT,5-HT,FBbt:00005133,serotonin neuron,serotonin	1
+PMC7034979	serotonin	FBbt:00049526	adult serotonergic neuron	adult serotonergic,adult serotonergic neuron,adult 5-HT neuron,adult 5-HT,adult 5 HT,adult 5 HT neuron,FBbt:00049526,adult serotonin neuron,adult serotonin	0.962719500064849853515625
+PMC7034979	Smith	FBbt:00007457	larval PTTH neuron of pars lateralis	larval PTTH neuron of pars lateralis,larval PTTH of pars lateralis,PG neuron,PG,FBbt:00007457,PG-LP,PG LP,PTTH neuron,PTTH,larval prothoracic gland innervating neurosecretory neuron of the lateral protocerebrum,larval prothoracic gland innervating neurosecretory of the lateral protocerebrum,prothoracic gland innervating neuron PG-LP,prothoracic gland innervating neuron PG LP,prothoracic gland innervating PG LP,prothoracic gland innervating PG-LP	0.884010374546051025390625
+PMC7034979	Smith	FBbt:00048045	adult prothoracic gland innervating neuron PG-LP	adult prothoracic gland innervating PG-LP,adult prothoracic gland innervating neuron PG LP,adult prothoracic gland innervating neuron PG-LP,adult prothoracic gland innervating PG LP,PTTH neuron,PTTH,FBbt:00048045,adult prothoracic gland innervating neurosecretory neuron of the lateral protocerebrum,adult prothoracic gland innervating neurosecretory of the lateral protocerebrum	0.884010374546051025390625
+PMC7034979	su(Hw)attP8	FBbt:00002337	abdominal desC neuron	abdominal desC,abdominal desC neuron,dc1,FBbt:00002337,dp1,p8,s	0.9225330352783203125
+PMC7034979	synapse-specific	FBbt:00048239	male-specific neuron	male-specific neuron,male-specific,male specific neuron,male specific,FBbt:00048239	0.8616149425506591796875
+PMC7034979	T1	FBbt:00003727	columnar neuron T1	columnar neuron T1,columnar T1,T neuron T1,T T1,FBbt:00003727,T1	0.999999940395355224609375
+PMC7034979	T1	FBbt:00110984	dopaminergic T1 neuron	dopaminergic T1,dopaminergic T1 neuron,T1,FBbt:00110984	0.999999940395355224609375
+PMC7034979	T2	FBbt:00003728	T neuron T2	T T2,T neuron T2,T2,FBbt:00003728	1
+PMC7034979	T3	FBbt:00003730	T neuron T3	T T3,T neuron T3,T3,FBbt:00003730	1
+PMC7034979	T4	FBbt:00003731	T neuron T4	T T4,T neuron T4,T4,FBbt:00003731	1
+PMC7034979	T4a	FBbt:00003732	T neuron T4a	T T4a,T neuron T4a,T4a,FBbt:00003732	1
+PMC7034979	T4b	FBbt:00003733	T neuron T4b	T neuron T4b,T T4b,T4b,FBbt:00003733	1
+PMC7034979	T5	FBbt:00003736	T neuron T5	T T5,T neuron T5,T5,FBbt:00003736	0.99999988079071044921875
+PMC7034979	T5a	FBbt:00003737	T neuron T5a	T T5a,T neuron T5a,T5a,FBbt:00003737	1
+PMC7034979	T5b	FBbt:00003738	T neuron T5b	T T5b,T neuron T5b,T5b,FBbt:00003738	1
+PMC7034979	Tm1	FBbt:00003789	transmedullary neuron Tm1	transmedullary neuron Tm1,transmedullary Tm1,Tm1,FBbt:00003789	1
+PMC7034979	Tm2	FBbt:00003790	transmedullary neuron Tm2	transmedullary Tm2,transmedullary neuron Tm2,Tm2,FBbt:00003790	1
+PMC7034979	Tm20	FBbt:00003808	transmedullary neuron Tm20	transmedullary neuron Tm20,transmedullary Tm20,Tm20,FBbt:00003808	1
+PMC7034979	Tm29	FBbt:00049916	transmedullary neuron Tm29	transmedullary neuron Tm29,transmedullary Tm29,Tm29,FBbt:00049916	1
+PMC7034979	Tm3	FBbt:00003791	transmedullary neuron Tm3a	transmedullary neuron Tm3a,transmedullary Tm3a,Tm3,FBbt:00003791,Tm3a,transmedullary neuron Tm3,transmedullary Tm3	0.999999940395355224609375
+PMC7034979	Tm4	FBbt:00003792	transmedullary neuron Tm4	transmedullary neuron Tm4,transmedullary Tm4,Tm4,FBbt:00003792	1
+PMC7034979	Tm9	FBbt:00003797	transmedullary neuron Tm9	transmedullary Tm9,transmedullary neuron Tm9,Tm9,FBbt:00003797	0.999999940395355224609375
+PMC7034979	TmY14	FBbt:00111286	transmedullary Y neuron TmY14	transmedullary Y neuron TmY14,transmedullary Y TmY14,TmY14,FBbt:00111286	1
+PMC7034979	TmY5a	FBbt:00003823	transmedullary Y neuron TmY5a	transmedullary Y neuron TmY5a,transmedullary Y TmY5a,TmY5a,FBbt:00003823	1
+PMC7034979	visual	FBbt:00047734	larval visual projection interneuron	larval visual projection interneuron,larval VPN,FBbt:00047734,larval visual PN,larval visual projection neuron,larval visual projection	0.8585135936737060546875
+PMC7034979	visual system	FBbt:00047736	visual system neuron	visual system neuron,visual system,FBbt:00047736	1
+PMC7034979	visual system neurons	FBbt:00047736	visual system neuron	visual system neuron,visual system,FBbt:00047736	0.943590581417083740234375

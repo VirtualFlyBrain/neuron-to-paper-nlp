@@ -1,0 +1,82 @@
+text,label,NLP,comment1,comment2,expected_entity
+astA,allatostatin A neuron,Y,,,FBbt_00048142
+AstC,allatostatin C neuron,Y,,,FBbt_00048165
+C2,centrifugal neuron C2,Y,,,FBbt_00003743
+C3,centrifugal neuron C3,Y,,,FBbt_00003744
+Chat,adult cholinergic neuron,Y,,,FBbt_00058205
+Crz,adult corazonin neuron,Y,,,FBbt_00051053
+Dm1,distal medullary amacrine neuron Dm1,Y,,,FBbt_00003768
+Dm2,distal medullary amacrine neuron Dm2,Y,,,FBbt_00003769
+Dm3,distal medullary amacrine neuron Dm3,Y,,,FBbt_00003770
+Dm4,distal medullary amacrine neuron Dm4,Y,,,FBbt_00003771
+Dm8,distal medullary amacrine neuron Dm8,Y,,,FBbt_00013774
+Dm10,distal medullary amacrine neuron Dm10,Y,,,FBbt_00110135
+Dm11,distal medullary amacrine neuron Dm11,Y,,,FBbt_00111272
+Dm12,distal medullary amacrine neuron Dm12,Y,,,FBbt_00111273
+Dm8,distal medullary amacrine neuron Dm8,Y,,,FBbt_00013774
+Dm9,distal medullary amacrine neuron Dm9,Y,,,FBbt_00111271
+Dopaminergic,adult dopaminergic neuron,Y,,,FBbt_00058206
+Gad1,adult glutamatergic neuron,Y,,,FBbt_00058208
+Gabaergic,adult GABAergic neuron,Y,,,FBbt_00058207
+histaminergic,adult histaminergic neuron,Y,,,FBbt_00058210
+Kenyon Cells,Kenyon cell,Y,,,FBbt_00100247
+L1,lamina monopolar neuron L1,Y,,,FBbt_00003719
+L2,lamina monopolar neuron L2,Y,,,FBbt_00003720
+L3,lamina monopolar neuron L3,Y,,,FBbt_00003721
+L4,lamina monopolar neuron L4,N,,,FBbt_00003722
+L5,lamina monopolar neuron L5,Y,,,FBbt_00003725
+lai,lamina intrinsic neuron,Y,,,FBbt_00003746
+Lawf1,lamina wide-field 1 neuron,Y,,,FBbt_00003741
+Lawf2,lamina wide-field 2 neuron,Y,,,FBbt_00110065
+LC4,lobula columnar neuron LC4,Y,,,FBbt_00003874
+LPCL2,obula plate-lobula columnar neuron LPLC2,Y,,,FBbt_00111763
+LPLC1,lobula plate-lobula columnar neuron LPLC1,Y,,,FBbt_00111762
+mi1,medullary intrinsic neuron Mi1,Y,,,FBbt_00003776
+mi15,medullary intrinsic neuron Mi15,Y,,,FBbt_00111285
+Mi4,medullary intrinsic neuron Mi4,Y,,,FBbt_00003779
+mi9,medullary intrinsic neuron Mi9,Y,,,FBbt_00003784
+npf,adult NPF neuron,Y,,,FBbt_00048113
+pdf,Pdf neuron,Y,,,FBbt_00100166
+Olfactory Projection,adult olfactory projection neuron,Y,,,FBbt_00051299
+photoreceptor neurons,photoreceptor neuron,Y,,,FBbt_00004211
+pigment cell,pigment cell,Y,,,FBbt_00004230
+Pm3,proximal medullary amacrine neuron Pm3,Y,,,FBbt_00110066
+Pm4,proximal medullary amacrine neuron Pm4,Y,,,FBbt_00111282
+R1,photoreceptor cell R1,N,these are all under 1-6,,FBbt_00004213
+R2,photoreceptor cell R2,N,,,FBbt_00004215
+R3,photoreceptor cell R3,N,,,FBbt_00004217
+R4,photoreceptor cell R4,N,,,FBbt_00004219
+R5,photoreceptor cell R5,N,,,FBbt_00004221
+R6,photoreceptor cell R6,N,,,FBbt_00004223
+R7,photoreceptor cell R7,Y,,,FBbt_00004225
+R8-Rh5,photoreceptor cell R8,Y,,,FBbt_00004227
+R8-Rh6,photoreceptor cell R8,Y,,,FBbt_00004227
+T1,columnar neuron T1,N,miss,,FBbt_00003727
+T2,columnar neuron T2,N,miss,Not in ontology,
+T3,columnar neuron T3,N,miss,Not in ontology,
+T4,T neuron T4,Y,,,FBbt_00003731
+T4a,T neuron T4a,Y,,Cell types in fig 1,FBbt_00003732
+T4b,T neuron T4b,Y,,All cell types in text in supp 1 - some are not in the main text,FBbt_00003733
+T4c,T neuron T4c,N,,Issue when term can match more - synonyms,FBbt_00003734
+T4d,T neuron T4d,N,,,FBbt_00003735
+T5,T neuron T5,Y,,,FBbt_00003736
+T5a,T neuron T5a,Y,,,FBbt_00003737
+T5b,T neuron T5b,Y,,,FBbt_00003738
+T5c,T neuron T5c,N,was in prev,,FBbt_00003739
+T5d,T neuron T5d,N,was in prev,,FBbt_00003740
+Tm1,transmedullary neuron Tm1,Y,,,FBbt_00003789
+Tm2,transmedullary neuron Tm2,Y,,,FBbt_00003790
+Tm20,transmedullary neuron Tm20,Y,,,FBbt_00003808
+Tm29,transmedullary neuron Tm29,Y,,,FBbt_00049916
+Tm3,transmedullary neuron Tm3a/b,Y,no tm3 in fbbt,,FBbt_00003791
+Tm4,transmedullary neuron Tm4,Y,,,FBbt_00003792
+Tm9,transmedullary neuron Tm9,Y,,,FBbt_00003797
+TmY14,transmedullary Y neuron TmY14,Y,,,FBbt_00111286
+TmY5a,transmedullary Y neuron TmY5a,Y,,,FBbt_00003823
+visual system neurons,visual system neuron,Y,,,FBbt_00047736
+,,,,,
+,Proportion of true positives identified,81.33333333,,,
+,Proportion of results which are false positive,93.83606557,,,
+,,,,,
+BROAD TERMS,,,,,
+gial,,,,,

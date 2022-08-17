@@ -14,10 +14,12 @@ def parse_fbbt_ontology(ontology_path):
     fbbt_graph.parse(ontology_path)
     list_fbbt_entities = """
     PREFIX obo: <http://purl.obolibrary.org/obo/>
+    PREFIX FBbt: <http://purl.obolibrary.org/obo/FBbt_>
     PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
     SELECT DISTINCT ?fbbtClass ?id ?label ?aliases ?parent ?definition
     WHERE {
         ?fbbtClass a owl:Class .
+        ?fbbtClass rdfs:subClassOf* FBbt:00005106 .
         ?fbbtClass rdfs:label ?label .
         ?fbbtClass oboInOwl:id ?id . 
         OPTIONAL { ?fbbtClass oboInOwl:hasRelatedSynonym ?aliases } . 

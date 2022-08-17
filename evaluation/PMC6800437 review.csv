@@ -1,0 +1,26 @@
+text,label,NLP,comment1,comment2,expected_entity
+P1,adult fruitless P1 (male) neuron,Y,,,FBbt_00110621
+ruitless-expressing neural circuit,fruitless expressing neuron,N,This was Y before,,FBbt_00110854
+dsk neurons,Drosulfakinin neuron,Y,,32 peptidergic neuron GAL4s in fig 1,FBbt_00048998
+dsx neurons,adult doublesex neuron,Y,,Can we use ref for terms to add?,FBbt_00047347
+DN1,DN1 neuron,Y,,Chosing adult over generic,FBbt_00003629
+SIFamide neuron,adult SIFamide cell of pars intercerebralis,Y,,,FBbt_00047427
+CrzGAL4 neurons,corazonin neuron,N,,,FBbt_00051052
+MP1,adult Drosulfakinin MP1 neuron,Y,,,FBbt_00051431
+MP3,adult Drosulfakinin MP3 neuron,Y,,,FBbt_00051432
+IPCs,insulin secreting cell of pars intercerebralis,N,,,FBbt_00004011
+MP1a,adult Drosulfakinin MP1a neuron,N,,,FBbt_00051433
+MP1b,adult Drosulfakinin MP1b neuron,N,,,FBbt_00051434
+pC1,adult doublesex pC1 (female) neuron,Y,,,FBbt_00047349
+pCd,adult doublesex pCd (female) neuron,Y,,,FBbt_00047353
+,,,,,
+,Proportion of true positives identified,64.28571429,,,
+,Proportion of results which are false positive,1.324503311,,,
+,,,,,
+,,,,,
+,,,,,
+BROAD TERMS,,,,,
+sensory neurons,,,,,
+interneurons,,,,,
+motor neurons,,,,,
+VNC neurons,,,,,

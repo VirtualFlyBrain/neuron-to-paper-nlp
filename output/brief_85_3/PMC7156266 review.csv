@@ -1,0 +1,26 @@
+text,label,NLP
+astA,allatostatin A neuron,Y
+abdominal segments,abdominal segment motor neuron,Y
+campaniform sensilla neurons,sensory neuron of campaniform sensillum,Y
+lineage 11A,hemilineage 11A secondary neuron,N
+GABA,GABAergic neuron,Y
+cholinergic,cholinergic neuron,Y
+7B,lineage 7 secondary neuron,N
+Notch-ON,Notch ON hemilineage neuron,Y
+Notch-OFF,Notch OFF hemilineage neuron,Y
+2A,lineage 2 secondary neuron,N
+12A,hemilineage 12A secondary neuron,N
+17A,lineage 17 secondary neuron,N
+23B,lineage 18 secondary neuron,N
+19b,lineage 19 secondary neuron,N
+23b,lineage 23 secondary neuron,N
+" 18B,",lineage 18 secondary neuron,N
+sensory neurons,sensory neuron,N
+leg chordotonal neurons,mechanosensory neuron of leg chordotonal organ,Y
+adult sensory neurons,adult sensory neuron,N
+olfactory neurons -antenna,adult olfactory receptor neuron,N
+sensory neurons in the female reproductive tract,sensory neuron of female reproductive system,N
+chordotonal neurons - larva,larval chordotonal neuron,N
+feCO neuronal cell bodies,mechanosensory neuron of femoral chordotonal organ,Y
+11b,hemilineage 11B secondary neuron,N
+glutamatergic hemilineage,glutamatergic neuron,Y

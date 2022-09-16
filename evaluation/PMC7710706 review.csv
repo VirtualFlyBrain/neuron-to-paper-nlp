@@ -1,0 +1,18 @@
+text,label,NLP,comment1,comment2,expected_entity
+Moonwalker Descending Neurons,adult moonwalker descending neuron,Y,,,FBbt_00111308
+LBL40,adult LBL40 neuron of ventral nerve cord,Y,,,FBbt_00051089
+LUL130,adult LUL130 neuron of ventral nerve cord,Y,,,FBbt_00051097
+leg motor circuits,leg muscle motor neuron,Y,,,FBbt_00049568
+descending inputs,adult descending neuron,Y,,,FBbt_00047511
+MF25 neuron,adult LBA22 neuron of ventral nerve cord,Y,,,FBbt_00051113
+MF14 neuron,adult LUL152 neuron of ventral nerve cord,Y,,,FBbt_00051102
+LUM9,adult LUM9 neuron of ventral nerve cord,Y,,,FBbt_00051121
+MAN,adult moonwalker ascending neuron,Y,,,FBbt_00111307
+MF13,adult LBL52 neuron of ventral nerve cord,Y,,,FBbt_00051101
+MF10,adult LUL173 neuron of ventral nerve cord,Y,,,FBbt_00051098
+MF11,adult LUL141 neuron of ventral nerve cord,Y,,,FBbt_00051099
+MF12,adult LBL9 neuron of ventral nerve cord,Y,,,FBbt_00051100
+MF14,adult LUL152 neuron of ventral nerve cord,Y,,,FBbt_00051102
+MF18,adult LUI14 neuron of ventral nerve cord,Y,,,FBbt_00051106
+MF25,adult LBA22 neuron of ventral nerve cord,Y,,,FBbt_00051113
+glutamatergic neurons,adult glutamatergic neuron,Y,,,FBbt_00058208

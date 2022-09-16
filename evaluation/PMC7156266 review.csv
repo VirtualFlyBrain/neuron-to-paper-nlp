@@ -1,0 +1,26 @@
+text,label,NLP,comment1,comment2,expected_entity
+astA,allatostatin A neuron,Y,,,FBbt_00048142
+abdominal segments,abdominal segment motor neuron,Y,,,FBbt_00002198
+campaniform sensilla neurons,sensory neuron of campaniform sensillum,Y,,,FBbt_00048057
+lineage 11A,hemilineage 11A secondary neuron,N,,,FBbt_00051466
+GABA,GABAergic neuron,Y,,,FBbt_00058207
+cholinergic,cholinergic neuron,Y,,,FBbt_00058215
+7B,lineage 7 secondary neuron,N,,,FBbt_00048904
+Notch-ON,Notch ON hemilineage neuron,Y,,,FBbt_00049539
+Notch-OFF,Notch OFF hemilineage neuron,Y,,,FBbt_00049540
+2A,lineage 2 secondary neuron,N,,,FBbt_00048898
+12A,hemilineage 12A secondary neuron,N,,,FBbt_00051463
+17A,lineage 17 secondary neuron,N,,,FBbt_00048902
+23B,lineage 18 secondary neuron,N,,,FBbt_00048901
+19b,lineage 19 secondary neuron,N,,,FBbt_00048917
+23b,lineage 23 secondary neuron,N,,,FBbt_00048920
+" 18B,",lineage 18 secondary neuron,N,,,FBbt_00048901
+sensory neurons,sensory neuron,N,,,FBbt_00005124
+leg chordotonal neurons,mechanosensory neuron of leg chordotonal organ,Y,,,FBbt_00048274
+adult sensory neurons,adult sensory neuron,N,,,FBbt_00058244
+olfactory neurons -antenna,adult olfactory receptor neuron,N,,,FBbt_00007386
+sensory neurons in the female reproductive tract,sensory neuron of female reproductive system,N,,,FBbt_00049943
+chordotonal neurons - larva,larval chordotonal neuron,N,,,FBbt_00051425
+feCO neuronal cell bodies,mechanosensory neuron of femoral chordotonal organ,Y,,,FBbt_00048051
+11b,hemilineage 11B secondary neuron,N,,,FBbt_00051478
+glutamatergic hemilineage,glutamatergic neuron,Y,,,FBbt_00100291

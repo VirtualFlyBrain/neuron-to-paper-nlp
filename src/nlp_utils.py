@@ -1,7 +1,7 @@
 import re
 
 DSX_PREFIX = "dsx-"
-IGNORE_WORDS = ["neuron", "neurons"]
+IGNORE_WORDS = ["neuron", "neurons", "proboscis motor neuron", "secondary"]
 
 
 def extract_acronyms(sentence):
@@ -25,11 +25,13 @@ def generate_phrase_variances(phrase):
     variances = set()
     variances.add(phrase)
 
+    # remove dsx- prefix
     to_add = set()
     for variance in variances:
         to_add.add(variance.replace(DSX_PREFIX, "").strip())
     variances = variances.union(to_add)
 
+    # remove text inside parentheses
     to_add = set()
     for variance in variances:
         removed_parentheses = re.sub(r'\([^)]*\)', "", variance).strip()
@@ -37,11 +39,13 @@ def generate_phrase_variances(phrase):
         to_add.add(removed_parentheses)
     variances = variances.union(to_add)
 
+    # replace dash with space
     to_add = set()
     for variance in variances:
         to_add.add(variance.replace("-", " ").strip())
     variances = variances.union(to_add)
 
+    # remove ignored words
     to_add = set()
     for variance in variances:
         for ignore_word in IGNORE_WORDS:
@@ -50,6 +54,12 @@ def generate_phrase_variances(phrase):
                 clean_sentence = re.sub(r"\b%s\b" % ignore_word, "", variance).strip()
                 clean_sentence = clean_sentence.replace("  ", " ")  # drop double spaces
                 to_add.add(clean_sentence)
+    variances = variances.union(to_add)
+
+    # add plural neuronS variance
+    to_add = set()
+    for variance in variances:
+        to_add.add(re.sub(r"\b%s\b" % "neuron", "neurons", variance).strip())
     variances = variances.union(to_add)
 
     return variances

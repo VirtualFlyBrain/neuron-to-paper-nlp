@@ -17,6 +17,7 @@ from scispacy.candidate_generation import (
 
 
 CONFIDENCE_THRESHOLD = 0.85
+# CONFIDENCE_THRESHOLD = 0.25
 # apply a relative threshold based on the highest confidence per mention
 RELATIVE_CONFIDENCE_DISPLACEMENT = 0.05
 # Merge sentences with the given size and processes all together to build a context
@@ -24,7 +25,7 @@ NLP_TEXT_BATCH_SIZE = 50
 
 DATA_FOLDER = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../data")
 EVAL_FOLDER = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../evaluation")
-OUTPUT_FOLDER = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../output/brief_85_3/")
+OUTPUT_FOLDER = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../output/brief_85_4/")
 PUBLICATION_TEMPLATE = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../robot_templates/publication.tsv")
 LINKING_TEMPLATE = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../robot_templates/linking.tsv")
 
@@ -96,7 +97,7 @@ def process_test_sentence(nlp):
     # sentence = "The metameric furrows and MesEc that forms between segments during embryonic stage 11 and persists to the " \
     #            "larval stage (Campos-Ortega and Hartenstein, 1985). Any tracheal lateral trunk anterior branch primordium " \
     #            "(FBbt:00000234) that is part of some metathoracic tracheal primordium (FBbt:00000188)."
-    sentence = "The suppression of male and female sexual behaviors depends on the secretion of the neuropeptide DSK-2, which then acts on one of its receptors CCKLR-17D3 that is expressed in many fru^M neurons including P1 neurons and the mushroom bodies."
+    sentence = "Leveraging these transgenes, we tracked Unc-4 expression in the peripheral nervous system (PNS) and found that Unc-4 is expressed in all progenitors of leg chordotonal neurons (also called sensory organ precursors [SOPs]) and head sense organs in the larvae as well as many adult sensory neurons including chordotonal and bristle sensory neurons in the leg and Johnston’s organ and olfactory neurons in the antenna (Figure 1G-H; Figure 1-figure supplement 1)."
     mentions = analyze_sentence(nlp, sentence)
     mentions = process_sentence(nlp, sentence)
     for mention in mentions:

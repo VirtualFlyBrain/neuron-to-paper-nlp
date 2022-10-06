@@ -1,5 +1,5 @@
 import os
-from pmc_utils import read_csv_to_dict
+from file_utils import read_csv_to_dict
 
 
 def evaluate_results(output_folder, evaluation_folder):

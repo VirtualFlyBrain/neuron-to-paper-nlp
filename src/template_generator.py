@@ -1,6 +1,6 @@
 import os
 import pandas as pd
-from pmc_utils import read_csv_to_dict
+from file_utils import read_csv_to_dict
 
 
 DOI_PREFIX = "https://doi.org/"

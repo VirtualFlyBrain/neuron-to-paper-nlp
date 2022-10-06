@@ -1,3 +1,7 @@
+"""
+Trains scispacy model by processing the json representation of the ontology.
+To generate the json file, run the owl_to_json.py
+"""
 import os
 from scispacy.linking_utils import KnowledgeBase
 from scispacy.candidate_generation import create_tfidf_ann_index

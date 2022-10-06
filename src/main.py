@@ -1,9 +1,11 @@
 import os
 from decimal import Decimal
-from pmc_utils import read_csv_to_dict, write_mentions_to_file, clean_folder
+from file_utils import read_csv_to_dict, write_mentions_to_file, clean_folder
 from template_generator import generate_publications_robot_template, generate_linkings_robot_template
 from evaluation import evaluate_results
 from itertools import islice
+from semantics.semantic_embedding import filter_outliers
+from ontology_utils import calculate_node_depths
 
 import spacy
 import scispacy
@@ -20,6 +22,8 @@ CONFIDENCE_THRESHOLD = 0.85
 # CONFIDENCE_THRESHOLD = 0.25
 # apply a relative threshold based on the highest confidence per mention
 RELATIVE_CONFIDENCE_DISPLACEMENT = 0.05
+# filter abstract classes and try to link more specific ones. Min distance to root neuron class.
+CLASS_DEPTH_THRESHOLD = 1
 # Merge sentences with the given size and processes all together to build a context
 NLP_TEXT_BATCH_SIZE = 50
 
@@ -38,6 +42,8 @@ nmslib_index = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../lin
 concept_aliases = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../linker/concept_aliases.json")
 tfidf_vectorizer = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../linker/tfidf_vectorizer.joblib")
 tfidf_vectors_sparse = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../linker/tfidf_vectors_sparse.npz")
+
+OWL2VEC_MODEL = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../owl2vec/embeddings/fbbt_model")
 
 
 CustomLinkerPaths_FBBT = LinkerPaths(
@@ -62,6 +68,7 @@ DEFAULT_PATHS["fbbt"] = CustomLinkerPaths_FBBT
 DEFAULT_KNOWLEDGE_BASES["fbbt"] = FBBTKnowledgeBase
 
 linker = CandidateGenerator(name="fbbt")
+# class_depths = calculate_node_depths()
 
 
 def main():
@@ -74,7 +81,9 @@ def main():
     # process_test_sentence(nlp)
     all_data = process_data_files(nlp)
 
-    all_data = filter_outliers(all_data, nlp)
+    # all_data = filter_data_by_neuron_class_distance(all_data)
+    all_data = filter_outliers(OWL2VEC_MODEL, all_data)
+    # all_data = filter_outliers_by_scipsacy_embeddings(all_data, nlp)
     pmcid_doi_mapping = generate_publications_robot_template(DATA_FOLDER, PUBLICATION_TEMPLATE)
     generate_linkings_robot_template(all_data, pmcid_doi_mapping, LINKING_TEMPLATE)
     write_linkings_to_tsv(all_data)
@@ -245,13 +254,34 @@ def analyze_sentence(nlp, sentence):
     return mentions
 
 
-def filter_outliers(all_data, nlp):
+def filter_data_by_neuron_class_distance(all_data):
+    """
+    Not using now, also filtering some TPs like 'Drosulfakinin neuron' (FBbt:00048998)
+    Aims to  filter abstract classes and try to link more specific ones. Filter classes higher in the ontology hierarchy.
+    :param all_data: all linked entities
+    :return: filtered linking results
+    """
+    filtered = dict()
+    for file_name in all_data:
+        data = all_data[file_name]
+        filtered_data = list()
+        for n, record in enumerate(data):
+            if class_depths[record["candidate_entity_iri"]] > CLASS_DEPTH_THRESHOLD:
+                filtered_data.append(record)
+            else:
+                print(record["candidate_entity_iri"])
+        filtered[file_name] = filtered_data
+
+    return filtered
+
+
+def filter_outliers_by_scipsacy_embeddings(all_data, nlp):
     """
     Filters based on embedding vector similarities. Tries to understand paper context from high confident exact matches
     and filters rest of the results based on their embedding vector's distance to the context.
-    :param all_data: all linkings
+    :param all_data: all entity linkings
     :param nlp: nlp module
-    :return: filtered linlings
+    :return: filtered entity linkings
     """
     filtered = dict()
     for file_name in all_data:

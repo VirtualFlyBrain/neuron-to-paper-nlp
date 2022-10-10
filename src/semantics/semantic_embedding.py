@@ -9,7 +9,7 @@ def filter_outliers(owl2vec_embedding_file, all_data):
 
     filtered = dict()
     for file_name in all_data:
-        print(file_name)
+        # print(file_name)
         data = all_data[file_name]
 
         # for a mention we only have singe high confidence result
@@ -20,7 +20,7 @@ def filter_outliers(owl2vec_embedding_file, all_data):
 
         paper_context = np.zeros(model.vector_size)
         n = 0
-        print("High Conf Count: " + str(len(high_confidence)))
+        # print("High Conf Count: " + str(len(high_confidence)))
         for entity_iri in high_confidence:
             paper_context += model.wv.get_vector(entity_iri.replace("FBbt:", "http://purl.obolibrary.org/obo/FBbt_"))
             n += 1
@@ -38,18 +38,18 @@ def filter_outliers(owl2vec_embedding_file, all_data):
             all_sims.append(similarity)
 
         all_sims = sorted(all_sims)
-        print("ALLLL:")
-        print(all_sims)
-        print("FILTERED:")
+        # print("ALLLL:")
+        # print(all_sims)
+        # print("FILTERED:")
         filteredz = reject_outliers2(np.array(all_sims))
-        print(filteredz.tolist())
+        # print(filteredz.tolist())
 
         cutoff_index = len(all_sims) * 10 / 100
         threshold_old = all_sims[int(cutoff_index)]
-        print("OLD THR: " + str(threshold_old))
+        # print("OLD THR: " + str(threshold_old))
 
         threshold = filteredz[0]
-        print("NEW THR: " + str(threshold))
+        # print("NEW THR: " + str(threshold))
 
         to_remove = [k for k, v in term_similarities.items() if Decimal(v) < Decimal(threshold)]
         filtered[file_name] = [record for record in data if Decimal(record["confidence"]) > 0.96

@@ -1,7 +1,9 @@
 import re
+import os
+from file_utils import read_csv_to_dict
 
 DSX_PREFIX = "dsx-"
-IGNORE_WORDS = ["neuron", "neurons", "proboscis motor neuron", "secondary"]
+IGNORE_WORDS = ["neuron", "neurons", "proboscis motor neuron", "secondary", "adult drosulfakinin"]
 
 
 def extract_acronyms(sentence):
@@ -48,12 +50,21 @@ def generate_phrase_variances(phrase):
     # remove ignored words
     to_add = set()
     for variance in variances:
+        # remove ignore words one by one
         for ignore_word in IGNORE_WORDS:
-            if ignore_word in variance:
+            if ignore_word in str(variance).lower():
                 # whole word match \b
-                clean_sentence = re.sub(r"\b%s\b" % ignore_word, "", variance).strip()
+                clean_sentence = re.sub(r"\b%s\b" % ignore_word, "", variance, flags=re.IGNORECASE).strip()
                 clean_sentence = clean_sentence.replace("  ", " ")  # drop double spaces
                 to_add.add(clean_sentence)
+        # remove ignore words all together
+        all_clean = variance
+        for ignore_word in IGNORE_WORDS:
+            if ignore_word in str(all_clean).lower():
+                # whole word match \b
+                all_clean = re.sub(r"\b%s\b" % ignore_word, "", all_clean, flags=re.IGNORECASE).strip()
+                all_clean = all_clean.replace("  ", " ")  # drop double spaces
+        to_add.add(all_clean.strip())
     variances = variances.union(to_add)
 
     # add plural neuronS variance
@@ -63,3 +74,22 @@ def generate_phrase_variances(phrase):
     variances = variances.union(to_add)
 
     return variances
+
+
+def count_keywords(data_folder, ignored_extensions, keywords):
+    data_files = sorted(os.listdir(data_folder))
+
+    all_keyword_stats = dict()
+    for filename in data_files:
+        file_path = os.path.join(data_folder, filename)
+        if os.path.isfile(file_path) and not filename.endswith(ignored_extensions):
+            table = read_csv_to_dict(file_path, delimiter="\t", generated_ids=True)[1]
+            all_paper_text = ""
+            for row in table:
+                sentence = table[row]["text"]
+                all_paper_text = all_paper_text + " " + sentence
+            paper_stats = dict()
+            for keyword in keywords:
+                paper_stats[keyword] = sum(1 for _ in re.finditer(r'\b%s\b' % re.escape(keyword), all_paper_text))
+            all_keyword_stats[filename] = paper_stats
+    return all_keyword_stats

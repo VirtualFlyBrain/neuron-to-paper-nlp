@@ -1,6 +1,8 @@
 import os
+import re
 from decimal import Decimal
 from file_utils import read_csv_to_dict, write_mentions_to_file, clean_folder
+from nlp_utils import count_keywords
 from template_generator import generate_publications_robot_template, generate_linkings_robot_template
 from evaluation import evaluate_results
 from itertools import islice
@@ -26,6 +28,8 @@ RELATIVE_CONFIDENCE_DISPLACEMENT = 0.05
 CLASS_DEPTH_THRESHOLD = 1
 # Merge sentences with the given size and processes all together to build a context
 NLP_TEXT_BATCH_SIZE = 50
+# to understand the focus specimens of paper and link specimen related entities primarily
+specimen_keywords = ["male", "female", "larval"]
 
 DATA_FOLDER = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../data")
 EVAL_FOLDER = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../evaluation")
@@ -69,6 +73,7 @@ DEFAULT_KNOWLEDGE_BASES["fbbt"] = FBBTKnowledgeBase
 
 linker = CandidateGenerator(name="fbbt")
 # class_depths = calculate_node_depths()
+specimen_stats = count_keywords(DATA_FOLDER, IGNORED_EXTENSIONS, specimen_keywords)
 
 
 def main():
@@ -78,9 +83,10 @@ def main():
     """
     nlp = load_model()
 
+    print(specimen_stats)
+
     # process_test_sentence(nlp)
     all_data = process_data_files(nlp)
-
     # all_data = filter_data_by_neuron_class_distance(all_data)
     all_data = filter_outliers(OWL2VEC_MODEL, all_data)
     # all_data = filter_outliers_by_scipsacy_embeddings(all_data, nlp)
@@ -148,15 +154,31 @@ def batch_process_table(all_mentions, chunk, filename, nlp):
     :param nlp:
     :return:
     """
+    mention_file = str(filename).split(".")[0].split("_")[0]
+    unmentioned_specimens = [spes for spes in specimen_stats[filename] if specimen_stats[filename][spes] == 0]
     batch_text = ""
     for row in chunk:
         sentence = chunk[row]["text"]
         batch_text = batch_text + " " + sentence
     mentions = process_sentence(nlp, batch_text.strip())
+    filter_mentions_unrelated_with_specimen(mentions, unmentioned_specimens)
     for mention in mentions:
-        mention["file_name"] = str(filename).split(".")[0].split("_")[0]
+        mention["file_name"] = mention_file
         if mention not in all_mentions:
             all_mentions.append(mention)
+
+
+def filter_mentions_unrelated_with_specimen(mentions, unmentioned_specimens):
+    mentions_in_sentence = {ment["mention_text"] for ment in mentions}
+    for ment in mentions_in_sentence:
+        related_mentions = [m for m in mentions if m["mention_text"] == ment]
+        if len(related_mentions) > 1:
+            for unmentioned_specimen in unmentioned_specimens:
+                for ment_to_check in related_mentions:
+                    # if unmentioned_specimen in str(ment_to_check["candidate_entity_label"]).lower().split():
+                    if unmentioned_specimen in str(ment_to_check["candidate_entity_label"]).lower():
+                        print("removing : " + ment_to_check["candidate_entity_label"])
+                        mentions.remove(ment_to_check)
 
 
 def chunks(data, size=NLP_TEXT_BATCH_SIZE):
@@ -217,7 +239,8 @@ def process_sentence(nlp, sentence):
                     highest_confidence = confidence
                 linking = linker.kb.cui_to_entity[entity_id]
                 # 2-3 letter mentions must exist in the label or synonyms
-                if len(ent.text) > 3 or ent.text in " ".join(linking.aliases) or ent.text in linking.canonical_name:
+                mention_text = str(ent.text).replace("neurons", "").replace("neuron", "").strip()
+                if len(mention_text) > 3 or mention_text in " ".join(linking.aliases) or mention_text in linking.canonical_name:
                     mention_candidate = {
                         "mention_text": ent.text,
                         # "sentence": sentence,

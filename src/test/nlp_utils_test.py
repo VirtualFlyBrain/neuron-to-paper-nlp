@@ -17,6 +17,8 @@ class NLPUtilsCase(unittest.TestCase):
         self.assertTrue("P1" in generate_phrase_variances("P1 neuron"))
         self.assertTrue("P1" in generate_phrase_variances("P1 neurons"))
 
+        self.assertTrue("MP1a" in generate_phrase_variances("adult Drosulfakinin MP1a neuron"))
+
 
 if __name__ == '__main__':
     unittest.main()

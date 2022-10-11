@@ -1,8 +1,9 @@
 # neuron-to-paper-nlp
 
-A repository to link neuron names with the [FBBT Ontology](https://www.ebi.ac.uk/ols/ontologies/fbbt) terms in the VFB related publications.
+A repository to link neuron names/mentions that exist in the publications with the [FBBT Ontology](https://www.ebi.ac.uk/ols/ontologies/fbbt) terms.
 
-This project works in collaboration with [europmc_crawler](https://github.com/VirtualFlyBrain/europmc_crawler) to retrieve publication contents from the [Europe PMC](https://europepmc.org/RestfulWebService).  
+This project works in collaboration with [europmc_crawler](https://github.com/VirtualFlyBrain/europmc_crawler) to retrieve publication contents from the [Europe PMC](https://europepmc.org/RestfulWebService). 
+[/data](data) folder provides sample output of the europmc_crawler   
 
 # Table of Contents
 1. [Approach](#approach)
@@ -14,16 +15,15 @@ This project works in collaboration with [europmc_crawler](https://github.com/Vi
 
 Used terminology is as follows:
 
-- _Mention_: A noun or noun phrase in the publication (such as `MP1`) to search for related entities in the ontology (`adult Drosulfakinin MP1 neuron`, `FBbt:00051431`).
+- __Mention__: A noun or noun phrase in the publication (such as `MP1`) to search for the related entities in the ontology (`adult Drosulfakinin MP1 neuron`, `FBbt:00051431`).
 
-- _Entity linking candidate_: For evey mention a set of ontology term candidates with different confidence scores are calculated.
-> FBbt:00001599, MP1 neuron, 0.99999
-> 
-> FBbt:00051431, adult Drosulfakinin MP1 neuron, 0.99999
-> 
-> FBbt:00001600, MP1a neuron, 0.96954
+- __Entity linking candidate__: For evey mention a set of ontology term nominees with different confidence scores are calculated. Each nominee is called an entity linking candidate.
 
-1. Publication content represented in tabular format is processed in batches using [SciSpacy](https://github.com/allenai/scispacy).
+  - _FBbt:00001599, MP1 neuron, 0.99999_ 
+  - _FBbt:00051431, adult Drosulfakinin MP1 neuron, 0.99999_ 
+  - _FBbt:00001600, MP1a neuron, 0.96954_
+
+1. Publication content represented in tabular format (see [/data](data) folder) is processed in batches using [SciSpacy](https://github.com/allenai/scispacy).
 
 1. A confidence threshold (0.85) is applied to filter low confidence candidates. 
 
@@ -31,9 +31,9 @@ Used terminology is as follows:
 
 1. Additionally, for every mention a relative threshold based filtering is applied. Candidates that are significantly lower than the most confident candidate are filtered.  
 
-1. Mentions shorter than 4 letters must exist in the ontology term label or synonyms.
+1. Mentions shorter than 4 letters must exist in the ontology term's label or synonyms.
 
-1. For each paper, specimen term ('male', 'female', 'larval') frequencies are calculated. And candidates whose specimen not mentioned in the paper are filtered (`adult corazonin neuron` vs ` 	larval corazonin neuron`).
+1. For each paper, specimen term ('male', 'female', 'larval') frequencies are calculated. Candidates whose specimen not mentioned in the paper are filtered (`adult corazonin neuron` vs ` 	larval corazonin neuron`).
 
 1. Outlier detection is applied to all linking results:
    1. OWL2Vec* model is trained that represents the semantic similarity of the ontology terms.
@@ -67,7 +67,7 @@ python src/train_fbbt_linker.py
 ```
 python semantics/OWL2Vec_Standalone.py
 ```
-This step uses the [owl2vec/default.cfg](owl2vec/default.cfg) configuration file.  
+This step uses the [/owl2vec/default.cfg](owl2vec/default.cfg) configuration file.  
 
 ## Installation
 
@@ -85,7 +85,7 @@ docker run --volume=/home/my/volume:/my_volume/ -e DATA_FOLDER=/my_volume/data -
 
 ### Development environment
 
-Project requires python >= 3.7, <3.9 venv, due to dependencies of the [OWL2Vec*](https://github.com/KRR-Oxford/OWL2Vec-Star)
+Project requires python `>=3.7`, `<3.9` venv, due to dependencies of the [OWL2Vec*](https://github.com/KRR-Oxford/OWL2Vec-Star)
 
 Create virtual environment for this project. Then install the following dependencies:
 

@@ -41,7 +41,7 @@ IGNORED_EXTENSIONS = ("_tables.tsv", "_metadata.tsv")
 
 FBBT_JSON = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../resources/fbbt-cedar.jsonl")
 # list of words to ignore in linking
-BLACKLIST = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../resources/black_list.txt")
+STOPWORDS = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../resources/stopwords.txt")
 nmslib_index = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../linker/nmslib_index.bin")
 concept_aliases = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../linker/concept_aliases.json")
 tfidf_vectorizer = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../linker/tfidf_vectorizer.joblib")
@@ -229,7 +229,7 @@ def process_sentence(nlp, sentence):
     doc = nlp(sentence)
     mentions = list()
     for ent in doc.ents:
-        if ent._.kb_ents and len(ent.text) > 1 and ent.text.lower() not in blacklist:
+        if ent._.kb_ents and len(ent.text) > 1 and ent.text.lower() not in stopwords:
             highest_confidence = Decimal(0)
             mention_candidates = list()
             for entity in ent._.kb_ents:
@@ -350,5 +350,5 @@ def read_file(file_path):
 
 
 if __name__ == "__main__":
-    blacklist = read_file(BLACKLIST)
+    stopwords = read_file(STOPWORDS)
     main()

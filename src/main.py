@@ -240,7 +240,7 @@ def process_sentence(nlp, sentence):
                 linking = linker.kb.cui_to_entity[entity_id]
                 # 2-3 letter mentions must exist in the label or synonyms
                 mention_text = str(ent.text).replace("neurons", "").replace("neuron", "").strip()
-                if len(mention_text) > 3 or mention_text in " ".join(linking.aliases) or mention_text in linking.canonical_name:
+                if len(mention_text) > 4 or mention_text in " ".join(linking.aliases) or mention_text in linking.canonical_name:
                     mention_candidate = {
                         "mention_text": ent.text,
                         # "sentence": sentence,

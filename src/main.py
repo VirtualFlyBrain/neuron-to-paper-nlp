@@ -28,16 +28,19 @@ specimen_keywords = ["male", "female", "larval"]
 # filter abstract classes and try to link more specific ones. Min distance to root neuron class.
 CLASS_DEPTH_THRESHOLD = 1
 
-DATA_FOLDER = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../data")
-OUTPUT_FOLDER = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../output/brief_85_4/")
-PUBLICATION_TEMPLATE = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../robot_templates/publication.tsv")
-LINKING_TEMPLATE = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../robot_templates/linking.tsv")
+DATA_FOLDER = os.getenv('DATA_FOLDER', os.path.join(os.path.dirname(os.path.realpath(__file__)), "../data"))
+OUTPUT_FOLDER = os.getenv('OUTPUT_FOLDER', os.path.join(os.path.dirname(os.path.realpath(__file__)), "../output/brief_85_4/"))
+ONTOLOGY_FOLDER = os.getenv('ONTOLOGY_FOLDER', os.path.join(os.path.dirname(os.path.realpath(__file__)), "../robot_templates"))
+
+PUBLICATION_TEMPLATE = os.path.join(ONTOLOGY_FOLDER, "publication.tsv")
+LINKING_TEMPLATE = os.path.join(ONTOLOGY_FOLDER, "linking.tsv")
 
 IGNORED_EXTENSIONS = ("_tables.tsv", "_metadata.tsv")
 
 FBBT_JSON = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../resources/fbbt-cedar.jsonl")
 # list of words to ignore in linking
 STOPWORDS = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../resources/stopwords.txt")
+
 nmslib_index = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../linker/nmslib_index.bin")
 concept_aliases = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../linker/concept_aliases.json")
 tfidf_vectorizer = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../linker/tfidf_vectorizer.joblib")
@@ -189,7 +192,7 @@ def write_linkings_to_tsv(all_data):
     :param all_data: entity linking results
     """
     for file_name in all_data:
-        output_path = OUTPUT_FOLDER + file_name + ".tsv"
+        output_path = os.path.join(OUTPUT_FOLDER, file_name + ".tsv")
         data = all_data[file_name]
         unique = [i for n, i in enumerate(data) if i not in data[n + 1:]]
         sorted_data = sorted(unique, key=lambda x: str(x["mention_text"]).lower())

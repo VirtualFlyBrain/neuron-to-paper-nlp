@@ -1,11 +1,29 @@
 import os
 from file_utils import read_csv_to_dict
+from main import main as entity_linker_main
+from main import OUTPUT_FOLDER
+
+EVAL_FOLDER = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../evaluation")
+
+
+def main():
+    """
+    Runs entity linker (main.py) and compares its outputs with the manually generated evaluation dataset.
+    :return: logs results to the console.
+    """
+    entity_linker_main()
+    evaluate_results(OUTPUT_FOLDER, EVAL_FOLDER)
 
 
 def evaluate_results(output_folder, evaluation_folder):
+    """
+    Compares generated entity linking results with the expected ones and calculates FN, TP, FP, precision, recall and F1.
+    :param output_folder: generated results
+    :param evaluation_folder: expected results
+    :return: logs results to the console.
+    """
     out_files = sorted(os.listdir(output_folder))
     for file_name in out_files:
-        # print(file_name)
         evaluation_file = os.path.join(evaluation_folder, file_name.replace(".tsv", "") + " review.csv")
         if os.path.exists(evaluation_file):
             prediction_table = read_csv_to_dict(os.path.join(output_folder, file_name), delimiter="\t", generated_ids=True)[1]
@@ -37,7 +55,5 @@ def evaluate_results(output_folder, evaluation_folder):
             print("")
 
 
-# OUTPUT_FOLDER = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../output/brief_85_3/")
-# EVAL_FOLDER = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../evaluation")
-#
-# evaluate_results(OUTPUT_FOLDER, EVAL_FOLDER)
+if __name__ == "__main__":
+    main()

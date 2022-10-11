@@ -93,3 +93,13 @@ def clean_folder(folder):
         except Exception as e:
             print('Failed to delete %s. Reason: %s' % (file_path, e))
 
+
+def read_txt_file(file_path):
+    """
+    Reads file content line by line into a list
+    :param file_path: file path
+    :return: list of rows
+    """
+    with open(file_path) as f:
+        lines = f.read().splitlines()
+    return lines

@@ -1,10 +1,8 @@
 import os
-import re
 from decimal import Decimal
-from file_utils import read_csv_to_dict, write_mentions_to_file, clean_folder
+from file_utils import read_csv_to_dict, write_mentions_to_file, clean_folder, read_txt_file
 from nlp_utils import count_keywords
 from template_generator import generate_publications_robot_template, generate_linkings_robot_template
-from evaluation import evaluate_results
 from itertools import islice
 from semantics.semantic_embedding import filter_outliers
 from ontology_utils import calculate_node_depths
@@ -21,18 +19,16 @@ from scispacy.candidate_generation import (
 
 
 CONFIDENCE_THRESHOLD = 0.85
-# CONFIDENCE_THRESHOLD = 0.25
 # apply a relative threshold based on the highest confidence per mention
 RELATIVE_CONFIDENCE_DISPLACEMENT = 0.05
-# filter abstract classes and try to link more specific ones. Min distance to root neuron class.
-CLASS_DEPTH_THRESHOLD = 1
 # Merge sentences with the given size and processes all together to build a context
 NLP_TEXT_BATCH_SIZE = 50
 # to understand the focus specimens of paper and link specimen related entities primarily
 specimen_keywords = ["male", "female", "larval"]
+# filter abstract classes and try to link more specific ones. Min distance to root neuron class.
+CLASS_DEPTH_THRESHOLD = 1
 
 DATA_FOLDER = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../data")
-EVAL_FOLDER = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../evaluation")
 OUTPUT_FOLDER = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../output/brief_85_4/")
 PUBLICATION_TEMPLATE = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../robot_templates/publication.tsv")
 LINKING_TEMPLATE = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../robot_templates/linking.tsv")
@@ -72,8 +68,10 @@ DEFAULT_PATHS["fbbt"] = CustomLinkerPaths_FBBT
 DEFAULT_KNOWLEDGE_BASES["fbbt"] = FBBTKnowledgeBase
 
 linker = CandidateGenerator(name="fbbt")
+
 # class_depths = calculate_node_depths()
 specimen_stats = count_keywords(DATA_FOLDER, IGNORED_EXTENSIONS, specimen_keywords)
+stopwords = read_txt_file(STOPWORDS)
 
 
 def main():
@@ -83,8 +81,6 @@ def main():
     """
     nlp = load_model()
 
-    print(specimen_stats)
-
     # process_test_sentence(nlp)
     all_data = process_data_files(nlp)
     # all_data = filter_data_by_neuron_class_distance(all_data)
@@ -93,30 +89,19 @@ def main():
     pmcid_doi_mapping = generate_publications_robot_template(DATA_FOLDER, PUBLICATION_TEMPLATE)
     generate_linkings_robot_template(all_data, pmcid_doi_mapping, LINKING_TEMPLATE)
     write_linkings_to_tsv(all_data)
-    evaluate_results(OUTPUT_FOLDER, EVAL_FOLDER)
+    print("Outputs generated at: " + OUTPUT_FOLDER)
+    print("SUCCESS")
 
 
 def load_model():
+    """
+    Loads SciSpacy model.
+    :return: NLP model
+    """
     nlp = spacy.load("en_core_sci_sm")
     nlp.add_pipe("scispacy_linker",
                  config={"resolve_abbreviations": True, "linker_name": "fbbt", "threshold": CONFIDENCE_THRESHOLD})
     return nlp
-
-
-def process_test_sentence(nlp):
-    """
-    Runs entity linking on a basic test sentence.
-    :param nlp: embedding model
-    :return:
-    """
-    # sentence = "The metameric furrows and MesEc that forms between segments during embryonic stage 11 and persists to the " \
-    #            "larval stage (Campos-Ortega and Hartenstein, 1985). Any tracheal lateral trunk anterior branch primordium " \
-    #            "(FBbt:00000234) that is part of some metathoracic tracheal primordium (FBbt:00000188)."
-    sentence = "Leveraging these transgenes, we tracked Unc-4 expression in the peripheral nervous system (PNS) and found that Unc-4 is expressed in all progenitors of leg chordotonal neurons (also called sensory organ precursors [SOPs]) and head sense organs in the larvae as well as many adult sensory neurons including chordotonal and bristle sensory neurons in the leg and Johnston’s organ and olfactory neurons in the antenna (Figure 1G-H; Figure 1-figure supplement 1)."
-    mentions = analyze_sentence(nlp, sentence)
-    mentions = process_sentence(nlp, sentence)
-    for mention in mentions:
-        print(mention)
 
 
 def process_data_files(nlp):
@@ -147,11 +132,11 @@ def process_data_files(nlp):
 
 def batch_process_table(all_mentions, chunk, filename, nlp):
     """
-    Chunks data, merges sentences in the chunk and processes all together to build a context
-    :param all_mentions:
-    :param chunk:
-    :param filename:
-    :param nlp:
+    Processes a batch of sentences and links entities.
+    :param all_mentions: all entity linking candidates
+    :param chunk: batch of rows to process
+    :param filename: name of the processed file for logging purposes
+    :param nlp: nlp model
     :return:
     """
     mention_file = str(filename).split(".")[0].split("_")[0]
@@ -169,6 +154,12 @@ def batch_process_table(all_mentions, chunk, filename, nlp):
 
 
 def filter_mentions_unrelated_with_specimen(mentions, unmentioned_specimens):
+    """
+    Filters mentions that are unrelated with the specimens of the paper.
+    :param mentions: all neuron mentions that exists in the paper.
+    :param unmentioned_specimens: specimens that are not mentioned in the paper
+    :return: filtered mentions that are related with paper specimens
+    """
     mentions_in_sentence = {ment["mention_text"] for ment in mentions}
     for ment in mentions_in_sentence:
         related_mentions = [m for m in mentions if m["mention_text"] == ment]
@@ -177,7 +168,6 @@ def filter_mentions_unrelated_with_specimen(mentions, unmentioned_specimens):
                 for ment_to_check in related_mentions:
                     # if unmentioned_specimen in str(ment_to_check["candidate_entity_label"]).lower().split():
                     if unmentioned_specimen in str(ment_to_check["candidate_entity_label"]).lower():
-                        print("removing : " + ment_to_check["candidate_entity_label"])
                         mentions.remove(ment_to_check)
 
 
@@ -300,6 +290,8 @@ def filter_data_by_neuron_class_distance(all_data):
 
 def filter_outliers_by_scipsacy_embeddings(all_data, nlp):
     """
+    DEPRECATED: please use filter_outliers which uses OWL2Vec* and performs better.
+
     Filters based on embedding vector similarities. Tries to understand paper context from high confident exact matches
     and filters rest of the results based on their embedding vector's distance to the context.
     :param all_data: all entity linkings
@@ -322,9 +314,7 @@ def filter_outliers_by_scipsacy_embeddings(all_data, nlp):
         term_similarities = dict()
         all_sims = list()
         for n, record in enumerate(data):
-            # print(str(record["candidate_entity_iri"]))
             similarity = nlp(record["candidate_entity_iri"]).similarity(hc_doc)
-            # print(str(similarity))
             term_similarities[record["candidate_entity_iri"]] = similarity
             all_sims.append(similarity)
 
@@ -338,17 +328,21 @@ def filter_outliers_by_scipsacy_embeddings(all_data, nlp):
     return filtered
 
 
-def read_file(file_path):
+def process_test_sentence(nlp):
     """
-    Reads file content line by line into a list
-    :param file_path: file path
-    :return: list of rows
+    Runs entity linking on a basic test sentence.
+    :param nlp: embedding model
+    :return:
     """
-    with open(file_path) as f:
-        lines = f.read().splitlines()
-    return lines
+    # sentence = "The metameric furrows and MesEc that forms between segments during embryonic stage 11 and persists to the " \
+    #            "larval stage (Campos-Ortega and Hartenstein, 1985). Any tracheal lateral trunk anterior branch primordium " \
+    #            "(FBbt:00000234) that is part of some metathoracic tracheal primordium (FBbt:00000188)."
+    sentence = "Leveraging these transgenes, we tracked Unc-4 expression in the peripheral nervous system (PNS) and found that Unc-4 is expressed in all progenitors of leg chordotonal neurons (also called sensory organ precursors [SOPs]) and head sense organs in the larvae as well as many adult sensory neurons including chordotonal and bristle sensory neurons in the leg and Johnston’s organ and olfactory neurons in the antenna (Figure 1G-H; Figure 1-figure supplement 1)."
+    mentions = analyze_sentence(nlp, sentence)
+    mentions = process_sentence(nlp, sentence)
+    for mention in mentions:
+        print(mention)
 
 
 if __name__ == "__main__":
-    stopwords = read_file(STOPWORDS)
     main()

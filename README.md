@@ -42,7 +42,8 @@ Used terminology is as follows:
    1. Calculates each candidate's distance to the paper context vector.
    1. Outliers filtered using standard deviation: term_similarity < (mean_similarity - 2 * stdev_score):
 
-1. Finally, ROBOT templates for publication metadata and entity linking results are generated in the [/robot_templates](robot_templates) folder.   
+1. Finally, ROBOT templates for the publication metadata and entity linking results are generated in the [/robot_templates](robot_templates) folder.
+
 ## Training
 
 Project uses [SciSpacy](https://github.com/allenai/scispacy) and [OWL2Vec*](https://github.com/KRR-Oxford/OWL2Vec-Star) 

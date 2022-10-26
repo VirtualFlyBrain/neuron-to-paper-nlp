@@ -71,14 +71,13 @@ class Evaluator:
                 self.FP_sum += len(fp_list)
 
     def calculate_average(self):
-        print("")
-        print("Macro-averaged: " + str(self.F1_sum/self.eval_dataset_count))
+        print("Macro-averaged F1: " + str(self.F1_sum/self.eval_dataset_count))
 
         precision = self.TP_sum / (self.TP_sum + self.FP_sum)
         recall = self.TP_sum / (self.TP_sum + self.FN_sum)
         f1_score = (2 * precision * recall) / (precision + recall)
 
-        print("Micro-averaged: " + str(f1_score))
+        print("Micro-averaged F1: " + str(f1_score))
 
 
 if __name__ == "__main__":

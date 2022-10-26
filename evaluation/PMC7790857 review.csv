@@ -1,76 +1,76 @@
-text,label,NLP,Notes
-adult optic lobe,adult optic lobe neuron,y,
-C2,centrifugal neuron C2,y,
-C3,centrifugal neuron C3,y,
-clock neurons,adult pacemaker neuron,y,
-DC3,adult antennal lobe projection neuron DC3 adPN,n,
-Dm1,distal medullary amacrine neuron Dm1,y,
-Dm11,distal medullary amacrine neuron Dm11,y,
-Dm12,distal medullary amacrine neuron Dm12,y,
-Dm3,distal medullary amacrine neuron Dm3,y,
-Dm4,distal medullary amacrine neuron Dm4,y,
-Dm8,distal medullary amacrine neuron Dm8,y,
-Dm9,distal medullary amacrine neuron Dm9,y,
-dopaminergic neurons,adult dopaminergic neuron,y,
-Kenyon Cells,Kenyon cell,y,
-lamina monopolar cells,lamina monopolar neuron,y,
-L1,lamina monopolar neuron L1,y,
-L2,,n,
-L3,,n,
-L4,,n,
-Lawf1,lamina wide-field 1 neuron,y,
-Lawf2,lamina wide-field 2 neuron,y,
-LC10a,lobula columnar neuron LC10a,y,
-LC10b,lobula columnar neuron LC10b,y,
-LC10c,lobula columnar neuron LC10c,y,
-LC10d,lobula columnar neuron LC10d,y,
-LC12,lobula columnar neuron LC12,y,
-LC14,lobula columnar neuron LC14,y,
-LC16,lobula columnar neuron LC16,y,
-LC17,lobula columnar neuron LC17,y,
-LC6,lobula columnar neuron LC6,y,
-LPi3Ð4,lobula plate intrinsic neuron LPi3-4,y,
-Mt1,medullary tangential neuron Mt1,y,
-olfactory projection neurons,adult olfactory projection neuron,y,
-optic lobe neuron,adult optic lobe neuron,y,
-photoreceptors,photoreceptor neuron,y,
-peptidergic neurons,adult peptidergic neuron,y,
-Pm1,proximal medullary amacrine neuron Pm1,y,
-Pm2,proximal medullary amacrine neuron Pm2,y,
-Pm3,proximal medullary amacrine neuron Pm3,y,
-R1,photoreceptor cell R1,n,
-R2,photoreceptor cell R2,n,
-R3,photoreceptor cell R3,n,
-R4,photoreceptor cell R4,n,
-R5,photoreceptor cell R5,n,
-R6,photoreceptor cell R6,n,
-R7,photoreceptor cell R7,n,
-R8,photoreceptor cell R8,y,
-T1,columnar neuron T1,y,
-T2a,T neuron T2a,y,
-T4,T neuron T4,y,
-T4a,T neuron T4a,n,
-T4b,T neuron T4b,y,
-T4c,T neuron T4c,y,
-T4d,T neuron T4d,y,
-T5,T neuron T5,y,
-T5a,T neuron T5a,n,
-T5b,T neuron T5b,y,
-T5c,T neuron T5c,y,
-T5d,T neuron T5d,y,
-TEd,dorsal transient extrinsic neuron of pupal optic lobe,y,
-TEv,ventral transient extrinsic neuron of pupal optic lobe,y,
-Tm1,transmedullary neuron Tm1,n,
-Tm2,transmedullary neuron Tm28,n,
-Tm28,transmedullary neuron Tm28,y,
-Tm3,transmedullary neuron Tm3a/transmedullary neuron Tm3b,y,
-Tm4,transmedullary neuron Tm4,y,
-Tm5ab,transmedullary neuron Tm5a,n,
-Tm5ab,transmedullary neuron Tm5b,n,
-Tm5c,transmedullary neuron Tm5c,y,
-Tm9,transmedullary neuron Tm9,y,no subtypes in fbbt
-TmY14,transmedullary Y neuron TmY14,y,
-TmY4,transmedullary Y neuron TmY4,y,
-TmY8,transmedullary Y neuron TmY8,n,
-VA1d,adult antennal lobe projection neuron VA1d vPN,y,
-yellow R7,photoreceptor cell R7 of yellow ommatidium,n,
+text,label,NLP,comment1,comment2,expected_entity
+adult optic lobe,adult optic lobe neuron,y,,,FBbt_00003702
+C2,centrifugal neuron C2,y,,,FBbt_00003743
+C3,centrifugal neuron C3,y,,,FBbt_00003744
+clock neurons,adult pacemaker neuron,y,,,FBbt_00100163
+DC3,adult antennal lobe projection neuron DC3 adPN,n,,,FBbt_00040000
+Dm1,distal medullary amacrine neuron Dm1,y,,,FBbt_00003768
+Dm11,distal medullary amacrine neuron Dm11,y,,,FBbt_00111272
+Dm12,distal medullary amacrine neuron Dm12,y,,,FBbt_00111273
+Dm3,distal medullary amacrine neuron Dm3,y,,,FBbt_00003770
+Dm4,distal medullary amacrine neuron Dm4,y,,,FBbt_00003771
+Dm8,distal medullary amacrine neuron Dm8,y,,,FBbt_00013774
+Dm9,distal medullary amacrine neuron Dm9,y,,,FBbt_00111271
+dopaminergic neurons,adult dopaminergic neuron,y,,,FBbt_00058206
+Kenyon Cells,Kenyon cell,y,,,FBbt_00003686
+lamina monopolar cells,lamina monopolar neuron,y,,,FBbt_00003718
+L1,lamina monopolar neuron L1,y,,,FBbt_00003719
+L2,lamina monopolar neuron L2,n,,,FBbt_00003720
+L3,lamina monopolar neuron L3,n,,,FBbt_00003721
+L4,lamina monopolar neuron L4,n,,,FBbt_00003722
+Lawf1,lamina wide-field 1 neuron,y,,,FBbt_00003741
+Lawf2,lamina wide-field 2 neuron,y,,,FBbt_00110065
+LC10a,lobula columnar neuron LC10a,y,,,FBbt_00110933
+LC10b,lobula columnar neuron LC10b,y,,,FBbt_00110934
+LC10c,lobula columnar neuron LC10c,y,,,FBbt_00111641
+LC10d,lobula columnar neuron LC10d,y,,,FBbt_00111748
+LC12,lobula columnar neuron LC12,y,,,FBbt_00100484
+LC14,lobula columnar neuron LC14,y,,,FBbt_00100486
+LC16,lobula columnar neuron LC16,y,,,FBbt_00111751
+LC17,lobula columnar neuron LC17,y,,,FBbt_00111752
+LC6,lobula columnar neuron LC6,y,,,FBbt_00003876
+LPi3ï¿½4,lobula plate intrinsic neuron LPi3-4,y,,,FBbt_00111289
+Mt1,medullary tangential neuron Mt1,y,,,FBbt_00003837
+olfactory projection neurons,adult olfactory projection neuron,y,,,FBbt_00051299
+optic lobe neuron,adult optic lobe neuron,y,,,FBbt_00003702
+photoreceptors,photoreceptor neuron,y,,,FBbt_00004211
+peptidergic neurons,adult peptidergic neuron,y,,,FBbt_00058202
+Pm1,proximal medullary amacrine neuron Pm1,y,,,FBbt_00003833
+Pm2,proximal medullary amacrine neuron Pm2,y,,,FBbt_00003835
+Pm3,proximal medullary amacrine neuron Pm3,y,,,FBbt_00110066
+R1,photoreceptor cell R1,n,,,FBbt_00004213
+R2,photoreceptor cell R2,n,,,FBbt_00004215
+R3,photoreceptor cell R3,n,,,FBbt_00004217
+R4,photoreceptor cell R4,n,,,FBbt_00004219
+R5,photoreceptor cell R5,n,,,FBbt_00004221
+R6,photoreceptor cell R6,n,,,FBbt_00004223
+R7,photoreceptor cell R7,n,,,FBbt_00004225
+R8,photoreceptor cell R8,y,,,FBbt_00004227
+T1,columnar neuron T1,y,,,FBbt_00003727
+T2a,T neuron T2a,y,,,FBbt_00003729
+T4,T neuron T4,y,,,FBbt_00003731
+T4a,T neuron T4a,n,,,FBbt_00003732
+T4b,T neuron T4b,y,,,FBbt_00003733
+T4c,T neuron T4c,y,,,FBbt_00003734
+T4d,T neuron T4d,y,,,FBbt_00003735
+T5,T neuron T5,y,,,FBbt_00003736
+T5a,T neuron T5a,n,,,FBbt_00003737
+T5b,T neuron T5b,y,,,FBbt_00003738
+T5c,T neuron T5c,y,,,FBbt_00003739
+T5d,T neuron T5d,y,,,FBbt_00003740
+TEd,dorsal transient extrinsic neuron of pupal optic lobe,y,,,FBbt_00058015
+TEv,ventral transient extrinsic neuron of pupal optic lobe,y,,,FBbt_00058014
+Tm1,transmedullary neuron Tm1,n,,,FBbt_00003789
+Tm2,transmedullary neuron Tm28,n,,,FBbt_00003790
+Tm28,transmedullary neuron Tm28,y,,,FBbt_00003816
+Tm3,transmedullary neuron Tm3a/transmedullary neuron Tm3b,y,,,FBbt_00110071
+Tm4,transmedullary neuron Tm4,y,,,FBbt_00003792
+Tm5ab,transmedullary neuron Tm5a,n,,,FBbt_00003792
+Tm5ab,transmedullary neuron Tm5b,n,,,FBbt_00110073
+Tm5c,transmedullary neuron Tm5c,y,,,FBbt_00110074
+Tm9,transmedullary neuron Tm9,y,no subtypes in fbbt,,FBbt_00003797
+TmY14,transmedullary Y neuron TmY14,y,,,FBbt_00111286
+TmY4,transmedullary Y neuron TmY4,y,,,FBbt_00003821
+TmY8,transmedullary Y neuron TmY8,n,,,FBbt_00003826
+VA1d,adult antennal lobe projection neuron VA1d vPN,y,,,FBbt_00049766
+yellow R7,photoreceptor cell R7 of yellow ommatidium,n,,,FBbt_02000005

@@ -1,0 +1,20 @@
+text,label,NLP
+_/bp Kenyon cells,alpha/beta posterior Kenyon cell,y
+LOPN,adult lobula-dorsal accessory calyx projection neuron,y
+PLPPNs,adult posterior lateral protocerebrum-dorsal accessory calyx projection neuron,y
+sensory neuron,adult sensory neuron,y
+Kenyon cells,adult Kenyon cell,y
+_/_c,alpha/beta core Kenyon cell,y
+_/_s,alpha/beta surface Kenyon cell,y
+_Õ/_Õap,alpha'/beta' anterior-posterior Kenyon cell,y
+_Õ/_Õm,alpha'/beta' middle Kenyon cell,y
+_main,gamma main Kenyon cell,n
+_d,gamma dorsal Kenyon cell,n
+OLCT1,optic lobe-calycal tract 1 neuron,y
+DC3 projection neurons,adult antennal lobe projection neuron DC3 adPN,n
+ALPN1,AC thermosensory neuron,y
+thermosensitive AC neuron,AC thermosensory neuron,y
+ALPN2,adult uniglomerular projection neuron VP5+SEZ adPN,y
+ALPN3,adult antennal lobe projection neuron VP4+ vPN,y
+ALPN4,adult antennal lobe projection neuron VM1++ l2PN,y
+projection neuron,projection neuron,y

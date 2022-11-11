@@ -1,7 +1,7 @@
 import os
 import unittest
 from template_generator import generate_publications_robot_template
-from pmc_utils import read_csv_to_dict
+from file_utils import read_csv_to_dict
 
 
 DATA_FOLDER = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../../data")

@@ -14,17 +14,11 @@ class NLPUtilsCase(unittest.TestCase):
         mentions = process_sentence(nlp, sentence)
 
         phrase_mentions = list(mention for mention in mentions if mention['mention_text'] == 'MP1')
-        self.assertEqual(2, len(phrase_mentions))
-        linked_labels = (ment['candidate_entity_label'] for ment in phrase_mentions)
+        self.assertEqual(3, len(phrase_mentions))
+        linked_labels = list(ment['candidate_entity_label'] for ment in phrase_mentions)
         self.assertTrue("MP1a neuron" in linked_labels)
         self.assertTrue("MP1 neuron" in linked_labels)
-
-        phrase_mentions = list(mention for mention in mentions if mention['mention_text'] == 'brain')
-        self.assertEqual(3, len(phrase_mentions))
-        linked_labels = (ment['candidate_entity_label'] for ment in phrase_mentions)
-        self.assertTrue("brain" in linked_labels)
-        self.assertTrue("adult cerebral ganglion" in linked_labels)
-        self.assertTrue("adult brain" in linked_labels)
+        self.assertTrue("adult Drosulfakinin MP1 neuron" in linked_labels)
 
     def test_multiple_linking2(self):
         nlp = load_model()
@@ -36,9 +30,6 @@ class NLPUtilsCase(unittest.TestCase):
         phrase_mentions = list(mention for mention in mentions if mention['mention_text'] == 'P1')
         # self.assertEqual(5, len(phrase_mentions))
         linked_labels = (ment['candidate_entity_label'] for ment in phrase_mentions)
-        self.assertTrue("prothoracic ventral campaniform sensillum vc1" in linked_labels)
-        self.assertTrue("mesothoracic ventral campaniform sensillum vc1" in linked_labels)
-        self.assertTrue("metathoracic ventral campaniform sensillum vc1" in linked_labels)
-        self.assertTrue("abdominal ventral campaniform sensillum vc1" in linked_labels)
-        self.assertTrue("P1 neuron" in linked_labels)
+
+        self.assertTrue("adult fruitless P1 (male) neuron" in linked_labels)
 

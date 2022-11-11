@@ -13,12 +13,12 @@ class OntologyUtilsCase(unittest.TestCase):
     def test_ontology_depth(self):
         node_depths = calculate_node_depths()
 
-        self.assertEqual(1, node_depths["http://purl.obolibrary.org/obo/FBbt_00047096"])
-        self.assertTrue(node_depths["http://purl.obolibrary.org/obo/FBbt_00049443"] > 5)
-        self.assertTrue(node_depths["http://purl.obolibrary.org/obo/FBbt_00007507"] > 5)
-        self.assertTrue(node_depths["http://purl.obolibrary.org/obo/FBbt_00003650"] > 5)
-        self.assertTrue(node_depths["http://purl.obolibrary.org/obo/FBbt_00003652"] > 5)
-        self.assertTrue(node_depths["http://purl.obolibrary.org/obo/FBbt_00047039"] > 5)
+        self.assertEqual(1, node_depths["FBbt:00047096"])
+        self.assertTrue(node_depths["FBbt:00049443"] > 5)
+        self.assertTrue(node_depths["FBbt:00007507"] > 5)
+        self.assertTrue(node_depths["FBbt:00003650"] > 5)
+        self.assertTrue(node_depths["FBbt:00003652"] > 5)
+        self.assertTrue(node_depths["FBbt:00047039"] > 5)
 
     def test_owl_2_vec_star(self):
         model = gensim.models.Word2Vec.load(OWL2VEC_MODEL_FILE)

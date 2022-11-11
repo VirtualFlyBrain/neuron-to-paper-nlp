@@ -1,20 +1,20 @@
-text,label,NLP
-_/bp Kenyon cells,alpha/beta posterior Kenyon cell,y
-LOPN,adult lobula-dorsal accessory calyx projection neuron,y
-PLPPNs,adult posterior lateral protocerebrum-dorsal accessory calyx projection neuron,y
-sensory neuron,adult sensory neuron,y
-Kenyon cells,adult Kenyon cell,y
-_/_c,alpha/beta core Kenyon cell,y
-_/_s,alpha/beta surface Kenyon cell,y
-_�/_�ap,alpha'/beta' anterior-posterior Kenyon cell,y
-_�/_�m,alpha'/beta' middle Kenyon cell,y
-_main,gamma main Kenyon cell,n
-_d,gamma dorsal Kenyon cell,n
-OLCT1,optic lobe-calycal tract 1 neuron,y
-DC3 projection neurons,adult antennal lobe projection neuron DC3 adPN,n
-ALPN1,AC thermosensory neuron,y
-thermosensitive AC neuron,AC thermosensory neuron,y
-ALPN2,adult uniglomerular projection neuron VP5+SEZ adPN,y
-ALPN3,adult antennal lobe projection neuron VP4+ vPN,y
-ALPN4,adult antennal lobe projection neuron VM1++ l2PN,y
-projection neuron,projection neuron,y
+text,label,NLP,comment1,comment2,expected_entity
+α/β_p Kenyon cells,alpha/beta posterior Kenyon cell,y,,,FBbt_00110931
+LOPN,adult lobula-dorsal accessory calyx projection neuron,y,,,FBbt_20002842
+PLPPNs,adult posterior lateral protocerebrum-dorsal accessory calyx projection neuron,y,,,FBbt_00051252
+sensory neuron,adult sensory neuron,y,,,FBbt_00058244
+Kenyon cells,adult Kenyon cell,y,,,FBbt_00049825
+α/β_c,alpha/beta core Kenyon cell,y,,,FBbt_00110929
+α/β_s,alpha/beta surface Kenyon cell,y,,,FBbt_00110930
+α’/β’_ap,alpha'/beta' anterior-posterior Kenyon cell,y,,,FBbt_00100250
+α’/β’_m,alpha'/beta' middle Kenyon cell,y,,,FBbt_00100253
+γ_main,gamma main Kenyon cell,n,,,FBbt_00111061
+γ_d,gamma dorsal Kenyon cell,n,,,FBbt_00110932
+OLCT1,optic lobe-calycal tract 1 neuron,y,,,FBbt_00049510
+DC3 projection neurons,adult antennal lobe projection neuron DC3 adPN,n,,,FBbt_00040000
+ALPN1,AC thermosensory neuron,y,,,FBbt_00007333
+thermosensitive AC neuron,AC thermosensory neuron,y,,,FBbt_00007333
+ALPN2,adult uniglomerular projection neuron VP5+SEZ adPN,y,,,FBbt_00100374
+ALPN3,adult antennal lobe projection neuron VP4+ vPN,y,,,FBbt_00049751
+ALPN4,adult antennal lobe projection neuron VM1++ l2PN,y,,,FBbt_00049763
+projection neuron,projection neuron,y,,,FBbt_00007392

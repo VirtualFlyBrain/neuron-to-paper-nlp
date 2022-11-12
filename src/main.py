@@ -23,6 +23,10 @@ CONFIDENCE_THRESHOLD = 0.85
 RELATIVE_CONFIDENCE_DISPLACEMENT = 0.05
 # Merge sentences with the given size and processes all together to build a context
 NLP_TEXT_BATCH_SIZE = 50
+# Number of maximum entity linking per mention
+MAX_LINKING_PER_MENTION = 5
+# An entity must be linked >= n times per paper, otherwise it is outlier
+MIN_ENTITY_OCCURRENCE_COUNT = 3
 # to understand the focus specimens of paper and link specimen related entities primarily
 specimen_keywords = ["male", "female", "larval"]
 # filter abstract classes and try to link more specific ones. Min distance to root neuron class.
@@ -85,9 +89,9 @@ def main():
     nlp = load_model()
 
     # process_test_sentence(nlp)
-    all_data = process_data_files(nlp)
+    all_data, entity_occurrence_count = process_data_files(nlp)
     # all_data = filter_data_by_neuron_class_distance(all_data)
-    all_data = filter_outliers(OWL2VEC_MODEL, all_data)
+    all_data = filter_outliers(OWL2VEC_MODEL, all_data, entity_occurrence_count)
     # all_data = filter_outliers_by_scipsacy_embeddings(all_data, nlp)
     pmcid_doi_mapping = generate_publications_robot_template(DATA_FOLDER, PUBLICATION_TEMPLATE)
     generate_linkings_robot_template(all_data, pmcid_doi_mapping, LINKING_TEMPLATE)
@@ -116,30 +120,71 @@ def process_data_files(nlp):
     data_files = sorted(os.listdir(DATA_FOLDER))
 
     all_data = dict()
+    all_entity_counts = dict()
     for filename in data_files:
         file_path = os.path.join(DATA_FOLDER, filename)
         if os.path.isfile(file_path) and not filename.endswith(IGNORED_EXTENSIONS):
             table = read_csv_to_dict(file_path, delimiter="\t", generated_ids=True)[1]
             all_mentions = list()
+            entity_occurrence_count = dict()
             for chunk in chunks(table, NLP_TEXT_BATCH_SIZE):
-                batch_process_table(all_mentions, chunk, filename, nlp)
-
+                batch_process_table(all_mentions, chunk, filename, nlp, entity_occurrence_count)
             file_name = all_mentions[0]["file_name"]
             if file_name in all_data:
                 existing_data = all_data[file_name]
                 existing_data.extend(all_mentions)
+                # paper, captions etc. are processed as separate file, merge their stats
+                all_entity_counts[file_name] = merge_count_dicts(all_entity_counts[file_name], entity_occurrence_count)
             else:
                 all_data[file_name] = all_mentions
-    return all_data
+                all_entity_counts[file_name] = entity_occurrence_count
+
+    # filter mentions whose entity linked min n times
+    filter_not_frequent_entities(all_data, all_entity_counts)
+    return all_data, all_entity_counts
 
 
-def batch_process_table(all_mentions, chunk, filename, nlp):
+def filter_not_frequent_entities(all_data, all_entity_counts):
+    """
+    Filter mentions whose entity linked for min n times and confidence < 0.95
+    :param all_data: all linking results
+    :param all_entity_counts: entity - occurrence count dictionary
+    """
+    for file_name in all_data:
+        all_mentions = all_data[file_name]
+        entity_counts = all_entity_counts[file_name]
+        entities_to_remove = list()
+        for entity_id in entity_counts:
+            if entity_counts[entity_id] < 3:
+                entities_to_remove.append(entity_id)
+        # filter related mentions
+        all_data[file_name] = list(m for m in all_mentions if m["candidate_entity_iri"] not in entities_to_remove or
+                                   Decimal(m["confidence"]) >= 0.95)
+
+
+def merge_count_dicts(base_stats, new_stats):
+    """
+    Paper, captions etc. are processed as separate file, merge their stats
+    :param base_stats: existing entity occurrence counts dict
+    :param new_stats: new entity occurrence counts dict
+    :return: merged dict
+    """
+    for entity_id in new_stats:
+        if entity_id in base_stats:
+            base_stats[entity_id] = base_stats[entity_id] + new_stats[entity_id]
+        else:
+            base_stats[entity_id] = new_stats[entity_id]
+    return base_stats
+
+
+def batch_process_table(all_mentions, chunk, filename, nlp, entity_occurrence_count):
     """
     Processes a batch of sentences and links entities.
     :param all_mentions: all entity linking candidates
     :param chunk: batch of rows to process
     :param filename: name of the processed file for logging purposes
     :param nlp: nlp model
+    :param entity_occurrence_count: number of occurrences of each linked entities in the file
     :return:
     """
     mention_file = str(filename).split(".")[0].split("_")[0]
@@ -154,6 +199,11 @@ def batch_process_table(all_mentions, chunk, filename, nlp):
         mention["file_name"] = mention_file
         if mention not in all_mentions:
             all_mentions.append(mention)
+        entity_id = mention["candidate_entity_iri"]
+        if entity_id not in entity_occurrence_count:
+            entity_occurrence_count[entity_id] = 1
+        else:
+            entity_occurrence_count[entity_id] = entity_occurrence_count[entity_id] + 1
 
 
 def filter_mentions_unrelated_with_specimen(mentions, unmentioned_specimens):
@@ -244,8 +294,11 @@ def process_sentence(nlp, sentence):
                     }
                     mention_candidates.append(mention_candidate)
             # apply a relative threshold based on the highest confidence
-            mentions.extend([m for m in mention_candidates if Decimal(m["confidence"]) >= highest_confidence - Decimal(
-                RELATIVE_CONFIDENCE_DISPLACEMENT)])
+            filtered_mentions = [m for m in mention_candidates if Decimal(m["confidence"]) >=
+                                 highest_confidence - Decimal(RELATIVE_CONFIDENCE_DISPLACEMENT)]
+            filtered_mentions = sorted(filtered_mentions, key=lambda m: m['confidence'], reverse=True)
+            # get max n linking per mention
+            mentions.extend(filtered_mentions[0:MAX_LINKING_PER_MENTION])
     return mentions
 
 

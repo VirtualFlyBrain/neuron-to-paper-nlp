@@ -37,7 +37,7 @@ Used terminology is as follows:
 
 1. Outlier detection is applied to all linking results:
    1. OWL2Vec* model is trained that represents the semantic similarity of the ontology terms.
-   1. For each paper the most confident linking candidates (it is the only candidate for a mention and confidence > 0.89) are selected. 
+   1. For each paper the most confident linking candidates (confidence > 0.95 and mentioned at least for 10 times) in the paper are selected. 
    1. Using OWL2Vec* embeddings calculates the average of the high confident entities. This vector represent the context of the paper.
    1. Calculates each candidate's distance to the paper context vector.
    1. Outliers filtered using standard deviation: term_similarity < (mean_similarity - 2 * stdev_score):
@@ -59,6 +59,13 @@ In case the FBBT ontology change, these models need to be retrained following th
 python src/owl_to_json.py
 ```
 This script only transforms the subclasses of the `neuron` class (`FBbt:00005106`) and generates the [fbbt-cedar.jsonl](resources/fbbt-cedar.jsonl)
+
+During this transformation a set of steps are applied to entity labels and synonyms to enrich aliases and generate new ones:
+    1. Texts inside parentheses are removed
+    1. '-' replaced by ' '
+    1. Ignored words (eg. neuron, secondary etc.) cleaned to increase match
+    1. Plural and singular variations of 'neuron'
+    1. Greek letters replaced by their symbol (alpha -> α)
 
 2- Run SciSpacy model trainer: 
 ```

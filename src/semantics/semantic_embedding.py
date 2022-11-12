@@ -3,8 +3,16 @@ import gensim
 from gensim.models import KeyedVectors
 from decimal import Decimal
 
+MIN_OCCURRENCE_COUNT = 10
 
-def filter_outliers(owl2vec_embedding_file, all_data):
+
+def filter_outliers(owl2vec_embedding_file, all_data, entity_occurrence_count):
+    """
+    Filter outliers based on semantic similarity. Identifies context of the paper and removes unrelated linkings.
+    :param owl2vec_embedding_file: semantic embedding model
+    :param all_data: all linking results
+    :param entity_occurrence_count: entity id - occurrence count dictionary
+    """
     model = gensim.models.Word2Vec.load(owl2vec_embedding_file)
 
     filtered = dict()
@@ -14,16 +22,22 @@ def filter_outliers(owl2vec_embedding_file, all_data):
 
         # for a mention we only have singe high confidence result
         all_mention_texts = [str(i["mention_text"]).lower() for n, i in enumerate(data)]
+        # high_confidence = [i["candidate_entity_iri"] for n, i in enumerate(data)
+        #                    if all_mention_texts.count(str(i["mention_text"]).lower()) == 1
+        #                    and Decimal(i["confidence"]) > Decimal(0.89)]
         high_confidence = [i["candidate_entity_iri"] for n, i in enumerate(data)
-                           if all_mention_texts.count(str(i["mention_text"]).lower()) == 1
-                           and Decimal(i["confidence"]) > Decimal(0.89)]
+                           if Decimal(i["confidence"]) > Decimal(0.95)]
 
         paper_context = np.zeros(model.vector_size)
         n = 0
         # print("High Conf Count: " + str(len(high_confidence)))
+        counts = sorted(list(c for c in entity_occurrence_count[file_name].values() if c > 1), reverse=True)
+        q1_occurrence = counts[int(len(counts)/4)]
         for entity_iri in high_confidence:
-            paper_context += model.wv.get_vector(entity_iri.replace("FBbt:", "http://purl.obolibrary.org/obo/FBbt_"))
-            n += 1
+            if entity_occurrence_count[file_name][entity_iri] > q1_occurrence:
+                paper_context += model.wv.get_vector(entity_iri.replace("FBbt:", "http://purl.obolibrary.org/obo/FBbt_"))
+                n += 1
+        print(file_name + "  context size: " + str(n))
         paper_context = paper_context / n if n > 0 else paper_context
 
         term_similarities = dict()

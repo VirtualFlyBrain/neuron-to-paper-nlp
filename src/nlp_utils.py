@@ -4,6 +4,7 @@ from file_utils import read_csv_to_dict
 
 DSX_PREFIX = "dsx-"
 IGNORE_WORDS = ["neuron", "neurons", "proboscis motor neuron", "secondary", "adult drosulfakinin"]
+GREEK_SYMBOLS = {"alpha": "α", "beta": "β", "gamma": "γ"}
 
 
 def extract_acronyms(sentence):
@@ -71,6 +72,15 @@ def generate_phrase_variances(phrase):
     to_add = set()
     for variance in variances:
         to_add.add(re.sub(r"\b%s\b" % "neuron", "neurons", variance).strip())
+    variances = variances.union(to_add)
+
+    # add greek letter variance
+    to_add = set()
+    for variance in variances:
+        in_symbols = variance
+        for key in GREEK_SYMBOLS:
+            in_symbols = in_symbols.replace(key, GREEK_SYMBOLS[key])
+        to_add.add(in_symbols.strip())
     variances = variances.union(to_add)
 
     return variances

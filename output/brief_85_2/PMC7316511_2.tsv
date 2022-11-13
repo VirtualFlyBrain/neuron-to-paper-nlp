@@ -1,0 +1,22 @@
+mention_text	candidate_entity_iri	candidate_entity_label	comment
+1N	FBbt:00048300	adult leg stretch receptor neuron	
+eye mechanosensory bristle	FBbt:00047346	mechanosensory neuron of interommatidial bristle	not neuron
+Fdg	FBbt:00110985	adult feeding interneuron	exist in paper for 5 times
+gnathal ganglion	FBbt:00052032	gnathal ganglion neuron	not neuron
+Hugin	FBbt:00110925	Hugin neuron	exist in paper for 3 times
+Hugin	FBbt:00110924	adult Hugin neuron	exist in paper for 3 times
+mechanosensory	FBbt:00005919	mechanosensory neuron	exist in paper for 3 times
+motor neuron	FBbt:00048499	larval maxillary-labial nerve motor neuron	
+motor neuron type	FBbt:00007679	type Ib motor neuron	
+peptidergic	FBbt:00004101	peptidergic neuron	not neuron
+peptidergic	FBbt:00058202	adult peptidergic neuron	not neuron
+sensory neurons	FBbt:00005124	sensory neuron	
+sensory neurons	FBbt:00058244	adult sensory neuron	
+SEZ	FBbt:00001972	subesophageal zone neuron	not neuron
+subesophageal zone	FBbt:00001972	subesophageal zone neuron	not neuron
+Type I	FBbt:00005174	eo neuron	alias match
+Type I	FBbt:00049368	adult lateral horn PD2a1 neuron	
+Type I	FBbt:00049371	adult lateral horn PD2b1 neuron	
+type II	FBbt:00005209	multidendritic neuron	alias match
+type II	FBbt:00005222	chordotonal neuron	
+type II	FBbt:00049362	adult lateral horn AV6a1 neuron	

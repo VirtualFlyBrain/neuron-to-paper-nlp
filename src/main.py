@@ -24,7 +24,7 @@ RELATIVE_CONFIDENCE_DISPLACEMENT = 0.05
 # Merge sentences with the given size and processes all together to build a context
 NLP_TEXT_BATCH_SIZE = 50
 # Number of maximum entity linking per mention
-MAX_LINKING_PER_MENTION = 5
+MAX_LINKING_PER_MENTION = 4
 # An entity must be linked >= n times per paper, otherwise it is outlier
 MIN_ENTITY_OCCURRENCE_COUNT = 3
 # to understand the focus specimens of paper and link specimen related entities primarily
@@ -153,6 +153,8 @@ def filter_not_frequent_entities(all_data, all_entity_counts):
     for file_name in all_data:
         all_mentions = all_data[file_name]
         entity_counts = all_entity_counts[file_name]
+        print(file_name)
+        print(entity_counts)
         entities_to_remove = list()
         for entity_id in entity_counts:
             if entity_counts[entity_id] < 5:

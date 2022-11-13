@@ -155,7 +155,7 @@ def filter_not_frequent_entities(all_data, all_entity_counts):
         entity_counts = all_entity_counts[file_name]
         entities_to_remove = list()
         for entity_id in entity_counts:
-            if entity_counts[entity_id] < 3:
+            if entity_counts[entity_id] < 5:
                 entities_to_remove.append(entity_id)
         # filter related mentions
         all_data[file_name] = list(m for m in all_mentions if m["candidate_entity_iri"] not in entities_to_remove or

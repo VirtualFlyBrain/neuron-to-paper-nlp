@@ -2,23 +2,23 @@ text,label,NLP,comment1,comment2,expected_entity
 motor neuron,motor neuron,Y,,,FBbt_00005123
 motor neurons in the fly proboscis,proboscis muscle motor neuron,Y,,,FBbt_00051180
 mn1,proboscis muscle 1 motor neuron,Y,,,FBbt_00051181
-mn2D,proboscis muscle 2 dorsal motor neuron,N,,,FBbt_00051182
+mn2D,proboscis muscle 2 dorsal motor neuron,Y,,,FBbt_00051182
 mn2V,proboscis muscle 2 ventral motor neuron,N,,,FBbt_00051183
-mn3M,proboscis muscle 3 medial motor neuron,N,,,FBbt_00051184
+mn3M,proboscis muscle 3 medial motor neuron,Y,,,FBbt_00051184
 mn3L,proboscis muscle 3 lateral motor neuron,Y,,,FBbt_00051185
 mn4,proboscis muscle 4 motor neuron,Y,,,FBbt_00051186
 mn5,proboscis muscle 5 motor neuron,Y,,,FBbt_00051187
-mn6,proboscis muscle 6 motor neuron,N,,,FBbt_00051188
+mn6,proboscis muscle 6 motor neuron,Y,,,FBbt_00051188
 mn7,proboscis muscle 7 motor neuron,Y,,,FBbt_00051189
 mn8,proboscis muscle 8 motor neuron,Y,,,FBbt_00051190
-mn9,proboscis muscle 9 motor neuron,N,,,FBbt_00111298
-mn10,proboscis muscle 10 motor neuron,N,,,FBbt_00051191
+mn9,proboscis muscle 9 motor neuron,Y,,,FBbt_00111298
+mn10,proboscis muscle 10 motor neuron,Y,,,FBbt_00051191
 mn11D,proboscis muscle 11 dorsal motor neuron,Y,,,FBbt_00004023
-mn11V,proboscis muscle 11 ventral motor neuron,N,,,FBbt_00051192
+mn11V,proboscis muscle 11 ventral motor neuron,Y,,,FBbt_00051192
 12D,proboscis muscle 12 dorsal motor neuron,N,,,FBbt_00111299
 mn12V,proboscis muscle 12 ventral motor neuron,N,,,FBbt_00051193
-mn13,proboscis muscle 13 motor neuron,N,,,FBbt_00051194
-mechanosensory neurons,adult mechanosensory neuron,N,,,FBbt_00051420
+mn13,proboscis muscle 13 motor neuron,Y,,,FBbt_00051194
+mechanosensory neurons,adult mechanosensory neuron,Y,,,FBbt_00051420
 ,,,,,
 ,,,,,
 ,,,,,

@@ -188,7 +188,7 @@ def batch_process_table(all_mentions, chunk, filename, nlp, entity_occurrence_co
     :return:
     """
     mention_file = str(filename).split(".")[0].split("_")[0]
-    unmentioned_specimens = [spes for spes in specimen_stats[filename] if specimen_stats[filename][spes] == 0]
+    unmentioned_specimens = [spes for spes in specimen_stats[filename] if specimen_stats[filename][spes] < 2]
     batch_text = ""
     for row in chunk:
         sentence = chunk[row]["text"]
@@ -213,14 +213,15 @@ def filter_mentions_unrelated_with_specimen(mentions, unmentioned_specimens):
     :param unmentioned_specimens: specimens that are not mentioned in the paper
     :return: filtered mentions that are related with paper specimens
     """
-    mentions_in_sentence = {ment["mention_text"] for ment in mentions}
+    mentions_in_sentence = set(ment["mention_text"] for ment in mentions)
     for ment in mentions_in_sentence:
-        related_mentions = [m for m in mentions if m["mention_text"] == ment]
+        related_mentions = list(m for m in mentions if m["mention_text"] == ment)
         if len(related_mentions) > 1:
             for unmentioned_specimen in unmentioned_specimens:
                 for ment_to_check in related_mentions:
                     # if unmentioned_specimen in str(ment_to_check["candidate_entity_label"]).lower().split():
-                    if unmentioned_specimen in str(ment_to_check["candidate_entity_label"]).lower():
+                    if unmentioned_specimen in str(ment_to_check["candidate_entity_label"]).lower() \
+                            and ment_to_check in mentions:
                         mentions.remove(ment_to_check)
 
 

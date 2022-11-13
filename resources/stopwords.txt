@@ -1,5 +1,6 @@
 adult
 adults
+afferent
 bitter
 brain
 brains
@@ -29,6 +30,7 @@ male’s
 neuron
 neurons
 primary
+secondary
 size
 specific
 thorax

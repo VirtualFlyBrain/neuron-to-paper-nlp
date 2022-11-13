@@ -47,7 +47,8 @@ class Evaluator:
                 ground_truth = set()
                 for row in evaluation_table:
                     record = evaluation_table[row]
-                    ground_truth.add(record["expected_entity"].replace("_", ":"))
+                    if record["expected_entity"]:
+                        ground_truth.add(record["expected_entity"].replace("_", ":"))
 
                 tp_list = ground_truth.intersection(predictions)
                 fn_list = ground_truth - tp_list

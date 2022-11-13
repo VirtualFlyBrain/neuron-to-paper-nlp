@@ -10,8 +10,8 @@ motor neuron	FBbt:00048499	larval maxillary-labial nerve motor neuron
 motor neuron type	FBbt:00007679	type Ib motor neuron	
 peptidergic	FBbt:00004101	peptidergic neuron	not neuron
 peptidergic	FBbt:00058202	adult peptidergic neuron	not neuron
-sensory neurons	FBbt:00005124	sensory neuron	
-sensory neurons	FBbt:00058244	adult sensory neuron	
+sensory neurons	FBbt:00005124	sensory neuron	not in pdf but in xml
+sensory neurons	FBbt:00058244	adult sensory neuron	not in pdf but in xml
 SEZ	FBbt:00001972	subesophageal zone neuron	not neuron
 subesophageal zone	FBbt:00001972	subesophageal zone neuron	not neuron
 Type I	FBbt:00005174	eo neuron	alias match

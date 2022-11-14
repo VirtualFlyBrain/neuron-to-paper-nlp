@@ -1,5 +1,6 @@
 import numpy as np
 import gensim
+import math
 from gensim.models import KeyedVectors
 from decimal import Decimal
 
@@ -34,7 +35,7 @@ def filter_outliers(owl2vec_embedding_file, all_data, entity_occurrence_count):
         # print("High Conf Count: " + str(len(high_confidence)))
         counts = sorted(list(c for c in entity_occurrence_count[file_name].values() if c > 1), reverse=True)
         print(counts)
-        q1_occurrence = counts[int(len(counts)/4)]
+        q1_occurrence = counts[math.ceil(len(counts)/4)]
         for entity_iri in high_confidence:
             if entity_occurrence_count[file_name][entity_iri] > q1_occurrence:
                 paper_context += model.wv.get_vector(entity_iri.replace("FBbt:", "http://purl.obolibrary.org/obo/FBbt_"))

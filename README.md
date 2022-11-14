@@ -33,6 +33,8 @@ Used terminology is as follows:
 
 1. Mentions shorter than 4 letters must exist in the ontology term's label or synonyms.
 
+1. Not frequent entities (linked less than 3 times) are filtered
+
 1. For each paper, specimen term ('male', 'female', 'larval') frequencies are calculated. Candidates whose specimen not mentioned in the paper are filtered (`adult corazonin neuron` vs ` 	larval corazonin neuron`).
 
 1. Outlier detection is applied to all linking results:

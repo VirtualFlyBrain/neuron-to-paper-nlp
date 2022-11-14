@@ -49,8 +49,6 @@ PMC7790857	Mt1	FBbt:00003837	medullary tangential neuron Mt1	medullary tangentia
 PMC7790857	olfactory projection	FBbt:00007422	antennal lobe projection neuron	antennal lobe projection neuron,antennal lobe projection neurons,antennal lobe projection,olfactory projection neuron,olfactory projection,olfactory projection neurons,FBbt:00007422	0.999999940395355224609375
 PMC7790857	olfactory projection	FBbt:00051298	olfactory projection neuron	olfactory projection,olfactory projection neuron,olfactory projection neurons,olfactory PN,FBbt:00051298	0.999999940395355224609375
 PMC7790857	olfactory projection	FBbt:00051299	adult olfactory projection neuron	adult olfactory projection,adult olfactory projection neuron,adult olfactory projection neurons,adult olfactory PN,FBbt:00051299	0.98175132274627685546875
-PMC7790857	optic lobe	FBbt:00003702	adult optic lobe neuron	adult optic lobe,adult optic lobe neuron,adult optic lobe neurons,FBbt:00003702	0.966735899448394775390625
-PMC7790857	optic lobe neurons	FBbt:00003702	adult optic lobe neuron	adult optic lobe,adult optic lobe neuron,adult optic lobe neurons,FBbt:00003702	0.9698264598846435546875
 PMC7790857	peptidergic neurons	FBbt:00004101	peptidergic neuron	peptidergic neurons,peptidergic,peptidergic neuron,peptinergic neuron,peptinergic neurons,peptinergic,FBbt:00004101	1
 PMC7790857	peptidergic neurons	FBbt:00058202	adult peptidergic neuron	adult peptidergic neuron,adult peptidergic neurons,adult peptidergic,FBbt:00058202	0.978889167308807373046875
 PMC7790857	photoreceptors	FBbt:00004211	photoreceptor neuron	photoreceptor neurons,photoreceptor neuron,photoreceptor,photoreceptor cell,FBbt:00004211,receptor cell	0.92904758453369140625

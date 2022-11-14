@@ -25,19 +25,23 @@ def filter_outliers(owl2vec_embedding_file, all_data, entity_occurrence_count):
         # high_confidence = [i["candidate_entity_iri"] for n, i in enumerate(data)
         #                    if all_mention_texts.count(str(i["mention_text"]).lower()) == 1
         #                    and Decimal(i["confidence"]) > Decimal(0.89)]
-        high_confidence = [i["candidate_entity_iri"] for n, i in enumerate(data)
-                           if Decimal(i["confidence"]) > Decimal(0.95)]
+        high_confidence = set(i["candidate_entity_iri"] for n, i in enumerate(data)
+                              if Decimal(i["confidence"]) > Decimal(0.95))
 
+        context_entities = set()
         paper_context = np.zeros(model.vector_size)
         n = 0
         # print("High Conf Count: " + str(len(high_confidence)))
         counts = sorted(list(c for c in entity_occurrence_count[file_name].values() if c > 1), reverse=True)
+        print(counts)
         q1_occurrence = counts[int(len(counts)/4)]
         for entity_iri in high_confidence:
             if entity_occurrence_count[file_name][entity_iri] > q1_occurrence:
                 paper_context += model.wv.get_vector(entity_iri.replace("FBbt:", "http://purl.obolibrary.org/obo/FBbt_"))
+                context_entities.add(entity_iri)
                 n += 1
         print(file_name + "  context size: " + str(n))
+        print(file_name + "  : " + str(context_entities))
         paper_context = paper_context / n if n > 0 else paper_context
 
         term_similarities = dict()

@@ -58,15 +58,15 @@ def filter_outliers(owl2vec_embedding_file, all_data, entity_occurrence_count):
         filteredz = reject_outliers2(np.array(all_sims))
         # print(filteredz.tolist())
 
-        cutoff_index = len(all_sims) * 10 / 100
-        threshold_old = all_sims[int(cutoff_index)]
+        # cutoff_index = len(all_sims) * 10 / 100
+        # threshold_old = all_sims[int(cutoff_index)]
         # print("OLD THR: " + str(threshold_old))
 
         threshold = filteredz[0]
         # print("NEW THR: " + str(threshold))
 
         to_remove = [k for k, v in term_similarities.items() if Decimal(v) < Decimal(threshold)]
-        filtered[file_name] = [record for record in data if Decimal(record["confidence"]) > 0.96
+        filtered[file_name] = [record for record in data if Decimal(record["confidence"]) > 0.97
                                or record["candidate_entity_iri"] not in to_remove]
         # values = list()
         # for record in data:

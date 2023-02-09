@@ -12,6 +12,7 @@ class
 complex
 different
 dorsal
+embryonic
 expressing
 female
 female’s
@@ -25,10 +26,12 @@ larval
 length
 lengths
 lineage
+local
 male
 male’s
 neuron
 neurons
+postembryonic
 primary
 secondary
 size

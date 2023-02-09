@@ -96,8 +96,9 @@ def count_keywords(data_folder, ignored_extensions, keywords):
             table = read_csv_to_dict(file_path, delimiter="\t", generated_ids=True)[1]
             all_paper_text = ""
             for row in table:
-                sentence = table[row]["text"]
-                all_paper_text = all_paper_text + " " + sentence
+                if "text" in table[row]:
+                    sentence = table[row]["text"]
+                    all_paper_text = all_paper_text + " " + sentence
             paper_stats = dict()
             for keyword in keywords:
                 paper_stats[keyword] = sum(1 for _ in re.finditer(r'\b%s\b' % re.escape(keyword), all_paper_text))

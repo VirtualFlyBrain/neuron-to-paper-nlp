@@ -18,7 +18,7 @@ def filter_outliers(owl2vec_embedding_file, all_data, entity_occurrence_count):
 
     filtered = dict()
     for file_name in all_data:
-        # print(file_name)
+        print("Outlier filtering: " + file_name)
         data = all_data[file_name]
 
         # for a mention we only have singe high confidence result
@@ -34,52 +34,58 @@ def filter_outliers(owl2vec_embedding_file, all_data, entity_occurrence_count):
         n = 0
         # print("High Conf Count: " + str(len(high_confidence)))
         counts = sorted(list(c for c in entity_occurrence_count[file_name].values() if c > 1), reverse=True)
-        print(counts)
-        q1_occurrence = counts[math.ceil(len(counts)/4)]
-        for entity_iri in high_confidence:
-            if entity_occurrence_count[file_name][entity_iri] > q1_occurrence:
-                paper_context += model.wv.get_vector(entity_iri.replace("FBbt:", "http://purl.obolibrary.org/obo/FBbt_"))
-                context_entities.add(entity_iri)
-                n += 1
-        print(file_name + "  context size: " + str(n))
-        print(file_name + "  : " + str(context_entities))
-        paper_context = paper_context / n if n > 0 else paper_context
+        if len(counts) > 8:
+            print(counts)
+            q1_occurrence = counts[math.ceil(len(counts)/4)]
+            for entity_iri in high_confidence:
+                if entity_occurrence_count[file_name][entity_iri] > q1_occurrence:
+                    paper_context += model.wv.get_vector(entity_iri.replace("FBbt:", "http://purl.obolibrary.org/obo/FBbt_"))
+                    context_entities.add(entity_iri)
+                    n += 1
+            # print(file_name + "  context size: " + str(n))
+            # print(file_name + "  : " + str(context_entities))
+            paper_context = paper_context / n if n > 0 else paper_context
 
-        term_similarities = dict()
-        all_sims = list()
-        for n, record in enumerate(data):
-            # print(str(record["candidate_entity_iri"]))
-            entity_iri = str(record["candidate_entity_iri"]).replace("FBbt:", "http://purl.obolibrary.org/obo/FBbt_")
-            entity_embedding = model.wv.get_vector(entity_iri)
-            similarity = KeyedVectors.cosine_similarities(paper_context, np.array([entity_embedding]))[0]
-            # print(str(similarity))
-            term_similarities[record["candidate_entity_iri"]] = similarity
-            all_sims.append(similarity)
+            term_similarities = dict()
+            all_sims = list()
+            for n, record in enumerate(data):
+                # print(str(record["candidate_entity_iri"]))
+                entity_iri = str(record["candidate_entity_iri"]).replace("FBbt:", "http://purl.obolibrary.org/obo/FBbt_")
+                entity_embedding = model.wv.get_vector(entity_iri)
+                similarity = KeyedVectors.cosine_similarities(paper_context, np.array([entity_embedding]))[0]
+                # print(str(similarity))
+                term_similarities[record["candidate_entity_iri"]] = similarity
+                all_sims.append(similarity)
 
-        all_sims = sorted(all_sims)
-        # print("ALLLL:")
-        # print(all_sims)
-        # print("FILTERED:")
-        filteredz = reject_outliers2(np.array(all_sims))
-        # print(filteredz.tolist())
+            all_sims = sorted(all_sims)
+            # print("ALLLL:")
+            # print(all_sims)
+            # print("FILTERED:")
+            filteredz = reject_outliers2(np.array(all_sims))
+            # print(filteredz.tolist())
 
-        # cutoff_index = len(all_sims) * 10 / 100
-        # threshold_old = all_sims[int(cutoff_index)]
-        # print("OLD THR: " + str(threshold_old))
+            # cutoff_index = len(all_sims) * 10 / 100
+            # threshold_old = all_sims[int(cutoff_index)]
+            # print("OLD THR: " + str(threshold_old))
 
-        threshold = filteredz[0]
-        # print("NEW THR: " + str(threshold))
-
-        to_remove = [k for k, v in term_similarities.items() if Decimal(v) < Decimal(threshold)]
-        filtered[file_name] = [record for record in data if Decimal(record["confidence"]) > 0.97
-                               or record["candidate_entity_iri"] not in to_remove]
-        # values = list()
-        # for record in data:
-        #     if Decimal(record["confidence"]) > 0.96 or record["candidate_entity_iri"] not in to_remove:
-        #         values.append(record)
-        #     else:
-        #         print(record["candidate_entity_iri"] + "   " + str(term_similarities[record["candidate_entity_iri"]]) + "   " + str(record["confidence"]))
-        # filtered[file_name] = values
+            if filteredz.size > 0:
+                threshold = filteredz[0]
+                if isinstance(threshold, np.ndarray):
+                    threshold = threshold[0]
+                # print("NEW THR: " + str(threshold))
+                to_remove = [k for k, v in term_similarities.items() if Decimal(v) < Decimal(threshold)]
+                filtered[file_name] = [record for record in data if Decimal(record["confidence"]) > 0.97
+                                       or record["candidate_entity_iri"] not in to_remove]
+            # values = list()
+            # for record in data:
+            #     if Decimal(record["confidence"]) > 0.96 or record["candidate_entity_iri"] not in to_remove:
+            #         values.append(record)
+            #     else:
+            #         print(record["candidate_entity_iri"] + "   " + str(term_similarities[record["candidate_entity_iri"]]) + "   " + str(record["confidence"]))
+            # filtered[file_name] = values
+        else:
+            print("Skipping outlier filtering : " + file_name)
+            filtered[file_name] = data
 
     return filtered
 

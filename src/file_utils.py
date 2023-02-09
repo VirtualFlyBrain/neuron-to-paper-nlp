@@ -37,27 +37,30 @@ def read_csv_to_dict(csv_path, id_column=0, id_column_name="", delimiter=",", id
     records = dict()
 
     headers = []
-    with open(csv_path) as fd:
-        rd = csv.reader(fd, delimiter=delimiter, quotechar='"')
-        row_count = 0
-        for row in rd:
-            _id = row[id_column]
-            if id_to_lower:
-                _id = str(_id).lower()
-            if generated_ids:
-                _id = row_count
+    try:
+        with open(csv_path) as fd:
+            rd = csv.reader(fd, delimiter=delimiter, quotechar='"')
+            row_count = 0
+            for row in rd:
+                _id = row[id_column]
+                if id_to_lower:
+                    _id = str(_id).lower()
+                if generated_ids:
+                    _id = row_count
 
-            if row_count == 0:
-                headers = row
-                if id_column_name and id_column_name in headers:
-                    id_column = headers.index(id_column_name)
-            else:
-                row_object = dict()
-                for column_num, column_value in enumerate(row):
-                    row_object[headers[column_num]] = column_value
-                records[_id] = row_object
+                if row_count == 0:
+                    headers = row
+                    if id_column_name and id_column_name in headers:
+                        id_column = headers.index(id_column_name)
+                else:
+                    row_object = dict()
+                    for column_num, column_value in enumerate(row):
+                        row_object[headers[column_num]] = column_value
+                    records[_id] = row_object
 
-            row_count += 1
+                row_count += 1
+    except:
+        print("File format is corrupted: " + csv_path)
 
     return headers, records
 
@@ -71,7 +74,13 @@ def write_mentions_to_file(file_path, mentions, append=False):
     else:
         mode = "w"
 
-    records_df = pd.DataFrame.from_records(mentions)
+    if mentions:
+        records_df = pd.DataFrame.from_records(mentions)
+    else:
+        # create empty table
+        records_df = pd.DataFrame(columns=["file_name", "mention_text",
+                               "candidate_entity_iri", "candidate_entity_label", "candidate_entity_aliases",
+                               "confidence"])
     records_df.to_csv(file_path, sep="\t", index=False, mode=mode, header=add_headers,
                       columns=["file_name", "mention_text",
                                "candidate_entity_iri", "candidate_entity_label", "candidate_entity_aliases",

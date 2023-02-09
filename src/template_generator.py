@@ -4,6 +4,7 @@ from file_utils import read_csv_to_dict
 
 
 DOI_PREFIX = "https://doi.org/"
+FBRF_PREFIX = "http://flybase.org/reports/"
 
 
 def generate_publications_robot_template(data_folder, output_path):
@@ -56,11 +57,12 @@ def generate_publications_robot_template(data_folder, output_path):
     return pmcid_doi_mapping
 
 
-def generate_linkings_robot_template(all_data, pmcid_doi_mapping, output_path):
+def generate_linkings_robot_template(all_data, data_folder, output_path):
     robot_template_seed = {'ID': 'ID',
                            'references': 'AI dc:references SPLIT=|',
                            'typ': '>A dc:typ'
                            }
+    pmcid_fbrf_mapping = get_pmcid_fbrf_mapping(data_folder)
     dl = [robot_template_seed]
 
     neuron_mentions = dict()
@@ -68,10 +70,10 @@ def generate_linkings_robot_template(all_data, pmcid_doi_mapping, output_path):
         data = all_data[file_name]
         for mention in data:
             if mention["candidate_entity_iri"] in neuron_mentions:
-                neuron_mentions[mention["candidate_entity_iri"]].add(pmcid_doi_mapping[file_name])
+                neuron_mentions[mention["candidate_entity_iri"]].add(pmcid_fbrf_mapping[file_name])
             else:
                 mentioned_files = set()
-                mentioned_files.add(pmcid_doi_mapping[file_name])
+                mentioned_files.add(pmcid_fbrf_mapping[file_name])
                 neuron_mentions[mention["candidate_entity_iri"]] = mentioned_files
 
     for neuron_mention in neuron_mentions:
@@ -83,3 +85,16 @@ def generate_linkings_robot_template(all_data, pmcid_doi_mapping, output_path):
 
     robot_template = pd.DataFrame.from_records(dl)
     robot_template.to_csv(output_path, sep="\t", index=False)
+
+
+def get_pmcid_fbrf_mapping(data_folder):
+    pmcid_fbrf_mapping = dict()
+    data_files = sorted(os.listdir(data_folder))
+    for filename in data_files:
+        file_path = os.path.join(data_folder, filename)
+        if os.path.isfile(file_path) and filename.endswith("_metadata.tsv"):
+            table = read_csv_to_dict(file_path, delimiter="\t", generated_ids=True)[1]
+            metadata = table[1]
+            print(filename)
+            pmcid_fbrf_mapping[metadata["PMCID"]] = FBRF_PREFIX + metadata["FBrf_ID"]
+    return pmcid_fbrf_mapping

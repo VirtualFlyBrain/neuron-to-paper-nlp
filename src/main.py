@@ -93,8 +93,8 @@ def main():
     # all_data = filter_data_by_neuron_class_distance(all_data)
     all_data = filter_outliers(OWL2VEC_MODEL, all_data, entity_occurrence_count)
     # all_data = filter_outliers_by_scipsacy_embeddings(all_data, nlp)
-    pmcid_doi_mapping = generate_publications_robot_template(DATA_FOLDER, PUBLICATION_TEMPLATE)
-    generate_linkings_robot_template(all_data, pmcid_doi_mapping, LINKING_TEMPLATE)
+    # pmcid_doi_mapping = generate_publications_robot_template(DATA_FOLDER, PUBLICATION_TEMPLATE)
+    generate_linkings_robot_template(all_data, DATA_FOLDER, LINKING_TEMPLATE)
     write_linkings_to_tsv(all_data)
     print("Outputs generated at: " + OUTPUT_FOLDER)
     print("SUCCESS")
@@ -122,6 +122,7 @@ def process_data_files(nlp):
     all_data = dict()
     all_entity_counts = dict()
     for filename in data_files:
+        print("Processing file: " + filename)
         file_path = os.path.join(DATA_FOLDER, filename)
         if os.path.isfile(file_path) and not filename.endswith(IGNORED_EXTENSIONS):
             table = read_csv_to_dict(file_path, delimiter="\t", generated_ids=True)[1]
@@ -129,15 +130,16 @@ def process_data_files(nlp):
             entity_occurrence_count = dict()
             for chunk in chunks(table, NLP_TEXT_BATCH_SIZE):
                 batch_process_table(all_mentions, chunk, filename, nlp, entity_occurrence_count)
-            file_name = all_mentions[0]["file_name"]
-            if file_name in all_data:
-                existing_data = all_data[file_name]
-                existing_data.extend(all_mentions)
-                # paper, captions etc. are processed as separate file, merge their stats
-                all_entity_counts[file_name] = merge_count_dicts(all_entity_counts[file_name], entity_occurrence_count)
-            else:
-                all_data[file_name] = all_mentions
-                all_entity_counts[file_name] = entity_occurrence_count
+            if all_mentions:
+                file_name = all_mentions[0]["file_name"]
+                if file_name in all_data:
+                    existing_data = all_data[file_name]
+                    existing_data.extend(all_mentions)
+                    # paper, captions etc. are processed as separate file, merge their stats
+                    all_entity_counts[file_name] = merge_count_dicts(all_entity_counts[file_name], entity_occurrence_count)
+                else:
+                    all_data[file_name] = all_mentions
+                    all_entity_counts[file_name] = entity_occurrence_count
 
     # filter mentions whose entity linked min n times
     filter_not_frequent_entities(all_data, all_entity_counts)
@@ -153,8 +155,8 @@ def filter_not_frequent_entities(all_data, all_entity_counts):
     for file_name in all_data:
         all_mentions = all_data[file_name]
         entity_counts = all_entity_counts[file_name]
-        print(file_name)
-        print(entity_counts)
+        # print(file_name)
+        # print(entity_counts)
         entities_to_remove = list()
         for entity_id in entity_counts:
             if entity_counts[entity_id] < 5:
@@ -193,8 +195,9 @@ def batch_process_table(all_mentions, chunk, filename, nlp, entity_occurrence_co
     unmentioned_specimens = [spes for spes in specimen_stats[filename] if specimen_stats[filename][spes] < 2]
     batch_text = ""
     for row in chunk:
-        sentence = chunk[row]["text"]
-        batch_text = batch_text + " " + sentence
+        if "text" in chunk[row]:
+            sentence = chunk[row]["text"]
+            batch_text = batch_text + " " + sentence
     mentions = process_sentence(nlp, batch_text.strip())
     filter_mentions_unrelated_with_specimen(mentions, unmentioned_specimens)
     for mention in mentions:

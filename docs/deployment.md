@@ -50,7 +50,10 @@ docker build -t virtualflybrain/neuron-to-paper-nlp .
 To run the built Docker image:
 ```
 cd $WORKSPACE
-docker run --volume=`pwd`/europmc_crawler/data:/my_volume/ -e DATA_FOLDER=/my_volume/publications/out/ -e OUTPUT_FOLDER=/my_volume/nlp_output -e ONTOLOGY_FOLDER=/my_volume/ontology virtualflybrain/neuron-to-paper-nlp:latest
+mkdir europmc_crawler/data/nlp_output
+docker run --volume=`pwd`/europmc_crawler/data:/my_volume/ -e DATA_FOLDER=/my_volume/publications/out/ -e OUTPUT_FOLDER=/my_volume/nlp_output -e ONTOLOGY_FOLDER=/my_volume virtualflybrain/neuron-to-paper-nlp:latest
 ```
+
+Output ontology should be located at: `$WORKSPACE/europmc_crawler/linking.owl`
 
 At the end of the crawling you should delete (backup if necessary) crawling output folder (`europmc_crawler/data/publications/out`) to be prepared for the next crawling. 

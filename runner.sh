@@ -3,6 +3,10 @@
 set -e
 set -o pipefail
 
+mkdir -p ${DATA_FOLDER}
+mkdir -p ${ONTOLOGY_FOLDER}
+mkdir -p ${OUTPUT_FOLDER}
+
 echo "Entity linking started"
 echo "VFBTIME:"
 date

@@ -20,4 +20,15 @@ robot template --template linking.tsv --output linking.owl
 
 #robot merge -i linking.owl -i publication.owl -o merged.owl
 
-cp linking.owl "$(basename linking.owl .owl)_$(date +'%Y%m%d%H%M').owl"
+#cp linking.owl "$(basename linking.owl .owl)_$(date +'%Y%m%d%H%M').owl"
+
+FILE=merged.owl
+if [ -f "$FILE" ]; then
+    robot merge -i merged.owl -i linking.owl -o merged.owl
+else
+    robot merge -i linking.owl -o merged.owl
+fi
+
+echo "Process completed!"
+echo "VFBTIME:"
+date

@@ -4,7 +4,7 @@ scispacy == 0.5.0
 #  pip install /home/huseyin/Downloads/en_core_sci_sm-0.5.0.tar.gz
 rdflib
 pandas
-DateTime
+datetime
 git+https://github.com/KRR-Oxford/OWL2Vec-Star.git@v0.2.1#egg=owl2vec_star
 gensim==4.2.0
 numpy==1.23.3

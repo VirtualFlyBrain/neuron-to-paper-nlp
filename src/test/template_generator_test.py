@@ -22,7 +22,7 @@ class RobotTemplateGeneratorCase(unittest.TestCase):
         self.assertTrue("http://flybase.org/reports/FBrf0254421" in table.keys())
         data = table["http://flybase.org/reports/FBrf0254421"]
         self.assertEqual("PMC6800437", data["PMCID"])
-        self.assertEqual("Shunfan Wuet al., 2019, Nature Communications", data["Label"])
+        self.assertEqual("Shunfan Wu et al., 2019, Nature Communications", data["Label"])
         self.assertEqual("owl:NamedIndividual", data["TYPE"])
         self.assertEqual("Drosulfakinin signaling in fruitless circuitry antagonizes P1 neurons to regulate sexual arousal in Drosophila", data["title"])
         self.assertEqual("FBrf0254421", data["FlyBase"])

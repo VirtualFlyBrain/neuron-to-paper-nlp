@@ -9,13 +9,17 @@ FBRF_PREFIX = "http://flybase.org/reports/"
 
 def generate_publications_robot_template(data_folder, output_path):
     robot_template_seed = {'ID': 'ID',
+                           'TYPE': 'TYPE',
                            'Label': 'LABEL',
                            'title': 'A dc:title',
-                           'PMCID': 'A dc:identifier',
+                           'FlyBase': 'A neoc:FlyBase',
+                           'nodeLabel': 'A neoc:nodeLabel',
+                           'PMCID': 'A neoc:PMCID',
+                           'DOI': 'A neoc:DOI',
                            'year': 'A dc:year',
                            'volume': 'A dc:volume',
                            'pages': 'A dc:pages',
-                           'parent': 'SC %'
+                           'miniref': 'A neoc:miniref',
                            }
     dl = [robot_template_seed]
 
@@ -27,20 +31,28 @@ def generate_publications_robot_template(data_folder, output_path):
             table = read_csv_to_dict(file_path, delimiter="\t", generated_ids=True)[1]
             metadata = table[1]
             d = dict()
-            doi = metadata["DOI"]
-            if doi.startswith(DOI_PREFIX):
-                d['ID'] = doi
+            fbrf_id = metadata["FBrf_ID"]
+            if fbrf_id.startswith(FBRF_PREFIX):
+                d['ID'] = fbrf_id
             else:
-                d['ID'] = DOI_PREFIX + doi
-            authors = metadata["Authors"].split(",")
-            if len(authors) > 1:
-                author = authors[0] + "et al."
-            else:
-                author = authors[0]
-            d['Label'] = author + ", " + metadata["Year"]
+                d['ID'] = FBRF_PREFIX + fbrf_id
+            d['TYPE'] = "owl:NamedIndividual"
+            d['FlyBase'] = fbrf_id
+            d['DOI'] = metadata["DOI"]
+            d['nodeLabel'] = "pub"
             d['title'] = metadata["Title"]
             d['PMCID'] = metadata["PMCID"]
-            d["parent"] = "dc:BibliographicResource"
+            authors = metadata["Authors"].split(",")
+            if len(authors) > 1:
+                author = authors[0] + " et al."
+            else:
+                author = authors[0]
+            d['Label'] = author
+            if "Year" in metadata:
+                d['Label'] = d['Label'] + ", " + metadata["Year"]
+            if "Journal" in metadata:
+                d['Label'] = d['Label'] + ", " + metadata["Journal"]
+            d['miniref'] = d['Label']
             if "Year" in metadata:
                 d['year'] = metadata["Year"]
             if "Volume" in metadata:

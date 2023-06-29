@@ -16,17 +16,15 @@ python3 src/main.py
 
 cd ${ONTOLOGY_FOLDER}
 robot template --template linking.tsv --output linking.owl
-#robot template --template publication.tsv --output publication.owl
-
-#robot merge -i linking.owl -i publication.owl -o merged.owl
+robot template --template publication.tsv --prefix "neoc: http://n2o.neo/custom/" --output publication.owl
 
 #cp linking.owl "$(basename linking.owl .owl)_$(date +'%Y%m%d%H%M').owl"
 
 FILE=merged.owl
 if [ -f "$FILE" ]; then
-    robot merge -i merged.owl -i linking.owl -o merged.owl
+    robot merge -i merged.owl -i linking.owl -i publication.owl -o merged.owl
 else
-    robot merge -i linking.owl -o merged.owl
+    robot merge -i linking.owl -i publication.owl -o merged.owl
 fi
 
 echo "Process completed!"

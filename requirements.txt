@@ -1,4 +1,6 @@
 # use python >= 3.7, <3.9 venv, due to dependencies of the owl2vec*
+setuptools 
+wheel
 scispacy == 0.5.0
 #  pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.0/en_core_sci_sm-0.5.0.tar.gz
 #  pip install /home/huseyin/Downloads/en_core_sci_sm-0.5.0.tar.gz

@@ -1,0 +1,27 @@
+name: Tests
+
+on:
+  push:
+    branches: '**'
+    tags: '**'
+  pull_request:
+    branches: '**'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: "3.8"
+    - name: Build
+      run: |
+        docker build --tag nlp_build_test .
+    - name: Test run
+      run: |
+        docker run nlp_build_test
+    

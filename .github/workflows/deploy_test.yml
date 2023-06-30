@@ -23,5 +23,8 @@ jobs:
         docker build --tag nlp_build_test .
     - name: Test run
       run: |
-        docker run nlp_build_test
+        mkdir -p neuron-to-paper-nlp/output/out
+        mkdir -p neuron-to-paper-nlp/output2
+        mkdir -p neuron-to-paper-nlp/ontology
+        docker run -v neuron-to-paper-nlp:/my_volume --env=DATA_FOLDER=/my_volume/output/out --env=OUTPUT_FOLDER=/my_volume/output2 --env=ONTOLOGY_FOLDER=/my_volume/ontology nlp_build_test
     

@@ -27,6 +27,7 @@ ADD owl2vec $WORKSPACE/owl2vec/
 ADD resources $WORKSPACE/resources/
 ADD robot_templates $WORKSPACE/robot_templates/
 
+RUN python -m pip install --upgrade pip
 RUN pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.0/en_core_sci_sm-0.5.0.tar.gz
 RUN pip install -r $WORKSPACE/requirements.txt
 

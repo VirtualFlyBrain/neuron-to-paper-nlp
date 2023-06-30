@@ -1,4 +1,6 @@
 import os
+os.environ['OPENBLAS_NUM_THREADS'] = '1'
+
 from decimal import Decimal
 from file_utils import read_csv_to_dict, write_mentions_to_file, clean_folder, read_txt_file
 from nlp_utils import count_keywords
@@ -16,7 +18,6 @@ from scispacy.candidate_generation import (
     CandidateGenerator,
     LinkerPaths
 )
-
 
 CONFIDENCE_THRESHOLD = 0.85
 # apply a relative threshold based on the highest confidence per mention

@@ -38,7 +38,7 @@ def generate_publications_robot_template(data_folder, output_path):
                 d['ID'] = FBRF_PREFIX + fbrf_id
             d['TYPE'] = "owl:NamedIndividual"
             d['FlyBase'] = fbrf_id
-            d['DOI'] = metadata["DOI"]
+            d['DOI'] = metadata.get("DOI", "")
             d['nodeLabel'] = "pub"
             d['title'] = metadata["Title"]
             d['PMCID'] = metadata["PMCID"]
